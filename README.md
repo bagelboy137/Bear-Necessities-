@@ -32,10 +32,27 @@ python3 preflight.py --for cad   # readiness check
 Both run fully in the cloud: no model, no Fusion, no network.
 
 `./build.sh parts` (building parts from specs) needs an LLM server with an
-OpenAI-compatible API. The cloud container has none and can't download one
-under the default network policy, so point it at a server you run, via
-LM Studio's variable (Ollama's `/v1` endpoint works there too), and name a
-model that server has loaded:
+OpenAI-compatible API. There are two ways to get one.
+
+**Run one in the cloud container.** `cloud-model.sh` installs Ollama, starts it
+and pulls a coder model, then prints the build command:
+
+```bash
+cd "Bear Necessities/cad"
+./cloud-model.sh                 # qwen2.5-coder:7b by default, about 4.7 GB
+BN_LM_STUDIO_URL=http://127.0.0.1:11434/v1 \
+BN_REVIEWER_MODEL=qwen2.5-coder:7b \
+./build.sh parts
+```
+
+Ollama itself installs from GitHub releases, which the default network policy
+allows. The model weights need `registry.ollama.ai` and the Cloudflare storage
+it redirects to (`*.r2.cloudflarestorage.com`) allowed in the environment's
+Network access settings. Network changes take effect in new sessions. The
+container is CPU-only, so expect minutes per part rather than the Mac's ~30 s.
+
+**Or point it at a server you run elsewhere**, via LM Studio's variable
+(Ollama's `/v1` endpoint works there too), naming a model it has loaded:
 
 ```bash
 BN_LM_STUDIO_URL=http://your-host:1234/v1 \

@@ -187,7 +187,9 @@ def check_sandbox():
 
 
 def lm_models(url):
-    return [item["id"] for item in http_json(url.rstrip("/") + "/models").get("data", [])]
+    # `or []`, not a .get default: Ollama answers {"data": null} with nothing
+    # pulled, and iterating None crashed preflight instead of reporting it.
+    return [item["id"] for item in http_json(url.rstrip("/") + "/models").get("data") or []]
 
 
 def check_lmstudio(url):
