@@ -16,6 +16,7 @@ import hashlib
 import json
 import os
 import pathlib
+import shutil
 import subprocess
 import sys
 import urllib.error
@@ -168,12 +169,20 @@ def check_bncad(config, root):
 
 
 def check_sandbox():
-    """Generated model code must run confined. No sandbox, no headless builds."""
-    binary = "/usr/bin/sandbox-exec"
-    if not os.path.exists(binary):
-        return Result("sandbox", FAIL, "sandbox-exec not found",
+    """Generated model code must run confined. No sandbox, no headless builds.
+
+    macOS confines it with sandbox-exec; Linux (Claude Code on the web) with
+    bubblewrap. This must match bncad's own choice in bncad/loop.py.
+    """
+    if sys.platform == "darwin":
+        name, install = "sandbox-exec", "It ships with macOS at /usr/bin/sandbox-exec."
+    else:
+        name, install = "bwrap", "Install it with: apt-get install bubblewrap."
+    binary = shutil.which(name)
+    if not binary:
+        return Result("sandbox", FAIL, "%s not found" % name,
                       "Without it, model-written Python would run unconfined, and "
-                      "bncad refuses to treat that as acceptable.")
+                      "bncad refuses to treat that as acceptable. " + install)
     return Result("sandbox", OK, binary)
 
 
