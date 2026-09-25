@@ -1,0 +1,97 @@
+```json
+{
+  "cycle_id": "combined-05",
+  "reviews": [
+    {
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The cook station is designed with exposed burners and controls, which are essential for outdoor cooking. The design ensures that the heaviest components are low and positively restrained, meeting the criterion.",
+      "evidence_ids": ["COMP-OVERLAND-KITCHEN-EX1"],
+      "acceptance_check": "Visual inspection of the cook station's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The dry pantry has three graduated drawers and open upper divided tray, which are essential for organizing food. The design ensures that the heaviest components are low and positively restrained, meeting the criterion.",
+      "evidence_ids": ["COMP-LONE-PEAK-DRAWER"],
+      "acceptance_check": "Visual inspection of the dry pantry's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The fridge freezer has a low tray that slides out far enough for full lid swing and compressor ventilation, ensuring the heaviest components are low and positively restrained.",
+      "evidence_ids": ["COMP-MODULR-FRIDGE-SLIDE"],
+      "acceptance_check": "Visual inspection of the fridge freezer's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The sink wash has an open stainless basin and raised faucet, which are essential for washing dishes. The design ensures that the heaviest components are low and positively restrained.",
+      "evidence_ids": ["COMP-GOOSE-GEAR-CAMPKITCHEN"],
+      "acceptance_check": "Visual inspection of the sink wash's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The fresh water container has a low center of gravity and food-safe plumbing, ensuring the heaviest components are low and positively restrained.",
+      "evidence_ids": ["RELIANCE-AQUATAINER-7G"],
+      "acceptance_check": "Visual inspection of the fresh water container's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The recovery utility has a sealed tool case and adjustable shelf, which are essential for storing gear. The design ensures that the heaviest components are low and positively restrained.",
+      "evidence_ids": ["COMP-OVS-MOLLE"],
+      "acceptance_check": "Visual inspection of the recovery utility's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The power hub has a recognizable power-station enclosure and open display, which are essential for providing power. The design ensures that the heaviest components are low and positively restrained.",
+      "evidence_ids": ["ECOFLOW-RIVER3-PLUS"],
+      "acceptance_check": "Visual inspection of the power hub's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The hot water shower has a portable heater body and open display, which are essential for providing hot water. The design ensures that the heaviest components are low and positively restrained.",
+      "evidence_ids": ["JOOLCA-HOTTAP-V2"],
+      "acceptance_check": "Visual inspection of the hot water shower's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The field office camera has a rugged equipment case and open worktop, which are essential for deploying the camera. The design ensures that the heaviest components are low and positively restrained.",
+      "evidence_ids": ["COMP-LONE-PEAK-DRAWER"],
+      "acceptance_check": "Visual inspection of the field office camera's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The camp furniture soft goods have recognizable folded chairs and tables, which are essential for camping. The design ensures that the heaviest components are low and positively restrained.",
+      "evidence_ids": ["HELINOX-CHAIR-ONE"],
+      "acceptance_check": "Visual inspection of the camp furniture soft goods' design.",
+      "risk": "None"
+    }
+  ]
+}
+```

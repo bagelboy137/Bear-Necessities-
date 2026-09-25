@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "cycle_id": "design-10",
+  "stage": "design",
+  "cycle": 10,
+  "criterion": {
+    "cycle": 10,
+    "criterion": "comparable_product_convergence",
+    "question": "Does the concept include the strongest visible usability cues found in the cited comparable products without copying proprietary styling?"
+  },
+  "model": "qwen/qwen2.5-coder-14b",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T01:59:52.205646+00:00",
+  "prompt_sha256": "6435f00b7e5f2aac2d9716ae18b53299a4572a04a01027e77cc9aa4f8596a2e5",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/design/design-10.attempt-1.raw.txt",
+      "sha256": "c3cefda5d42f3130c2a9625a6b0aabb7748e3d86a5ed4d537578404f46ed97ab",
+      "usage": {
+        "prompt_tokens": 1856,
+        "completion_tokens": 1156,
+        "total_tokens": 3012,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1856,
+    "completion_tokens": 1156,
+    "total_tokens": 3012,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "design-10",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The concept includes visible usability cues like exposed burners, controls, and a wind guard.",
+        "evidence_ids": [
+          "COMP-GOOSE-GEAR-CAMPKITCHEN",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for exposed burners, controls, and wind guard.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The concept includes visible usability cues like graduated drawers, open upper divided tray, and visible pulls.",
+        "evidence_ids": [
+          "COMP-AT-OVERLAND-DRAWER",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for graduated drawers, open upper divided tray, and visible pulls.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The concept includes visible usability cues like recognizable top-opening compact fridge, lid, carry handle, and controls.",
+        "evidence_ids": [
+          "COMP-MODULR-FRIDGE-SLIDE",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for recognizable top-opening compact fridge, lid, carry handle, and controls.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The concept includes visible usability cues like open stainless basin, raised faucet, drain, and visible pump.",
+        "evidence_ids": [
+          "COMP-GOOSE-GEAR-CAMPKITCHEN",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for open stainless basin, raised faucet, drain, and visible pump.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The concept includes visible usability cues like ribbed seven-gallon container, molded handle, fill cap, spigot, and service pump.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for ribbed seven-gallon container, molded handle, fill cap, spigot, and service pump.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The concept includes visible usability cues like sealed tool case/drawer, adjustable shelf, MOLLE panel and slots.",
+        "evidence_ids": [
+          "COMP-AT-OVERLAND-DRAWER",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for sealed tool case/drawer, adjustable shelf, MOLLE panel and slots.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The concept includes visible usability cues like recognizable power-station enclosure, display, AC/DC/USB ports, and vents.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for recognizable power-station enclosure, display, AC/DC/USB ports, and vents.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The concept includes visible usability cues like portable heater body, display, knob, vents, and shower head.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for portable heater body, display, knob, vents, and shower head.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The concept includes visible usability cues like rugged equipment case, latches/ribs, deployed worktop, and visible laptop.",
+        "evidence_ids": [
+          "COMP-LONE-PEAK-DRAWER",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for rugged equipment case, latches/ribs, deployed worktop, and visible laptop.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The concept includes visible usability cues like recognizable folded chairs/table, rolled soft goods, and contrasting compression straps.",
+        "evidence_ids": [
+          "COMP-OVS-MOLLE",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for recognizable folded chairs/table, rolled soft goods, and contrasting compression straps.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

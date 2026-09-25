@@ -1,0 +1,23 @@
+{
+  "pass": true,
+  "module_count": 10,
+  "extrusion_checks": [
+    {
+      "part": "EX-1010",
+      "length_in": 18.0,
+      "expected_quantity": 80,
+      "bom_quantity": 80,
+      "pass": true
+    },
+    {
+      "part": "EX-1010",
+      "length_in": 22.0,
+      "expected_quantity": 40,
+      "bom_quantity": 40,
+      "pass": true
+    }
+  ],
+  "total_extrusion_in": 2320.0,
+  "rejected_zero_quantity_pass": true,
+  "rejected_rows": 2
+}

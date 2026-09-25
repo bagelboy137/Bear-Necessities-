@@ -1,0 +1,433 @@
+{
+  "gate": "mesh_integrity",
+  "pass": true,
+  "tolerance_in": 0.01,
+  "stl_units_assumed": "mm",
+  "modules_checked": 10,
+  "results": [
+    {
+      "module_id": "BN-M01",
+      "stl": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/exports/BN-M01.stl",
+      "reasons": [],
+      "exporter": "STL Exported by Open CASCADE Technology [dev.opencascade.org]\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "facets": 168,
+      "solids": 14,
+      "expected_solids": 14,
+      "broken_solids": [],
+      "solid_volumes_mm3": [
+        294967.151,
+        294967.0846,
+        294966.7302,
+        294966.6637,
+        360515.4053,
+        360515.7572,
+        360515.3241,
+        360515.676,
+        294967.1473,
+        294967.4353,
+        294966.7265,
+        294967.0144,
+        11835812.1984,
+        1541405.9162
+      ],
+      "declared_frame_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "measured_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "bbox_drift_in": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "module_id": "BN-M02",
+      "stl": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/exports/BN-M02.stl",
+      "reasons": [],
+      "exporter": "STL Exported by Open CASCADE Technology [dev.opencascade.org]\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "facets": 156,
+      "solids": 13,
+      "expected_solids": 13,
+      "broken_solids": [],
+      "solid_volumes_mm3": [
+        294967.151,
+        294967.0846,
+        294966.7302,
+        294966.6637,
+        360515.4053,
+        360515.7572,
+        360515.3241,
+        360515.676,
+        294967.1473,
+        294967.4353,
+        294966.7265,
+        294967.0144,
+        62008646.7583
+      ],
+      "declared_frame_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "measured_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "bbox_drift_in": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "module_id": "BN-M03",
+      "stl": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/exports/BN-M03.stl",
+      "reasons": [],
+      "exporter": "STL Exported by Open CASCADE Technology [dev.opencascade.org]\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "facets": 156,
+      "solids": 13,
+      "expected_solids": 13,
+      "broken_solids": [],
+      "solid_volumes_mm3": [
+        294967.151,
+        294967.0846,
+        294966.7302,
+        294966.6637,
+        360515.4053,
+        360515.7572,
+        360515.3241,
+        360515.676,
+        294967.1473,
+        294967.4353,
+        294966.7265,
+        294967.0144,
+        51200562.6847
+      ],
+      "declared_frame_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "measured_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "bbox_drift_in": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "module_id": "BN-M04",
+      "stl": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/exports/BN-M04.stl",
+      "reasons": [],
+      "exporter": "STL Exported by Open CASCADE Technology [dev.opencascade.org]\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "facets": 168,
+      "solids": 14,
+      "expected_solids": 14,
+      "broken_solids": [],
+      "solid_volumes_mm3": [
+        294967.151,
+        294967.0846,
+        294966.7302,
+        294966.6637,
+        360515.4053,
+        360515.7572,
+        360515.3241,
+        360515.676,
+        294967.1473,
+        294967.4353,
+        294966.7265,
+        294967.0144,
+        23685860.7179,
+        16960612.5885
+      ],
+      "declared_frame_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "measured_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "bbox_drift_in": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "module_id": "BN-M05",
+      "stl": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/exports/BN-M05.stl",
+      "reasons": [],
+      "exporter": "STL Exported by Open CASCADE Technology [dev.opencascade.org]\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "facets": 168,
+      "solids": 14,
+      "expected_solids": 14,
+      "broken_solids": [],
+      "solid_volumes_mm3": [
+        294967.151,
+        294967.0846,
+        294966.7302,
+        294966.6637,
+        360515.4053,
+        360515.7572,
+        360515.3241,
+        360515.676,
+        294967.1473,
+        294967.4353,
+        294966.7265,
+        294967.0144,
+        33391206.0187,
+        8295951.5584
+      ],
+      "declared_frame_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "measured_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "bbox_drift_in": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "module_id": "BN-M06",
+      "stl": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/exports/BN-M06.stl",
+      "reasons": [],
+      "exporter": "STL Exported by Open CASCADE Technology [dev.opencascade.org]\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "facets": 168,
+      "solids": 14,
+      "expected_solids": 14,
+      "broken_solids": [],
+      "solid_volumes_mm3": [
+        294967.151,
+        294967.0846,
+        294966.7302,
+        294966.6637,
+        360515.4053,
+        360515.7572,
+        360515.3241,
+        360515.676,
+        294967.1473,
+        294967.4353,
+        294966.7265,
+        294967.0144,
+        36641474.7199,
+        1541405.9162
+      ],
+      "declared_frame_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "measured_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "bbox_drift_in": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "module_id": "BN-M07",
+      "stl": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/exports/BN-M07.stl",
+      "reasons": [],
+      "exporter": "STL Exported by Open CASCADE Technology [dev.opencascade.org]\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "facets": 180,
+      "solids": 15,
+      "expected_solids": 15,
+      "broken_solids": [],
+      "solid_volumes_mm3": [
+        294967.151,
+        294967.0846,
+        294966.7302,
+        294966.6637,
+        360515.4053,
+        360515.7572,
+        360515.3241,
+        360515.676,
+        294967.1473,
+        294967.4353,
+        294966.7265,
+        294967.0144,
+        7923178.1354,
+        8602799.348,
+        1541405.9162
+      ],
+      "declared_frame_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "measured_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "bbox_drift_in": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "module_id": "BN-M08",
+      "stl": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/exports/BN-M08.stl",
+      "reasons": [],
+      "exporter": "STL Exported by Open CASCADE Technology [dev.opencascade.org]\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "facets": 168,
+      "solids": 14,
+      "expected_solids": 14,
+      "broken_solids": [],
+      "solid_volumes_mm3": [
+        294967.151,
+        294967.0846,
+        294966.7302,
+        294966.6637,
+        360515.4053,
+        360515.7572,
+        360515.3241,
+        360515.676,
+        294967.1473,
+        294967.4353,
+        294966.7265,
+        294967.0144,
+        21823439.8994,
+        16532909.6392
+      ],
+      "declared_frame_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "measured_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "bbox_drift_in": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "module_id": "BN-M09",
+      "stl": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/exports/BN-M09.stl",
+      "reasons": [],
+      "exporter": "STL Exported by Open CASCADE Technology [dev.opencascade.org]\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "facets": 168,
+      "solids": 14,
+      "expected_solids": 14,
+      "broken_solids": [],
+      "solid_volumes_mm3": [
+        294967.151,
+        294967.0846,
+        294966.7302,
+        294966.6637,
+        360515.4053,
+        360515.7572,
+        360515.3241,
+        360515.676,
+        294967.1473,
+        294967.4353,
+        294966.7265,
+        294967.0144,
+        28089712.9449,
+        1541409.6202
+      ],
+      "declared_frame_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "measured_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "bbox_drift_in": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass": true
+    },
+    {
+      "module_id": "BN-M10",
+      "stl": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/exports/BN-M10.stl",
+      "reasons": [],
+      "exporter": "STL Exported by Open CASCADE Technology [dev.opencascade.org]\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000",
+      "facets": 156,
+      "solids": 13,
+      "expected_solids": 13,
+      "broken_solids": [],
+      "solid_volumes_mm3": [
+        294967.151,
+        294967.0846,
+        294966.7302,
+        294966.6637,
+        360515.4053,
+        360515.7572,
+        360515.3241,
+        360515.676,
+        294967.1473,
+        294967.4353,
+        294966.7265,
+        294967.0144,
+        95567306.1667
+      ],
+      "declared_frame_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "measured_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "bbox_drift_in": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "pass": true
+    }
+  ],
+  "failures": [],
+  "limitations": [
+    "Per-solid topology, body count, and overall scale only. Says nothing about structural adequacy, tolerances, fabrication readiness, or fit of purchased components.",
+    "Bodies that interpenetrate rather than touch are not detected here; packaging clearance is clearance_check.py's job.",
+    "Geometry proxies, not manufacturing geometry."
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "cycle_id": "manufacturing-09",
+  "stage": "manufacturing",
+  "cycle": 9,
+  "criterion": {
+    "cycle": 9,
+    "criterion": "supplier_integrity",
+    "question": "Does every purchased item refer only to a sourced catalog ID, with sold-out and engineering-hold items clearly identified?"
+  },
+  "model": "qwen2.5-coder-7b-instruct",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T02:26:51.352296+00:00",
+  "prompt_sha256": "48700b8d4e84a2d5ab83203a26b062def7164e6c4c3c529b11e56c4ddd5a893b",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/manufacturing/manufacturing-09.attempt-1.raw.txt",
+      "sha256": "94dc2e6bbe7e330e669ede979ab070aafb87b00a7f89a4632757c659dd414777",
+      "usage": {
+        "prompt_tokens": 2813,
+        "completion_tokens": 729,
+        "total_tokens": 3542,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    },
+    {
+      "attempt": 2,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/manufacturing/manufacturing-09.attempt-2.raw.txt",
+      "sha256": "8888ac192737e2d63e46304bca8e45d2098933fc372712ab3d64cefd87cd4e3d",
+      "usage": {
+        "prompt_tokens": 4357,
+        "completion_tokens": 1042,
+        "total_tokens": 5399,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 4357,
+    "completion_tokens": 1042,
+    "total_tokens": 5399,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "manufacturing-09",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "BN-M01 is not a sold-out item and meets all requirements.",
+        "evidence_ids": [
+          "8020-3393",
+          "8020-4132"
+        ],
+        "acceptance_check": "Confirm no changes are needed for BN-M01.",
+        "risk": "None."
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "BN-M02 is not a sold-out item and meets all requirements.",
+        "evidence_ids": [
+          "8020-3393",
+          "8020-4132"
+        ],
+        "acceptance_check": "Confirm no changes are needed for BN-M02.",
+        "risk": "None."
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "REVISE",
+        "proposal": "Replace with alternate procurement for sold-out item.",
+        "rationale": "BN-M03 is a sold-out primary product with an alternate procurement available.",
+        "evidence_ids": [
+          "ENGEL-MD14",
+          "ENGEL-MHD13-ALT"
+        ],
+        "acceptance_check": "Verify alternate procurement is available and meets specifications.",
+        "risk": "Ensure compatibility with existing design and functionality."
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "BN-M04 is not a sold-out item and meets all requirements.",
+        "evidence_ids": [
+          "DOMETIC-VA8005"
+        ],
+        "acceptance_check": "Confirm no changes are needed for BN-M04.",
+        "risk": "None."
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "BN-M05 is not a sold-out item and meets all requirements.",
+        "evidence_ids": [
+          "RELIANCE-AQUATAINER-7G"
+        ],
+        "acceptance_check": "Confirm no changes are needed for BN-M05.",
+        "risk": "None."
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "BN-M06 is not a sold-out item and meets all requirements.",
+        "evidence_ids": [
+          "PELICAN-1450"
+        ],
+        "acceptance_check": "Confirm no changes are needed for BN-M06.",
+        "risk": "None."
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "BN-M07 is not a sold-out item and meets all requirements.",
+        "evidence_ids": [
+          "ECOFLOW-RIVER3-PLUS"
+        ],
+        "acceptance_check": "Confirm no changes are needed for BN-M07.",
+        "risk": "None."
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "BN-M08 is not a sold-out item and meets all requirements.",
+        "evidence_ids": [
+          "JOOLCA-HOTTAP-V2"
+        ],
+        "acceptance_check": "Confirm no changes are needed for BN-M08.",
+        "risk": "None."
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "BN-M09 is not a sold-out item and meets all requirements.",
+        "evidence_ids": [
+          "PELICAN-1485"
+        ],
+        "acceptance_check": "Confirm no changes are needed for BN-M09.",
+        "risk": "None."
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "BN-M10 is not a sold-out item and meets all requirements.",
+        "evidence_ids": [
+          "HELINOX-CHAIR-ONE",
+          "HELINOX-TABLE-ONE"
+        ],
+        "acceptance_check": "Confirm no changes are needed for BN-M10.",
+        "risk": "None."
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "cycle_id": "design-02",
+  "stage": "design",
+  "cycle": 2,
+  "criterion": {
+    "cycle": 2,
+    "criterion": "access_and_deployment",
+    "question": "Can the primary equipment, drawer, lid, hose, or work surface be reached and deployed without an obvious obstruction?"
+  },
+  "model": "qwen/qwen2.5-coder-14b",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-25T21:57:25.233475+00:00",
+  "prompt_sha256": "7710135d99c56d593f97ec8e7835e857f75b78a5d32cd625ccb34a899fc70e1b",
+  "source_digests": {
+    "context": "9dfc8c3badba2f405040cf370607221b74cbf2419a5d399e6cec0a222c2ec373",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "10ac3aaa176a9d1ed533784556109c81f9d3c6b81d71c92bcf15954352c4d3ef"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/design/design-02.attempt-1.raw.txt",
+      "sha256": "540df39019005fc809bc2b1344890f6738e3b9780de311624d4f25490a3be590",
+      "usage": {
+        "prompt_tokens": 1513,
+        "completion_tokens": 1025,
+        "total_tokens": 2538,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1513,
+    "completion_tokens": 1025,
+    "total_tokens": 2538,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "design-02",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The stove tray slides toward the user without any obvious obstruction, allowing for easy access and deployment.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the stove tray slides smoothly and is accessible without obstruction.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The drawers open toward the user and must remain positively latched in transit, ensuring easy access and deployment.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the drawers open smoothly and are accessible without obstruction.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The low tray slides out far enough for full lid swing and compressor ventilation, ensuring easy access and deployment.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the tray slides smoothly and is accessible without obstruction.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The faucet and basin remain accessible while pump, drain, and grey container can be serviced, ensuring easy access and deployment.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the faucet and basin are accessible without obstruction.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The container can be filled or removed and pump/spigot are accessible without releasing the primary restraint, ensuring easy access and deployment.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the container and pump/spigot are accessible without obstruction.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "Heavy gear stays low; drawer, shelf, and MOLLE tools remain independently accessible, ensuring easy access and deployment.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the drawer, shelf, and MOLLE tools are accessible without obstruction.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "Display, charging ports, and ventilation remain open while the station is restrained, ensuring easy access and deployment.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the display, charging ports, and ventilation are accessible without obstruction.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "Heater is transported only in the module and operated outside with propane separate, ensuring easy access and deployment.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the heater and hose are accessible without obstruction.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "Case and drawer open independently and worktop has positive support, ensuring easy access and deployment.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the case and drawer are accessible without obstruction.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "Individual furniture bags can be removed without unloading the entire bay, ensuring easy access and deployment.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the furniture bags are accessible without obstruction.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

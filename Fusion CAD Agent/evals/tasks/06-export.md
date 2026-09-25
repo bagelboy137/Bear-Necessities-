@@ -1,0 +1,1 @@
+Write a Fusion Python API script that models a 90 degree L-bracket (legs 80 mm and 60 mm, 5 mm thick, 40 mm wide, two 6 mm holes per leg, triangular gusset), then exports the result as both a STEP file and an STL file into the folder $HOME/Claude/Fusion CAD Agent/exports/.

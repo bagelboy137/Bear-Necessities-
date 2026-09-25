@@ -1,0 +1,51 @@
+{
+  "id": "BN-M04",
+  "label": "Sink/Wash",
+  "outside_bbox_in": [
+    24.0,
+    20.0,
+    18.0
+  ],
+  "frame_member_count": 12,
+  "component_count": 2,
+  "solid_count": 14,
+  "components": [
+    {
+      "name": "sink envelope",
+      "size_in": [
+        16.5,
+        14.6,
+        6.0
+      ],
+      "origin_in": [
+        3.75,
+        2.7,
+        10.5
+      ],
+      "high_in": [
+        20.25,
+        17.3,
+        16.5
+      ]
+    },
+    {
+      "name": "grey-water container envelope",
+      "size_in": [
+        11.5,
+        11.25,
+        8.0
+      ],
+      "origin_in": [
+        6.25,
+        4.4,
+        1.0
+      ],
+      "high_in": [
+        17.75,
+        15.65,
+        9.0
+      ]
+    }
+  ],
+  "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+}

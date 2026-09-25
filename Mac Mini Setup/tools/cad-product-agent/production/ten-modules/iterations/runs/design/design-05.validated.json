@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "cycle_id": "design-05",
+  "stage": "design",
+  "cycle": 5,
+  "criterion": {
+    "cycle": 5,
+    "criterion": "controls_and_status",
+    "question": "Are controls, ports, displays, latches, and service points visible and understandable?"
+  },
+  "model": "qwen/qwen2.5-coder-14b",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T01:50:10.125694+00:00",
+  "prompt_sha256": "3b938735f2381186b38d300d0a9379ab0972abde7af942d41c2b47e2ab779e69",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/design/design-05.attempt-1.raw.txt",
+      "sha256": "a66d38bf00b98b7bc8a62012e08a47d6caa18ad8e444d28c30cd9f87c041d56b",
+      "usage": {
+        "prompt_tokens": 1851,
+        "completion_tokens": 1135,
+        "total_tokens": 2986,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1851,
+    "completion_tokens": 1135,
+    "total_tokens": 2986,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "design-05",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

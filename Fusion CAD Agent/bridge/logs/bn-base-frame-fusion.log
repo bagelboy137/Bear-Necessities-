@@ -1,0 +1,153 @@
+
+====================================================================
+RUN 2026-08-21 12:26:33 model=qwen2.5-coder-7b-instruct
+Fusion MCP: MCP Server Adapter
+====================================================================
+
+--- attempt 1/8 ---
+  generated 2316 chars in 27s
+  ran OK: Final outside dimensions: 24.0W Ã 20.0D Ã 18.0H
+  measured: {'BODIES': '1', 'BBOX': '46.0000,38.0000,18.0000', 'VOLUME': '26058.0000'}
+  Geometry is wrong:
+  - X is 46.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 26058.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+
+--- attempt 2/8 ---
+  generated 2316 chars in 27s
+  ran OK: Final outside dimensions: 24.0W Ã 20.0D Ã 18.0H
+  measured: {'BODIES': '1', 'BBOX': '46.0000,38.0000,18.0000', 'VOLUME': '26040.0000'}
+  Geometry is wrong:
+  - X is 46.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 26040.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+
+--- attempt 3/8 ---
+  generated 2316 chars in 23s
+  ran OK: Final outside dimensions: 24.0W Ã 20.0D Ã 18.0H
+  measured: {'BODIES': '1', 'BBOX': '46.0000,38.0000,18.0000', 'VOLUME': '26022.0000'}
+  Geometry is wrong:
+  - X is 46.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 26022.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+
+--- attempt 4/8 ---
+  generated 2316 chars in 24s
+  ran OK: Final outside dimensions: 24.0W Ã 20.0D Ã 18.0H
+  measured: {'BODIES': '2', 'BBOX': '46.0000,38.0000,18.0000', 'VOLUME': '26004.0000'}
+  Geometry is wrong:
+  - X is 46.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 26004.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+  - 2 bodies, expected 1 - join every member
+
+--- attempt 5/8 ---
+  generated 2460 chars in 25s
+  ran OK: Final outside dimensions: 24.0W Ã 20.0D Ã 18.0H
+  measured: {'BODIES': '1', 'BBOX': '55.0000,38.0000,18.0000', 'VOLUME': '36948.0000'}
+  Geometry is wrong:
+  - X is 55.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 36948.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+
+--- attempt 6/8 ---
+  generated 2460 chars in 28s
+  ran OK: Final outside dimensions: 24.0W Ã 20.0D Ã 18.0H
+  measured: {'BODIES': '1', 'BBOX': '55.0000,38.0000,18.0000', 'VOLUME': '36948.0000'}
+  Geometry is wrong:
+  - X is 55.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 36948.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+
+--- attempt 7/8 ---
+  generated 2460 chars in 26s
+  ran OK: Final outside dimensions: 24.0W Ã 20.0D Ã 18.0H
+  measured: {'BODIES': '1', 'BBOX': '55.0000,38.0000,18.0000', 'VOLUME': '36943.0000'}
+  Geometry is wrong:
+  - X is 55.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 36943.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+
+--- attempt 8/8 ---
+  generated 2460 chars in 26s
+  ran OK: Final outside dimensions: 24.0W Ã 20.0D Ã 18.0H
+  measured: {'BODIES': '1', 'BBOX': '55.0000,38.0000,18.0000', 'VOLUME': '36938.0000'}
+  Geometry is wrong:
+  - X is 55.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 36938.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+
+❌ no valid model after 8 attempts
+
+====================================================================
+RUN 2026-08-21 12:30:44 model=qwen2.5-coder-7b-instruct
+Fusion MCP: MCP Server Adapter
+====================================================================
+
+--- attempt 1/6 ---
+  generated 1117 chars in 17s
+  ran OK: Final dimensions: W = 24.000 inches, D = 20.000 inches, H = 18.000 inches
+  measured: {'BODIES': '1', 'BBOX': '55.0000,38.0000,18.0000', 'VOLUME': '36966.0000'}
+  Geometry is wrong:
+  - X is 55.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 36966.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+
+--- attempt 2/6 ---
+  generated 1117 chars in 14s
+  ran OK: Final dimensions: W = 24.000 inches, D = 20.000 inches, H = 18.000 inches
+  measured: {'BODIES': '1', 'BBOX': '55.0000,38.0000,18.0000', 'VOLUME': '36966.0000'}
+  Geometry is wrong:
+  - X is 55.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 36966.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+
+--- attempt 3/6 ---
+  generated 1117 chars in 11s
+  ran OK: Final dimensions: W = 24.000 inches, D = 20.000 inches, H = 18.000 inches
+  measured: {'BODIES': '1', 'BBOX': '55.0000,38.0000,18.0000', 'VOLUME': '36966.0000'}
+  Geometry is wrong:
+  - X is 55.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 36966.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+
+--- attempt 4/6 ---
+  generated 1117 chars in 14s
+  ran OK: Final dimensions: W = 24.000 inches, D = 20.000 inches, H = 18.000 inches
+  measured: {'BODIES': '1', 'BBOX': '55.0000,38.0000,18.0000', 'VOLUME': '36966.0000'}
+  Geometry is wrong:
+  - X is 55.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 36966.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+
+--- attempt 5/6 ---
+  generated 1117 chars in 12s
+  ran OK: Final dimensions: W = 24.000 inches, D = 20.000 inches, H = 18.000 inches
+  measured: {'BODIES': '1', 'BBOX': '55.0000,38.0000,18.0000', 'VOLUME': '36966.0000'}
+  Geometry is wrong:
+  - X is 55.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 36966.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+
+--- attempt 6/6 ---
+  generated 1117 chars in 13s
+  ran OK: Final dimensions: W = 24.000 inches, D = 20.000 inches, H = 18.000 inches
+  measured: {'BODIES': '1', 'BBOX': '55.0000,38.0000,18.0000', 'VOLUME': '36966.0000'}
+  Geometry is wrong:
+  - X is 55.000in, expected 24.000in
+  - Y is 38.000in, expected 20.000in
+  - volume is 36966.00 in^3, expected 232.00 in^3 - members overlap (too much) or are missing (too little)
+
+❌ no valid model after 6 attempts
+
+====================================================================
+RUN 2026-08-21 12:33:11 model=qwen2.5-coder-7b-instruct
+Fusion MCP: MCP Server Adapter
+====================================================================
+
+--- attempt 1/6 ---
+  generated 1117 chars in 14s
+  ran OK: Final dimensions: W = 24.000 inches, D = 20.000 inches, H = 18.000 inches
+  measured: {'BODIES': '1', 'BBOX': '24.0000,20.0000,18.0000', 'VOLUME': '232.0000'}
+  screenshot: /Users/cmken/Claude/Fusion CAD Agent/exports/bn-base-frame-fusion.png
+  ✅ SUCCESS on attempt 1

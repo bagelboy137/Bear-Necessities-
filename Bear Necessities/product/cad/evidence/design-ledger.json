@@ -1,0 +1,1995 @@
+{
+  "schema_version": 1,
+  "result": "PASS",
+  "generated_at": "2026-08-26T02:42:20.736815+00:00",
+  "required_model": "qwen/qwen2.5-coder-14b",
+  "active_model": "qwen2.5-coder-7b-instruct",
+  "allowed_models": [
+    "qwen/qwen2.5-coder-14b",
+    "qwen2.5-coder-7b-instruct"
+  ],
+  "model_counts": {
+    "qwen/qwen2.5-coder-14b": 120,
+    "qwen2.5-coder-7b-instruct": 180
+  },
+  "model_policy": {
+    "mode": "documented_low_memory_continuation",
+    "primary_model": "qwen/qwen2.5-coder-14b",
+    "low_memory_model": "qwen2.5-coder-7b-instruct",
+    "reason": "The 16 GB M1 Pro laptop recorded repeated IOGPUFamily kernel panics while the 14B MLX model used an estimated 10.86 GiB. Validated 14B cycles were preserved and remaining cycles used the installed 7B MLX coder at an estimated 5.60 GiB. The Mac mini profile keeps 14B."
+  },
+  "cycle_count": 10,
+  "module_review_count": 100,
+  "expected_module_review_count": 100,
+  "counts": {
+    "revisions_adopted": 0,
+    "baseline_retained": 100
+  },
+  "failures": [],
+  "records": [
+    {
+      "record_id": "design-01-BN-M01",
+      "cycle_id": "design-01",
+      "stage": "design",
+      "cycle": 1,
+      "criterion": "functional_recognizability",
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a cook station is obvious from the customer-facing isometric view, featuring exposed burners, controls, and a pull-out stove tray.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Visually inspect the module for recognizable features like burners and controls.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "b8607861c7c0582e6307647f8483ad91ce1ed947832c8c150f53bde370a8252b"
+    },
+    {
+      "record_id": "design-01-BN-M02",
+      "cycle_id": "design-01",
+      "stage": "design",
+      "cycle": 1,
+      "criterion": "functional_recognizability",
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a dry pantry is obvious from the customer-facing isometric view, featuring graduated drawers and visible pulls.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Visually inspect the module for recognizable features like drawers and pulls.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "f865dde26920eb238172d44b686fbcd50d07a263ad8f384b94abe25c3a1699e5"
+    },
+    {
+      "record_id": "design-01-BN-M03",
+      "cycle_id": "design-01",
+      "stage": "design",
+      "cycle": 1,
+      "criterion": "functional_recognizability",
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a fridge freezer is obvious from the customer-facing isometric view, featuring a recognizable top-opening compact fridge with controls and vents.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Visually inspect the module for recognizable features like a fridge and controls.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "7fdf9d3a9baccc22aad52f809320c90b71df5d7206a902af6b898d147b5090d4"
+    },
+    {
+      "record_id": "design-01-BN-M04",
+      "cycle_id": "design-01",
+      "stage": "design",
+      "cycle": 1,
+      "criterion": "functional_recognizability",
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a sink wash is obvious from the customer-facing isometric view, featuring an open stainless basin and visible pump.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Visually inspect the module for recognizable features like a basin and pump.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "1fba1b0d4fba68f99595bb772f556e228b578035e987b7746358a9d0137af88c"
+    },
+    {
+      "record_id": "design-01-BN-M05",
+      "cycle_id": "design-01",
+      "stage": "design",
+      "cycle": 1,
+      "criterion": "functional_recognizability",
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a fresh water station is obvious from the customer-facing isometric view, featuring a ribbed container with a spigot and pump.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Visually inspect the module for recognizable features like a container and spigot.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "8304a882843b71e3939b2b02feeec3921e23decb7631ba532e22581c94ccc365"
+    },
+    {
+      "record_id": "design-01-BN-M06",
+      "cycle_id": "design-01",
+      "stage": "design",
+      "cycle": 1,
+      "criterion": "functional_recognizability",
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a recovery utility is obvious from the customer-facing isometric view, featuring a sealed tool case with adjustable shelf and MOLLE panel.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Visually inspect the module for recognizable features like a tool case and shelf.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "e16e9dbf05580e632bc9348a914db20b0323e47d0c9d0b84888286e9ab9fb878"
+    },
+    {
+      "record_id": "design-01-BN-M07",
+      "cycle_id": "design-01",
+      "stage": "design",
+      "cycle": 1,
+      "criterion": "functional_recognizability",
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a power hub is obvious from the customer-facing isometric view, featuring a recognizable power-station enclosure with AC/DC/USB ports.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Visually inspect the module for recognizable features like a power station and ports.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "c75a33f00a686961de2c6bfec6cf9a24a4cdfbb8f40e6f47f11d124b8d495401"
+    },
+    {
+      "record_id": "design-01-BN-M08",
+      "cycle_id": "design-01",
+      "stage": "design",
+      "cycle": 1,
+      "criterion": "functional_recognizability",
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a hot water shower is obvious from the customer-facing isometric view, featuring a portable heater body with a display and knob.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Visually inspect the module for recognizable features like a heater body and display.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "9a7aefa722e46d68d541661b878271669b4494d345645e0a95af48b3657819c2"
+    },
+    {
+      "record_id": "design-01-BN-M09",
+      "cycle_id": "design-01",
+      "stage": "design",
+      "cycle": 1,
+      "criterion": "functional_recognizability",
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a field office camera is obvious from the customer-facing isometric view, featuring a rugged equipment case with visible laptop and keyboard.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Visually inspect the module for recognizable features like a laptop and keyboard.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "f3052627d15ba99b6ffc09df156082f4eb719378fa271cbebdaec2e1ff2e1a21"
+    },
+    {
+      "record_id": "design-01-BN-M10",
+      "cycle_id": "design-01",
+      "stage": "design",
+      "cycle": 1,
+      "criterion": "functional_recognizability",
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as camp furniture soft goods is obvious from the customer-facing isometric view, featuring recognizable folded chairs/table and rolled soft goods.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Visually inspect the module for recognizable features like chairs and soft goods.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "bc4b843d59f6e391f2d8447a9ae071954d252b1e510d127bc98599624054a553"
+    },
+    {
+      "record_id": "design-02-BN-M01",
+      "cycle_id": "design-02",
+      "stage": "design",
+      "cycle": 2,
+      "criterion": "access_and_deployment",
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The stove tray slides toward the user without any obvious obstruction, allowing for easy access and deployment.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the stove tray slides smoothly and is accessible without obstruction.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "f826799d6177bbfba0400d34c39e1eb9510d1a9653cd0df9440c5ec8baef22ad"
+    },
+    {
+      "record_id": "design-02-BN-M02",
+      "cycle_id": "design-02",
+      "stage": "design",
+      "cycle": 2,
+      "criterion": "access_and_deployment",
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The drawers open toward the user and must remain positively latched in transit, ensuring easy access and deployment.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the drawers open smoothly and are accessible without obstruction.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "d93a94569afed34dd45462ecce9b5c270f04e611568119c4472211dc0c4b458d"
+    },
+    {
+      "record_id": "design-02-BN-M03",
+      "cycle_id": "design-02",
+      "stage": "design",
+      "cycle": 2,
+      "criterion": "access_and_deployment",
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The low tray slides out far enough for full lid swing and compressor ventilation, ensuring easy access and deployment.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the tray slides smoothly and is accessible without obstruction.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "1093226cc7a42e572a7d68bdf91ba5410324d2a925b06a1205f4dc77b4f1762f"
+    },
+    {
+      "record_id": "design-02-BN-M04",
+      "cycle_id": "design-02",
+      "stage": "design",
+      "cycle": 2,
+      "criterion": "access_and_deployment",
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The faucet and basin remain accessible while pump, drain, and grey container can be serviced, ensuring easy access and deployment.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the faucet and basin are accessible without obstruction.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "96831b44f86fc4af69f326493e838caf1705e03c83bf045ca90dd4c6460ccaa6"
+    },
+    {
+      "record_id": "design-02-BN-M05",
+      "cycle_id": "design-02",
+      "stage": "design",
+      "cycle": 2,
+      "criterion": "access_and_deployment",
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The container can be filled or removed and pump/spigot are accessible without releasing the primary restraint, ensuring easy access and deployment.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the container and pump/spigot are accessible without obstruction.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "8975e9720b65d414c85c7f799b0a83775e12ed94e668f5741017e6c5ab5299d2"
+    },
+    {
+      "record_id": "design-02-BN-M06",
+      "cycle_id": "design-02",
+      "stage": "design",
+      "cycle": 2,
+      "criterion": "access_and_deployment",
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "Heavy gear stays low; drawer, shelf, and MOLLE tools remain independently accessible, ensuring easy access and deployment.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the drawer, shelf, and MOLLE tools are accessible without obstruction.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "673779ceb6a4b17cb1998a2e41db70b0d5b7147d50d830ec6b552aba69b644fe"
+    },
+    {
+      "record_id": "design-02-BN-M07",
+      "cycle_id": "design-02",
+      "stage": "design",
+      "cycle": 2,
+      "criterion": "access_and_deployment",
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "Display, charging ports, and ventilation remain open while the station is restrained, ensuring easy access and deployment.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the display, charging ports, and ventilation are accessible without obstruction.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "b9b3da774eed1067e277299a81d4428e3142c079039623a823a6887d41b17798"
+    },
+    {
+      "record_id": "design-02-BN-M08",
+      "cycle_id": "design-02",
+      "stage": "design",
+      "cycle": 2,
+      "criterion": "access_and_deployment",
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "Heater is transported only in the module and operated outside with propane separate, ensuring easy access and deployment.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the heater and hose are accessible without obstruction.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "2f398e13697487e5dc827ae8439f3ca6290923cd9f811c14a15b3aa1ebf635e6"
+    },
+    {
+      "record_id": "design-02-BN-M09",
+      "cycle_id": "design-02",
+      "stage": "design",
+      "cycle": 2,
+      "criterion": "access_and_deployment",
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "Case and drawer open independently and worktop has positive support, ensuring easy access and deployment.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the case and drawer are accessible without obstruction.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "fbd7d58c31bcfd199c0120939f6a47ef01e784e56172c7662a7f79bacc7a7f52"
+    },
+    {
+      "record_id": "design-02-BN-M10",
+      "cycle_id": "design-02",
+      "stage": "design",
+      "cycle": 2,
+      "criterion": "access_and_deployment",
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "Individual furniture bags can be removed without unloading the entire bay, ensuring easy access and deployment.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the furniture bags are accessible without obstruction.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "fa80144c3842487d56bba75b5ad1825752946851398a86df9980d730716b7e47"
+    },
+    {
+      "record_id": "design-03-BN-M01",
+      "cycle_id": "design-03",
+      "stage": "design",
+      "cycle": 3,
+      "criterion": "task_flow",
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The visible arrangement supports the order in which a user performs the module's core task of cooking outdoors.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the stove tray slides toward the user and cooking occurs outdoors with propane stored separately.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "489982f35f758adc32283644d4e20a10333d1e1b0948697accdf94428d9ad3f6"
+    },
+    {
+      "record_id": "design-03-BN-M02",
+      "cycle_id": "design-03",
+      "stage": "design",
+      "cycle": 3,
+      "criterion": "task_flow",
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The visible arrangement supports the order in which a user performs the module's core task of storing dry goods.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the drawers open toward the user and must remain positively latched in transit.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "78a5a592b8e7adf3c3a49d1a603dab0e7bb61998f3e71d52ce735ce5d823e8f8"
+    },
+    {
+      "record_id": "design-03-BN-M03",
+      "cycle_id": "design-03",
+      "stage": "design",
+      "cycle": 3,
+      "criterion": "task_flow",
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The visible arrangement supports the order in which a user performs the module's core task of refrigeration.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the low tray slides out far enough for full lid swing and compressor ventilation.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "47682de21996397152484c08e6fac710d20f7adb649734b8aea753ecf6ee7ac6"
+    },
+    {
+      "record_id": "design-03-BN-M04",
+      "cycle_id": "design-03",
+      "stage": "design",
+      "cycle": 3,
+      "criterion": "task_flow",
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The visible arrangement supports the order in which a user performs the module's core task of washing dishes.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the faucet and basin remain accessible while pump, drain, and grey container can be serviced.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "b9aa957eaf225dfeb1e67c0b7e2859ca405a0e476a19a6e7430a7cba9fac5839"
+    },
+    {
+      "record_id": "design-03-BN-M05",
+      "cycle_id": "design-03",
+      "stage": "design",
+      "cycle": 3,
+      "criterion": "task_flow",
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The visible arrangement supports the order in which a user performs the module's core task of managing fresh water.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the container can be filled or removed and pump/spigot are accessible without releasing the primary restraint.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "a71ca39d15bce13999f79ed8dc0d1021e87eeb1b415519bb47e41661bdd29b07"
+    },
+    {
+      "record_id": "design-03-BN-M06",
+      "cycle_id": "design-03",
+      "stage": "design",
+      "cycle": 3,
+      "criterion": "task_flow",
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The visible arrangement supports the order in which a user performs the module's core task of recovery and utility storage.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that heavy gear stays low; drawer, shelf, and MOLLE tools remain independently accessible.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "d9c34c1802d09b852f802ff410ff3f7b880d3896a23d393508fe6bda41ed597e"
+    },
+    {
+      "record_id": "design-03-BN-M07",
+      "cycle_id": "design-03",
+      "stage": "design",
+      "cycle": 3,
+      "criterion": "task_flow",
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The visible arrangement supports the order in which a user performs the module's core task of managing power.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that display, charging ports, and ventilation remain open while the station is restrained.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "d9a39b723b141598cb271a35b32786fcb33ec963af2a7c610931b947cb133679"
+    },
+    {
+      "record_id": "design-03-BN-M08",
+      "cycle_id": "design-03",
+      "stage": "design",
+      "cycle": 3,
+      "criterion": "task_flow",
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The visible arrangement supports the order in which a user performs the module's core task of providing hot water for showering.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the heater is transported only in the module and operated outside with propane separate.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "d2e88d9756e9e6ad105dc96d3d44363908ed94f265dcaa1060ac4f03a4ca93ab"
+    },
+    {
+      "record_id": "design-03-BN-M09",
+      "cycle_id": "design-03",
+      "stage": "design",
+      "cycle": 3,
+      "criterion": "task_flow",
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The visible arrangement supports the order in which a user performs the module's core task of setting up a field office camera.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that case and drawer open independently and worktop has positive support.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "7259ca9c4deea5b74a8509d2ef5b5379b6c221c345f1f67286d753b1a71f6f86"
+    },
+    {
+      "record_id": "design-03-BN-M10",
+      "cycle_id": "design-03",
+      "stage": "design",
+      "cycle": 3,
+      "criterion": "task_flow",
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The visible arrangement supports the order in which a user performs the module's core task of managing camp furniture and soft goods.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that individual furniture bags can be removed without unloading the entire bay.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "93d9620bab58c150c38ab12816f90f9de820345bca157332357d8140ba87ded4"
+    },
+    {
+      "record_id": "design-04-BN-M01",
+      "cycle_id": "design-04",
+      "stage": "design",
+      "cycle": 4,
+      "criterion": "organization",
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The cook station is visually organized with a wind guard, pull-out tray, and prep surface. Propane storage is separate, ensuring proper restraint.",
+      "evidence_ids": [
+        "COMP-GOOSE-GEAR-CAMPKITCHEN",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the cook station is visually organized and propane storage is separate.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "f41190d598e5be1bb8aad16410aedf33ff235dc7ffcc0cba99b399963d7d18a2"
+    },
+    {
+      "record_id": "design-04-BN-M02",
+      "cycle_id": "design-04",
+      "stage": "design",
+      "cycle": 4,
+      "criterion": "organization",
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The dry pantry has visible pulls, compression latches, and a divided tray, ensuring items are restrained and visually organized.",
+      "evidence_ids": [
+        "COMP-AT-OVERLAND-DRAWER",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the dry pantry has visible pulls, compression latches, and a divided tray.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "569f6625ccd8291e04fd8c3cab533acbd706eac457634de39d77e2ad1effae9d"
+    },
+    {
+      "record_id": "design-04-BN-M03",
+      "cycle_id": "design-04",
+      "stage": "design",
+      "cycle": 4,
+      "criterion": "organization",
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The fridge freezer has a slide tray and restraint strap, ensuring items are restrained and visually organized.",
+      "evidence_ids": [
+        "COMP-MODULR-FRIDGE-SLIDE",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the fridge freezer has a slide tray and restraint strap.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "495eb55fbb052712597c17b414519c50bc86b14b582ad2b918f21f4df0524c1e"
+    },
+    {
+      "record_id": "design-04-BN-M04",
+      "cycle_id": "design-04",
+      "stage": "design",
+      "cycle": 4,
+      "criterion": "organization",
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The sink wash has a raised faucet, drain, and grey-water tank, ensuring items are restrained and visually organized.",
+      "evidence_ids": [
+        "COMP-GOOSE-GEAR-CAMPKITCHEN",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the sink wash has a raised faucet, drain, and grey-water tank.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "40fdd2e066199c8aedec1aacd50ecc438bdba30766c2d380eb89300c3a3fab5f"
+    },
+    {
+      "record_id": "design-04-BN-M05",
+      "cycle_id": "design-04",
+      "stage": "design",
+      "cycle": 4,
+      "criterion": "organization",
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The fresh water container has low restraint straps, ensuring items are restrained and visually organized.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the fresh water container has low restraint straps.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "5b9f36d88b25b8bd0d89cb72218c223abdd08bff4c49f847a555e0c7dfa194d5"
+    },
+    {
+      "record_id": "design-04-BN-M06",
+      "cycle_id": "design-04",
+      "stage": "design",
+      "cycle": 4,
+      "criterion": "organization",
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The recovery utility has adjustable shelf, MOLLE panel, and soft shackles, ensuring items are restrained and visually organized.",
+      "evidence_ids": [
+        "COMP-AT-OVERLAND-DRAWER",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the recovery utility has adjustable shelf, MOLLE panel, and soft shackles.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "56c250a7bee1f1a3d364205118ef0eb327c60cdcc6e41e22b1050f2e842345e2"
+    },
+    {
+      "record_id": "design-04-BN-M07",
+      "cycle_id": "design-04",
+      "stage": "design",
+      "cycle": 4,
+      "criterion": "organization",
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The power hub has AC/DC/USB ports, vents, and cable drawer, ensuring items are restrained and visually organized.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the power hub has AC/DC/USB ports, vents, and cable drawer.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "94d5fdad6f2d37e2bda92a8a10a52197f9249c2452f8dc90b6ca261c3c79be05"
+    },
+    {
+      "record_id": "design-04-BN-M08",
+      "cycle_id": "design-04",
+      "stage": "design",
+      "cycle": 4,
+      "criterion": "organization",
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The hot water shower has a portable heater body, display, and quick connects, ensuring items are restrained and visually organized.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the hot water shower has a portable heater body, display, and quick connects.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "a61210aae2292a92844007b8b144bf78e274acc962ffd4995f88200f8fa8b150"
+    },
+    {
+      "record_id": "design-04-BN-M09",
+      "cycle_id": "design-04",
+      "stage": "design",
+      "cycle": 4,
+      "criterion": "organization",
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The field office camera has a rugged equipment case, latches/ribs, and deployed worktop, ensuring items are restrained and visually organized.",
+      "evidence_ids": [
+        "COMP-LONE-PEAK-DRAWER",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the field office camera has a rugged equipment case, latches/ribs, and deployed worktop.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "d7c722a63b7667f952d7fd8fe73285c0ba1b0ff4ee5a872adfc674a6eacb8d96"
+    },
+    {
+      "record_id": "design-04-BN-M10",
+      "cycle_id": "design-04",
+      "stage": "design",
+      "cycle": 4,
+      "criterion": "organization",
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The camp furniture soft goods has a recognizable folded chair/table, rolled soft goods, and contrasting compression straps, ensuring items are restrained and visually organized.",
+      "evidence_ids": [
+        "COMP-OVS-MOLLE",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the camp furniture soft goods has a recognizable folded chair/table, rolled soft goods, and contrasting compression straps.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "3cf1cab5e6047e4635110c06efc6608b2eac60455ac39e0c58bb1f8184827f07"
+    },
+    {
+      "record_id": "design-05-BN-M01",
+      "cycle_id": "design-05",
+      "stage": "design",
+      "cycle": 5,
+      "criterion": "controls_and_status",
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "ce326d0f2ed43cbf11a177c5051e67bdd65f6a2e55475762b6f555f728ee53f2"
+    },
+    {
+      "record_id": "design-05-BN-M02",
+      "cycle_id": "design-05",
+      "stage": "design",
+      "cycle": 5,
+      "criterion": "controls_and_status",
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "9888e30652c4c9f61a074125c22bb18f9169f08467ec1b2e3b72e64a32ce8ecf"
+    },
+    {
+      "record_id": "design-05-BN-M03",
+      "cycle_id": "design-05",
+      "stage": "design",
+      "cycle": 5,
+      "criterion": "controls_and_status",
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "6cede326bf6e8cd96318dfdf553e02405d846ff0ffbd182af75d590178f73024"
+    },
+    {
+      "record_id": "design-05-BN-M04",
+      "cycle_id": "design-05",
+      "stage": "design",
+      "cycle": 5,
+      "criterion": "controls_and_status",
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "6f7c8bfd5aae476bc9b6ad7750304a7155bdcabb71c398a43eafe1a9f672e93f"
+    },
+    {
+      "record_id": "design-05-BN-M05",
+      "cycle_id": "design-05",
+      "stage": "design",
+      "cycle": 5,
+      "criterion": "controls_and_status",
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "c6bd791574a31ea160d624688eca88ac4469ecdb143d09e3c752cf3c6796217e"
+    },
+    {
+      "record_id": "design-05-BN-M06",
+      "cycle_id": "design-05",
+      "stage": "design",
+      "cycle": 5,
+      "criterion": "controls_and_status",
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "f670a2bc150e5418b9ebf99eb4bb1f86d72c43435d5aad03e234076973c7ab4b"
+    },
+    {
+      "record_id": "design-05-BN-M07",
+      "cycle_id": "design-05",
+      "stage": "design",
+      "cycle": 5,
+      "criterion": "controls_and_status",
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "1473d3f586402d3394c275811b0045db0975c7fe114c12b629d459dc99d14c34"
+    },
+    {
+      "record_id": "design-05-BN-M08",
+      "cycle_id": "design-05",
+      "stage": "design",
+      "cycle": 5,
+      "criterion": "controls_and_status",
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "566fb7d1c2981bcf84e874f29c5596c3bf399a19cd9f3d76eccbfdae1ae1dec2"
+    },
+    {
+      "record_id": "design-05-BN-M09",
+      "cycle_id": "design-05",
+      "stage": "design",
+      "cycle": 5,
+      "criterion": "controls_and_status",
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "615b5d8defeee8e28fbbdccd740e411409d6eb8408b4b6a2a7f0a25716062b0f"
+    },
+    {
+      "record_id": "design-05-BN-M10",
+      "cycle_id": "design-05",
+      "stage": "design",
+      "cycle": 5,
+      "criterion": "controls_and_status",
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "All controls, ports, displays, latches, and service points are visible and understandable.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check visibility and understandability of all controls, ports, displays, latches, and service points.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "efbe7dbf3e980f48bca7302a939141f9637ffee7e4e32be5471a6a8c80f06613"
+    },
+    {
+      "record_id": "design-06-BN-M01",
+      "cycle_id": "design-06",
+      "stage": "design",
+      "cycle": 6,
+      "criterion": "stowed_security",
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with exposed burners and controls.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "9133b9571bd58284bd48d86ada8ebf39cbdf016475b8af5ab0e3c59dd4c6566d"
+    },
+    {
+      "record_id": "design-06-BN-M02",
+      "cycle_id": "design-06",
+      "stage": "design",
+      "cycle": 6,
+      "criterion": "stowed_security",
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with open drawers.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "3aec2646b8a83e0c85c21f0714716c2658a97427ad2584dc9e9e42fd92c655e9"
+    },
+    {
+      "record_id": "design-06-BN-M03",
+      "cycle_id": "design-06",
+      "stage": "design",
+      "cycle": 6,
+      "criterion": "stowed_security",
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with an open fridge lid.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "b8edeb3b576c8c4a6ecbbb3cfc8e154c1d244d25b202b27a0fbaa91add4c6dd1"
+    },
+    {
+      "record_id": "design-06-BN-M04",
+      "cycle_id": "design-06",
+      "stage": "design",
+      "cycle": 6,
+      "criterion": "stowed_security",
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with an open basin.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "720ffbf91a47f1aed1bdc7c5523d0b2c81c5b2d60b6937d5499abd1309b5ed4a"
+    },
+    {
+      "record_id": "design-06-BN-M05",
+      "cycle_id": "design-06",
+      "stage": "design",
+      "cycle": 6,
+      "criterion": "stowed_security",
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with an open spigot.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "f2650a627c8fda410b36a2c7ee202a0b8cf3d4b2f27cbb29dfc8ee445dcfdf39"
+    },
+    {
+      "record_id": "design-06-BN-M06",
+      "cycle_id": "design-06",
+      "stage": "design",
+      "cycle": 6,
+      "criterion": "stowed_security",
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with an open drawer.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "2cc6d6f642ff51cbd4f9d5f30999df7973c29ebdc49e18da7aad8cc562829b79"
+    },
+    {
+      "record_id": "design-06-BN-M07",
+      "cycle_id": "design-06",
+      "stage": "design",
+      "cycle": 6,
+      "criterion": "stowed_security",
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with open ports.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "4de0d721216deb87af7ee43c1b80dfe5d51b5fd62382bc64716651deb153df69"
+    },
+    {
+      "record_id": "design-06-BN-M08",
+      "cycle_id": "design-06",
+      "stage": "design",
+      "cycle": 6,
+      "criterion": "stowed_security",
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with an open shower head.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "e2dc845637008f4e90aa82c20db64868c8fba21bdb9f741ff436b4a7cb5746b6"
+    },
+    {
+      "record_id": "design-06-BN-M09",
+      "cycle_id": "design-06",
+      "stage": "design",
+      "cycle": 6,
+      "criterion": "stowed_security",
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with an open worktop.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "7daec28d226b88dafc549eedbde4321d353c67c041828de57ab59a8b31279150"
+    },
+    {
+      "record_id": "design-06-BN-M10",
+      "cycle_id": "design-06",
+      "stage": "design",
+      "cycle": 6,
+      "criterion": "stowed_security",
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with open furniture bags.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "983739abfe6877feafa36b1feea6b1e9359d631b639f644e78af13ede2cdc8b7"
+    },
+    {
+      "record_id": "design-07-BN-M01",
+      "cycle_id": "design-07",
+      "stage": "design",
+      "cycle": 7,
+      "criterion": "cleaning_and_drainage",
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module has a pull-out stove tray and upper prep surface, which address spill and dirt concerns. The wind guard provides ventilation.",
+      "evidence_ids": [
+        "COMP-GOOSE-GEAR-CAMPKITCHEN",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for proper drainage of the stove tray and ventilation through the wind guard.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "aeaa6e9d12948ecfb523bd81c50d6415c3ac891be03ca11b811848967807bbc8"
+    },
+    {
+      "record_id": "design-07-BN-M02",
+      "cycle_id": "design-07",
+      "stage": "design",
+      "cycle": 7,
+      "criterion": "cleaning_and_drainage",
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module has visible pulls and compression latches, which address spill and dirt concerns. The design allows for easy cleaning.",
+      "evidence_ids": [
+        "COMP-AT-OVERLAND-DRAWER",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for proper drainage and ventilation through the open upper divided tray.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "aa5cf538c90a709c30c653091394b2e3252e365378083ec3caccddc5d6d954ba"
+    },
+    {
+      "record_id": "design-07-BN-M03",
+      "cycle_id": "design-07",
+      "stage": "design",
+      "cycle": 7,
+      "criterion": "cleaning_and_drainage",
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module has vents and a slide tray, which address spill and dirt concerns. The restraint strap provides additional security.",
+      "evidence_ids": [
+        "COMP-MODULR-FRIDGE-SLIDE",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for proper drainage and ventilation through the vents.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "6eee9bb514719bb684c8162ffc55786beb60a6184373cb96118e866c945e106a"
+    },
+    {
+      "record_id": "design-07-BN-M04",
+      "cycle_id": "design-07",
+      "stage": "design",
+      "cycle": 7,
+      "criterion": "cleaning_and_drainage",
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module has a drain, visible pump and grey-water tank, which address spill and dirt concerns. The blue hose route provides ventilation.",
+      "evidence_ids": [
+        "COMP-GOOSE-GEAR-CAMPKITCHEN",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for proper drainage through the drain and ventilation through the blue hose route.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "2eac043dc93fe941cbdefab269b44502b4191a5f6501bfe74375c1736c906d0c"
+    },
+    {
+      "record_id": "design-07-BN-M05",
+      "cycle_id": "design-07",
+      "stage": "design",
+      "cycle": 7,
+      "criterion": "cleaning_and_drainage",
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module has a fill cap, spigot, and service pump, which address spill and dirt concerns. The low restraint straps provide additional security.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check for proper drainage through the spill tray and accessibility of the pump/spigot.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "2884e77d49326c880fd34b0f9ab43ff56de155f49f6cabe18ec980a787d296a2"
+    },
+    {
+      "record_id": "design-07-BN-M06",
+      "cycle_id": "design-07",
+      "stage": "design",
+      "cycle": 7,
+      "criterion": "cleaning_and_drainage",
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module has adjustable shelf, MOLLE panel and slots, which address spill and dirt concerns. The recovery rope and soft shackles provide additional security.",
+      "evidence_ids": [
+        "COMP-AT-OVERLAND-DRAWER",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for proper drainage and ventilation through the MOLLE panel.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "51b4bac15987cd7ed63f6b23a8125e9b95841ca85d665284518182f2665c7fdf"
+    },
+    {
+      "record_id": "design-07-BN-M07",
+      "cycle_id": "design-07",
+      "stage": "design",
+      "cycle": 7,
+      "criterion": "cleaning_and_drainage",
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module has vents, cable drawer and bulkhead, which address spill and dirt concerns. The display, charging ports and ventilation remain open.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check for proper drainage and ventilation through the vents.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "b4588f57b603163279074dbaaf63fc850337c89d0f777b4c4574c137b820173d"
+    },
+    {
+      "record_id": "design-07-BN-M08",
+      "cycle_id": "design-07",
+      "stage": "design",
+      "cycle": 7,
+      "criterion": "cleaning_and_drainage",
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module has vents, shower head, hose route, which address spill and dirt concerns. The heater is transported only in the module.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Check for proper drainage and ventilation through the vents.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "e3600db5b897c9611637ca632fc4392747f6b8e817ed6fe12fc7a32cd9f3b389"
+    },
+    {
+      "record_id": "design-07-BN-M09",
+      "cycle_id": "design-07",
+      "stage": "design",
+      "cycle": 7,
+      "criterion": "cleaning_and_drainage",
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module has latches/ribs, deployed worktop, which address spill and dirt concerns. The case and drawer open independently.",
+      "evidence_ids": [
+        "COMP-LONE-PEAK-DRAWER",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for proper drainage and ventilation through the case.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "240cede6d2e151541de17b3545d1fde1ad6e051b7293c289e8e54d09f14c5394"
+    },
+    {
+      "record_id": "design-07-BN-M10",
+      "cycle_id": "design-07",
+      "stage": "design",
+      "cycle": 7,
+      "criterion": "cleaning_and_drainage",
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module has rolled soft goods, contrasting compression straps, which address spill and dirt concerns. The cargo net and anchors provide additional security.",
+      "evidence_ids": [
+        "COMP-OVS-MOLLE",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for proper drainage and ventilation through the cargo net.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "4972e5dd52944a5e417f5e28c0d4be5932bb510b339528e9a007fba2f19a4475"
+    },
+    {
+      "record_id": "design-08-BN-M01",
+      "cycle_id": "design-08",
+      "stage": "design",
+      "cycle": 8,
+      "criterion": "ergonomics",
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The pull-out stove tray and upper prep surface are ergonomically designed for field use.",
+      "evidence_ids": [
+        "COMP-GOOSE-GEAR-CAMPKITCHEN",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the stove tray slides toward the user and the prep surface is at a comfortable height.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "92f21aa098c12dcca9ad27ca7467a2f7e8dd9c6ae2abd79dbfc466b5f80b20a6"
+    },
+    {
+      "record_id": "design-08-BN-M02",
+      "cycle_id": "design-08",
+      "stage": "design",
+      "cycle": 8,
+      "criterion": "ergonomics",
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The visible pulls and compression latches are ergonomically designed for field use.",
+      "evidence_ids": [
+        "COMP-AT-OVERLAND-DRAWER",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the drawers open toward the user and remain positively latched in transit.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "9ad9ed9b0bf84d6a61f914bdf338263e81deaf1195a214b8b0340f036f7faabf"
+    },
+    {
+      "record_id": "design-08-BN-M03",
+      "cycle_id": "design-08",
+      "stage": "design",
+      "cycle": 8,
+      "criterion": "ergonomics",
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The carry handle and slide tray are ergonomically designed for field use.",
+      "evidence_ids": [
+        "COMP-MODULR-FRIDGE-SLIDE",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the low tray slides out far enough for full lid swing and compressor ventilation.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "b5cfbb5e7507e5a4919d81c4c1344d3ce47355c5c242a01915ea711cde37b34e"
+    },
+    {
+      "record_id": "design-08-BN-M04",
+      "cycle_id": "design-08",
+      "stage": "design",
+      "cycle": 8,
+      "criterion": "ergonomics",
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The raised faucet and drain are ergonomically designed for field use.",
+      "evidence_ids": [
+        "COMP-GOOSE-GEAR-CAMPKITCHEN",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the faucet and basin remain accessible while pump, drain, and grey container can be serviced.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "5307fd9ba308287e221c374ff3feece090a66ee6cc34a96aa1866415dafba0f8"
+    },
+    {
+      "record_id": "design-08-BN-M05",
+      "cycle_id": "design-08",
+      "stage": "design",
+      "cycle": 8,
+      "criterion": "ergonomics",
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The molded handle and low restraint straps are ergonomically designed for field use.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that the container can be filled or removed and pump/spigot are accessible without releasing the primary restraint.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "2da412e23613ed6f064ec55c03d6be5280be952c15c8ab89bc260f16d08797a9"
+    },
+    {
+      "record_id": "design-08-BN-M06",
+      "cycle_id": "design-08",
+      "stage": "design",
+      "cycle": 8,
+      "criterion": "ergonomics",
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The adjustable shelf and MOLLE panel are ergonomically designed for field use.",
+      "evidence_ids": [
+        "COMP-AT-OVERLAND-DRAWER",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that heavy gear stays low; drawer, shelf, and MOLLE tools remain independently accessible.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "f622ce787dc0a57a1245e4831a7e07028bd3d3c3615c02afadd81c2d802df32a"
+    },
+    {
+      "record_id": "design-08-BN-M07",
+      "cycle_id": "design-08",
+      "stage": "design",
+      "cycle": 8,
+      "criterion": "ergonomics",
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The display and charging ports are ergonomically designed for field use.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that display, charging ports, and ventilation remain open while the station is restrained.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "7f4204589f2da642157f1ef40c6cd7dcc3903c4e5c54a6b60928f261cd9c9e50"
+    },
+    {
+      "record_id": "design-08-BN-M08",
+      "cycle_id": "design-08",
+      "stage": "design",
+      "cycle": 8,
+      "criterion": "ergonomics",
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The portable heater body and display are ergonomically designed for field use.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that heater is transported only in the module and operated outside with propane separate.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "b2fd909b3f41b91711bc9be553711cf65e3a900363e73642b971151da58efcd2"
+    },
+    {
+      "record_id": "design-08-BN-M09",
+      "cycle_id": "design-08",
+      "stage": "design",
+      "cycle": 8,
+      "criterion": "ergonomics",
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The rugged equipment case and latches are ergonomically designed for field use.",
+      "evidence_ids": [
+        "COMP-LONE-PEAK-DRAWER",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that case and drawer open independently and worktop has positive support.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "7651e47cf168292a486a0fde6d19d12b706937b6c7bd896fd64fb837850fad25"
+    },
+    {
+      "record_id": "design-08-BN-M10",
+      "cycle_id": "design-08",
+      "stage": "design",
+      "cycle": 8,
+      "criterion": "ergonomics",
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The rolled soft goods and cargo net are ergonomically designed for field use.",
+      "evidence_ids": [
+        "COMP-OVS-MOLLE",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check that individual furniture bags can be removed without unloading the entire bay.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "fa1171545dbf2e3f9997cbee7ec4ebae2a266f9d59eb3e951efd7a71d1fabd9a"
+    },
+    {
+      "record_id": "design-09-BN-M01",
+      "cycle_id": "design-09",
+      "stage": "design",
+      "cycle": 9,
+      "criterion": "family_visual_language",
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "791efdfc18f39013df6ff9565a909066d8b7f4bfdc720ea8dd82beccbcb2f18d"
+    },
+    {
+      "record_id": "design-09-BN-M02",
+      "cycle_id": "design-09",
+      "stage": "design",
+      "cycle": 9,
+      "criterion": "family_visual_language",
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "f5b56cd5a650e736e3ec4cfa78d46287753de776c4f1450d087b0c230dce2781"
+    },
+    {
+      "record_id": "design-09-BN-M03",
+      "cycle_id": "design-09",
+      "stage": "design",
+      "cycle": 9,
+      "criterion": "family_visual_language",
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "682cbaade1bcd9a8ac3ffcbc1d05b710eaee71dc2c0d581f5621ba8e00c0d146"
+    },
+    {
+      "record_id": "design-09-BN-M04",
+      "cycle_id": "design-09",
+      "stage": "design",
+      "cycle": 9,
+      "criterion": "family_visual_language",
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "37f5da9f0a7f346026da56c1aa6740e25d643436d74f1c9723e505f609eb4c5a"
+    },
+    {
+      "record_id": "design-09-BN-M05",
+      "cycle_id": "design-09",
+      "stage": "design",
+      "cycle": 9,
+      "criterion": "family_visual_language",
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "c6dd668b338bcf4c751dddaf17826027799de73b8f063d3fa2d20cd1f7fefb38"
+    },
+    {
+      "record_id": "design-09-BN-M06",
+      "cycle_id": "design-09",
+      "stage": "design",
+      "cycle": 9,
+      "criterion": "family_visual_language",
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "36db98476d9ca1e2cbcc4b2c4ea5ecfd222b62cc94dd41866e52681f808c82a8"
+    },
+    {
+      "record_id": "design-09-BN-M07",
+      "cycle_id": "design-09",
+      "stage": "design",
+      "cycle": 9,
+      "criterion": "family_visual_language",
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "cf7539e0c08b6117a345400919e69d7144dc615a199b5f51269e28fe14541928"
+    },
+    {
+      "record_id": "design-09-BN-M08",
+      "cycle_id": "design-09",
+      "stage": "design",
+      "cycle": 9,
+      "criterion": "family_visual_language",
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "1ff995c639da2086c56189bb8cb49683ebb2a08e29d00deafe6f8d44e5a77e2c"
+    },
+    {
+      "record_id": "design-09-BN-M09",
+      "cycle_id": "design-09",
+      "stage": "design",
+      "cycle": 9,
+      "criterion": "family_visual_language",
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "33f7e79aebe0b1f507ec8062cad65042dbe5cee5582394a7c3c2997f2dfbc608"
+    },
+    {
+      "record_id": "design-09-BN-M10",
+      "cycle_id": "design-09",
+      "stage": "design",
+      "cycle": 9,
+      "criterion": "family_visual_language",
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+      "evidence_ids": [
+        "CURRENT-CAD",
+        "FRAME-CONSTRAINTS"
+      ],
+      "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "8c703ae2fe3841ac651536d58992f1072f30b4a41d74e381facc97c484c265db"
+    },
+    {
+      "record_id": "design-10-BN-M01",
+      "cycle_id": "design-10",
+      "stage": "design",
+      "cycle": 10,
+      "criterion": "comparable_product_convergence",
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The concept includes visible usability cues like exposed burners, controls, and a wind guard.",
+      "evidence_ids": [
+        "COMP-GOOSE-GEAR-CAMPKITCHEN",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for exposed burners, controls, and wind guard.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "c161c449de2c2cc9360010ea30843e495abb2e3e1e8c823af2f0f07dc5dfd259"
+    },
+    {
+      "record_id": "design-10-BN-M02",
+      "cycle_id": "design-10",
+      "stage": "design",
+      "cycle": 10,
+      "criterion": "comparable_product_convergence",
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The concept includes visible usability cues like graduated drawers, open upper divided tray, and visible pulls.",
+      "evidence_ids": [
+        "COMP-AT-OVERLAND-DRAWER",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for graduated drawers, open upper divided tray, and visible pulls.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "d64bff5b10e77e462fbaf60e9e4a30b42686ffd709e6fbccd698079c5811c308"
+    },
+    {
+      "record_id": "design-10-BN-M03",
+      "cycle_id": "design-10",
+      "stage": "design",
+      "cycle": 10,
+      "criterion": "comparable_product_convergence",
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The concept includes visible usability cues like recognizable top-opening compact fridge, lid, carry handle, and controls.",
+      "evidence_ids": [
+        "COMP-MODULR-FRIDGE-SLIDE",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for recognizable top-opening compact fridge, lid, carry handle, and controls.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "9eda24f97df229443a6aabef6308429300a1d38f9a04e602e0c03a90fbdf13d7"
+    },
+    {
+      "record_id": "design-10-BN-M04",
+      "cycle_id": "design-10",
+      "stage": "design",
+      "cycle": 10,
+      "criterion": "comparable_product_convergence",
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The concept includes visible usability cues like open stainless basin, raised faucet, drain, and visible pump.",
+      "evidence_ids": [
+        "COMP-GOOSE-GEAR-CAMPKITCHEN",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for open stainless basin, raised faucet, drain, and visible pump.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "61379baee686b2ba2e4298595612cdd084e0f947b2cbd53473b5e2c4003d808c"
+    },
+    {
+      "record_id": "design-10-BN-M05",
+      "cycle_id": "design-10",
+      "stage": "design",
+      "cycle": 10,
+      "criterion": "comparable_product_convergence",
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The concept includes visible usability cues like ribbed seven-gallon container, molded handle, fill cap, spigot, and service pump.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for ribbed seven-gallon container, molded handle, fill cap, spigot, and service pump.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "6dba1ffa7a42e04c59567851eec52bcf6bac2418a2d0acf5608762c97b38994e"
+    },
+    {
+      "record_id": "design-10-BN-M06",
+      "cycle_id": "design-10",
+      "stage": "design",
+      "cycle": 10,
+      "criterion": "comparable_product_convergence",
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The concept includes visible usability cues like sealed tool case/drawer, adjustable shelf, MOLLE panel and slots.",
+      "evidence_ids": [
+        "COMP-AT-OVERLAND-DRAWER",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for sealed tool case/drawer, adjustable shelf, MOLLE panel and slots.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "3e79755ada68724f9088372bd4ef7c3ba3b8010cea220533314ba3db7104b6db"
+    },
+    {
+      "record_id": "design-10-BN-M07",
+      "cycle_id": "design-10",
+      "stage": "design",
+      "cycle": 10,
+      "criterion": "comparable_product_convergence",
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The concept includes visible usability cues like recognizable power-station enclosure, display, AC/DC/USB ports, and vents.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for recognizable power-station enclosure, display, AC/DC/USB ports, and vents.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "9f1d9248fe703ccb7585bf2b4b61488a45ab2b25561ca9ddd72df8e8e3e501d7"
+    },
+    {
+      "record_id": "design-10-BN-M08",
+      "cycle_id": "design-10",
+      "stage": "design",
+      "cycle": 10,
+      "criterion": "comparable_product_convergence",
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The concept includes visible usability cues like portable heater body, display, knob, vents, and shower head.",
+      "evidence_ids": [
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for portable heater body, display, knob, vents, and shower head.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "69feb3771dbdd14183441df377474a1669ccca7196e22b2dff0054f123e6df30"
+    },
+    {
+      "record_id": "design-10-BN-M09",
+      "cycle_id": "design-10",
+      "stage": "design",
+      "cycle": 10,
+      "criterion": "comparable_product_convergence",
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The concept includes visible usability cues like rugged equipment case, latches/ribs, deployed worktop, and visible laptop.",
+      "evidence_ids": [
+        "COMP-LONE-PEAK-DRAWER",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for rugged equipment case, latches/ribs, deployed worktop, and visible laptop.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "8c4ffa5cd2763650dcfd8ac55c6f032ba39036ca3092b3b18f0279eca2608759"
+    },
+    {
+      "record_id": "design-10-BN-M10",
+      "cycle_id": "design-10",
+      "stage": "design",
+      "cycle": 10,
+      "criterion": "comparable_product_convergence",
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "gate_decision": "RETAIN_VALIDATED_BASELINE",
+      "proposal": "Retain the current design.",
+      "rationale": "The concept includes visible usability cues like recognizable folded chairs/table, rolled soft goods, and contrasting compression straps.",
+      "evidence_ids": [
+        "COMP-OVS-MOLLE",
+        "CURRENT-CAD"
+      ],
+      "acceptance_check": "Check for recognizable folded chairs/table, rolled soft goods, and contrasting compression straps.",
+      "risk": "None",
+      "model": "qwen/qwen2.5-coder-14b",
+      "record_sha256": "ec070670ccdda4241a5f3f68477b6e04d37b79e5a7efd2cfcc9f8c85a8e73523"
+    }
+  ],
+  "learning_persistence": "Weights are unchanged. Validated learnings persist in this ledger and are injected into subsequent prompts and the Mac mini replication framework.",
+  "release_authority": "No automated review can authorize fabrication, purchase, vehicle installation, or sale.",
+  "through_stage": "design"
+}

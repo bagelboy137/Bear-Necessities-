@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "result": "PASS",
+  "reviewer": "OpenAI Codex independent visual inspection",
+  "reviewed_at": "2026-08-25T23:10:00-04:00",
+  "method": "Direct image inspection of all 30 current Autodesk Fusion isometric renders: design, manufacturing, and combined checkpoints. Findings are bound to the exact image SHA-256 values below and are invalid after any render changes.",
+  "criteria": [
+    "intended module function is recognizable from visible concept-CAD geometry",
+    "not anonymous box-only geometry",
+    "camera is usable and major equipment is visible",
+    "no obvious impossible intersection blocks the concept",
+    "silver extrusion and dark-panel family styling is consistent"
+  ],
+  "reviews": [
+    {
+      "module_id": "BN-M01",
+      "verdict": "PASS",
+      "recognizable_as": "two-burner cook station",
+      "visible_cues": ["two burner grates and controls", "three-sided wind guards and pull-out stove tray", "lower cookware drawer and upper prep shelf", "silver extrusion frame with dark infill panels"],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "stage_image_sha256": {
+        "design": "fa1ac1efbcd81f47abaa445947916d75d7328526d364cdb7b85801febf13a5d0",
+        "manufacturing": "059af0cd139f8e2602f109a5960e39771af411a09e81bb7022da51e876ee1499",
+        "combined": "1aa471811ff1828cc0a860da23dccf8e89c78ea81d6fd22dae456a6d0a145083"
+      }
+    },
+    {
+      "module_id": "BN-M02",
+      "verdict": "PASS",
+      "recognizable_as": "divided three-drawer storage module",
+      "visible_cues": ["three distinct drawer fronts with pulls and latches", "open organizer dividers", "visible side slide hardware", "silver extrusion frame with dark drawer carcass"],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "stage_image_sha256": {
+        "design": "aed5adc9f306d41c41ea2459c0f609b4a4a47d80f61ff048394a398ee4bab540",
+        "manufacturing": "84c5a4e1e896668388498365b71cb06effc96ab1cf1e058645e53366a345f624",
+        "combined": "12c6b90fb3bf9b6a6b329b6d43a3e1332c01792954467b312445fcbdb198757b"
+      }
+    },
+    {
+      "module_id": "BN-M03",
+      "verdict": "PASS",
+      "recognizable_as": "strapped slide-out chest refrigerator",
+      "visible_cues": ["large top-opening chest and lid", "two orange restraint straps", "front vent grille, handle, and power detail", "base slide rails inside extrusion frame"],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "stage_image_sha256": {
+        "design": "178b7bb9e9354ee0baf567e17487f5cc88c0d5a7b6a7fdecbc8dbe19dd066c30",
+        "manufacturing": "e01c19d9653d1258dc4b048e5fb15f57b17baf857b05111b731bb333eabf8f1e",
+        "combined": "2e9539afb5d168c277058a352ca4ea0642ea74be77ea7c63096712eb8834e35b"
+      }
+    },
+    {
+      "module_id": "BN-M04",
+      "verdict": "PASS",
+      "recognizable_as": "sink and wash station",
+      "visible_cues": ["worktop with inset basin and drain", "raised faucet and splash panel", "lower water tank/pump/service hardware", "front service drawer and blue hose runs"],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "stage_image_sha256": {
+        "design": "ac0c1ad9f58cc16b6cdeabb43b15b545583d1625bca0fb9f2842dea06bd1f064",
+        "manufacturing": "985516a78bfbe00f3c77cfb630e08f2a8a83ea60b90cc18c1272d2482cc1459b",
+        "combined": "6a9906b68405c35f27b16c286701a20e5875a4584ae69b16a72f95868ed997f9"
+      }
+    },
+    {
+      "module_id": "BN-M05",
+      "verdict": "PASS",
+      "recognizable_as": "strapped potable-water storage and delivery module",
+      "visible_cues": ["large blue tank with fill cap", "two orange restraint straps", "front drain/spigot and side plumbing", "separate dark pump enclosure"],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "stage_image_sha256": {
+        "design": "dfed162c11eafc61083c2fae61df35e7979226221f8c8c920c838bf64ac8c297",
+        "manufacturing": "b6228bbf3943050c9b7caf33902420821385b6066ef98e5d67fa7430b97147c7",
+        "combined": "433c43badab607ad6868a4f27928d7f9c6d506938f3c5b26c8bb4c372971ea1a"
+      }
+    },
+    {
+      "module_id": "BN-M06",
+      "verdict": "PASS",
+      "recognizable_as": "recovery-gear and MOLLE storage station",
+      "visible_cues": ["slotted MOLLE panel", "coiled recovery rope", "red shackles and upright tools", "work shelf over a large storage drawer"],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "stage_image_sha256": {
+        "design": "fe0e7eff84e17d5cee82b49cd56b96a5c707587f85da63c7750c87b0597b9e78",
+        "manufacturing": "0e8d9160564980449912d4f2bad58a3dfd073928eb1fd6cbb28b968e70e7daae",
+        "combined": "7b537bd7631dc8c96a4f2098ac844a43b1ae315968b2436c225e19d099600156"
+      }
+    },
+    {
+      "module_id": "BN-M07",
+      "verdict": "PASS",
+      "recognizable_as": "portable-power station and cable drawer",
+      "visible_cues": ["front status display", "two AC outlets and multiple control/port details", "large enclosed power body", "separate lower cable drawer"],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "stage_image_sha256": {
+        "design": "c999ce66c1f028074628e6494476b974cffd209c1f276a190ac10edc45735be2",
+        "manufacturing": "12b27f9958e6d51a0ecfc2bce4a23e28ca3c4ca50218eb35d695883d6ef4c6be",
+        "combined": "5f57037b1c6f6b410166e127cc434c7aa52a8f902983f69b75222f3d0deb5ab0"
+      }
+    },
+    {
+      "module_id": "BN-M08",
+      "verdict": "PASS",
+      "recognizable_as": "water-heater and shower module",
+      "visible_cues": ["heater face with screen, vents, and two knobs", "coiled blue hoses", "vertical shower wand", "lower shower pan/storage tray and red/blue connections"],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "stage_image_sha256": {
+        "design": "7ef0ebd0bbec02855b3e433a83b7cfec0b23f016ed45661363fdb6a054d968a7",
+        "manufacturing": "80438d26a8bcf922de55c8bcffc2e9b5a5feba64cb6c1be66e43390e0d9b6711",
+        "combined": "ea73955e342445f9028ef791d99c5fe60c59c185970a2d3649c92fab6bad4673"
+      }
+    },
+    {
+      "module_id": "BN-M09",
+      "verdict": "PASS",
+      "recognizable_as": "mobile laptop work and electronics station",
+      "visible_cues": ["open laptop with screen, keyboard, and trackpad", "slide-out work surface", "lower cable-management and electronics blocks", "separate equipment drawer with blue control detail"],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "stage_image_sha256": {
+        "design": "19ab630b395e0901987cfc04d1c576c479334edb66bcdf33ff0b27338a2cb339",
+        "manufacturing": "c6fb8f290a1bdee54ac36d084ad818aefc9c8360f9146bb3d49f31ce7de3d3e6",
+        "combined": "77f537269df0ad4922042a31d74ea56941b69dc07f2de2909fbce26a8a28b4f8"
+      }
+    },
+    {
+      "module_id": "BN-M10",
+      "verdict": "PASS",
+      "recognizable_as": "restrained camp-chair, table, and soft-goods storage module",
+      "visible_cues": ["two tall tan furniture bags", "three rolled soft-goods cylinders", "orange restraint straps and black compression rails", "front cargo net retaining the rolls"],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "stage_image_sha256": {
+        "design": "1811009d6a9c1952988ddb887e7ede3331cb26671c170de81fdb57e5db96d845",
+        "manufacturing": "43fd5b54e7b6933adaf64f3eb33d0500d5dd65a5e4c2831d1bd78f5650b288ac",
+        "combined": "f25e06822138ae2200a1754b0047c0dd7210aff4d8ce14ce063c8eb58dbb87c4"
+      }
+    }
+  ],
+  "limitations": "Visual product-concept inspection only. This does not verify hidden geometry, dimensions, structural capacity, tolerances, safety, manufacturability, or fabrication readiness."
+}

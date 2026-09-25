@@ -1,0 +1,496 @@
+{
+  "result": "PASS",
+  "expected_module_reviews": 100,
+  "checks_applied": [
+    "bbox_24x20x18_within_0.01in",
+    "front.png_1600x1200",
+    "iso.png_1600x1200",
+    "local_qwen_revision_evidence",
+    "material_capable_obj",
+    "native_named_components",
+    "ots_catalog_traceability",
+    "required_visible_parts_named",
+    "twelve_separate_frame_members"
+  ],
+  "module_count": 10,
+  "distinct_f3d_archives": 10,
+  "checks": {
+    "ten_module_directories": true,
+    "ten_distinct_native_f3d_archives": true
+  },
+  "failures": [],
+  "modules": [
+    {
+      "module_id": "BN-M01",
+      "checks": {
+        "local_qwen_revision_evidence": true,
+        "ots_catalog_traceability": true,
+        "bbox_24x20x18_within_0.01in": true,
+        "twelve_separate_frame_members": true,
+        "native_named_components": true,
+        "required_visible_parts_named": true,
+        "iso.png_1600x1200": true,
+        "front.png_1600x1200": true,
+        "material_capable_obj": true
+      },
+      "component_count": 143,
+      "missing_required_parts": [],
+      "files": {
+        "BN-M01.f3d": {
+          "ok": true,
+          "bytes": 466186
+        },
+        "BN-M01.step": {
+          "ok": true,
+          "bytes": 996950
+        },
+        "BN-M01.stl": {
+          "ok": true,
+          "bytes": 497884
+        },
+        "BN-M01.obj": {
+          "ok": true,
+          "bytes": 1238457
+        },
+        "BN-M01.mtl": {
+          "ok": true,
+          "bytes": 349
+        },
+        "BN-M01-iso.png": {
+          "ok": true,
+          "bytes": 342726
+        },
+        "BN-M01-front.png": {
+          "ok": true,
+          "bytes": 74537
+        }
+      },
+      "f3d_sha256": "ae4c0934cacef2901acd0bdb9ade4d234462036b3622f37b83c1fb334809d6be"
+    },
+    {
+      "module_id": "BN-M02",
+      "checks": {
+        "local_qwen_revision_evidence": true,
+        "ots_catalog_traceability": true,
+        "bbox_24x20x18_within_0.01in": true,
+        "twelve_separate_frame_members": true,
+        "native_named_components": true,
+        "required_visible_parts_named": true,
+        "iso.png_1600x1200": true,
+        "front.png_1600x1200": true,
+        "material_capable_obj": true
+      },
+      "component_count": 139,
+      "missing_required_parts": [],
+      "files": {
+        "BN-M02.f3d": {
+          "ok": true,
+          "bytes": 616567
+        },
+        "BN-M02.step": {
+          "ok": true,
+          "bytes": 1015336
+        },
+        "BN-M02.stl": {
+          "ok": true,
+          "bytes": 319484
+        },
+        "BN-M02.obj": {
+          "ok": true,
+          "bytes": 849985
+        },
+        "BN-M02.mtl": {
+          "ok": true,
+          "bytes": 349
+        },
+        "BN-M02-iso.png": {
+          "ok": true,
+          "bytes": 324806
+        },
+        "BN-M02-front.png": {
+          "ok": true,
+          "bytes": 85962
+        }
+      },
+      "f3d_sha256": "d2767906f85c50548817a73defa8288c7165c7dfd8c34de1d4299db9b272497a"
+    },
+    {
+      "module_id": "BN-M03",
+      "checks": {
+        "local_qwen_revision_evidence": true,
+        "ots_catalog_traceability": true,
+        "bbox_24x20x18_within_0.01in": true,
+        "twelve_separate_frame_members": true,
+        "native_named_components": true,
+        "required_visible_parts_named": true,
+        "iso.png_1600x1200": true,
+        "front.png_1600x1200": true,
+        "material_capable_obj": true
+      },
+      "component_count": 126,
+      "missing_required_parts": [],
+      "files": {
+        "BN-M03.f3d": {
+          "ok": true,
+          "bytes": 559057
+        },
+        "BN-M03.step": {
+          "ok": true,
+          "bytes": 932732
+        },
+        "BN-M03.stl": {
+          "ok": true,
+          "bytes": 255684
+        },
+        "BN-M03.obj": {
+          "ok": true,
+          "bytes": 697276
+        },
+        "BN-M03.mtl": {
+          "ok": true,
+          "bytes": 443
+        },
+        "BN-M03-iso.png": {
+          "ok": true,
+          "bytes": 256536
+        },
+        "BN-M03-front.png": {
+          "ok": true,
+          "bytes": 69748
+        }
+      },
+      "f3d_sha256": "7841bb0bd3b5d72f35118e245de14f340dfb3573dd9e90322d74315f57487989"
+    },
+    {
+      "module_id": "BN-M04",
+      "checks": {
+        "local_qwen_revision_evidence": true,
+        "ots_catalog_traceability": true,
+        "bbox_24x20x18_within_0.01in": true,
+        "twelve_separate_frame_members": true,
+        "native_named_components": true,
+        "required_visible_parts_named": true,
+        "iso.png_1600x1200": true,
+        "front.png_1600x1200": true,
+        "material_capable_obj": true
+      },
+      "component_count": 125,
+      "missing_required_parts": [],
+      "files": {
+        "BN-M04.f3d": {
+          "ok": true,
+          "bytes": 568240
+        },
+        "BN-M04.step": {
+          "ok": true,
+          "bytes": 892821
+        },
+        "BN-M04.stl": {
+          "ok": true,
+          "bytes": 332884
+        },
+        "BN-M04.obj": {
+          "ok": true,
+          "bytes": 862881
+        },
+        "BN-M04.mtl": {
+          "ok": true,
+          "bytes": 446
+        },
+        "BN-M04-iso.png": {
+          "ok": true,
+          "bytes": 281767
+        },
+        "BN-M04-front.png": {
+          "ok": true,
+          "bytes": 95382
+        }
+      },
+      "f3d_sha256": "6cd848873d608ec86289b63c720b7dae090e1b424277168026b7abf3fc1a9c79"
+    },
+    {
+      "module_id": "BN-M05",
+      "checks": {
+        "local_qwen_revision_evidence": true,
+        "ots_catalog_traceability": true,
+        "bbox_24x20x18_within_0.01in": true,
+        "twelve_separate_frame_members": true,
+        "native_named_components": true,
+        "required_visible_parts_named": true,
+        "iso.png_1600x1200": true,
+        "front.png_1600x1200": true,
+        "material_capable_obj": true
+      },
+      "component_count": 131,
+      "missing_required_parts": [],
+      "files": {
+        "BN-M05.f3d": {
+          "ok": true,
+          "bytes": 597896
+        },
+        "BN-M05.step": {
+          "ok": true,
+          "bytes": 941411
+        },
+        "BN-M05.stl": {
+          "ok": true,
+          "bytes": 343084
+        },
+        "BN-M05.obj": {
+          "ok": true,
+          "bytes": 898686
+        },
+        "BN-M05.mtl": {
+          "ok": true,
+          "bytes": 494
+        },
+        "BN-M05-iso.png": {
+          "ok": true,
+          "bytes": 289786
+        },
+        "BN-M05-front.png": {
+          "ok": true,
+          "bytes": 117920
+        }
+      },
+      "f3d_sha256": "98e27723d2bcb51685e598f6a4c4140d79410c5f32c8638d14b7128da9d34bd0"
+    },
+    {
+      "module_id": "BN-M06",
+      "checks": {
+        "local_qwen_revision_evidence": true,
+        "ots_catalog_traceability": true,
+        "bbox_24x20x18_within_0.01in": true,
+        "twelve_separate_frame_members": true,
+        "native_named_components": true,
+        "required_visible_parts_named": true,
+        "iso.png_1600x1200": true,
+        "front.png_1600x1200": true,
+        "material_capable_obj": true
+      },
+      "component_count": 208,
+      "missing_required_parts": [],
+      "files": {
+        "BN-M06.f3d": {
+          "ok": true,
+          "bytes": 940719
+        },
+        "BN-M06.step": {
+          "ok": true,
+          "bytes": 1443005
+        },
+        "BN-M06.stl": {
+          "ok": true,
+          "bytes": 566484
+        },
+        "BN-M06.obj": {
+          "ok": true,
+          "bytes": 1515346
+        },
+        "BN-M06.mtl": {
+          "ok": true,
+          "bytes": 488
+        },
+        "BN-M06-iso.png": {
+          "ok": true,
+          "bytes": 330290
+        },
+        "BN-M06-front.png": {
+          "ok": true,
+          "bytes": 187247
+        }
+      },
+      "f3d_sha256": "7eadee30939eff185b9f3615e83b4be9957351830c353a7876ac50c41c0feca6"
+    },
+    {
+      "module_id": "BN-M07",
+      "checks": {
+        "local_qwen_revision_evidence": true,
+        "ots_catalog_traceability": true,
+        "bbox_24x20x18_within_0.01in": true,
+        "twelve_separate_frame_members": true,
+        "native_named_components": true,
+        "required_visible_parts_named": true,
+        "iso.png_1600x1200": true,
+        "front.png_1600x1200": true,
+        "material_capable_obj": true
+      },
+      "component_count": 140,
+      "missing_required_parts": [],
+      "files": {
+        "BN-M07.f3d": {
+          "ok": true,
+          "bytes": 622632
+        },
+        "BN-M07.step": {
+          "ok": true,
+          "bytes": 1030193
+        },
+        "BN-M07.stl": {
+          "ok": true,
+          "bytes": 298484
+        },
+        "BN-M07.obj": {
+          "ok": true,
+          "bytes": 813068
+        },
+        "BN-M07.mtl": {
+          "ok": true,
+          "bytes": 541
+        },
+        "BN-M07-iso.png": {
+          "ok": true,
+          "bytes": 275784
+        },
+        "BN-M07-front.png": {
+          "ok": true,
+          "bytes": 84398
+        }
+      },
+      "f3d_sha256": "c8977d32e34fa887493ca7dc87eb7a2e79a6e470d3dc2c9036009380a9e81b78"
+    },
+    {
+      "module_id": "BN-M08",
+      "checks": {
+        "local_qwen_revision_evidence": true,
+        "ots_catalog_traceability": true,
+        "bbox_24x20x18_within_0.01in": true,
+        "twelve_separate_frame_members": true,
+        "native_named_components": true,
+        "required_visible_parts_named": true,
+        "iso.png_1600x1200": true,
+        "front.png_1600x1200": true,
+        "material_capable_obj": true
+      },
+      "component_count": 174,
+      "missing_required_parts": [],
+      "files": {
+        "BN-M08.f3d": {
+          "ok": true,
+          "bytes": 780051
+        },
+        "BN-M08.step": {
+          "ok": true,
+          "bytes": 1161035
+        },
+        "BN-M08.stl": {
+          "ok": true,
+          "bytes": 534284
+        },
+        "BN-M08.obj": {
+          "ok": true,
+          "bytes": 1404638
+        },
+        "BN-M08.mtl": {
+          "ok": true,
+          "bytes": 539
+        },
+        "BN-M08-iso.png": {
+          "ok": true,
+          "bytes": 275698
+        },
+        "BN-M08-front.png": {
+          "ok": true,
+          "bytes": 145847
+        }
+      },
+      "f3d_sha256": "26a5197ed9e91a3b80db73f25d7cff79b17f2ab6cbcc866de2cef564e7edb25c"
+    },
+    {
+      "module_id": "BN-M09",
+      "checks": {
+        "local_qwen_revision_evidence": true,
+        "ots_catalog_traceability": true,
+        "bbox_24x20x18_within_0.01in": true,
+        "twelve_separate_frame_members": true,
+        "native_named_components": true,
+        "required_visible_parts_named": true,
+        "iso.png_1600x1200": true,
+        "front.png_1600x1200": true,
+        "material_capable_obj": true
+      },
+      "component_count": 174,
+      "missing_required_parts": [],
+      "files": {
+        "BN-M09.f3d": {
+          "ok": true,
+          "bytes": 750695
+        },
+        "BN-M09.step": {
+          "ok": true,
+          "bytes": 1336722
+        },
+        "BN-M09.stl": {
+          "ok": true,
+          "bytes": 322684
+        },
+        "BN-M09.obj": {
+          "ok": true,
+          "bytes": 887419
+        },
+        "BN-M09.mtl": {
+          "ok": true,
+          "bytes": 443
+        },
+        "BN-M09-iso.png": {
+          "ok": true,
+          "bytes": 294219
+        },
+        "BN-M09-front.png": {
+          "ok": true,
+          "bytes": 69314
+        }
+      },
+      "f3d_sha256": "ac7053ddb24354da70078c7d2d69d728c608818911444aeb23e0a21c70f9a4dd"
+    },
+    {
+      "module_id": "BN-M10",
+      "checks": {
+        "local_qwen_revision_evidence": true,
+        "ots_catalog_traceability": true,
+        "bbox_24x20x18_within_0.01in": true,
+        "twelve_separate_frame_members": true,
+        "native_named_components": true,
+        "required_visible_parts_named": true,
+        "iso.png_1600x1200": true,
+        "front.png_1600x1200": true,
+        "material_capable_obj": true
+      },
+      "component_count": 133,
+      "missing_required_parts": [],
+      "files": {
+        "BN-M10.f3d": {
+          "ok": true,
+          "bytes": 591683
+        },
+        "BN-M10.step": {
+          "ok": true,
+          "bytes": 916331
+        },
+        "BN-M10.stl": {
+          "ok": true,
+          "bytes": 653384
+        },
+        "BN-M10.obj": {
+          "ok": true,
+          "bytes": 1529318
+        },
+        "BN-M10.mtl": {
+          "ok": true,
+          "bytes": 488
+        },
+        "BN-M10-iso.png": {
+          "ok": true,
+          "bytes": 307508
+        },
+        "BN-M10-front.png": {
+          "ok": true,
+          "bytes": 269513
+        }
+      },
+      "f3d_sha256": "c2fdd05b5852d00b6b63135f65bf899ca9cb477b047b841f70cfb0c7e6d9a2b5"
+    }
+  ],
+  "validator": "validate_native_family.py",
+  "validator_sha256": "081b17851ab3ebbfa7728ed49a7cdf6e0db9f38015ee37a04a2dc902851d5fa6"
+}

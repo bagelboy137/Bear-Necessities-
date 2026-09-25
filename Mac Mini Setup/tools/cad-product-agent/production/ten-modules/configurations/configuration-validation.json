@@ -1,0 +1,90 @@
+{
+  "configurations": [
+    {
+      "configuration": "Weekend Base",
+      "modules": [
+        "BN-M01",
+        "BN-M05"
+      ],
+      "fits_vehicles": [
+        "4runner-5th",
+        "4runner-6th",
+        "transit-lowroof",
+        "sprinter-lowroof"
+      ],
+      "result": "PASS"
+    },
+    {
+      "configuration": "Trail Kitchen",
+      "modules": [
+        "BN-M01",
+        "BN-M02"
+      ],
+      "fits_vehicles": [
+        "4runner-5th",
+        "4runner-6th",
+        "transit-lowroof",
+        "sprinter-lowroof"
+      ],
+      "result": "PASS"
+    },
+    {
+      "configuration": "Recovery Day",
+      "modules": [
+        "BN-M02",
+        "BN-M06"
+      ],
+      "fits_vehicles": [
+        "4runner-5th",
+        "4runner-6th",
+        "transit-lowroof",
+        "sprinter-lowroof"
+      ],
+      "result": "PASS"
+    },
+    {
+      "configuration": "Wash Up",
+      "modules": [
+        "BN-M01",
+        "BN-M04"
+      ],
+      "fits_vehicles": [
+        "4runner-5th",
+        "transit-lowroof",
+        "sprinter-lowroof"
+      ],
+      "result": "PASS"
+    },
+    {
+      "configuration": "Basecamp",
+      "modules": [
+        "BN-M01",
+        "BN-M02",
+        "BN-M03",
+        "BN-M05"
+      ],
+      "fits_vehicles": [
+        "transit-lowroof",
+        "sprinter-lowroof"
+      ],
+      "result": "PASS"
+    },
+    {
+      "configuration": "Expedition",
+      "modules": [
+        "BN-M01",
+        "BN-M02",
+        "BN-M06",
+        "BN-M08",
+        "BN-M10"
+      ],
+      "fits_vehicles": [
+        "transit-lowroof",
+        "sprinter-lowroof"
+      ],
+      "result": "PASS"
+    }
+  ],
+  "failures": 0,
+  "result": "PASS"
+}

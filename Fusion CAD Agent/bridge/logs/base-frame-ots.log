@@ -1,0 +1,101 @@
+
+======================================================================
+RUN 2026-08-20 22:20:21 model=qwen2.5-coder-7b-instruct backend=cadquery
+======================================================================
+
+--- attempt 1/10 ---
+  generated 1285 chars in 14s
+  VALIDATION FAILED:
+  1. Overall X size is 30.000", expected 24.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  2. Overall Y size is 22.000", expected 20.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  3. Overall Z size is 90.000", expected 18.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  4. Volume is 42552.00 in^3, expected 232.00 in^3. Too much material - members are overlapping (double-counted at the corners) or too long. Horizontal members must fit BETWEEN the posts: width members are 22.0" long starting at x=1.0, depth members are 18.0" long starting at y=1.0.
+  ** new best: 4 error(s)
+
+--- attempt 2/10 ---
+  identical output (stuck x1) -> temperature 0.40
+  generated 1285 chars in 14s
+  VALIDATION FAILED:
+  1. Overall X size is 30.000", expected 24.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  2. Overall Y size is 22.000", expected 20.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  3. Overall Z size is 90.000", expected 18.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  4. Volume is 42552.00 in^3, expected 232.00 in^3. Too much material - members are overlapping (double-counted at the corners) or too long. Horizontal members must fit BETWEEN the posts: width members are 22.0" long starting at x=1.0, depth members are 18.0" long starting at y=1.0.
+
+--- attempt 3/10 ---
+  generated 1421 chars in 12s
+  VALIDATION FAILED:
+  1. Overall X size is 30.000", expected 24.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  2. Overall Y size is 22.000", expected 20.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  3. Overall Z size is 54.000", expected 18.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  4. Volume is 26352.00 in^3, expected 232.00 in^3. Too much material - members are overlapping (double-counted at the corners) or too long. Horizontal members must fit BETWEEN the posts: width members are 22.0" long starting at x=1.0, depth members are 18.0" long starting at y=1.0.
+
+--- attempt 4/10 ---
+  identical output (stuck x1) -> temperature 0.40
+  generated 1421 chars in 14s
+  VALIDATION FAILED:
+  1. Overall X size is 30.000", expected 24.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  2. Overall Y size is 22.000", expected 20.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  3. Overall Z size is 54.000", expected 18.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  4. Volume is 26352.00 in^3, expected 232.00 in^3. Too much material - members are overlapping (double-counted at the corners) or too long. Horizontal members must fit BETWEEN the posts: width members are 22.0" long starting at x=1.0, depth members are 18.0" long starting at y=1.0.
+
+--- attempt 5/10 ---
+  generated 1574 chars in 13s
+  VALIDATION FAILED:
+  1. Overall X size is 30.000", expected 24.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  2. Overall Y size is 22.000", expected 20.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  3. Overall Z size is 54.000", expected 18.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  4. Volume is 26352.00 in^3, expected 232.00 in^3. Too much material - members are overlapping (double-counted at the corners) or too long. Horizontal members must fit BETWEEN the posts: width members are 22.0" long starting at x=1.0, depth members are 18.0" long starting at y=1.0.
+
+--- attempt 6/10 ---
+  identical output (stuck x1) -> temperature 0.40
+  generated 1574 chars in 15s
+  VALIDATION FAILED:
+  1. Overall X size is 30.000", expected 24.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  2. Overall Y size is 22.000", expected 20.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  3. Overall Z size is 54.000", expected 18.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  4. Volume is 26352.00 in^3, expected 232.00 in^3. Too much material - members are overlapping (double-counted at the corners) or too long. Horizontal members must fit BETWEEN the posts: width members are 22.0" long starting at x=1.0, depth members are 18.0" long starting at y=1.0.
+
+--- attempt 7/10 ---
+  identical output (stuck x2) -> temperature 0.65
+  generated 1574 chars in 15s
+  VALIDATION FAILED:
+  1. Overall X size is 30.000", expected 24.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  2. Overall Y size is 22.000", expected 20.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  3. Overall Z size is 54.000", expected 18.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  4. Volume is 26352.00 in^3, expected 232.00 in^3. Too much material - members are overlapping (double-counted at the corners) or too long. Horizontal members must fit BETWEEN the posts: width members are 22.0" long starting at x=1.0, depth members are 18.0" long starting at y=1.0.
+
+--- attempt 8/10 ---
+  generated 1549 chars in 13s
+  VALIDATION FAILED:
+  1. Overall X size is 30.000", expected 24.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  2. Overall Y size is 22.000", expected 20.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  3. Overall Z size is 54.000", expected 18.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  4. Volume is 26352.00 in^3, expected 232.00 in^3. Too much material - members are overlapping (double-counted at the corners) or too long. Horizontal members must fit BETWEEN the posts: width members are 22.0" long starting at x=1.0, depth members are 18.0" long starting at y=1.0.
+
+--- attempt 9/10 ---
+  generated 1601 chars in 14s
+  VALIDATION FAILED:
+  1. Overall X size is 38.000", expected 24.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  2. Overall Y size is 27.000", expected 20.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  3. Overall Z size is 54.000", expected 18.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  4. Volume is 34452.00 in^3, expected 232.00 in^3. Too much material - members are overlapping (double-counted at the corners) or too long. Horizontal members must fit BETWEEN the posts: width members are 22.0" long starting at x=1.0, depth members are 18.0" long starting at y=1.0.
+
+--- attempt 10/10 ---
+  identical output (stuck x1) -> temperature 0.40
+  generated 1601 chars in 14s
+  VALIDATION FAILED:
+  1. Overall X size is 38.000", expected 24.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  2. Overall Y size is 27.000", expected 20.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  3. Overall Z size is 54.000", expected 18.000". The frame's OUTSIDE dimensions must be exactly 24.0 x 20.0 x 18.0 inches. Remember the 1.0" profile: a member placed at x=24.0-1.0 ends exactly at 24.0.
+  4. Volume is 34452.00 in^3, expected 232.00 in^3. Too much material - members are overlapping (double-counted at the corners) or too long. Horizontal members must fit BETWEEN the posts: width members are 22.0" long starting at x=1.0, depth members are 18.0" long starting at y=1.0.
+
+❌ no clean model after 10 attempts
+Best had 4 error(s), kept at base-frame-ots-best.step
+
+======================================================================
+RUN 2026-08-20 22:23:54 model=qwen2.5-coder-7b-instruct backend=cadquery
+======================================================================
+
+--- attempt 1/8 ---
+  generated 959 chars in 14s
+  ✅ SUCCESS on attempt 1 — VALID: bbox 24.000 x 20.000 x 18.000 in, volume 232.00 in^3, 1 solid

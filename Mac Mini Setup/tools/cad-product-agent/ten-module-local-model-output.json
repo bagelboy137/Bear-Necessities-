@@ -1,0 +1,462 @@
+```json
+{
+  "family_assumptions": [
+    "All modules share a common 24W x 20D x 18H external envelope.",
+    "Frames are made from silver 1x1 inch T-slot aluminum extrusion.",
+    "Modules slide into an SUV and are removable.",
+    "Hardware is commercially orderable unless explicitly flagged as a production blocker."
+  ],
+  "modules": [
+    {
+      "id": "M01",
+      "name": "Compact Cooktop Module",
+      "customer_job": "Provide a compact, efficient cooking solution.",
+      "configuration": "Includes a single-burner cooktop with a small oven compartment.",
+      "frame_extrusion": {
+        "18-inch": 8,
+        "22-inch": 4
+      },
+      "off_the_shelf_components": [
+        {
+          "name": "Cooktop Burner",
+          "quantity": 1,
+          "key_specification": "20,000 BTU"
+        },
+        {
+          "name": "Small Oven",
+          "quantity": 1,
+          "key_specification": "800W"
+        },
+        {
+          "name": "Ventilation Fan",
+          "quantity": 1,
+          "key_specification": "50 CFM"
+        }
+      ],
+      "custom_parts": [
+        {
+          "name": "Cooktop Grill",
+          "quantity": 1,
+          "flat_sheet_possible": true,
+          "reason": "No bends or welds required."
+        }
+      ],
+      "critical_interfaces": [
+        "Cooktop Burner to Frame",
+        "Oven to Frame"
+      ],
+      "safety_checks": [
+        "Burner and Oven are UL certified.",
+        "Ventilation Fan is rated for outdoor use."
+      ],
+      "estimated_payload_lb": 50,
+      "estimated_empty_weight_lb": 30,
+      "production_blockers": []
+    },
+    {
+      "id": "M02",
+      "name": "Large Storage Module",
+      "customer_job": "Provide ample storage space for gear and supplies.",
+      "configuration": "Includes multiple drawers, shelves, and a small closet.",
+      "frame_extrusion": {
+        "18-inch": 8,
+        "22-inch": 4
+      },
+      "off_the_shelf_components": [
+        {
+          "name": "Drawer Rails",
+          "quantity": 4,
+          "key_specification": "Heavy-duty casters"
+        },
+        {
+          "name": "Shelf Brackets",
+          "quantity": 4,
+          "key_specification": "Adjustable height"
+        }
+      ],
+      "custom_parts": [
+        {
+          "name": "Closet Door",
+          "quantity": 1,
+          "flat_sheet_possible": true,
+          "reason": "No bends or welds required."
+        }
+      ],
+      "critical_interfaces": [
+        "Drawer Rails to Frame",
+        "Shelf Brackets to Frame"
+      ],
+      "safety_checks": [
+        "Drawer Rails are rated for heavy-duty use.",
+        "Shelf Brackets are securely attached."
+      ],
+      "estimated_payload_lb": 100,
+      "estimated_empty_weight_lb": 40,
+      "production_blockers": []
+    },
+    {
+      "id": "M03",
+      "name": "Refrigeration Module",
+      "customer_job": "Provide a compact, efficient refrigeration solution.",
+      "configuration": "Includes a small refrigerator with a freezer compartment.",
+      "frame_extrusion": {
+        "18-inch": 8,
+        "22-inch": 4
+      },
+      "off_the_shelf_components": [
+        {
+          "name": "Refrigerator",
+          "quantity": 1,
+          "key_specification": "500W"
+        },
+        {
+          "name": "Freezer",
+          "quantity": 1,
+          "key_specification": "300W"
+        }
+      ],
+      "custom_parts": [
+        {
+          "name": "Refrigeration Door",
+          "quantity": 2,
+          "flat_sheet_possible": true,
+          "reason": "No bends or welds required."
+        }
+      ],
+      "critical_interfaces": [
+        "Refrigerator to Frame",
+        "Freezer to Frame"
+      ],
+      "safety_checks": [
+        "Refrigerator and Freezer are UL certified.",
+        "Doors are securely attached."
+      ],
+      "estimated_payload_lb": 20,
+      "estimated_empty_weight_lb": 35,
+      "production_blockers": []
+    },
+    {
+      "id": "M04",
+      "name": "Sink Module",
+      "customer_job": "Provide a compact, efficient sink solution.",
+      "configuration": "Includes a small sink with a faucet and drain.",
+      "frame_extrusion": {
+        "18-inch": 8,
+        "22-inch": 4
+      },
+      "off_the_shelf_components": [
+        {
+          "name": "Sink Basin",
+          "quantity": 1,
+          "key_specification": "20L capacity"
+        },
+        {
+          "name": "Faucet",
+          "quantity": 1,
+          "key_specification": "Pressure-balanced"
+        },
+        {
+          "name": "Drain",
+          "quantity": 1,
+          "key_specification": "Overflow protection"
+        }
+      ],
+      "custom_parts": [
+        {
+          "name": "Sink Top",
+          "quantity": 1,
+          "flat_sheet_possible": true,
+          "reason": "No bends or welds required."
+        }
+      ],
+      "critical_interfaces": [
+        "Sink Basin to Frame",
+        "Faucet and Drain to Sink Basin"
+      ],
+      "safety_checks": [
+        "Sink Basin is made of food-grade material.",
+        "Faucet and Drain are securely attached."
+      ],
+      "estimated_payload_lb": 10,
+      "estimated_empty_weight_lb": 25,
+      "production_blockers": []
+    },
+    {
+      "id": "M05",
+      "name": "Water Filtration Module",
+      "customer_job": "Provide a compact, efficient water filtration solution.",
+      "configuration": "Includes a water filter system with storage tank.",
+      "frame_extrusion": {
+        "18-inch": 8,
+        "22-inch": 4
+      },
+      "off_the_shelf_components": [
+        {
+          "name": "Water Filter System",
+          "quantity": 1,
+          "key_specification": "5-gallon capacity"
+        },
+        {
+          "name": "Pump",
+          "quantity": 1,
+          "key_specification": "20 PSI"
+        }
+      ],
+      "custom_parts": [
+        {
+          "name": "Filter Housing",
+          "quantity": 1,
+          "flat_sheet_possible": true,
+          "reason": "No bends or welds required."
+        }
+      ],
+      "critical_interfaces": [
+        "Water Filter System to Frame",
+        "Pump to Water Filter System"
+      ],
+      "safety_checks": [
+        "Water Filter System is NSF certified.",
+        "Pump is securely attached."
+      ],
+      "estimated_payload_lb": 15,
+      "estimated_empty_weight_lb": 30,
+      "production_blockers": []
+    },
+    {
+      "id": "M06",
+      "name": "Gear Organizer Module",
+      "customer_job": "Provide a compact, efficient gear organization solution.",
+      "configuration": "Includes multiple compartments and hooks for gear storage.",
+      "frame_extrusion": {
+        "18-inch": 8,
+        "22-inch": 4
+      },
+      "off_the_shelf_components": [
+        {
+          "name": "Hooks",
+          "quantity": 10,
+          "key_specification": "Heavy-duty"
+        },
+        {
+          "name": "Compartments",
+          "quantity": 4,
+          "key_specification": "Adjustable"
+        }
+      ],
+      "custom_parts": [
+        {
+          "name": "Organizer Panels",
+          "quantity": 4,
+          "flat_sheet_possible": true,
+          "reason": "No bends or welds required."
+        }
+      ],
+      "critical_interfaces": [
+        "Hooks to Frame",
+        "Compartments to Frame"
+      ],
+      "safety_checks": [
+        "Hooks are securely attached.",
+        "Compartments are adjustable and secure."
+      ],
+      "estimated_payload_lb": 50,
+      "estimated_empty_weight_lb": 35,
+      "production_blockers": []
+    },
+    {
+      "id": "M07",
+      "name": "First Aid Module",
+      "customer_job": "Provide a compact, efficient first aid solution.",
+      "configuration": "Includes a medical kit with storage compartments.",
+      "frame_extrusion": {
+        "18-inch": 8,
+        "22-inch": 4
+      },
+      "off_the_shelf_components": [
+        {
+          "name": "Medical Kit",
+          "quantity": 1,
+          "key_specification": "Comprehensive"
+        },
+        {
+          "name": "Storage Compartments",
+          "quantity": 4,
+          "key_specification": "Waterproof"
+        }
+      ],
+      "custom_parts": [
+        {
+          "name": "First Aid Panel",
+          "quantity": 1,
+          "flat_sheet_possible": true,
+          "reason": "No bends or welds required."
+        }
+      ],
+      "critical_interfaces": [
+        "Medical Kit to Frame",
+        "Storage Compartments to Frame"
+      ],
+      "safety_checks": [
+        "Medical Kit is up-to-date.",
+        "Storage Compartments are waterproof."
+      ],
+      "estimated_payload_lb": 10,
+      "estimated_empty_weight_lb": 25,
+      "production_blockers": []
+    },
+    {
+      "id": "M08",
+      "name": "Tool Storage Module",
+      "customer_job": "Provide a compact, efficient tool storage solution.",
+      "configuration": "Includes multiple compartments and hooks for tool organization.",
+      "frame_extrusion": {
+        "18-inch": 8,
+        "22-inch": 4
+      },
+      "off_the_shelf_components": [
+        {
+          "name": "Hooks",
+          "quantity": 10,
+          "key_specification": "Heavy-duty"
+        },
+        {
+          "name": "Compartments",
+          "quantity": 4,
+          "key_specification": "Adjustable"
+        }
+      ],
+      "custom_parts": [
+        {
+          "name": "Tool Organizer Panels",
+          "quantity": 4,
+          "flat_sheet_possible": true,
+          "reason": "No bends or welds required."
+        }
+      ],
+      "critical_interfaces": [
+        "Hooks to Frame",
+        "Compartments to Frame"
+      ],
+      "safety_checks": [
+        "Hooks are securely attached.",
+        "Compartments are adjustable and secure."
+      ],
+      "estimated_payload_lb": 50,
+      "estimated_empty_weight_lb": 35,
+      "production_blockers": []
+    },
+    {
+      "id": "M09",
+      "name": "Fire Extinguisher Module",
+      "customer_job": "Provide a compact, efficient fire extinguisher solution.",
+      "configuration": "Includes a fire extinguisher with storage compartment.",
+      "frame_extrusion": {
+        "18-inch": 8,
+        "22-inch": 4
+      },
+      "off_the_shelf_components": [
+        {
+          "name": "Fire Extinguisher",
+          quantity": 1,
+          "key_specification": "5L ABC"
+        },
+        {
+          "name": "Storage Compartment",
+          quantity": 1,
+          "key_specification": "Waterproof"
+        }
+      ],
+      "custom_parts": [
+        {
+          "name": "Fire Extinguisher Panel",
+          quantity": 1,
+          "flat_sheet_possible": true,
+          "reason": "No bends or welds required."
+        }
+      ],
+      "critical_interfaces": [
+        "Fire Extinguisher to Frame",
+        "Storage Compartment to Frame"
+      ],
+      "safety_checks": [
+        "Fire Extinguisher is up-to-date.",
+        "Storage Compartment is waterproof."
+      ],
+      "estimated_payload_lb": 10,
+      "estimated_empty_weight_lb": 25,
+      "production_blockers": []
+    },
+    {
+      "id": "M10",
+      "name": "Solar Panel Module",
+      "customer_job": "Provide a compact, efficient solar power solution.",
+      "configuration": "Includes a small solar panel with battery storage.",
+      "frame_extrusion": {
+        "18-inch": 8,
+        "22-inch": 4
+      },
+      "off_the_shelf_components": [
+        {
+          "name": "Solar Panel",
+          quantity": 1,
+          "key_specification": "20W"
+        },
+        {
+          "name": "Battery",
+          quantity": 1,
+          "key_specification": "20Ah"
+        }
+      ],
+      "custom_parts": [
+        {
+          "name": "Solar Panel Mount",
+          quantity": 1,
+          "flat_sheet_possible": true,
+          "reason": "No bends or welds required."
+        }
+      ],
+      "critical_interfaces": [
+        "Solar Panel to Frame",
+        "Battery to Frame"
+      ],
+      "safety_checks": [
+        "Solar Panel is UL certified.",
+        "Battery is securely attached."
+      ],
+      "estimated_payload_lb": 15,
+      "estimated_empty_weight_lb": 30,
+      "production_blockers": []
+    }
+  ],
+  "shared_components": [
+    {
+      "name": "Vehicle Locking Pins",
+      "quantity": 4,
+      "key_specification": "Heavy-duty"
+    },
+    {
+      "name": "Carry Handles",
+      "quantity": 2,
+      "key_specification": "Adjustable"
+    }
+  ],
+  "design_rules_learned": [
+    "Preserve the common external envelope for all modules.",
+    "Use commercially orderable hardware to minimize production blockers.",
+    "Custom parts should be flat laser/waterjet-cut sheet where possible.",
+    "Account for rough-road vibration, tie-downs, and water containment in design."
+  ],
+  "recommended_build_order": [
+    "M01",
+    "M02",
+    "M03",
+    "M04",
+    "M05",
+    "M06",
+    "M07",
+    "M08",
+    "M09",
+    "M10"
+  ]
+}
+```

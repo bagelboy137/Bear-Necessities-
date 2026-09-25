@@ -1,0 +1,10 @@
+{
+    "autodeskProduct": "Fusion360",
+    "type": "script",
+    "author": "Fusion CAD Agent",
+    "description": {
+        "": "Verified-to-run skeleton. Copy the folder, rename both files to match."
+    },
+    "supportedOS": "windows|mac",
+    "editEnabled": true
+}

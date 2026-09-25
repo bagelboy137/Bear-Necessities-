@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "_README": "Named configurations offered as the product story. Every one is solver-validated against VEHICLE-ENVELOPES.json - none is asserted by hand. Run config_solver.py --validate-all to re-check.",
+  "_date": "2026-08-26",
+  "configurations": [
+    {"name": "Weekend Base", "modules": ["BN-M01", "BN-M05"],
+     "pitch": "Cook and fresh water. The smallest setup that makes a vehicle self-sufficient for a night."},
+    {"name": "Trail Kitchen", "modules": ["BN-M01", "BN-M02"],
+     "pitch": "Cook plus dry pantry. Food handling for a long weekend without a cooler."},
+    {"name": "Recovery Day", "modules": ["BN-M02", "BN-M06"],
+     "pitch": "Pantry plus recovery gear. The setup for a day of driving rather than a night of camping."},
+    {"name": "Wash Up", "modules": ["BN-M01", "BN-M04"],
+     "pitch": "Cook and sink. Needs 5th-gen 4Runner headroom or a van - the sink lid runs out of room in a 6th gen."},
+    {"name": "Basecamp", "modules": ["BN-M01", "BN-M02", "BN-M03", "BN-M05"],
+     "pitch": "Cook, pantry, fridge and water. A van-class configuration - the fridge alone rules out every SUV bay measured so far."},
+    {"name": "Expedition", "modules": ["BN-M01", "BN-M02", "BN-M06", "BN-M08", "BN-M10"],
+     "pitch": "Cook, pantry, recovery, hot water and camp furniture. Five modules, van only."}
+  ]
+}

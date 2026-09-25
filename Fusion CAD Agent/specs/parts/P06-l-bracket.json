@@ -1,0 +1,45 @@
+{
+  "id": "P06-l-bracket",
+  "name": "L bracket, two holes",
+  "units": "in",
+  "difficulty": 4,
+  "description": "An L-shaped bracket made of two flat legs of equal thickness meeting at a right angle at the origin corner. The horizontal leg lies along +X on the XY plane. The vertical leg rises along +Z from the same corner. Both legs are the same width in Y. One hole passes vertically through the horizontal leg near its free end; a second hole passes horizontally (along X) through the vertical leg near its top.",
+  "constants": {
+    "H_LEG_LENGTH": 3.0,
+    "V_LEG_HEIGHT": 2.0,
+    "LEG_WIDTH": 1.5,
+    "THICKNESS": 0.25,
+    "HOLE_DIA": 0.281
+  },
+  "checks": {
+    "bbox": [
+      3.0,
+      1.5,
+      2.0
+    ],
+    "bbox_tol": 0.01,
+    "volume": 1.75024,
+    "volume_tol": 0.012,
+    "solids": 1,
+    "valid": true,
+    "holes": [
+      {
+        "d": 0.281,
+        "count": 2,
+        "at": [
+          [
+            2.0,
+            0.75
+          ],
+          [
+            0.75,
+            1.5
+          ]
+        ],
+        "depth": 0.25
+      }
+    ],
+    "holes_exact": true
+  },
+  "notes": "Build it as two boxes with centered=False sharing the corner at (0,0,0), then union them - the shared corner block must not be counted twice. Horizontal leg occupies x 0..3.0, y 0..1.5, z 0..0.25. Vertical leg occupies x 0..0.25, y 0..1.5, z 0..2.0. Vertical hole centre at (2.000, 0.750); horizontal hole centre at y=0.750, z=1.500 drilled along X."
+}

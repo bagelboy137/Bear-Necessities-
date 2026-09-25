@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "cycle_id": "design-09",
+  "stage": "design",
+  "cycle": 9,
+  "criterion": {
+    "cycle": 9,
+    "criterion": "family_visual_language",
+    "question": "Does the module read as part of the silver-extrusion, dark-panel ten-module family while retaining a distinct function?"
+  },
+  "model": "qwen/qwen2.5-coder-14b",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T01:58:05.340367+00:00",
+  "prompt_sha256": "780f9740dcc931b85b0c29a51c256d17e8a57bf76ed583132702a17c1949cc13",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/design/design-09.attempt-1.raw.txt",
+      "sha256": "f6ad7db8d3b43f0ee56884312a371b9b938db9d57bfbd84f869ffbd05829b8a4",
+      "usage": {
+        "prompt_tokens": 1858,
+        "completion_tokens": 1065,
+        "total_tokens": 2923,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1858,
+    "completion_tokens": 1065,
+    "total_tokens": 2923,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "design-09",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module maintains a distinct function as part of the silver-extrusion, dark-panel family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Verify that the module adheres to the visual language constraints.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

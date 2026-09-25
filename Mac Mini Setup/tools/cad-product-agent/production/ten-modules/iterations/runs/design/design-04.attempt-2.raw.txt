@@ -1,0 +1,97 @@
+```json
+{
+  "cycle_id": "design-04",
+  "reviews": [
+    {
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The cook station is visually organized with a wind guard, pull-out stove tray, and upper prep surface. The propane storage is separate, ensuring items are divided and restrained.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Check that the cook station has a wind guard, pull-out stove tray, and upper prep surface. Ensure propane storage is separate.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The dry pantry has visible pulls and compression latches, ensuring items are divided and restrained. The drawers open toward the user and must remain positively latched in transit.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Check that the dry pantry has visible pulls and compression latches. Ensure drawers open toward the user and must remain positively latched in transit.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The fridge freezer has a recognizable top-opening compact fridge, lid, carry handle, controls, vents, slide tray, and restraint strap. The low tray slides out far enough for full lid swing and compressor ventilation.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Check that the fridge freezer has a recognizable top-opening compact fridge, lid, carry handle, controls, vents, slide tray, and restraint strap. Ensure the low tray slides out far enough for full lid swing and compressor ventilation.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The sink wash has an open stainless basin, raised faucet, drain, visible pump and grey-water tank, blue hose route. The faucet and basin remain accessible while the pump, drain, and grey container can be serviced.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Check that the sink wash has an open stainless basin, raised faucet, drain, visible pump and grey-water tank, blue hose route. Ensure the faucet and basin remain accessible while the pump, drain, and grey container can be serviced.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The fresh water container has ribbed seven-gallon container, molded handle, fill cap, spigot, low restraint straps, service pump and hose. The container can be filled or removed and pump/spigot are accessible without releasing the primary restraint.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Check that the fresh water container has a ribbed seven-gallon container, molded handle, fill cap, spigot, low restraint straps, service pump and hose. Ensure the container can be filled or removed and pump/spigot are accessible without releasing the primary restraint.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The recovery utility has a sealed tool case/drawer, adjustable shelf, MOLLE panel and slots, recovery rope and soft shackles. Heavy gear stays low; drawer, shelf and MOLLE tools remain independently accessible.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Check that the recovery utility has a sealed tool case/drawer, adjustable shelf, MOLLE panel and slots, recovery rope and soft shackles. Ensure heavy gear stays low; drawer, shelf and MOLLE tools remain independently accessible.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The power hub has a recognizable power-station enclosure, display, AC/DC/USB ports, vents, cable drawer and bulkhead. Display, charging ports and ventilation remain open while the station is restrained.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Check that the power hub has a recognizable power-station enclosure, display, AC/DC/USB ports, vents, cable drawer and bulkhead. Ensure display, charging ports and ventilation remain open while the station is restrained.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The hot water shower has a portable heater body, display, knob, vents, shower head, hose route, quick connects and wet-storage tray. Heater is transported only in the module and operated outside with propane separate.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Check that the hot water shower has a portable heater body, display, knob, vents, shower head, hose route, quick connects and wet-storage tray. Ensure the heater is transported only in the module and operated outside with propane separate.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The field office camera has a rugged equipment case, latches/ribs, deployed worktop, visible laptop and keyboard, accessory drawer. Case and drawer open independently and worktop has positive support.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Check that the field office camera has a rugged equipment case, latches/ribs, deployed worktop, visible laptop and keyboard, accessory drawer. Ensure case and drawer open independently and worktop has positive support.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The camp furniture soft goods has a recognizable folded chairs/table, rolled soft goods, contrasting compression straps, cargo net and anchors. Individual furniture bags can be removed without unloading the entire bay.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Check that the camp furniture soft goods has a recognizable folded chairs/table, rolled soft goods, contrasting compression straps, cargo net and anchors. Ensure individual furniture bags can be removed without unloading the entire bay.",
+      "risk": "None"
+    }
+  ]
+}
+```

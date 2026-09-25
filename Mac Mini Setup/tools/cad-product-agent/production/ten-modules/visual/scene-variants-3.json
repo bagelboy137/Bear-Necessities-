@@ -1,0 +1,5 @@
+[
+  {"suffix": "g1", "environment": "Photobooth", "exposure": 8.2, "brightness": 1200.0, "light_angle": 2.4, "zoom": 0.34, "ground_flattened": true, "ground_position": 0.0},
+  {"suffix": "g2", "environment": "Sharp Highlights", "background_solid": [228,229,232], "exposure": 8.2, "brightness": 1200.0, "zoom": 0.34, "ground_flattened": true, "ground_position": 0.0},
+  {"suffix": "g3", "environment": "Photobooth", "exposure": 8.2, "brightness": 1200.0, "light_angle": 2.4, "zoom": 0.34, "ground_flattened": true, "ground_position": 0.0, "ground_reflections": true, "ground_roughness": 0.45}
+]

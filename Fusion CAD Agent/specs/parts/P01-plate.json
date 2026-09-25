@@ -1,0 +1,46 @@
+{
+  "id": "P01-plate",
+  "name": "two-hole flat plate",
+  "units": "in",
+  "difficulty": 2,
+  "description": "A flat rectangular plate laid flat on the XY plane with its thickness in Z, centred on the origin in X and Y. All four vertical corner edges are rounded. Two mounting holes pass all the way through, on the long centreline, one either side of centre.",
+  "constants": {
+    "LENGTH": 4.0,
+    "WIDTH": 1.5,
+    "THICKNESS": 0.25,
+    "CORNER_RADIUS": 0.25,
+    "HOLE_DIA": 0.281,
+    "HOLE_X": 1.0
+  },
+  "checks": {
+    "bbox": [
+      4.0,
+      1.5,
+      0.25
+    ],
+    "bbox_tol": 0.01,
+    "volume": 1.45558,
+    "volume_tol": 0.01,
+    "solids": 1,
+    "valid": true,
+    "holes": [
+      {
+        "d": 0.281,
+        "count": 2,
+        "at": [
+          [
+            -1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "through": true
+      }
+    ],
+    "holes_exact": true
+  },
+  "notes": "Hole centres are at x = -1.000 and x = +1.000, both at y = 0. Round only the four VERTICAL corner edges, not the top and bottom faces."
+}

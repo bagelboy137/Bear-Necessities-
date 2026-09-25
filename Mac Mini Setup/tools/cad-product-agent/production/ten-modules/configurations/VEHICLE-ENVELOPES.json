@@ -1,0 +1,108 @@
+{
+  "schema_version": 1,
+  "_README": "Cargo envelopes for the C-02 target vehicles. Same evidence rule as ots-components.json: a dimension is either sourced with a URL and a date, or it is marked UNVERIFIED. C-02-vehicle-queue.json says it plainly - dimensions invented by a model produce parts that do not fit, and that is the most expensive error this project can make. The same applies to a configuration that cannot be loaded.",
+  "_research_date": "2026-08-26",
+  "_status_values": {
+    "SOURCED_SECONDARY": "published figures from press or owner-forum measurements; good enough to design against, NOT good enough to cut a bracket to",
+    "UNVERIFIED": "no dimension sourced yet; the solver refuses to answer for this vehicle",
+    "MEASURED": "someone put a tape in the actual vehicle"
+  },
+  "_units": "inches",
+  "vehicles": [
+    {
+      "id": "4runner-5th",
+      "name": "Toyota 4Runner, 5th gen (2010-2024)",
+      "class": "SUV",
+      "status": "SOURCED_SECONDARY",
+      "cargo_width_in": 47.0,
+      "width_between_wells_in": 43.0,
+      "wheel_well_height_in": 12.0,
+      "cargo_depth_in": 59.0,
+      "cargo_height_in": 31.0,
+      "tailgate_opening_width_in": 47.0,
+      "tailgate_opening_height_in": 31.0,
+      "payload_lb": null,
+      "source": "https://cars.usnews.com/cars-trucks/toyota/4runner/2024/interior ; https://www.4runners.com/threads/rear-cargo-area-dimensions.38107/",
+      "field_notes": {
+        "cargo_depth_in": "59 in load length with the second row folded",
+        "cargo_height_in": "31 in floor to ceiling; liftgate opening quoted as 47 x 31",
+        "wheel_well_height_in": "UNVERIFIED - assumed 12 in, not sourced",
+        "payload_lb": "UNVERIFIED"
+      }
+    },
+    {
+      "id": "4runner-6th",
+      "name": "Toyota 4Runner, 6th gen (2025+)",
+      "class": "SUV",
+      "status": "SOURCED_SECONDARY",
+      "cargo_width_in": 45.0,
+      "width_between_wells_in": 40.0,
+      "wheel_well_height_in": 12.0,
+      "cargo_depth_in": 59.0,
+      "cargo_height_in": 29.5,
+      "payload_lb": null,
+      "source": "https://www.4runner6g.com/cargo-dimensions-measurements-gas-non-hybrid-model-with-without-3rd-row-seats/",
+      "field_notes": {
+        "cargo_height_in": "29.5 in on the hybrid, which is the tighter of the two",
+        "cargo_width_in": "UNVERIFIED - assumed, only the between-wells figure was sourced",
+        "cargo_depth_in": "UNVERIFIED - carried over from 5th gen"
+      }
+    },
+    {
+      "id": "transit-lowroof",
+      "name": "Ford Transit, low roof",
+      "class": "Van",
+      "status": "SOURCED_SECONDARY",
+      "cargo_width_in": 54.8,
+      "width_between_wells_in": 54.8,
+      "wheel_well_height_in": 14.0,
+      "cargo_depth_in": 100.0,
+      "cargo_height_in": 56.9,
+      "payload_lb": null,
+      "source": "https://darien.co/vanlife/vans/ford-transit-van-dimensions/ ; https://everywherewithclaire.com/ford-transit-dimensions/",
+      "field_notes": {
+        "width_between_wells_in": "54.8 in between the wheel arches",
+        "cargo_height_in": "56.9 in interior height, low roof",
+        "cargo_depth_in": "UNVERIFIED - 100 in used as a deliberately conservative floor length",
+        "wheel_well_height_in": "UNVERIFIED - assumed 14 in"
+      }
+    },
+    {
+      "id": "sprinter-lowroof",
+      "name": "Mercedes-Benz Sprinter, standard roof",
+      "class": "Van",
+      "status": "SOURCED_SECONDARY",
+      "cargo_width_in": 53.1,
+      "width_between_wells_in": 53.1,
+      "wheel_well_height_in": 14.0,
+      "cargo_depth_in": 100.0,
+      "cargo_height_in": 68.0,
+      "payload_lb": null,
+      "source": "https://everywherewithclaire.com/mercedes-sprinter-dimensions/ ; https://sprinter-rentals.com/van-dimensions-guide-which-sprinter-fits-your-cargo",
+      "field_notes": {
+        "cargo_depth_in": "UNVERIFIED - 100 in used as a deliberately conservative floor length",
+        "wheel_well_height_in": "UNVERIFIED - assumed 14 in"
+      }
+    },
+    {
+      "id": "bronco-4dr",       "name": "Ford Bronco, 4-door",        "class": "SUV",
+      "status": "UNVERIFIED", "cargo_width_in": 0, "cargo_depth_in": 0, "cargo_height_in": 0,
+      "source": null, "field_notes": {"all": "BLOCKED_NEEDS_MEASUREMENT in C-02-vehicle-queue.json"}
+    },
+    {
+      "id": "wrangler-jl-4dr",  "name": "Jeep Wrangler JL, 4-door",   "class": "SUV",
+      "status": "UNVERIFIED", "cargo_width_in": 0, "cargo_depth_in": 0, "cargo_height_in": 0,
+      "source": null, "field_notes": {"all": "BLOCKED_NEEDS_MEASUREMENT"}
+    },
+    {
+      "id": "tacoma-5ft",       "name": "Toyota Tacoma, 5 ft bed",    "class": "Truck",
+      "status": "UNVERIFIED", "cargo_width_in": 0, "cargo_depth_in": 0, "cargo_height_in": 0,
+      "source": null, "field_notes": {"all": "BLOCKED_NEEDS_MEASUREMENT; an open bed also has no ceiling, so the height constraint depends entirely on the shell or topper chosen"}
+    },
+    {
+      "id": "outback",          "name": "Subaru Outback",             "class": "Crossover",
+      "status": "UNVERIFIED", "cargo_width_in": 0, "cargo_depth_in": 0, "cargo_height_in": 0,
+      "source": null, "field_notes": {"all": "BLOCKED_NEEDS_MEASUREMENT"}
+    }
+  ]
+}

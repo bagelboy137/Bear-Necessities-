@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "cycle_id": "combined-08",
+  "stage": "combined",
+  "cycle": 8,
+  "criterion": {
+    "cycle": 8,
+    "criterion": "assembly_usability_tradeoff",
+    "question": "Does any manufacturing simplification create a new reach, pinch, snag, cleaning, or access problem?"
+  },
+  "model": "qwen2.5-coder-7b-instruct",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T02:39:25.137908+00:00",
+  "prompt_sha256": "48fab4ebc0f54071d2f1ea704a40851d8cabfd3adee080e701a8680c6a21bdbc",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/combined/combined-08.attempt-1.raw.txt",
+      "sha256": "4cbb6caba7d37ff59a007b3e45e0493df541a6922e6849d71102f075147746ea",
+      "usage": {
+        "prompt_tokens": 2990,
+        "completion_tokens": 994,
+        "total_tokens": 3984,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2990,
+    "completion_tokens": 994,
+    "total_tokens": 3984,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "combined-08",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "No manufacturing simplification creates a new reach, pinch, snag, cleaning, or access problem.",
+        "evidence_ids": [
+          "COMP-OVERLAND-KITCHEN-EX1"
+        ],
+        "acceptance_check": "Manual inspection of the assembly process.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "No manufacturing simplification creates a new reach, pinch, snag, cleaning, or access problem.",
+        "evidence_ids": [
+          "COMP-LONE-PEAK-DRAWER"
+        ],
+        "acceptance_check": "Manual inspection of the assembly process.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "No manufacturing simplification creates a new reach, pinch, snag, cleaning, or access problem.",
+        "evidence_ids": [
+          "COMP-MODULR-FRIDGE-SLIDE"
+        ],
+        "acceptance_check": "Manual inspection of the assembly process.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "No manufacturing simplification creates a new reach, pinch, snag, cleaning, or access problem.",
+        "evidence_ids": [
+          "COMP-GOOSE-GEAR-CAMPKITCHEN"
+        ],
+        "acceptance_check": "Manual inspection of the assembly process.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "No manufacturing simplification creates a new reach, pinch, snag, cleaning, or access problem.",
+        "evidence_ids": [
+          "RELIANCE-AQUATAINER-7G"
+        ],
+        "acceptance_check": "Manual inspection of the assembly process.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "No manufacturing simplification creates a new reach, pinch, snag, cleaning, or access problem.",
+        "evidence_ids": [
+          "COMP-OVS-MOLLE"
+        ],
+        "acceptance_check": "Manual inspection of the assembly process.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "No manufacturing simplification creates a new reach, pinch, snag, cleaning, or access problem.",
+        "evidence_ids": [
+          "ECOFLOW-RIVER3-PLUS"
+        ],
+        "acceptance_check": "Manual inspection of the assembly process.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "No manufacturing simplification creates a new reach, pinch, snag, cleaning, or access problem.",
+        "evidence_ids": [
+          "JOOLCA-HOTTAP-V2"
+        ],
+        "acceptance_check": "Manual inspection of the assembly process.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "No manufacturing simplification creates a new reach, pinch, snag, cleaning, or access problem.",
+        "evidence_ids": [
+          "COMP-LONE-PEAK-DRAWER"
+        ],
+        "acceptance_check": "Manual inspection of the assembly process.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "No manufacturing simplification creates a new reach, pinch, snag, cleaning, or access problem.",
+        "evidence_ids": [
+          "COMP-OVS-MOLLE"
+        ],
+        "acceptance_check": "Manual inspection of the assembly process.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

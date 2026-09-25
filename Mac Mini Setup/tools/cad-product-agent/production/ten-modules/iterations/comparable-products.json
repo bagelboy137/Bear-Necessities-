@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-08-25",
+  "scope": "Visual and usability precedents only; no proprietary geometry is copied.",
+  "sources": [
+    {"id":"COMP-OVERLAND-KITCHEN-EX1","modules":["BN-M01","BN-M03"],"lesson":"Expose the work surface and appliance access so the module reads as usable in its deployed state.","url":"https://www.overlandkitchen.com/shop/p/refridgerator-cabinet-dwwzw"},
+    {"id":"COMP-GOOSE-GEAR-CAMPKITCHEN","modules":["BN-M01","BN-M02","BN-M04"],"lesson":"Use clear drawer hierarchy, durable latches, and deployable work surfaces within one cabinet volume.","url":"https://www.goose-gear.com/products/campkitchen-2-2-30-deep-module"},
+    {"id":"COMP-MODULR-FRIDGE-SLIDE","modules":["BN-M03"],"lesson":"A fridge concept needs a visible low slide tray, positive restraint, ventilation, and lid access.","url":"https://modulroverland.com/products/modular-fridge-slide"},
+    {"id":"COMP-OVS-KITCHEN","modules":["BN-M01","BN-M02","BN-M04"],"lesson":"Contrasting work zones and exposed controls make a compact camp kitchen understandable at a glance.","url":"https://overlandvehiclesystems.com/mid-size-cargo-box-kitchen"},
+    {"id":"COMP-LONE-PEAK-DRAWER","modules":["BN-M02","BN-M06","BN-M09"],"lesson":"Drawer fronts need visible pulls, positive latches, and enough separation to communicate independent storage zones.","url":"https://www.lonepeakoverland.com/a/docs/product-guides/junk-drawer-system"},
+    {"id":"COMP-AT-OVERLAND-DRAWER","modules":["BN-M02","BN-M06"],"lesson":"Robust drawer slides, full-width fronts, and simple rectilinear sheet parts support field-serviceable storage.","url":"https://atoverland.com/products/double-drawer-module-20-3-16-wide-x-28-depth-1"},
+    {"id":"COMP-OVS-MOLLE","modules":["BN-M06","BN-M10"],"lesson":"Repeated slots and distinct anchors must be visible for a panel or cargo net to read as functional retention hardware.","url":"https://overlandvehiclesystems.com/Ruff-Rax-Inside-Molle-Panel---Universal"},
+    {"id":"COMP-TAILGATE-GEAR-KITCHEN","modules":["BN-M01","BN-M04"],"lesson":"Sink, stove, storage, and preparation surfaces should be visually separated into a coherent task sequence.","url":"https://www.tailgategear.eu/products/kitchen-module"}
+  ]
+}

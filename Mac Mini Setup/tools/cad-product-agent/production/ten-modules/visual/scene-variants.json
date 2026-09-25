@@ -1,0 +1,8 @@
+[
+  {"suffix": "v1-soft",   "environment": "Soft Light",      "exposure": 7.6, "brightness": 1200.0},
+  {"suffix": "v2-sharp",  "environment": "Sharp Highlights","exposure": 7.6, "brightness": 1200.0},
+  {"suffix": "v3-rim",    "environment": "Rim Highlights",  "exposure": 7.2, "brightness": 1400.0},
+  {"suffix": "v4-grid",   "environment": "Grid Light",      "exposure": 7.6, "brightness": 1200.0},
+  {"suffix": "v5-booth",  "environment": "Photobooth",      "exposure": 7.0, "brightness": 1200.0, "light_angle": 2.4},
+  {"suffix": "v6-plaza",  "environment": "Plaza",           "exposure": 7.8, "brightness": 1000.0}
+]

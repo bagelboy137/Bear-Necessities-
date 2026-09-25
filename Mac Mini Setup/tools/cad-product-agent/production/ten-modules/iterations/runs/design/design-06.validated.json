@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "cycle_id": "design-06",
+  "stage": "design",
+  "cycle": 6,
+  "criterion": {
+    "cycle": 6,
+    "criterion": "stowed_security",
+    "question": "Does the concept visibly communicate a secure stowed state as well as its deployed state?"
+  },
+  "model": "qwen/qwen2.5-coder-14b",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T01:51:31.089935+00:00",
+  "prompt_sha256": "a18cfb423541a19d88cb72762c558e76a829b1deb415a865616a06bd171ac937",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/design/design-06.attempt-1.raw.txt",
+      "sha256": "9fd96591ff7e261365bc5b709025d1e7e0cebd37fbb5668ab2c56662d09b1018",
+      "usage": {
+        "prompt_tokens": 1851,
+        "completion_tokens": 1180,
+        "total_tokens": 3031,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1851,
+    "completion_tokens": 1180,
+    "total_tokens": 3031,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "design-06",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with exposed burners and controls.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with open drawers.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with an open fridge lid.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with an open basin.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with an open spigot.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with an open drawer.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with open ports.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with an open shower head.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with an open worktop.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module clearly communicates a secure stowed state with visible latches and restraints, as well as its deployed state with open furniture bags.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check for visible latches and restraints in the stowed state.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

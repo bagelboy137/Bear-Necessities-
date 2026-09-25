@@ -1,0 +1,51 @@
+{
+  "id": "BN-M08",
+  "label": "Hot Water/Shower",
+  "outside_bbox_in": [
+    24.0,
+    20.0,
+    18.0
+  ],
+  "frame_member_count": 12,
+  "component_count": 2,
+  "solid_count": 14,
+  "components": [
+    {
+      "name": "heater transport envelope",
+      "size_in": [
+        17.7,
+        11.4,
+        6.6
+      ],
+      "origin_in": [
+        3.15,
+        4.3,
+        1.0
+      ],
+      "high_in": [
+        20.849999999999998,
+        15.7,
+        7.6
+      ]
+    },
+    {
+      "name": "hose bay",
+      "size_in": [
+        17.7,
+        11.4,
+        5.0
+      ],
+      "origin_in": [
+        3.15,
+        4.3,
+        9.0
+      ],
+      "high_in": [
+        20.849999999999998,
+        15.7,
+        14.0
+      ]
+    }
+  ],
+  "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+}

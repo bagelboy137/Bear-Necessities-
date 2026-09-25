@@ -1,0 +1,250 @@
+{
+  "result": "PASS",
+  "model": "google/gemma-4-e4b",
+  "review_count": 10,
+  "flagged_modules": [],
+  "errors": [],
+  "reviews": [
+    {
+      "module_id": "BN-M01",
+      "verdict": "PASS",
+      "recognizable_as": "Overland Cook Station Module",
+      "visible_cues": [
+        "10-Series extrusion frame structure",
+        "Dark infill panels",
+        "Module ID plate (M01)",
+        "Upper prep surface/Stove tray",
+        "Two burners with control knobs",
+        "Three-sided wind guard/splash shield",
+        "Lower cookware drawer with pull handle",
+        "Concept geometry for locking slides and drawers"
+      ],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "warnings": [],
+      "limitations": "visual concept review only",
+      "model": "google/gemma-4-e4b",
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M01/BN-M01-iso.png",
+      "image_sha256": "2ff2ebd2650f5d378b0472eb9c69f4d0d5858ad8445bcb23841e3104a42d6d00"
+    },
+    {
+      "module_id": "BN-M02",
+      "verdict": "PASS",
+      "recognizable_as": "Dry Pantry Overland Module",
+      "visible_cues": [
+        "12 separate 10-Series extrusion members",
+        "visible T-slot lines",
+        "dark infill panels (side and back)",
+        "corner hardware concept",
+        "module ID plate",
+        "three graduated drawers with pull handles",
+        "compression latch mechanisms (drawer and upper tray)",
+        "locking slides concept",
+        "open upper pantry tray structure",
+        "internal dividers/shelving",
+        "full side and back panels"
+      ],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "warnings": [],
+      "limitations": "visual concept review only",
+      "model": "google/gemma-4-e4b",
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M02/BN-M02-iso.png",
+      "image_sha256": "038162e6874c1c63e6aefbdf7bc88776baf91fa5da0a5f1cc658faca1a3f6f25"
+    },
+    {
+      "module_id": "BN-M03",
+      "verdict": "PASS",
+      "recognizable_as": "Overland Fridge Freezer Chassis",
+      "visible_cues": [
+        "12 separate 10-Series extrusion members",
+        "Visible T-slot lines on extrusions",
+        "Dark infill panels forming the chassis body",
+        "Corner hardware assembly",
+        "Module ID plate on fridge unit top surface",
+        "Top-opening fridge body structure",
+        "Lid and seam definition on the fridge unit",
+        "Front carry handle",
+        "Compressor vent array at base of fridge body",
+        "Two restraint straps/attachment points (orange accents)",
+        "Chassis structure suggesting low locking slide tray capability"
+      ],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "warnings": [],
+      "limitations": "visual concept review only",
+      "model": "google/gemma-4-e4b",
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M03/BN-M03-iso.png",
+      "image_sha256": "d98690bb339b4e273f5d79d8dba8ded2b0204489c700e76813a24b8d5d25f6c7"
+    },
+    {
+      "module_id": "BN-M04",
+      "verdict": "PASS",
+      "recognizable_as": "Sink Wash Module (BN-M04)",
+      "visible_cues": [
+        "12 separate 10-Series extrusion members",
+        "visible T-slot lines on extrusions",
+        "dark infill panels",
+        "corner hardware implied by frame structure",
+        "module ID plate (BN-M04)",
+        "counter and splash panel",
+        "recessed basin",
+        "raised foldable faucet",
+        "visible drain area within the basin",
+        "grey-water tank structure below counter",
+        "pump and service bay implied in lower frame",
+        "visible hose route/plumbing lines",
+        "lower service door access panel"
+      ],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "warnings": [],
+      "model": "google/gemma-4-e4b",
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M04/BN-M04-iso.png",
+      "image_sha256": "c2ecf14317816474bb1fbb2f0546553a2a189fc28044498268c5d4d341b7b28c"
+    },
+    {
+      "module_id": "BN-M05",
+      "verdict": "PASS",
+      "recognizable_as": "Fresh Water Overland Module",
+      "visible_cues": [
+        "10-Series extrusion frame (conceptually present)",
+        "dark infill panels",
+        "module ID plate",
+        "seven-gallon water tank (blue object on top)",
+        "fill cap",
+        "restraint straps (two brown bands)",
+        "pump service bay/mechanism",
+        "spigot fitting",
+        "visible pump face",
+        "external delivery hose connection"
+      ],
+      "missing_or_unclear": [
+        "T-slot lines (not clearly visible)",
+        "service ventilation slots (implied, but not explicitly rendered)"
+      ],
+      "blocking_findings": [],
+      "warnings": [],
+      "limitations": "visual concept review only",
+      "model": "google/gemma-4-e4b",
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M05/BN-M05-iso.png",
+      "image_sha256": "5cd40717cd4782448a4218a04200c20f2d981af41102a5109337050d93ca3e90"
+    },
+    {
+      "module_id": "BN-M06",
+      "verdict": "PASS",
+      "recognizable_as": "Recovery Utility Storage Module",
+      "visible_cues": [
+        "12 separate 10-Series extrusion members",
+        "Visible T-slot lines on frame members",
+        "Dark infill panels forming structure",
+        "Corner hardware assembly",
+        "Module ID plate visible on front face",
+        "Sealed tool drawer base",
+        "Pull handle detail on drawer",
+        "Functional representation of compression latch/locking slides",
+        "Upper adjustable shelf surface",
+        "MOLLE organization panel detail in upper section",
+        "Coiled recovery rope equipment",
+        "Shackles and tool silhouettes on shelf"
+      ],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "warnings": [],
+      "model": "google/gemma-4-e4b",
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M06/BN-M06-iso.png",
+      "image_sha256": "8da3955de7cbf33a8bac5b8a908df1edd9878604d1605af1235a6616c4699d00"
+    },
+    {
+      "module_id": "BN-M07",
+      "verdict": "PASS",
+      "recognizable_as": "Power Station Enclosure / Overland Module",
+      "visible_cues": [
+        "10-Series extrusion frame",
+        "dark infill panels",
+        "front control panel",
+        "round DC ports (implied)",
+        "cable drawer",
+        "pull handle"
+      ],
+      "missing_or_unclear": [
+        "Specific AC outlets or USB ports (only implied by the control panel)",
+        "T-slot lines on extrusions",
+        "compression latch or locking slides mechanisms"
+      ],
+      "blocking_findings": [],
+      "warnings": [],
+      "limitations": "visual concept review only",
+      "model": "google/gemma-4-e4b",
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M07/BN-M07-iso.png",
+      "image_sha256": "173887e3c6a147e03919bbdb69371306430405f2dde72dc41812b62dd78fa550"
+    },
+    {
+      "module_id": "BN-M08",
+      "verdict": "PASS",
+      "recognizable_as": "Hot Water Shower Module",
+      "visible_cues": [
+        "10-Series extrusion frame with T-slot lines",
+        "Dark infill panels and corner hardware",
+        "Heater enclosure with display and vents",
+        "Coiled shower hose",
+        "Shower head connection point",
+        "Hot/cold quick connectors (red/blue knobs)",
+        "Wet-storage tray",
+        "Heater control knobs (red/blue)"
+      ],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "warnings": [],
+      "limitations": "visual concept review only",
+      "model": "google/gemma-4-e4b",
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M08/BN-M08-iso.png",
+      "image_sha256": "bb7084d9ffef2e44c961549bf56d1cd4227a418e5edfde330b2930f3ebb3a7dc"
+    },
+    {
+      "module_id": "BN-M09",
+      "verdict": "PASS",
+      "recognizable_as": "Field Office Camera / Overland Command Post Module",
+      "visible_cues": [
+        "12-Series extrusion frame structure",
+        "T-slot profile lines",
+        "Dark infill panels",
+        "Corner hardware connections",
+        "Module ID plate",
+        "Deployable worktop surface",
+        "Open laptop computer setup",
+        "Small accessory drawer unit",
+        "Pull handle on drawer",
+        "Rugged case representation (laptop/monitor)",
+        "Drawer sliding mechanism visualization"
+      ],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "warnings": [],
+      "limitations": "visual concept review only",
+      "model": "google/gemma-4-e4b",
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M09/BN-M09-iso.png",
+      "image_sha256": "ea9d966bb64b5c5d496e8a0c697d39d0304697227a904233f6f60f87c7492fc8"
+    },
+    {
+      "module_id": "BN-M10",
+      "verdict": "PASS",
+      "recognizable_as": "Overland Storage Module (Camp Furniture)",
+      "visible_cues": [
+        "10-Series extrusion frame structure",
+        "Dark infill panels",
+        "Module ID plate (H10)",
+        "Folded furniture forms (brown boxes)",
+        "Rolled fabric cylinders",
+        "Compression straps"
+      ],
+      "missing_or_unclear": [],
+      "blocking_findings": [],
+      "warnings": [],
+      "model": "google/gemma-4-e4b",
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M10/BN-M10-iso.png",
+      "image_sha256": "1d892f92c0789bb6f6fc65bd792c9900887e44c4894bdfe8ea0c6b885fb0fd6f"
+    }
+  ],
+  "authority": "advisory visual review; cannot establish engineering or fabrication readiness"
+}

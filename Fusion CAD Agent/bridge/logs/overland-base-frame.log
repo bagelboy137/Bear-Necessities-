@@ -1,0 +1,387 @@
+
+======================================================================
+RUN 2026-08-20 21:18:22  model=qwen2.5-coder-7b-instruct
+======================================================================
+
+--- attempt 1/10 ---
+  generated 1247 chars in 17s -> overland-base-frame_gen.py
+  ✅ SUCCESS on attempt 1 — entities: 10
+  DXF: /Users/cmken/Claude/Fusion CAD Agent/exports/overland-base-frame.dxf
+
+======================================================================
+RUN 2026-08-20 21:19:44  model=qwen2.5-coder-7b-instruct
+======================================================================
+
+--- attempt 1/12 ---
+  generated 1760 chars in 18s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Found only 1 separate view region(s); need 3 that DO NOT OVERLAP. Every view is being drawn at the same origin. Offset each view: e.g. front at (0,0), top at (0, 24.0), right at (32.0, 0). Add the offset to EVERY point of that view.
+  2. Missing a text label containing 'front'.
+  3. Missing a text label containing 'top'.
+  4. Missing a text label containing 'right'.
+  5. Cut list is missing the post member length 18.0". For a 24.0x20.0x18.0" OUTSIDE cube from 1.0" square extrusion: 4 posts @ 18.0", 4 width members @ 22.0", 4 depth members @ 18.0". Horizontal members fit BETWEEN the posts, so subtract 2 x 1.0".
+  6. Cut list quantities look wrong - there should be 4 of each of the three member types (12 members total), stated as '4x'.
+
+--- attempt 2/12 ---
+  generated 2305 chars in 26s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Found only 1 separate view region(s); need 3 that DO NOT OVERLAP. Every view is being drawn at the same origin. Offset each view: e.g. front at (0,0), top at (0, 24.0), right at (32.0, 0). Add the offset to EVERY point of that view.
+
+--- attempt 3/12 ---
+  generated 2305 chars in 25s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Found only 1 separate view region(s); need 3 that DO NOT OVERLAP. Every view is being drawn at the same origin. Offset each view: e.g. front at (0,0), top at (0, 24.0), right at (32.0, 0). Add the offset to EVERY point of that view.
+
+--- attempt 4/12 ---
+  generated 2305 chars in 22s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Found only 1 separate view region(s); need 3 that DO NOT OVERLAP. Every view is being drawn at the same origin. Offset each view: e.g. front at (0,0), top at (0, 24.0), right at (32.0, 0). Add the offset to EVERY point of that view.
+
+--- attempt 5/12 ---
+  generated 2305 chars in 22s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Found only 1 separate view region(s); need 3 that DO NOT OVERLAP. Every view is being drawn at the same origin. Offset each view: e.g. front at (0,0), top at (0, 24.0), right at (32.0, 0). Add the offset to EVERY point of that view.
+
+--- attempt 6/12 ---
+  generated 2305 chars in 22s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Found only 1 separate view region(s); need 3 that DO NOT OVERLAP. Every view is being drawn at the same origin. Offset each view: e.g. front at (0,0), top at (0, 24.0), right at (32.0, 0). Add the offset to EVERY point of that view.
+
+--- attempt 7/12 ---
+  generated 2305 chars in 22s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Found only 1 separate view region(s); need 3 that DO NOT OVERLAP. Every view is being drawn at the same origin. Offset each view: e.g. front at (0,0), top at (0, 24.0), right at (32.0, 0). Add the offset to EVERY point of that view.
+
+--- attempt 8/12 ---
+  generated 2305 chars in 22s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Found only 1 separate view region(s); need 3 that DO NOT OVERLAP. Every view is being drawn at the same origin. Offset each view: e.g. front at (0,0), top at (0, 24.0), right at (32.0, 0). Add the offset to EVERY point of that view.
+
+--- attempt 9/12 ---
+  generated 2305 chars in 22s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Found only 1 separate view region(s); need 3 that DO NOT OVERLAP. Every view is being drawn at the same origin. Offset each view: e.g. front at (0,0), top at (0, 24.0), right at (32.0, 0). Add the offset to EVERY point of that view.
+
+--- attempt 10/12 ---
+  generated 2305 chars in 22s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Found only 1 separate view region(s); need 3 that DO NOT OVERLAP. Every view is being drawn at the same origin. Offset each view: e.g. front at (0,0), top at (0, 24.0), right at (32.0, 0). Add the offset to EVERY point of that view.
+
+--- attempt 11/12 ---
+  generated 2305 chars in 22s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Found only 1 separate view region(s); need 3 that DO NOT OVERLAP. Every view is being drawn at the same origin. Offset each view: e.g. front at (0,0), top at (0, 24.0), right at (32.0, 0). Add the offset to EVERY point of that view.
+
+--- attempt 12/12 ---
+  generated 2305 chars in 22s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Found only 1 separate view region(s); need 3 that DO NOT OVERLAP. Every view is being drawn at the same origin. Offset each view: e.g. front at (0,0), top at (0, 24.0), right at (32.0, 0). Add the offset to EVERY point of that view.
+
+❌ no working script after 12 attempts
+
+======================================================================
+RUN 2026-08-20 21:25:04  model=qwen2.5-coder-7b-instruct
+======================================================================
+
+--- attempt 1/12 ---
+  generated 2900 chars in 36s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Missing a text label containing 'front'.
+  2. Missing a text label containing 'top'.
+  3. Missing a text label containing 'right'.
+  4. Cut list is missing the width member length 22.0". For a 24.0x20.0x18.0" OUTSIDE cube from 1.0" square extrusion: 4 posts @ 18.0", 4 width members @ 22.0", 4 depth members @ 18.0". Horizontal members fit BETWEEN the posts, so subtract 2 x 1.0".
+
+--- attempt 2/12 ---
+  generated 2900 chars in 37s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Missing a text label containing 'front'.
+  2. Missing a text label containing 'top'.
+  3. Missing a text label containing 'right'.
+
+--- attempt 3/12 ---
+  generated 3171 chars in 35s -> overland-base-frame_gen.py
+  ✅ SUCCESS on attempt 3 — VALID: 13 geometry entities, 9 separate views, 17 text items
+  DXF: /Users/cmken/Claude/Fusion CAD Agent/exports/overland-base-frame.dxf
+
+======================================================================
+RUN 2026-08-20 21:27:47  model=qwen2.5-coder-7b-instruct
+======================================================================
+
+--- attempt 1/15 ---
+  generated 2703 chars in 28s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 18, in <module>
+    doc.units = ezdxf.units.INCHES
+AttributeError: module 'ezdxf.units' has no attribute 'INCHES'
+
+--- attempt 2/15 ---
+  generated 2824 chars in 32s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 44, in <module>
+    msp.add_line(place([(0, 0), (corner_bracket_length, 0)], FRONT_DX, FRONT_DY))
+TypeError: add_line() missing 1 required positional argument: 'end'
+
+--- attempt 3/15 ---
+  identical output to last attempt (stuck x1) -> raising temperature to 0.40
+  generated 2824 chars in 32s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 44, in <module>
+    msp.add_line(place([(0, 0), (corner_bracket_length, 0)], FRONT_DX, FRONT_DY))
+TypeError: add_line() missing 1 required positional argument: 'end'
+
+--- attempt 4/15 ---
+  identical output to last attempt (stuck x2) -> raising temperature to 0.65
+  generated 2824 chars in 28s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 44, in <module>
+    msp.add_line(place([(0, 0), (corner_bracket_length, 0)], FRONT_DX, FRONT_DY))
+TypeError: add_line() missing 1 required positional argument: 'end'
+
+--- attempt 5/15 ---
+  identical output to last attempt (stuck x3) -> raising temperature to 0.90
+  generated 2824 chars in 28s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 44, in <module>
+    msp.add_line(place([(0, 0), (corner_bracket_length, 0)], FRONT_DX, FRONT_DY))
+TypeError: add_line() missing 1 required positional argument: 'end'
+
+--- attempt 6/15 ---
+  generated 2832 chars in 28s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 44, in <module>
+    msp.add_line(place([(0, H), (corner_bracket_length, H)], FRONT_DX, FRONT_DY))
+TypeError: add_line() missing 1 required positional argument: 'end'
+
+--- attempt 7/15 ---
+  generated 2572 chars in 30s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 44, in <module>
+    msp.add_line(place([(0, H), (D, H)], FRONT_DX, FRONT_DY))
+TypeError: add_line() missing 1 required positional argument: 'end'
+
+--- attempt 8/15 ---
+  generated 2592 chars in 29s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 44, in <module>
+    msp.add_line(place([(0, H), (D, H)], FRONT_DX, FRONT_DY))
+TypeError: add_line() missing 1 required positional argument: 'end'
+
+--- attempt 9/15 ---
+  identical output to last attempt (stuck x1) -> raising temperature to 0.40
+  generated 2592 chars in 29s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 44, in <module>
+    msp.add_line(place([(0, H), (D, H)], FRONT_DX, FRONT_DY))
+TypeError: add_line() missing 1 required positional argument: 'end'
+
+--- attempt 10/15 ---
+  identical output to last attempt (stuck x2) -> raising temperature to 0.65
+  generated 2592 chars in 27s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 44, in <module>
+    msp.add_line(place([(0, H), (D, H)], FRONT_DX, FRONT_DY))
+TypeError: add_line() missing 1 required positional argument: 'end'
+
+--- attempt 11/15 ---
+  identical output to last attempt (stuck x3) -> raising temperature to 0.90
+  generated 2592 chars in 27s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 44, in <module>
+    msp.add_line(place([(0, H), (D, H)], FRONT_DX, FRONT_DY))
+TypeError: add_line() missing 1 required positional argument: 'end'
+
+--- attempt 12/15 ---
+  generated 2540 chars in 27s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 44, in <module>
+    msp.add_line(place([(0, H), (D, H)], FRONT_DX, FRONT_DY))
+TypeError: add_line() missing 1 required positional argument: 'end'
+
+--- attempt 13/15 ---
+  generated 3303 chars in 36s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 44, in <module>
+    msp.add_line(place([(0, H - corner_bracket_width / 2), (D + corner_bracket_width / 2, H - corner_bracket_width / 2)], FRONT_DX, FRONT_DY))
+TypeError: add_line() missing 1 required positional argument: 'end'
+
+--- attempt 14/15 ---
+  generated 4842 chars in 53s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(24.0), np.float64(20.0)), (np.float64(24.0), np.float64(18.0)), (np.float64(20.5), np.float64(20.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Cut list is missing the width member length 22.0". For a 24.0x20.0x18.0" OUTSIDE cube from 1.0" square extrusion: 4 posts @ 18.0", 4 width members @ 22.0", 4 depth members @ 18.0". Horizontal members fit BETWEEN the posts, so subtract 2 x 1.0".
+  3. Only 15 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 15/15 ---
+  generated 4519 chars in 57s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(24.0), np.float64(19.0)), (np.float64(23.0), np.float64(18.0)), (np.float64(20.0), np.float64(20.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+
+❌ no working script after 15 attempts
+
+======================================================================
+RUN 2026-08-20 21:36:40  model=qwen2.5-coder-7b-instruct
+======================================================================
+
+--- attempt 1/20 ---
+  generated 1564 chars in 18s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 22, in <module>
+    doc.units = ezdxf.units.INCHES
+AttributeError: module 'ezdxf.units' has no attribute 'INCHES'
+
+--- attempt 2/20 ---
+  generated 1561 chars in 18s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. Missing a text label containing 'front'.
+  2. Missing a text label containing 'top'.
+  3. Missing a text label containing 'right'.
+  4. Cut list is missing the width member length 22.0". For a 24.0x20.0x18.0" OUTSIDE cube from 1.0" square extrusion: 4 posts @ 18.0", 4 width members @ 22.0", 4 depth members @ 18.0". Horizontal members fit BETWEEN the posts, so subtract 2 x 1.0".
+  5. Only 3 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+  ** new best: 5 error(s) -> overland-base-frame-best.dxf
+
+--- attempt 3/20 ---
+  generated 2500 chars in 28s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(24.0), np.float64(20.0)), (np.float64(24.0), np.float64(18.0)), (np.float64(22.0), np.float64(18.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Missing a text label containing 'front'.
+  3. Missing a text label containing 'top'.
+  4. Missing a text label containing 'right'.
+  5. Only 9 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 4/20 ---
+  generated 2361 chars in 27s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(24.0), np.float64(20.0)), (np.float64(24.0), np.float64(18.0)), (np.float64(22.0), np.float64(18.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Cut list is missing the post member length 18.0". For a 24.0x20.0x18.0" OUTSIDE cube from 1.0" square extrusion: 4 posts @ 18.0", 4 width members @ 22.0", 4 depth members @ 18.0". Horizontal members fit BETWEEN the posts, so subtract 2 x 1.0".
+  3. Cut list quantities look wrong - there should be 4 of each of the three member types (12 members total), stated as '4x'.
+  4. Only 9 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+  ** new best: 4 error(s) -> overland-base-frame-best.dxf
+
+--- attempt 5/20 ---
+  generated 3137 chars in 37s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(24.0), np.float64(18.0)), (np.float64(24.0), np.float64(18.0)), (np.float64(22.0), np.float64(18.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Only 12 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+  ** new best: 2 error(s) -> overland-base-frame-best.dxf
+
+--- attempt 6/20 ---
+  identical output to last attempt (stuck x1) -> raising temperature to 0.40
+  generated 3137 chars in 43s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(24.0), np.float64(18.0)), (np.float64(24.0), np.float64(18.0)), (np.float64(22.0), np.float64(18.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Only 12 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 7/20 ---
+  identical output to last attempt (stuck x2) -> raising temperature to 0.65
+  generated 3137 chars in 36s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(24.0), np.float64(18.0)), (np.float64(24.0), np.float64(18.0)), (np.float64(22.0), np.float64(18.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Only 12 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 8/20 ---
+  generated 3759 chars in 48s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 31, in <module>
+    msp.add_rectangle(FRONT_DX + 1.0, FRONT_DY + 2.0, FRONT_DX + W - 3.0, FRONT_DY + H - 2.0)
+AttributeError: 'Modelspace' object has no attribute 'add_rectangle'
+
+--- attempt 9/20 ---
+  generated 2201 chars in 30s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(24.0), np.float64(18.0)), (np.float64(24.0), np.float64(18.0)), (np.float64(22.0), np.float64(18.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Cut list is missing the width member length 22.0". For a 24.0x20.0x18.0" OUTSIDE cube from 1.0" square extrusion: 4 posts @ 18.0", 4 width members @ 22.0", 4 depth members @ 18.0". Horizontal members fit BETWEEN the posts, so subtract 2 x 1.0".
+  3. Only 6 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 10/20 ---
+  generated 2241 chars in 29s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(23.0), np.float64(19.0)), (np.float64(23.0), np.float64(18.0)), (np.float64(23.0), np.float64(17.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Only 6 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 11/20 ---
+  generated 2529 chars in 34s -> overland-base-frame_gen.py
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen.py", line 31, in <module>
+    msp.add_rectangle(FRONT_DX + 2.0, FRONT_DY + H - 1.0, W - 3.0, FRONT_DY + 2.0).close()
+AttributeError: 'Modelspace' object has no attribute 'add_rectangle'
+
+--- attempt 12/20 ---
+  generated 2238 chars in 28s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(23.0), np.float64(19.0)), (np.float64(23.0), np.float64(18.0)), (np.float64(23.0), np.float64(17.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Cut list is missing the width member length 22.0". For a 24.0x20.0x18.0" OUTSIDE cube from 1.0" square extrusion: 4 posts @ 18.0", 4 width members @ 22.0", 4 depth members @ 18.0". Horizontal members fit BETWEEN the posts, so subtract 2 x 1.0".
+  3. Only 6 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 13/20 ---
+  generated 2613 chars in 33s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(23.0), np.float64(18.0)), (np.float64(23.0), np.float64(17.0)), (np.float64(23.0), np.float64(17.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Only 9 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 14/20 ---
+  generated 2649 chars in 34s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(23.0), np.float64(17.0)), (np.float64(23.0), np.float64(17.0)), (np.float64(19.0), np.float64(19.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Only 9 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 15/20 ---
+  generated 2649 chars in 35s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(23.0), np.float64(17.0)), (np.float64(23.0), np.float64(17.0)), (np.float64(19.0), np.float64(19.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Cut list is missing the post member length 18.0". For a 24.0x20.0x18.0" OUTSIDE cube from 1.0" square extrusion: 4 posts @ 18.0", 4 width members @ 22.0", 4 depth members @ 18.0". Horizontal members fit BETWEEN the posts, so subtract 2 x 1.0".
+  3. Only 9 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 16/20 ---
+  generated 2649 chars in 33s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(23.0), np.float64(17.0)), (np.float64(23.0), np.float64(17.0)), (np.float64(19.0), np.float64(19.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Only 9 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 17/20 ---
+  generated 2649 chars in 31s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(23.0), np.float64(17.0)), (np.float64(23.0), np.float64(17.0)), (np.float64(19.0), np.float64(19.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Cut list is missing the width member length 22.0". For a 24.0x20.0x18.0" OUTSIDE cube from 1.0" square extrusion: 4 posts @ 18.0", 4 width members @ 22.0", 4 depth members @ 18.0". Horizontal members fit BETWEEN the posts, so subtract 2 x 1.0".
+  3. Only 9 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 18/20 ---
+  generated 2649 chars in 33s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(23.0), np.float64(17.0)), (np.float64(23.0), np.float64(17.0)), (np.float64(19.0), np.float64(19.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Only 9 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 19/20 ---
+  generated 2693 chars in 32s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(23.0), np.float64(17.0)), (np.float64(23.0), np.float64(17.0)), (np.float64(19.0), np.float64(19.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Only 9 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+--- attempt 20/20 ---
+  generated 3845 chars in 52s -> overland-base-frame_gen.py
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(23.0), np.float64(17.0)), (np.float64(23.0), np.float64(17.0)), (np.float64(19.0), np.float64(19.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Only 18 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+
+❌ no fully-clean script after 20 attempts
+Best attempt had 2 remaining error(s):
+  VALIDATION FAILED:
+  1. View sizes are wrong. Got [(np.float64(24.0), np.float64(18.0)), (np.float64(24.0), np.float64(18.0)), (np.float64(22.0), np.float64(18.0))]. Expected exactly these three (width x height, inches): front 24.0x18.0, top 24.0x20.0, right 20.0x18.0. NOTE the right view uses DEPTH (20.0) for its width, not WIDTH (24.0).
+  2. Only 12 geometry entities - the views are empty outline boxes. DRAW THE 12 EXTRUSION MEMBERS. In the front view show the 2 vertical posts and 2 horizontal members as 1.0" wide rectangles inset at the frame edges; do the same for top and right. Expect roughly 8-12 rectangles PER view, not one.
+Kept: /Users/cmken/Claude/Fusion CAD Agent/exports/overland-base-frame-best.dxf
+      /Users/cmken/Claude/Fusion CAD Agent/scripts/overland-base-frame_gen-best.py

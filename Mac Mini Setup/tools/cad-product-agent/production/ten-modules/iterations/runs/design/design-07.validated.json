@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "cycle_id": "design-07",
+  "stage": "design",
+  "cycle": 7,
+  "criterion": {
+    "cycle": 7,
+    "criterion": "cleaning_and_drainage",
+    "question": "Are spill, dirt, ventilation, and drainage paths addressed where the module's use requires them?"
+  },
+  "model": "qwen/qwen2.5-coder-14b",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T01:52:52.525773+00:00",
+  "prompt_sha256": "894396d0b4d61f94e009fac52b250941451d05c4c03ce84e0cb3d554a2366c1c",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/design/design-07.attempt-1.raw.txt",
+      "sha256": "401e1efaeeb33828b91f245870aac2d6e18e5a8a1bd31a19fc1cdf95353c0d55",
+      "usage": {
+        "prompt_tokens": 1855,
+        "completion_tokens": 1180,
+        "total_tokens": 3035,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1855,
+    "completion_tokens": 1180,
+    "total_tokens": 3035,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "design-07",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module has a pull-out stove tray and upper prep surface, which address spill and dirt concerns. The wind guard provides ventilation.",
+        "evidence_ids": [
+          "COMP-GOOSE-GEAR-CAMPKITCHEN",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for proper drainage of the stove tray and ventilation through the wind guard.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module has visible pulls and compression latches, which address spill and dirt concerns. The design allows for easy cleaning.",
+        "evidence_ids": [
+          "COMP-AT-OVERLAND-DRAWER",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for proper drainage and ventilation through the open upper divided tray.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module has vents and a slide tray, which address spill and dirt concerns. The restraint strap provides additional security.",
+        "evidence_ids": [
+          "COMP-MODULR-FRIDGE-SLIDE",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for proper drainage and ventilation through the vents.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module has a drain, visible pump and grey-water tank, which address spill and dirt concerns. The blue hose route provides ventilation.",
+        "evidence_ids": [
+          "COMP-GOOSE-GEAR-CAMPKITCHEN",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for proper drainage through the drain and ventilation through the blue hose route.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module has a fill cap, spigot, and service pump, which address spill and dirt concerns. The low restraint straps provide additional security.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check for proper drainage through the spill tray and accessibility of the pump/spigot.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module has adjustable shelf, MOLLE panel and slots, which address spill and dirt concerns. The recovery rope and soft shackles provide additional security.",
+        "evidence_ids": [
+          "COMP-AT-OVERLAND-DRAWER",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for proper drainage and ventilation through the MOLLE panel.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module has vents, cable drawer and bulkhead, which address spill and dirt concerns. The display, charging ports and ventilation remain open.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check for proper drainage and ventilation through the vents.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module has vents, shower head, hose route, which address spill and dirt concerns. The heater is transported only in the module.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS"
+        ],
+        "acceptance_check": "Check for proper drainage and ventilation through the vents.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module has latches/ribs, deployed worktop, which address spill and dirt concerns. The case and drawer open independently.",
+        "evidence_ids": [
+          "COMP-LONE-PEAK-DRAWER",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for proper drainage and ventilation through the case.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module has rolled soft goods, contrasting compression straps, which address spill and dirt concerns. The cargo net and anchors provide additional security.",
+        "evidence_ids": [
+          "COMP-OVS-MOLLE",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check for proper drainage and ventilation through the cargo net.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

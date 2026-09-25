@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "research_date": "2026-08-25",
+  "currency": "USD",
+  "rules": [
+    "Local models may cite these catalog IDs but may not invent vendors, SKUs, dimensions, ratings, availability, certifications, prices, or URLs.",
+    "ORDERABLE means an online product/order page was visible on the research date; it is not a stock guarantee.",
+    "DEALER_ORDER and SOLD_OUT remain procurement holds until availability is reconfirmed.",
+    "Engineering-hold hardware may be bought only for prototype testing, never treated as a released joint or vehicle restraint.",
+    "ots_class is an axis INDEPENDENT of status: status says whether you can buy it today, ots_class says whether it is off the shelf at all. An ENGINEERING_HOLD part can be OTS_STOCK, and frequently is."
+  ],
+  "components": [
+    {
+      "id": "TNUTZ-EX1010-18",
+      "vendor": "TNUTZ",
+      "part_number": "EX-1010",
+      "description": "1 x 1 inch smooth 10-Series aluminum extrusion, cut to 18 inches",
+      "dimensions_in": [
+        18,
+        1,
+        1
+      ],
+      "status": "ORDERABLE",
+      "evidence_url": "https://www.tnutz.com/product/ex-1010/",
+      "order_url": "https://www.tnutz.com/product/ex-1010/",
+      "notes": "Select 18-inch length, no machining; 8 per module.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "orderable length from the product dropdown (1-96 in, 1/16 in steps); no saw, no cut fee shown"
+    },
+    {
+      "id": "TNUTZ-EX1010-22",
+      "vendor": "TNUTZ",
+      "part_number": "EX-1010",
+      "description": "1 x 1 inch smooth 10-Series aluminum extrusion, cut to 22 inches",
+      "dimensions_in": [
+        22,
+        1,
+        1
+      ],
+      "status": "ORDERABLE",
+      "evidence_url": "https://www.tnutz.com/product/ex-1010/",
+      "order_url": "https://www.tnutz.com/product/ex-1010/",
+      "notes": "Select 22-inch length, no machining; 4 per module.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "same dropdown; 22 in is a catalogue selection"
+    },
+    {
+      "id": "8020-4132",
+      "vendor": "80/20",
+      "part_number": "4132",
+      "description": "10-Series black gusseted inside corner bracket",
+      "status": "ENGINEERING_HOLD",
+      "evidence_url": "https://8020.net/4132.html",
+      "order_url": "https://8020.net/4132.html",
+      "notes": "Prototype joint candidate; 24 per frame. Dynamic-load test required.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "catalogue bracket, buy as-is"
+    },
+    {
+      "id": "8020-3393",
+      "vendor": "80/20",
+      "part_number": "3393",
+      "description": "1/4-20 x 0.500 inch bolt and slide-in economy T-nut assembly for bracket 4132",
+      "status": "ENGINEERING_HOLD",
+      "evidence_url": "https://8020.net/3393.html",
+      "order_url": "https://8020.net/3393.html",
+      "notes": "Two assemblies per 4132 bracket; 48 per frame.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "catalogue fastener assembly, buy as-is"
+    },
+    {
+      "id": "TNUTZ-HAN015AL",
+      "vendor": "TNUTZ",
+      "part_number": "HAN-015-AL",
+      "description": "Black aluminum carry handle with 10-Series mounting hardware",
+      "status": "ORDERABLE_CHECK_STOCK",
+      "evidence_url": "https://www.tnutz.com/product/han-015-al/",
+      "order_url": "https://www.tnutz.com/product/han-015-al/",
+      "notes": "Two per module; obtain current load rating before lifting a loaded module.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "catalogue handle with its mounting hardware"
+    },
+    {
+      "id": "TNUTZ-GAS010A",
+      "vendor": "TNUTZ",
+      "part_number": "GAS-010-A",
+      "description": "10-Series panel gasket for approximately 3/16-inch panels",
+      "status": "ORDERABLE",
+      "evidence_url": "https://www.tnutz.com/product/gas-010-a/",
+      "order_url": "https://www.tnutz.com/product/gas-010-a/",
+      "notes": "Prototype allowance 20 ft per module, trim after panel drawings.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "sold by the foot; trimmed by hand, no machining"
+    },
+    {
+      "id": "TNUTZ-BUM010TS",
+      "vendor": "TNUTZ",
+      "part_number": "BUM-010-TS",
+      "description": "10-Series anti-skid rubber tread strip",
+      "status": "ORDERABLE",
+      "evidence_url": "https://www.tnutz.com/product/bum-010-ts/",
+      "order_url": "https://www.tnutz.com/product/bum-010-ts/",
+      "notes": "Prototype allowance 8 ft per module; verify vehicle-floor compatibility.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "sold by the foot; trimmed by hand, no machining"
+    },
+    {
+      "id": "TAP-HYPACT-PANEL",
+      "vendor": "TAP Plastics",
+      "part_number": "King Hy-Pact custom cut",
+      "description": "Black UV-stabilized polymer sheet cut to size for skins, trays, dividers, and non-hot work surfaces",
+      "status": "ORDERABLE_CUSTOM_CUT",
+      "evidence_url": "https://www.tapplastics.com/product/plastics/cut_to_size_plastic/hypact_vhmw_polyethylene/527",
+      "order_url": "https://www.tapplastics.com/product/plastics/cut_to_size_plastic/hypact_vhmw_polyethylene/527",
+      "notes": "Upload final panel dimensions and holes only after tolerance drawings; thickness is module-specific.",
+      "ots_class": "CUSTOM_FLAT",
+      "ots_rationale": "flat sheet cut to size from a released DXF; satisfies the standing flat-plate rule"
+    },
+    {
+      "id": "ACCURIDE-3832-C16",
+      "vendor": "Accuride",
+      "part_number": "3832-C16",
+      "description": "16-inch full-extension side-mount drawer-slide pair",
+      "dimensions_in": [
+        15.75,
+        null,
+        null
+      ],
+      "status": "DEALER_ORDER_ENGINEERING_HOLD",
+      "evidence_url": "https://www.accuride.com/media/amasty/amfile/attach/d4ba99d10b86f194bef3fdc51f9ccb24.pdf",
+      "order_url": "https://www.accuride.com/en-us/products/3832ec-easy-close-light-duty-slide",
+      "notes": "Representative shared 3832 family; verify exact suffix, load, side clearance, lock behavior, and corrosion finish before order.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "catalogue slide pair"
+    },
+    {
+      "id": "SOUTHCO-E3-57-25",
+      "vendor": "Southco",
+      "part_number": "E3-57-25",
+      "description": "Small black knob-style VISE ACTION compression latch",
+      "status": "ORDERABLE_ENGINEERING_HOLD",
+      "evidence_url": "https://shop.southco.com/e3-57-25",
+      "order_url": "https://shop.southco.com/e3-57-25",
+      "notes": "Grip range 6.4-9.5 mm; confirm cam geometry and panel stack before order.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "catalogue latch; its panel cut-out belongs to the panel, not to this part"
+    },
+    {
+      "id": "NRS-HD-STRAP",
+      "vendor": "NRS",
+      "part_number": "1-inch HD Tie-Down Strap",
+      "description": "UV-protected one-inch polypropylene cam strap; select field-fit length",
+      "status": "ORDERABLE_ENGINEERING_HOLD",
+      "evidence_url": "https://www.nrs.com/nrs-1-hd-tie-down-straps/p4yc",
+      "order_url": "https://www.nrs.com/nrs-1-hd-tie-down-straps/p4yc",
+      "notes": "Published 500-lb WLL, but module anchor/load path still requires engineering and dynamic testing.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "catalogue cam strap"
+    },
+    {
+      "id": "JETBOIL-GENESIS",
+      "vendor": "Jetboil",
+      "part_number": "UPC 0858941006274",
+      "description": "Genesis Basecamp two-burner stove",
+      "dimensions_in": [
+        9.8,
+        9.8,
+        4.6
+      ],
+      "status": "ORDERABLE",
+      "evidence_url": "https://jetboil.johnsonoutdoors.com/us/shop/stoves-systems/genesis-basecamp-stove",
+      "order_url": "https://jetboil.johnsonoutdoors.com/us/shop/stoves-systems/genesis-basecamp-stove",
+      "notes": "Stove, regulator and carry bag included as listed; propane bottle transported separately.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "consumer product bought whole"
+    },
+    {
+      "id": "RUBBERMAID-FG350700WHT",
+      "vendor": "Rubbermaid Commercial",
+      "part_number": "FG350700WHT",
+      "description": "2-gallon 18 x 12 x 3.5 inch polyethylene Food/Tote box",
+      "dimensions_in": [
+        18,
+        12,
+        3.5
+      ],
+      "status": "DEALER_ORDER",
+      "evidence_url": "https://www.rubbermaidcommercial.com/foodservice/food-storage/foodtote-boxes-polyethylene/?sku=FG350700WHT",
+      "order_url": "https://www.rubbermaidcommercial.com/foodservice/food-storage/foodtote-boxes-polyethylene/?sku=FG350700WHT",
+      "notes": "Three shallow boxes fit the pantry concept vertically; select matching lids through the manufacturer/dealer and confirm actual stacked/lid clearance.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "commercial catalogue tote"
+    },
+    {
+      "id": "ENGEL-MD14",
+      "vendor": "Engel",
+      "part_number": "MD-14F",
+      "description": "15-quart top-opening 12V fridge/freezer",
+      "dimensions_in": [
+        17.5,
+        11.3,
+        15.8
+      ],
+      "status": "SOLD_OUT",
+      "evidence_url": "https://engelcoolers.com/products/md14-ems-ambulance-fridge",
+      "order_url": "https://engelcoolers.com/products/md14-ems-ambulance-fridge",
+      "notes": "Do not rely on this as buy-ready until Engel restocks.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "consumer product bought whole"
+    },
+    {
+      "id": "ENGEL-MHD13-ALT",
+      "vendor": "Engel / Zoro",
+      "part_number": "MHD13F-DM / Zoro G7673053",
+      "description": "14-quart top-opening 12/24V fridge/freezer/warmer alternate",
+      "dimensions_in": [
+        17.5,
+        11.3,
+        14.5
+      ],
+      "status": "ORDERABLE_ALTERNATE_VERIFY",
+      "evidence_url": "https://engelcoolers.com/products/mhd13-ems-ambulance-fridge",
+      "order_url": "https://www.zoro.com/engel-marine-chest-cooler-140-qt-capacity-mhd13f-dm/i/G7673053/",
+      "notes": "Retailer listed an order page on research date; verify dimensional discrepancy, intended food use, warranty and availability before purchase.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "consumer product bought whole"
+    },
+    {
+      "id": "DOMETIC-VA8005",
+      "vendor": "Dometic",
+      "part_number": "VA8005 / 9102303252",
+      "description": "Square stainless sink with glass cover and AC 540 siphon",
+      "dimensions_in": [
+        16.6,
+        14.6,
+        5.8
+      ],
+      "status": "ORDERABLE",
+      "evidence_url": "https://www.dometic.com/en-us/product/dometic-va8000-series-square-sink-with-1-hole-faucet-glass-cover-9102303252?v=9102303252",
+      "order_url": "https://www.dometic.com/en-us/product/dometic-va8000-series-square-sink-with-1-hole-faucet-glass-cover-9102303252?v=9102303252",
+      "notes": "Direct page showed ready-to-ship status; faucet is sold separately.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "catalogue sink and siphon"
+    },
+    {
+      "id": "SHURFLO-4008",
+      "vendor": "Pentair Shurflo",
+      "part_number": "4008-101-E65",
+      "description": "12V 3-GPM Revolution fresh-water demand pump",
+      "dimensions_in": [
+        8.1,
+        4.9,
+        4.3
+      ],
+      "status": "DEALER_ORDER_ENGINEERING_HOLD",
+      "evidence_url": "https://www.pentair.com/en-us/flow/shurflo/shurflo-products/shurflo-rv-applications/water-delivery-pumps/shurflo-revolution-4008-series-by-pass-pump/sku/4008-101-e65.html",
+      "order_url": "https://www.pentair.com/en-us/flow/shurflo/shurflo-products/shurflo-rv-applications/water-delivery-pumps/shurflo-revolution-4008-series-by-pass-pump/sku/4008-101-e65.html",
+      "notes": "Requires flexible high-pressure hose, 10-A fuse, 12V wiring, connectors, and pressure-compatible plumbing selected after schematic review.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "catalogue pump"
+    },
+    {
+      "id": "RELIANCE-AQUATAINER-4G",
+      "vendor": "Reliance Outdoors",
+      "part_number": "9405-03R",
+      "description": "4-gallon Aqua-Tainer for removable grey-water prototype",
+      "dimensions_in": [
+        11.5,
+        11.25,
+        10.75
+      ],
+      "status": "DEALER_ORDER",
+      "evidence_url": "https://relianceoutdoors.com/collections/aqua-storage/products/aqua-tainer-4g-15l",
+      "order_url": "https://relianceoutdoors.com/collections/aqua-storage/products/aqua-tainer-4g-15l",
+      "notes": "Manufacturer no longer sells direct; use its dealer locator. Permanently label grey-water use and never return it to potable service.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "consumer container bought whole"
+    },
+    {
+      "id": "RELIANCE-AQUATAINER-7G",
+      "vendor": "Reliance Outdoors",
+      "part_number": "9410-03R",
+      "description": "7-gallon Aqua-Tainer potable-water container",
+      "dimensions_in": [
+        11.5,
+        11.25,
+        15.75
+      ],
+      "status": "DEALER_ORDER",
+      "evidence_url": "https://relianceoutdoors.com/collections/aqua-storage/products/aqua-tainer-4g-15l",
+      "order_url": "https://relianceoutdoors.com/collections/aqua-storage/products/aqua-tainer-4g-15l",
+      "notes": "Manufacturer no longer sells direct; use its dealer locator. Full water mass is approximately 58 lb before container/hardware.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "consumer container bought whole"
+    },
+    {
+      "id": "PELICAN-1450",
+      "vendor": "Pelican",
+      "part_number": "1450-000-110",
+      "description": "1450 Protector Case with foam",
+      "dimensions_in": [
+        16.44,
+        13,
+        6.82
+      ],
+      "status": "ORDERABLE",
+      "evidence_url": "https://www.pelican.com/us/en/product/cases/1450",
+      "order_url": "https://www.pelican.com/us/en/product/cases/1450",
+      "notes": "Recovery payload and drawer mounting remain prototype tests.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "catalogue case"
+    },
+    {
+      "id": "ECOFLOW-RIVER3-PLUS",
+      "vendor": "EcoFlow",
+      "part_number": "RIVER 3 Plus",
+      "description": "286Wh portable power station",
+      "dimensions_in": [
+        9.2,
+        9.1,
+        5.8
+      ],
+      "status": "ORDERABLE",
+      "evidence_url": "https://us.ecoflow.com/collections/all-products/products/river-3-plus-portable-power-station",
+      "order_url": "https://us.ecoflow.com/collections/all-products/products/river-3-plus-portable-power-station",
+      "notes": "Keep manufacturer-required ventilation and all ports accessible; do not treat the module as a certified electrical enclosure.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "consumer product bought whole"
+    },
+    {
+      "id": "JOOLCA-HOTTAP-V2",
+      "vendor": "Joolca",
+      "part_number": "HOTTAP V2 Essentials",
+      "description": "Portable propane hot-water/shower kit",
+      "dimensions_in": [
+        11.4,
+        6.6,
+        17.7
+      ],
+      "status": "ORDERABLE",
+      "evidence_url": "https://support.joolca.com/hc/en-us/articles/360001472375-HOTTAP-V2-specifications",
+      "order_url": "https://www.joolca.com/products/hottap-v2?country=US",
+      "notes": "Unit is transported horizontally in the module, deployed and operated outdoors only; propane bottle remains separate.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "consumer kit bought whole"
+    },
+    {
+      "id": "PELICAN-1485",
+      "vendor": "Pelican",
+      "part_number": "1485 Air",
+      "description": "1485 Air Case with configurable foam/dividers",
+      "dimensions_in": [
+        19.17,
+        12.8,
+        6.89
+      ],
+      "status": "ORDERABLE",
+      "evidence_url": "https://business.pelican.com/us/en/product/Cases/Air/1485",
+      "order_url": "https://www.pelican.com/us/en/product/cases/air/1485",
+      "notes": "Select exact interior configuration for the field-office/camera payload.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "catalogue case"
+    },
+    {
+      "id": "HELINOX-CHAIR-ONE",
+      "vendor": "Helinox",
+      "part_number": "Chair One",
+      "description": "Packable camp chair in 14 x 4.5 x 4.5 inch case",
+      "dimensions_in": [
+        14,
+        4.5,
+        4.5
+      ],
+      "status": "ORDERABLE",
+      "evidence_url": "https://helinox.com/products/chair-one",
+      "order_url": "https://helinox.com/products/chair-one",
+      "notes": "Two packed chairs fit the concept bay; verify selected color SKU stock.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "consumer product bought whole"
+    },
+    {
+      "id": "HELINOX-TABLE-ONE",
+      "vendor": "Helinox",
+      "part_number": "Table One",
+      "description": "Packable camp table in 16.5 x 4 x 4 inch case",
+      "dimensions_in": [
+        16.5,
+        4,
+        4
+      ],
+      "status": "ORDERABLE",
+      "evidence_url": "https://helinox.com/products/table-one",
+      "order_url": "https://helinox.com/products/table-one",
+      "notes": "One packed table fits the concept bay; verify selected color SKU stock.",
+      "ots_class": "OTS_STOCK",
+      "ots_rationale": "consumer product bought whole"
+    }
+  ],
+  "ots_classes": {
+    "OTS_STOCK": "Buy the catalogue item as-is. Any field trimming is hand-tool trivial.",
+    "OTS_CUT": "Catalogue item the vendor cuts to a length you specify as an ordering option.",
+    "OTS_MODIFIED": "Catalogue item that needs drilling, tapping or machining after receipt.",
+    "CUSTOM_FLAT": "Must be fabricated: a flat plate cut from sheet. The standing rule allows this.",
+    "CUSTOM_OTHER": "Must be fabricated and is NOT a flat plate. Any part landing here is a design failure to escalate, not to accept."
+  }
+}

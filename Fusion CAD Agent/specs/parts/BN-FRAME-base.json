@@ -1,0 +1,18 @@
+{
+  "id": "BN-FRAME-base",
+  "name": "Bear Necessities module base frame",
+  "units": "in",
+  "difficulty": 5,
+  "description": "The shared cube chassis every Bear Necessities module is built on: a rectangular open frame of twelve square-profile aluminium extrusion members. Four vertical corner posts run the full height. Four width members run along X and four depth members run along Y, each set fitted BETWEEN the posts at the top and the bottom. The frame's OUTSIDE dimensions must land exactly on the stated overall size. Everything is unioned into one connected solid.",
+  "constants": {"WIDTH": 24.0, "DEPTH": 20.0, "HEIGHT": 18.0, "PROFILE": 1.0},
+  "checks": {
+    "bbox": [24.0, 20.0, 18.0],
+    "bbox_tol": 0.02,
+    "volume": 232.0,
+    "volume_tol": 0.5,
+    "solids": 1,
+    "valid": true,
+    "holes_exact": false
+  },
+  "notes": "Twelve members of 1.000 square cross-section. The four posts are 18.000 long. The four width members are 22.000 long (24.000 minus two 1.000 posts) and start at x=1.000. The four depth members are 18.000 long (20.000 minus two 1.000 posts) and start at y=1.000. This gives the project's two-cut-lengths-only rule: 18in x 8 and 22in x 4, one saw setup covering 8 of the 12 pieces. Total volume is 4*18 + 4*22 + 4*18 = 232.000."
+}

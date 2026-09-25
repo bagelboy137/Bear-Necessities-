@@ -1,0 +1,5 @@
+[
+  {"suffix": "z1", "zoom": 0.18, "exposure": 8.2, "brightness": 1200.0, "light_angle": 2.4},
+  {"suffix": "z2", "zoom": 0.18, "exposure": 8.6, "brightness": 900.0,  "light_angle": 0.9},
+  {"suffix": "z3", "zoom": 0.18, "exposure": 8.6, "brightness": 700.0,  "light_angle": 0.9, "ground_reflections": true, "ground_roughness": 0.55}
+]

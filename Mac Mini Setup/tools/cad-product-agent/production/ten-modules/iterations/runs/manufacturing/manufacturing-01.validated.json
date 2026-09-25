@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "cycle_id": "manufacturing-01",
+  "stage": "manufacturing",
+  "cycle": 1,
+  "criterion": {
+    "cycle": 1,
+    "criterion": "extrusion_standardization",
+    "question": "Is the structure limited to the released 1-inch 10-Series extrusion family and fixed 18/22-inch cut list?"
+  },
+  "model": "qwen/qwen2.5-coder-14b",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T02:02:26.144339+00:00",
+  "prompt_sha256": "7f8477029341301ba1d328bfbdd8bfc2de602cf6498da389d4cad2c727c2e908",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/manufacturing/manufacturing-01.attempt-1.raw.txt",
+      "sha256": "228ec947faa686ffe1379b032d65e308e39a4108a889181e527ae68cd9faf0b2",
+      "usage": {
+        "prompt_tokens": 2850,
+        "completion_tokens": 1596,
+        "total_tokens": 4446,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2850,
+    "completion_tokens": 1596,
+    "total_tokens": 4446,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "manufacturing-01",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module adheres to the fixed 18/22-inch cut list and uses the released 1-inch 10-Series extrusion family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS",
+          "TNUTZ-EX1010-18",
+          "TNUTZ-EX1010-22"
+        ],
+        "acceptance_check": "Verify that all components are within the 18/22-inch cut list and use 10-Series extrusions.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module adheres to the fixed 18/22-inch cut list and uses the released 1-inch 10-Series extrusion family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS",
+          "TNUTZ-EX1010-18",
+          "TNUTZ-EX1010-22"
+        ],
+        "acceptance_check": "Verify that all components are within the 18/22-inch cut list and use 10-Series extrusions.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module adheres to the fixed 18/22-inch cut list and uses the released 1-inch 10-Series extrusion family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS",
+          "TNUTZ-EX1010-18",
+          "TNUTZ-EX1010-22"
+        ],
+        "acceptance_check": "Verify that all components are within the 18/22-inch cut list and use 10-Series extrusions.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module adheres to the fixed 18/22-inch cut list and uses the released 1-inch 10-Series extrusion family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS",
+          "TNUTZ-EX1010-18",
+          "TNUTZ-EX1010-22"
+        ],
+        "acceptance_check": "Verify that all components are within the 18/22-inch cut list and use 10-Series extrusions.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module adheres to the fixed 18/22-inch cut list and uses the released 1-inch 10-Series extrusion family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS",
+          "TNUTZ-EX1010-18",
+          "TNUTZ-EX1010-22"
+        ],
+        "acceptance_check": "Verify that all components are within the 18/22-inch cut list and use 10-Series extrusions.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module adheres to the fixed 18/22-inch cut list and uses the released 1-inch 10-Series extrusion family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS",
+          "TNUTZ-EX1010-18",
+          "TNUTZ-EX1010-22"
+        ],
+        "acceptance_check": "Verify that all components are within the 18/22-inch cut list and use 10-Series extrusions.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module adheres to the fixed 18/22-inch cut list and uses the released 1-inch 10-Series extrusion family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS",
+          "TNUTZ-EX1010-18",
+          "TNUTZ-EX1010-22"
+        ],
+        "acceptance_check": "Verify that all components are within the 18/22-inch cut list and use 10-Series extrusions.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module adheres to the fixed 18/22-inch cut list and uses the released 1-inch 10-Series extrusion family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS",
+          "TNUTZ-EX1010-18",
+          "TNUTZ-EX1010-22"
+        ],
+        "acceptance_check": "Verify that all components are within the 18/22-inch cut list and use 10-Series extrusions.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module adheres to the fixed 18/22-inch cut list and uses the released 1-inch 10-Series extrusion family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS",
+          "TNUTZ-EX1010-18",
+          "TNUTZ-EX1010-22"
+        ],
+        "acceptance_check": "Verify that all components are within the 18/22-inch cut list and use 10-Series extrusions.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The module adheres to the fixed 18/22-inch cut list and uses the released 1-inch 10-Series extrusion family.",
+        "evidence_ids": [
+          "CURRENT-CAD",
+          "FRAME-CONSTRAINTS",
+          "TNUTZ-EX1010-18",
+          "TNUTZ-EX1010-22"
+        ],
+        "acceptance_check": "Verify that all components are within the 18/22-inch cut list and use 10-Series extrusions.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "cycle_id": "design-08",
+  "stage": "design",
+  "cycle": 8,
+  "criterion": {
+    "cycle": 8,
+    "criterion": "ergonomics",
+    "question": "Are handles, reaches, work heights, and frequently used interfaces plausible for field use?"
+  },
+  "model": "qwen/qwen2.5-coder-14b",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T01:54:12.158873+00:00",
+  "prompt_sha256": "7bc87c412b818ea4628555f4aa2d84e504eda41c7b7f166461722bf97beac9ee",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/design/design-08.attempt-1.raw.txt",
+      "sha256": "2399827425d8765e05b6766b8f7b81a618a12aad1163f878fb051bf37697b389",
+      "usage": {
+        "prompt_tokens": 1851,
+        "completion_tokens": 1098,
+        "total_tokens": 2949,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1851,
+    "completion_tokens": 1098,
+    "total_tokens": 2949,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "design-08",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The pull-out stove tray and upper prep surface are ergonomically designed for field use.",
+        "evidence_ids": [
+          "COMP-GOOSE-GEAR-CAMPKITCHEN",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the stove tray slides toward the user and the prep surface is at a comfortable height.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The visible pulls and compression latches are ergonomically designed for field use.",
+        "evidence_ids": [
+          "COMP-AT-OVERLAND-DRAWER",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the drawers open toward the user and remain positively latched in transit.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The carry handle and slide tray are ergonomically designed for field use.",
+        "evidence_ids": [
+          "COMP-MODULR-FRIDGE-SLIDE",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the low tray slides out far enough for full lid swing and compressor ventilation.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The raised faucet and drain are ergonomically designed for field use.",
+        "evidence_ids": [
+          "COMP-GOOSE-GEAR-CAMPKITCHEN",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the faucet and basin remain accessible while pump, drain, and grey container can be serviced.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The molded handle and low restraint straps are ergonomically designed for field use.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the container can be filled or removed and pump/spigot are accessible without releasing the primary restraint.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The adjustable shelf and MOLLE panel are ergonomically designed for field use.",
+        "evidence_ids": [
+          "COMP-AT-OVERLAND-DRAWER",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that heavy gear stays low; drawer, shelf, and MOLLE tools remain independently accessible.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The display and charging ports are ergonomically designed for field use.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that display, charging ports, and ventilation remain open while the station is restrained.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The portable heater body and display are ergonomically designed for field use.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that heater is transported only in the module and operated outside with propane separate.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The rugged equipment case and latches are ergonomically designed for field use.",
+        "evidence_ids": [
+          "COMP-LONE-PEAK-DRAWER",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that case and drawer open independently and worktop has positive support.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The rolled soft goods and cargo net are ergonomically designed for field use.",
+        "evidence_ids": [
+          "COMP-OVS-MOLLE",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that individual furniture bags can be removed without unloading the entire bay.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

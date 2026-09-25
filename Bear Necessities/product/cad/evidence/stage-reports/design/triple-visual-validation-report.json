@@ -1,0 +1,427 @@
+{
+  "schema_version": 1,
+  "result": "PASS",
+  "module_count": 10,
+  "checks_per_module": 3,
+  "check_definitions": {
+    "deterministic": "Current Fusion build report has at least ten required cues, at least 50 named parts, and 24x20x18 bounds within 0.01 inch.",
+    "visual_review": "A local VLM or independent Codex image inspection passes with no missing/blocking findings and its recorded hash matches the current isometric image. Contradictory VLM output cannot pass.",
+    "web_evidence": "At least one current comparable-product or selected OTS product page is recorded for the module."
+  },
+  "independent_review": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/independent-visual-inspection.json",
+  "independent_review_sha256": "1ad30b86df2072e9ddb2510d9d7e5344dd102115ab5d74b54504d68078060e81",
+  "failures": [],
+  "modules": [
+    {
+      "module_id": "BN-M01",
+      "checks": {
+        "deterministic_named_visual_cues": true,
+        "hash_bound_independent_visual_pass": true,
+        "current_web_comparable_or_product_evidence": true
+      },
+      "visual_cue_count": 18,
+      "named_part_count": 143,
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/checkpoints/design/exports/BN-M01/BN-M01-iso.png",
+      "image_sha256": "fa1ac1efbcd81f47abaa445947916d75d7328526d364cdb7b85801febf13a5d0",
+      "visual_review_mode": "independent_codex_inspection",
+      "vlm_model": null,
+      "recognizable_as": "two-burner cook station",
+      "web_evidence": [
+        {
+          "id": "COMP-OVERLAND-KITCHEN-EX1",
+          "url": "https://www.overlandkitchen.com/shop/p/refridgerator-cabinet-dwwzw",
+          "kind": "comparable"
+        },
+        {
+          "id": "COMP-GOOSE-GEAR-CAMPKITCHEN",
+          "url": "https://www.goose-gear.com/products/campkitchen-2-2-30-deep-module",
+          "kind": "comparable"
+        },
+        {
+          "id": "COMP-OVS-KITCHEN",
+          "url": "https://overlandvehiclesystems.com/mid-size-cargo-box-kitchen",
+          "kind": "comparable"
+        },
+        {
+          "id": "COMP-TAILGATE-GEAR-KITCHEN",
+          "url": "https://www.tailgategear.eu/products/kitchen-module",
+          "kind": "comparable"
+        },
+        {
+          "id": "JETBOIL-GENESIS",
+          "url": "https://jetboil.johnsonoutdoors.com/us/shop/stoves-systems/genesis-basecamp-stove",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "ACCURIDE-3832-C16",
+          "url": "https://www.accuride.com/media/amasty/amfile/attach/d4ba99d10b86f194bef3fdc51f9ccb24.pdf",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "SOUTHCO-E3-57-25",
+          "url": "https://shop.southco.com/e3-57-25",
+          "kind": "manufacturer_or_supplier"
+        }
+      ]
+    },
+    {
+      "module_id": "BN-M02",
+      "checks": {
+        "deterministic_named_visual_cues": true,
+        "hash_bound_independent_visual_pass": true,
+        "current_web_comparable_or_product_evidence": true
+      },
+      "visual_cue_count": 17,
+      "named_part_count": 139,
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/checkpoints/design/exports/BN-M02/BN-M02-iso.png",
+      "image_sha256": "aed5adc9f306d41c41ea2459c0f609b4a4a47d80f61ff048394a398ee4bab540",
+      "visual_review_mode": "independent_codex_inspection",
+      "vlm_model": null,
+      "recognizable_as": "divided three-drawer storage module",
+      "web_evidence": [
+        {
+          "id": "COMP-GOOSE-GEAR-CAMPKITCHEN",
+          "url": "https://www.goose-gear.com/products/campkitchen-2-2-30-deep-module",
+          "kind": "comparable"
+        },
+        {
+          "id": "COMP-OVS-KITCHEN",
+          "url": "https://overlandvehiclesystems.com/mid-size-cargo-box-kitchen",
+          "kind": "comparable"
+        },
+        {
+          "id": "COMP-LONE-PEAK-DRAWER",
+          "url": "https://www.lonepeakoverland.com/a/docs/product-guides/junk-drawer-system",
+          "kind": "comparable"
+        },
+        {
+          "id": "COMP-AT-OVERLAND-DRAWER",
+          "url": "https://atoverland.com/products/double-drawer-module-20-3-16-wide-x-28-depth-1",
+          "kind": "comparable"
+        },
+        {
+          "id": "RUBBERMAID-FG350700WHT",
+          "url": "https://www.rubbermaidcommercial.com/foodservice/food-storage/foodtote-boxes-polyethylene/?sku=FG350700WHT",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "ACCURIDE-3832-C16",
+          "url": "https://www.accuride.com/media/amasty/amfile/attach/d4ba99d10b86f194bef3fdc51f9ccb24.pdf",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "SOUTHCO-E3-57-25",
+          "url": "https://shop.southco.com/e3-57-25",
+          "kind": "manufacturer_or_supplier"
+        }
+      ]
+    },
+    {
+      "module_id": "BN-M03",
+      "checks": {
+        "deterministic_named_visual_cues": true,
+        "hash_bound_independent_visual_pass": true,
+        "current_web_comparable_or_product_evidence": true
+      },
+      "visual_cue_count": 15,
+      "named_part_count": 126,
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/checkpoints/design/exports/BN-M03/BN-M03-iso.png",
+      "image_sha256": "178b7bb9e9354ee0baf567e17487f5cc88c0d5a7b6a7fdecbc8dbe19dd066c30",
+      "visual_review_mode": "independent_codex_inspection",
+      "vlm_model": null,
+      "recognizable_as": "strapped slide-out chest refrigerator",
+      "web_evidence": [
+        {
+          "id": "COMP-OVERLAND-KITCHEN-EX1",
+          "url": "https://www.overlandkitchen.com/shop/p/refridgerator-cabinet-dwwzw",
+          "kind": "comparable"
+        },
+        {
+          "id": "COMP-MODULR-FRIDGE-SLIDE",
+          "url": "https://modulroverland.com/products/modular-fridge-slide",
+          "kind": "comparable"
+        },
+        {
+          "id": "ENGEL-MD14",
+          "url": "https://engelcoolers.com/products/md14-ems-ambulance-fridge",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "ENGEL-MHD13-ALT",
+          "url": "https://engelcoolers.com/products/mhd13-ems-ambulance-fridge",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "NRS-HD-STRAP",
+          "url": "https://www.nrs.com/nrs-1-hd-tie-down-straps/p4yc",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "ACCURIDE-3832-C16",
+          "url": "https://www.accuride.com/media/amasty/amfile/attach/d4ba99d10b86f194bef3fdc51f9ccb24.pdf",
+          "kind": "manufacturer_or_supplier"
+        }
+      ]
+    },
+    {
+      "module_id": "BN-M04",
+      "checks": {
+        "deterministic_named_visual_cues": true,
+        "hash_bound_independent_visual_pass": true,
+        "current_web_comparable_or_product_evidence": true
+      },
+      "visual_cue_count": 16,
+      "named_part_count": 125,
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/checkpoints/design/exports/BN-M04/BN-M04-iso.png",
+      "image_sha256": "ac0c1ad9f58cc16b6cdeabb43b15b545583d1625bca0fb9f2842dea06bd1f064",
+      "visual_review_mode": "independent_codex_inspection",
+      "vlm_model": null,
+      "recognizable_as": "sink and wash station",
+      "web_evidence": [
+        {
+          "id": "COMP-GOOSE-GEAR-CAMPKITCHEN",
+          "url": "https://www.goose-gear.com/products/campkitchen-2-2-30-deep-module",
+          "kind": "comparable"
+        },
+        {
+          "id": "COMP-OVS-KITCHEN",
+          "url": "https://overlandvehiclesystems.com/mid-size-cargo-box-kitchen",
+          "kind": "comparable"
+        },
+        {
+          "id": "COMP-TAILGATE-GEAR-KITCHEN",
+          "url": "https://www.tailgategear.eu/products/kitchen-module",
+          "kind": "comparable"
+        },
+        {
+          "id": "DOMETIC-VA8005",
+          "url": "https://www.dometic.com/en-us/product/dometic-va8000-series-square-sink-with-1-hole-faucet-glass-cover-9102303252?v=9102303252",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "SHURFLO-4008",
+          "url": "https://www.pentair.com/en-us/flow/shurflo/shurflo-products/shurflo-rv-applications/water-delivery-pumps/shurflo-revolution-4008-series-by-pass-pump/sku/4008-101-e65.html",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "RELIANCE-AQUATAINER-4G",
+          "url": "https://relianceoutdoors.com/collections/aqua-storage/products/aqua-tainer-4g-15l",
+          "kind": "manufacturer_or_supplier"
+        }
+      ]
+    },
+    {
+      "module_id": "BN-M05",
+      "checks": {
+        "deterministic_named_visual_cues": true,
+        "hash_bound_independent_visual_pass": true,
+        "current_web_comparable_or_product_evidence": true
+      },
+      "visual_cue_count": 19,
+      "named_part_count": 131,
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/checkpoints/design/exports/BN-M05/BN-M05-iso.png",
+      "image_sha256": "dfed162c11eafc61083c2fae61df35e7979226221f8c8c920c838bf64ac8c297",
+      "visual_review_mode": "independent_codex_inspection",
+      "vlm_model": null,
+      "recognizable_as": "strapped potable-water storage and delivery module",
+      "web_evidence": [
+        {
+          "id": "RELIANCE-AQUATAINER-7G",
+          "url": "https://relianceoutdoors.com/collections/aqua-storage/products/aqua-tainer-4g-15l",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "SHURFLO-4008",
+          "url": "https://www.pentair.com/en-us/flow/shurflo/shurflo-products/shurflo-rv-applications/water-delivery-pumps/shurflo-revolution-4008-series-by-pass-pump/sku/4008-101-e65.html",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "NRS-HD-STRAP",
+          "url": "https://www.nrs.com/nrs-1-hd-tie-down-straps/p4yc",
+          "kind": "manufacturer_or_supplier"
+        }
+      ]
+    },
+    {
+      "module_id": "BN-M06",
+      "checks": {
+        "deterministic_named_visual_cues": true,
+        "hash_bound_independent_visual_pass": true,
+        "current_web_comparable_or_product_evidence": true
+      },
+      "visual_cue_count": 16,
+      "named_part_count": 208,
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/checkpoints/design/exports/BN-M06/BN-M06-iso.png",
+      "image_sha256": "fe0e7eff84e17d5cee82b49cd56b96a5c707587f85da63c7750c87b0597b9e78",
+      "visual_review_mode": "independent_codex_inspection",
+      "vlm_model": null,
+      "recognizable_as": "recovery-gear and MOLLE storage station",
+      "web_evidence": [
+        {
+          "id": "COMP-LONE-PEAK-DRAWER",
+          "url": "https://www.lonepeakoverland.com/a/docs/product-guides/junk-drawer-system",
+          "kind": "comparable"
+        },
+        {
+          "id": "COMP-AT-OVERLAND-DRAWER",
+          "url": "https://atoverland.com/products/double-drawer-module-20-3-16-wide-x-28-depth-1",
+          "kind": "comparable"
+        },
+        {
+          "id": "COMP-OVS-MOLLE",
+          "url": "https://overlandvehiclesystems.com/Ruff-Rax-Inside-Molle-Panel---Universal",
+          "kind": "comparable"
+        },
+        {
+          "id": "PELICAN-1450",
+          "url": "https://www.pelican.com/us/en/product/cases/1450",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "ACCURIDE-3832-C16",
+          "url": "https://www.accuride.com/media/amasty/amfile/attach/d4ba99d10b86f194bef3fdc51f9ccb24.pdf",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "SOUTHCO-E3-57-25",
+          "url": "https://shop.southco.com/e3-57-25",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "NRS-HD-STRAP",
+          "url": "https://www.nrs.com/nrs-1-hd-tie-down-straps/p4yc",
+          "kind": "manufacturer_or_supplier"
+        }
+      ]
+    },
+    {
+      "module_id": "BN-M07",
+      "checks": {
+        "deterministic_named_visual_cues": true,
+        "hash_bound_independent_visual_pass": true,
+        "current_web_comparable_or_product_evidence": true
+      },
+      "visual_cue_count": 19,
+      "named_part_count": 140,
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/checkpoints/design/exports/BN-M07/BN-M07-iso.png",
+      "image_sha256": "c999ce66c1f028074628e6494476b974cffd209c1f276a190ac10edc45735be2",
+      "visual_review_mode": "independent_codex_inspection",
+      "vlm_model": null,
+      "recognizable_as": "portable-power station and cable drawer",
+      "web_evidence": [
+        {
+          "id": "ECOFLOW-RIVER3-PLUS",
+          "url": "https://us.ecoflow.com/collections/all-products/products/river-3-plus-portable-power-station",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "SOUTHCO-E3-57-25",
+          "url": "https://shop.southco.com/e3-57-25",
+          "kind": "manufacturer_or_supplier"
+        }
+      ]
+    },
+    {
+      "module_id": "BN-M08",
+      "checks": {
+        "deterministic_named_visual_cues": true,
+        "hash_bound_independent_visual_pass": true,
+        "current_web_comparable_or_product_evidence": true
+      },
+      "visual_cue_count": 16,
+      "named_part_count": 174,
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/checkpoints/design/exports/BN-M08/BN-M08-iso.png",
+      "image_sha256": "7ef0ebd0bbec02855b3e433a83b7cfec0b23f016ed45661363fdb6a054d968a7",
+      "visual_review_mode": "independent_codex_inspection",
+      "vlm_model": null,
+      "recognizable_as": "water-heater and shower module",
+      "web_evidence": [
+        {
+          "id": "JOOLCA-HOTTAP-V2",
+          "url": "https://support.joolca.com/hc/en-us/articles/360001472375-HOTTAP-V2-specifications",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "NRS-HD-STRAP",
+          "url": "https://www.nrs.com/nrs-1-hd-tie-down-straps/p4yc",
+          "kind": "manufacturer_or_supplier"
+        }
+      ]
+    },
+    {
+      "module_id": "BN-M09",
+      "checks": {
+        "deterministic_named_visual_cues": true,
+        "hash_bound_independent_visual_pass": true,
+        "current_web_comparable_or_product_evidence": true
+      },
+      "visual_cue_count": 18,
+      "named_part_count": 174,
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/checkpoints/design/exports/BN-M09/BN-M09-iso.png",
+      "image_sha256": "19ab630b395e0901987cfc04d1c576c479334edb66bcdf33ff0b27338a2cb339",
+      "visual_review_mode": "independent_codex_inspection",
+      "vlm_model": null,
+      "recognizable_as": "mobile laptop work and electronics station",
+      "web_evidence": [
+        {
+          "id": "COMP-LONE-PEAK-DRAWER",
+          "url": "https://www.lonepeakoverland.com/a/docs/product-guides/junk-drawer-system",
+          "kind": "comparable"
+        },
+        {
+          "id": "PELICAN-1485",
+          "url": "https://business.pelican.com/us/en/product/Cases/Air/1485",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "ACCURIDE-3832-C16",
+          "url": "https://www.accuride.com/media/amasty/amfile/attach/d4ba99d10b86f194bef3fdc51f9ccb24.pdf",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "SOUTHCO-E3-57-25",
+          "url": "https://shop.southco.com/e3-57-25",
+          "kind": "manufacturer_or_supplier"
+        }
+      ]
+    },
+    {
+      "module_id": "BN-M10",
+      "checks": {
+        "deterministic_named_visual_cues": true,
+        "hash_bound_independent_visual_pass": true,
+        "current_web_comparable_or_product_evidence": true
+      },
+      "visual_cue_count": 12,
+      "named_part_count": 133,
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/checkpoints/design/exports/BN-M10/BN-M10-iso.png",
+      "image_sha256": "1811009d6a9c1952988ddb887e7ede3331cb26671c170de81fdb57e5db96d845",
+      "visual_review_mode": "independent_codex_inspection",
+      "vlm_model": null,
+      "recognizable_as": "restrained camp-chair, table, and soft-goods storage module",
+      "web_evidence": [
+        {
+          "id": "COMP-OVS-MOLLE",
+          "url": "https://overlandvehiclesystems.com/Ruff-Rax-Inside-Molle-Panel---Universal",
+          "kind": "comparable"
+        },
+        {
+          "id": "HELINOX-CHAIR-ONE",
+          "url": "https://helinox.com/products/chair-one",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "HELINOX-TABLE-ONE",
+          "url": "https://helinox.com/products/table-one",
+          "kind": "manufacturer_or_supplier"
+        },
+        {
+          "id": "NRS-HD-STRAP",
+          "url": "https://www.nrs.com/nrs-1-hd-tie-down-straps/p4yc",
+          "kind": "manufacturer_or_supplier"
+        }
+      ]
+    }
+  ],
+  "authority": "visual product-concept completion only; not dimensional, structural, manufacturing, safety, or fabrication release"
+}

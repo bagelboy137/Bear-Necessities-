@@ -1,0 +1,320 @@
+{
+  "result": "PASS",
+  "renders": [
+    {
+      "configuration": "Weekend Base",
+      "vehicle": "4runner-5th",
+      "modules": [
+        "BN-M01",
+        "BN-M05"
+      ],
+      "placements": [
+        {
+          "module": "BN-M01",
+          "name": "Cook Station",
+          "origin_in": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "footprint_in": [
+            20.0,
+            24.0
+          ],
+          "rotated": true
+        },
+        {
+          "module": "BN-M05",
+          "name": "Fresh Water",
+          "origin_in": [
+            20.0,
+            0.0,
+            0.0
+          ],
+          "footprint_in": [
+            20.0,
+            24.0
+          ],
+          "rotated": true
+        }
+      ],
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/configurations/renders/weekend-base.png",
+      "sha256": "23df655895fb2910b45c5808b94c7ed7b6533e82f37a3b9342371d4acc76e8c2"
+    },
+    {
+      "configuration": "Trail Kitchen",
+      "vehicle": "4runner-5th",
+      "modules": [
+        "BN-M01",
+        "BN-M02"
+      ],
+      "placements": [
+        {
+          "module": "BN-M01",
+          "name": "Cook Station",
+          "origin_in": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "footprint_in": [
+            20.0,
+            24.0
+          ],
+          "rotated": true
+        },
+        {
+          "module": "BN-M02",
+          "name": "Dry Pantry",
+          "origin_in": [
+            20.0,
+            0.0,
+            0.0
+          ],
+          "footprint_in": [
+            20.0,
+            24.0
+          ],
+          "rotated": true
+        }
+      ],
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/configurations/renders/trail-kitchen.png",
+      "sha256": "ba265653836d10efd5c20adb2f8a0bec2b0805110067956f58b17156beceb2f3"
+    },
+    {
+      "configuration": "Recovery Day",
+      "vehicle": "4runner-5th",
+      "modules": [
+        "BN-M02",
+        "BN-M06"
+      ],
+      "placements": [
+        {
+          "module": "BN-M02",
+          "name": "Dry Pantry",
+          "origin_in": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "footprint_in": [
+            20.0,
+            24.0
+          ],
+          "rotated": true
+        },
+        {
+          "module": "BN-M06",
+          "name": "Recovery/Utility",
+          "origin_in": [
+            20.0,
+            0.0,
+            0.0
+          ],
+          "footprint_in": [
+            20.0,
+            24.0
+          ],
+          "rotated": true
+        }
+      ],
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/configurations/renders/recovery-day.png",
+      "sha256": "870e59c28609d16e762480f0d9cae4cf2f4d4d265585e7f9b53e8d920f3b5f4a"
+    },
+    {
+      "configuration": "Wash Up",
+      "vehicle": "4runner-5th",
+      "modules": [
+        "BN-M01",
+        "BN-M04"
+      ],
+      "placements": [
+        {
+          "module": "BN-M01",
+          "name": "Cook Station",
+          "origin_in": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "footprint_in": [
+            20.0,
+            24.0
+          ],
+          "rotated": true
+        },
+        {
+          "module": "BN-M04",
+          "name": "Sink/Wash",
+          "origin_in": [
+            20.0,
+            0.0,
+            0.0
+          ],
+          "footprint_in": [
+            20.0,
+            24.0
+          ],
+          "rotated": true
+        }
+      ],
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/configurations/renders/wash-up.png",
+      "sha256": "383d81f4658411dedb6c57958c73abba99bae08bbd5897b01aab0e86f3a36645"
+    },
+    {
+      "configuration": "Basecamp",
+      "vehicle": "transit-lowroof",
+      "modules": [
+        "BN-M01",
+        "BN-M02",
+        "BN-M03",
+        "BN-M05"
+      ],
+      "placements": [
+        {
+          "module": "BN-M01",
+          "name": "Cook Station",
+          "origin_in": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "footprint_in": [
+            24.0,
+            20.0
+          ],
+          "rotated": false
+        },
+        {
+          "module": "BN-M02",
+          "name": "Dry Pantry",
+          "origin_in": [
+            24.0,
+            0.0,
+            0.0
+          ],
+          "footprint_in": [
+            24.0,
+            20.0
+          ],
+          "rotated": false
+        },
+        {
+          "module": "BN-M03",
+          "name": "Fridge/Freezer",
+          "origin_in": [
+            0.0,
+            20.0,
+            0.0
+          ],
+          "footprint_in": [
+            24.0,
+            20.0
+          ],
+          "rotated": false
+        },
+        {
+          "module": "BN-M05",
+          "name": "Fresh Water",
+          "origin_in": [
+            24.0,
+            0.0,
+            18.0
+          ],
+          "footprint_in": [
+            24.0,
+            20.0
+          ],
+          "rotated": false
+        }
+      ],
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/configurations/renders/basecamp.png",
+      "sha256": "03f298a90e9de69ce6d71e456572dac85b0daed1710c7f7b132cf7fb2a6c4579"
+    },
+    {
+      "configuration": "Expedition",
+      "vehicle": "transit-lowroof",
+      "modules": [
+        "BN-M01",
+        "BN-M02",
+        "BN-M06",
+        "BN-M08",
+        "BN-M10"
+      ],
+      "placements": [
+        {
+          "module": "BN-M01",
+          "name": "Cook Station",
+          "origin_in": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "footprint_in": [
+            20.0,
+            24.0
+          ],
+          "rotated": true
+        },
+        {
+          "module": "BN-M02",
+          "name": "Dry Pantry",
+          "origin_in": [
+            20.0,
+            24.0,
+            0.0
+          ],
+          "footprint_in": [
+            24.0,
+            20.0
+          ],
+          "rotated": false
+        },
+        {
+          "module": "BN-M06",
+          "name": "Recovery/Utility",
+          "origin_in": [
+            0.0,
+            24.0,
+            18.0
+          ],
+          "footprint_in": [
+            24.0,
+            20.0
+          ],
+          "rotated": false
+        },
+        {
+          "module": "BN-M08",
+          "name": "Hot Water/Shower",
+          "origin_in": [
+            24.0,
+            24.0,
+            18.0
+          ],
+          "footprint_in": [
+            24.0,
+            20.0
+          ],
+          "rotated": false
+        },
+        {
+          "module": "BN-M10",
+          "name": "Camp Furniture",
+          "origin_in": [
+            0.0,
+            24.0,
+            36.0
+          ],
+          "footprint_in": [
+            24.0,
+            20.0
+          ],
+          "rotated": false
+        }
+      ],
+      "image": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/configurations/renders/expedition.png",
+      "sha256": "6c6e19ef762295436a215038a6139a23fcf6be394aea5740cda63e0978b7a17a"
+    }
+  ]
+}

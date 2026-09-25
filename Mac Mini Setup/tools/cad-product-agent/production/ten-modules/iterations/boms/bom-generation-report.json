@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "result": "PASS_WITH_ENGINEERING_AND_PROCUREMENT_HOLDS",
+  "generated_at": "2026-08-26T17:23:04.904542+00:00",
+  "catalog": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/ots-components.json",
+  "catalog_sha256": "a584ec984f2d30183513c27169e3dfed0b016abecd1b329a86372a44bc7ee604",
+  "module_count": 10,
+  "row_count": 111,
+  "module_row_counts": {
+    "BN-M01": 11,
+    "BN-M02": 11,
+    "BN-M03": 12,
+    "BN-M04": 12,
+    "BN-M05": 11,
+    "BN-M06": 11,
+    "BN-M07": 10,
+    "BN-M08": 11,
+    "BN-M09": 11,
+    "BN-M10": 11
+  },
+  "non_buy_ready_row_count": 52,
+  "non_buy_ready_records": [
+    {
+      "module_id": "BN-M01",
+      "catalog_id": "8020-4132",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Prototype quantity only; joint release requires dynamic test"
+    },
+    {
+      "module_id": "BN-M01",
+      "catalog_id": "8020-3393",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Two compatible assemblies per 4132 bracket"
+    },
+    {
+      "module_id": "BN-M01",
+      "catalog_id": "TNUTZ-HAN015AL",
+      "status": "ORDERABLE_CHECK_STOCK",
+      "module_use": "Carry handles are not authorized for a loaded lift until tested"
+    },
+    {
+      "module_id": "BN-M01",
+      "catalog_id": "ACCURIDE-3832-C16",
+      "status": "DEALER_ORDER_ENGINEERING_HOLD",
+      "module_use": "Stove tray"
+    },
+    {
+      "module_id": "BN-M01",
+      "catalog_id": "SOUTHCO-E3-57-25",
+      "status": "ORDERABLE_ENGINEERING_HOLD",
+      "module_use": "Stove tray and cookware drawer"
+    },
+    {
+      "module_id": "BN-M02",
+      "catalog_id": "8020-4132",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Prototype quantity only; joint release requires dynamic test"
+    },
+    {
+      "module_id": "BN-M02",
+      "catalog_id": "8020-3393",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Two compatible assemblies per 4132 bracket"
+    },
+    {
+      "module_id": "BN-M02",
+      "catalog_id": "TNUTZ-HAN015AL",
+      "status": "ORDERABLE_CHECK_STOCK",
+      "module_use": "Carry handles are not authorized for a loaded lift until tested"
+    },
+    {
+      "module_id": "BN-M02",
+      "catalog_id": "RUBBERMAID-FG350700WHT",
+      "status": "DEALER_ORDER",
+      "module_use": "Shallow pantry bins; matching lids also required from dealer"
+    },
+    {
+      "module_id": "BN-M02",
+      "catalog_id": "ACCURIDE-3832-C16",
+      "status": "DEALER_ORDER_ENGINEERING_HOLD",
+      "module_use": "Three drawers"
+    },
+    {
+      "module_id": "BN-M02",
+      "catalog_id": "SOUTHCO-E3-57-25",
+      "status": "ORDERABLE_ENGINEERING_HOLD",
+      "module_use": "One per drawer"
+    },
+    {
+      "module_id": "BN-M03",
+      "catalog_id": "8020-4132",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Prototype quantity only; joint release requires dynamic test"
+    },
+    {
+      "module_id": "BN-M03",
+      "catalog_id": "8020-3393",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Two compatible assemblies per 4132 bracket"
+    },
+    {
+      "module_id": "BN-M03",
+      "catalog_id": "TNUTZ-HAN015AL",
+      "status": "ORDERABLE_CHECK_STOCK",
+      "module_use": "Carry handles are not authorized for a loaded lift until tested"
+    },
+    {
+      "module_id": "BN-M03",
+      "catalog_id": "ENGEL-MHD13-ALT",
+      "status": "ORDERABLE_ALTERNATE_VERIFY",
+      "module_use": "Procurement alternate; verify dimensions and intended use"
+    },
+    {
+      "module_id": "BN-M03",
+      "catalog_id": "ACCURIDE-3832-C16",
+      "status": "DEALER_ORDER_ENGINEERING_HOLD",
+      "module_use": "Fridge slide tray"
+    },
+    {
+      "module_id": "BN-M03",
+      "catalog_id": "NRS-HD-STRAP",
+      "status": "ORDERABLE_ENGINEERING_HOLD",
+      "module_use": "Select field-fit length after restraint test"
+    },
+    {
+      "module_id": "BN-M04",
+      "catalog_id": "8020-4132",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Prototype quantity only; joint release requires dynamic test"
+    },
+    {
+      "module_id": "BN-M04",
+      "catalog_id": "8020-3393",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Two compatible assemblies per 4132 bracket"
+    },
+    {
+      "module_id": "BN-M04",
+      "catalog_id": "TNUTZ-HAN015AL",
+      "status": "ORDERABLE_CHECK_STOCK",
+      "module_use": "Carry handles are not authorized for a loaded lift until tested"
+    },
+    {
+      "module_id": "BN-M04",
+      "catalog_id": "SHURFLO-4008",
+      "status": "DEALER_ORDER_ENGINEERING_HOLD",
+      "module_use": "Demand pump; install accessories remain schematic-dependent"
+    },
+    {
+      "module_id": "BN-M04",
+      "catalog_id": "RELIANCE-AQUATAINER-4G",
+      "status": "DEALER_ORDER",
+      "module_use": "Dedicated and permanently labeled grey-water container"
+    },
+    {
+      "module_id": "BN-M04",
+      "catalog_id": "NRS-HD-STRAP",
+      "status": "ORDERABLE_ENGINEERING_HOLD",
+      "module_use": "Grey tank restraint"
+    },
+    {
+      "module_id": "BN-M05",
+      "catalog_id": "8020-4132",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Prototype quantity only; joint release requires dynamic test"
+    },
+    {
+      "module_id": "BN-M05",
+      "catalog_id": "8020-3393",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Two compatible assemblies per 4132 bracket"
+    },
+    {
+      "module_id": "BN-M05",
+      "catalog_id": "TNUTZ-HAN015AL",
+      "status": "ORDERABLE_CHECK_STOCK",
+      "module_use": "Carry handles are not authorized for a loaded lift until tested"
+    },
+    {
+      "module_id": "BN-M05",
+      "catalog_id": "RELIANCE-AQUATAINER-7G",
+      "status": "DEALER_ORDER",
+      "module_use": "Potable-water container"
+    },
+    {
+      "module_id": "BN-M05",
+      "catalog_id": "SHURFLO-4008",
+      "status": "DEALER_ORDER_ENGINEERING_HOLD",
+      "module_use": "Demand pump; install accessories remain schematic-dependent"
+    },
+    {
+      "module_id": "BN-M05",
+      "catalog_id": "NRS-HD-STRAP",
+      "status": "ORDERABLE_ENGINEERING_HOLD",
+      "module_use": "Full-tank restraint"
+    },
+    {
+      "module_id": "BN-M06",
+      "catalog_id": "8020-4132",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Prototype quantity only; joint release requires dynamic test"
+    },
+    {
+      "module_id": "BN-M06",
+      "catalog_id": "8020-3393",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Two compatible assemblies per 4132 bracket"
+    },
+    {
+      "module_id": "BN-M06",
+      "catalog_id": "TNUTZ-HAN015AL",
+      "status": "ORDERABLE_CHECK_STOCK",
+      "module_use": "Carry handles are not authorized for a loaded lift until tested"
+    },
+    {
+      "module_id": "BN-M06",
+      "catalog_id": "ACCURIDE-3832-C16",
+      "status": "DEALER_ORDER_ENGINEERING_HOLD",
+      "module_use": "Case drawer tray"
+    },
+    {
+      "module_id": "BN-M06",
+      "catalog_id": "NRS-HD-STRAP",
+      "status": "ORDERABLE_ENGINEERING_HOLD",
+      "module_use": "Soft recovery-gear retention"
+    },
+    {
+      "module_id": "BN-M07",
+      "catalog_id": "8020-4132",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Prototype quantity only; joint release requires dynamic test"
+    },
+    {
+      "module_id": "BN-M07",
+      "catalog_id": "8020-3393",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Two compatible assemblies per 4132 bracket"
+    },
+    {
+      "module_id": "BN-M07",
+      "catalog_id": "TNUTZ-HAN015AL",
+      "status": "ORDERABLE_CHECK_STOCK",
+      "module_use": "Carry handles are not authorized for a loaded lift until tested"
+    },
+    {
+      "module_id": "BN-M07",
+      "catalog_id": "SOUTHCO-E3-57-25",
+      "status": "ORDERABLE_ENGINEERING_HOLD",
+      "module_use": "Cable drawer"
+    },
+    {
+      "module_id": "BN-M08",
+      "catalog_id": "8020-4132",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Prototype quantity only; joint release requires dynamic test"
+    },
+    {
+      "module_id": "BN-M08",
+      "catalog_id": "8020-3393",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Two compatible assemblies per 4132 bracket"
+    },
+    {
+      "module_id": "BN-M08",
+      "catalog_id": "TNUTZ-HAN015AL",
+      "status": "ORDERABLE_CHECK_STOCK",
+      "module_use": "Carry handles are not authorized for a loaded lift until tested"
+    },
+    {
+      "module_id": "BN-M08",
+      "catalog_id": "NRS-HD-STRAP",
+      "status": "ORDERABLE_ENGINEERING_HOLD",
+      "module_use": "Heater and wet-hose restraint"
+    },
+    {
+      "module_id": "BN-M08",
+      "catalog_id": "SOUTHCO-E3-57-25",
+      "status": "ORDERABLE_ENGINEERING_HOLD",
+      "module_use": "Wet-storage tray"
+    },
+    {
+      "module_id": "BN-M09",
+      "catalog_id": "8020-4132",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Prototype quantity only; joint release requires dynamic test"
+    },
+    {
+      "module_id": "BN-M09",
+      "catalog_id": "8020-3393",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Two compatible assemblies per 4132 bracket"
+    },
+    {
+      "module_id": "BN-M09",
+      "catalog_id": "TNUTZ-HAN015AL",
+      "status": "ORDERABLE_CHECK_STOCK",
+      "module_use": "Carry handles are not authorized for a loaded lift until tested"
+    },
+    {
+      "module_id": "BN-M09",
+      "catalog_id": "ACCURIDE-3832-C16",
+      "status": "DEALER_ORDER_ENGINEERING_HOLD",
+      "module_use": "Accessory drawer"
+    },
+    {
+      "module_id": "BN-M09",
+      "catalog_id": "SOUTHCO-E3-57-25",
+      "status": "ORDERABLE_ENGINEERING_HOLD",
+      "module_use": "Worktop and accessory drawer"
+    },
+    {
+      "module_id": "BN-M10",
+      "catalog_id": "8020-4132",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Prototype quantity only; joint release requires dynamic test"
+    },
+    {
+      "module_id": "BN-M10",
+      "catalog_id": "8020-3393",
+      "status": "ENGINEERING_HOLD",
+      "module_use": "Two compatible assemblies per 4132 bracket"
+    },
+    {
+      "module_id": "BN-M10",
+      "catalog_id": "TNUTZ-HAN015AL",
+      "status": "ORDERABLE_CHECK_STOCK",
+      "module_use": "Carry handles are not authorized for a loaded lift until tested"
+    },
+    {
+      "module_id": "BN-M10",
+      "catalog_id": "NRS-HD-STRAP",
+      "status": "ORDERABLE_ENGINEERING_HOLD",
+      "module_use": "Individual furniture and soft-goods retention"
+    }
+  ],
+  "scope": "Order-linked prototype component BOM. Custom-cut panels require released drawings; plumbing, wiring, vehicle anchors, and frame joints remain engineering holds.",
+  "purchase_authority": "No purchase is authorized by this file. Recheck stock, suffixes, fit, and specifications before ordering."
+}

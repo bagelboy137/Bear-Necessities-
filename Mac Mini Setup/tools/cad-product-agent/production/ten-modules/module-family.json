@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "family": "Bear Necessities 24x20x18 Modular Overland Camp System",
+  "status": "PROTOTYPE_COMPONENT_ENVELOPES",
+  "units": "inch",
+  "common_frame": {
+    "outside": [24.0, 20.0, 18.0],
+    "profile": "1 x 1 smooth four-slot 10 Series extrusion",
+    "primary_part": "80/20 1010-S",
+    "drop_ship_alternate": "TNUTZ EX-1010",
+    "cut_list": [{"length": 18.0, "quantity": 8}, {"length": 22.0, "quantity": 4}],
+    "frame_joinery": "TBD after rough-road load test; current 4132/3395 concept is not released"
+  },
+  "module_clearance_rule": "Purchased component envelope must fit within 22W x 18D x 16H with service and ventilation clearance separately verified.",
+  "modules": [
+    {
+      "id": "BN-M01", "name": "Cook Station", "function": "Two-burner outdoor cooking and cookware storage",
+      "primary_component": {"name": "Jetboil Genesis Basecamp Stove", "sku": "0858941006274", "envelope": [10.75, 10.75, 6.25], "orientation": "packed", "status": "ORDERABLE", "url": "https://jetboil.johnsonoutdoors.com/us/shop/stoves-systems/genesis-basecamp-stove"},
+      "internal_layout": [{"kind": "component", "label": "packed stove", "size": [10.75, 10.75, 6.25], "origin": [1.5, 1.5, 1.0], "allowed_contacts": ["z_min"]}, {"kind": "shelf", "label": "deployable worktop", "size": [21.5, 17.5, 0.25], "origin": [1.25, 1.25, 9.0]}],
+      "custom_or_unresolved": ["Flat worktop panel material/food-contact finish", "Propane bottle must be transported outside the enclosed module", "Hot-use clearances and windscreen deployment test"]
+    },
+    {
+      "id": "BN-M02", "name": "Dry Pantry", "function": "Sealed storage for packaged dry food and cookware",
+      "primary_component": {"name": "Milwaukee PACKOUT Large Tool Box", "sku": "48-22-8425", "envelope": [22.1, 16.2, 11.1], "orientation": "upright", "status": "REJECTED_DOES_NOT_FIT_22_INNER_WIDTH", "url": "https://www.milwaukeetool.com/products/details/packout-large-tool-box/48-22-8425"},
+      "internal_layout": [{"kind": "component", "label": "source-required pantry envelope", "size": [21.5, 16.0, 11.0], "origin": [1.25, 2.0, 1.0], "allowed_contacts": ["z_min"]}],
+      "custom_or_unresolved": ["Source sealed container no larger than 21.5W x 16D x 11H", "Food-contact suitability applies only to packaged food", "Verify lid opening inside frame"]
+    },
+    {
+      "id": "BN-M03", "name": "Fridge/Freezer", "function": "12V cold storage with top access",
+      "primary_component": {"name": "Engel MHD13 Fridge/Freezer/Warmer — prototype alternate", "sku": "MHD13F-DM", "envelope": [17.5, 11.3, 14.5], "orientation": "upright", "status": "ORDERABLE_ALTERNATE_VERIFY", "url": "https://engelcoolers.com/products/mhd13-ems-ambulance-fridge"},
+      "internal_layout": [{"kind": "component", "label": "fridge", "size": [17.5, 11.3, 14.5], "origin": [3.25, 4.35, 1.0], "allowed_contacts": ["z_min"]}],
+      "custom_or_unresolved": ["Envelope verified 2026-08-26; Engel direct sold out and Zoro dimensional listing is contradictory, so availability remains a procurement hold", "Confirm intended food-storage use and warranty before purchase; manufacturer positions MHD13 for EMS medication transport", "Van/truck-class deployment only: 14-inch lid headroom does not fit measured 4Runner bays", "Engel TSLPLATE plus TSL17 slide-lock packaging", "Compressor ventilation path", "12V fused wiring and strain relief"]
+    },
+    {
+      "id": "BN-M04", "name": "Sink/Wash", "function": "Cold-water hand and dish washing",
+      "primary_component": {"name": "Dometic VA8000 Series sink", "sku": null, "envelope": [16.5, 14.6, 6.0], "orientation": "upright", "status": "SOURCE_REQUIRED_DIMENSIONS_NOT_RELEASED", "url": "https://www.dometic.com/en-ca/category/rv-and-van/rv-kitchen/rv-sinks"},
+      "internal_layout": [{"kind": "component", "label": "sink envelope", "size": [16.5, 14.6, 6.0], "origin": [3.75, 2.7, 10.5]}, {"kind": "component", "label": "grey-water container envelope", "size": [11.5, 11.25, 8.0], "origin": [6.25, 4.4, 1.0], "allowed_contacts": ["z_min"]}],
+      "custom_or_unresolved": ["Exact sink SKU and cutout drawing", "Food-safe hose/faucet/pump SKUs", "Grey-water container", "Leak tray and drain routing"]
+    },
+    {
+      "id": "BN-M05", "name": "Fresh Water", "function": "Seven-gallon removable potable-water storage",
+      "primary_component": {"name": "Reliance 7G Aqua-Tainer", "sku": "9410-03R", "envelope": [11.5, 11.25, 15.75], "orientation": "upright", "status": "ORDERABLE", "url": "https://relianceoutdoors.com/products/aqua-tainer-4g-15l"},
+      "internal_layout": [{"kind": "component", "label": "water container", "size": [11.5, 11.25, 15.75], "origin": [1.25, 4.4, 1.0], "allowed_contacts": ["z_min"]}, {"kind": "component", "label": "pump/service bay", "size": [7.5, 11.25, 6.0], "origin": [14.25, 4.4, 1.0], "allowed_contacts": ["z_min"]}],
+      "custom_or_unresolved": ["Positive tank restraint for 58+ lb full-water mass", "Food-safe pump/hose SKU", "Drainable spill tray", "Dynamic load case"]
+    },
+    {
+      "id": "BN-M06", "name": "Recovery/Utility", "function": "Weather-sealed recovery gear and tools",
+      "primary_component": {"name": "Milwaukee PACKOUT Tool Box", "sku": "48-22-8424", "envelope": [22.1, 16.2, 6.5], "orientation": "upright", "status": "REJECTED_DOES_NOT_FIT_22_INNER_WIDTH", "url": "https://www.milwaukeetool.com/products/details/packout-tool-box/48-22-8424"},
+      "internal_layout": [{"kind": "component", "label": "source-required utility box", "size": [21.5, 16.0, 6.5], "origin": [1.25, 2.0, 1.0], "allowed_contacts": ["z_min"]}, {"kind": "shelf", "label": "soft recovery gear shelf", "size": [21.5, 17.5, 0.25], "origin": [1.25, 1.25, 9.0]}],
+      "custom_or_unresolved": ["Source sealed utility container no larger than 21.5W x 16D x 6.5H", "Payload-specific divider plan", "Purchased box capacity does not validate module frame"]
+    },
+    {
+      "id": "BN-M07", "name": "Power Hub", "function": "Portable AC/DC/USB energy and cable storage",
+      "primary_component": {"name": "EcoFlow RIVER 3 Plus", "sku": "EF-RV-H02-1", "envelope": [9.21, 9.13, 5.75], "orientation": "upright", "status": "ORDERABLE", "url": "https://us.ecoflow.com/products/river-3-plus-portable-power-station"},
+      "internal_layout": [{"kind": "component", "label": "power station", "size": [9.21, 9.13, 5.75], "origin": [1.5, 1.5, 1.0], "allowed_contacts": ["z_min"]}, {"kind": "component", "label": "cable case", "size": [10.0, 9.13, 5.75], "origin": [12.0, 1.5, 1.0], "allowed_contacts": ["z_min"]}, {"kind": "shelf", "label": "vented device shelf", "size": [21.5, 17.5, 0.25], "origin": [1.25, 1.25, 9.0]}],
+      "custom_or_unresolved": ["Ventilation/open-area calculation", "Cable pass-through grommets", "Charging access while restrained", "Electrical labeling"]
+    },
+    {
+      "id": "BN-M08", "name": "Hot Water/Shower", "function": "Portable propane water heating and shower plumbing",
+      "primary_component": {"name": "Joolca HOTTAP V2 Essentials", "sku": null, "envelope": [17.7, 11.4, 6.6], "orientation": "transported horizontally; deployed outside", "status": "ORDERABLE", "url": "https://www.joolca.com/products/hottap-v2?country=US"},
+      "internal_layout": [{"kind": "component", "label": "heater transport envelope", "size": [17.7, 11.4, 6.6], "origin": [3.15, 4.3, 1.0], "allowed_contacts": ["z_min"]}, {"kind": "component", "label": "hose bay", "size": [17.7, 11.4, 5.0], "origin": [3.15, 4.3, 9.0]}],
+      "custom_or_unresolved": ["Never operate heater inside vehicle or module", "US kit SKU", "Propane bottle carried separately", "Hose restraint and drying/ventilation"]
+    },
+    {
+      "id": "BN-M09", "name": "Field Office/Camera", "function": "Protected electronics/camera transport with deployable work surface",
+      "primary_component": {"name": "Pelican 1485 Air Case", "sku": null, "envelope": [19.18, 12.99, 6.88], "orientation": "upright", "status": "ORDERABLE", "url": "https://www.pelican.com/us/en/product/cases/air/1485"},
+      "internal_layout": [{"kind": "component", "label": "equipment case", "size": [19.18, 12.99, 6.88], "origin": [2.41, 3.505, 1.0], "allowed_contacts": ["z_min"]}, {"kind": "shelf", "label": "work surface", "size": [21.5, 17.5, 0.25], "origin": [1.25, 1.25, 12.0]}],
+      "custom_or_unresolved": ["Flat retention plate", "Work-surface hinge/latch SKUs", "Laptop thermal management if operated in module"]
+    },
+    {
+      "id": "BN-M10", "name": "Camp Furniture/Soft Goods", "function": "Chairs, table, awning accessories and soft-gear organization",
+      "primary_component": {"name": "Customer-selected soft gear", "sku": null, "envelope": [21.5, 17.5, 15.5], "orientation": "variable", "status": "SOURCE_REQUIRED", "url": null},
+      "internal_layout": [{"kind": "component", "label": "soft gear bay", "size": [21.5, 17.5, 15.5], "origin": [1.25, 1.25, 1.0], "allowed_contacts": ["z_min"]}],
+      "custom_or_unresolved": ["Target chair/table product set", "Cargo net SKU", "Compression strap SKU", "Payload and center-of-gravity target"]
+    }
+  ],
+  "release_blockers": [
+    "No module is released for sale or fabrication.",
+    "Frame and vehicle anchoring require dynamic load cases and physical testing.",
+    "Every purchased component needs current availability, reseller/drop-ship terms, and incoming-inspection criteria.",
+    "Component envelopes are packaging references, not manufacturer CAD and not certification evidence.",
+    "Custom panel drawings, tolerances, finishes, and mounting holes remain to be engineered."
+  ]
+}
