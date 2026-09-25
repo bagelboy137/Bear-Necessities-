@@ -1,0 +1,12 @@
+priority,status,vendor,part_number,description,qty,unit,order_length_in,module,why_now,source_url
+1,BUY_SAMPLE,TNUTZ,EX-1010,"1x1 smooth extrusion cut to 18 inches",8,pc,18,COMMON,"Build and measure one common frame before ordering 10-frame quantity",https://www.tnutz.com/product/ex-1010/
+1,BUY_SAMPLE,TNUTZ,EX-1010,"1x1 smooth extrusion cut to 22 inches",4,pc,22,COMMON,"Build and measure one common frame before ordering 10-frame quantity",https://www.tnutz.com/product/ex-1010/
+1,BUY_SAMPLE,80/20,4132,"10 Series gusseted inside corner bracket",24,pc,,COMMON,"Build one external-bracket frame and run joint/load/vibration tests",https://8020.net/4132.html
+1,BUY_SAMPLE,80/20,3393,"1/4-20 x .500 bolt plus slide-in economy T-nut",48,pc,,COMMON,"Manufacturer specifies two per 4132 bracket",https://8020.net/3393.html
+1,BUY_SAMPLE,TNUTZ,BUM-010-TS,"10 Series anti-skid rubber tread strip",8,ft,,COMMON,"Test vehicle-floor grip marking and slot retention",https://www.tnutz.com/product/bum-010-ts/
+2,BUY_ONE,Jetboil,0858941006274,"Genesis Basecamp Stove",1,pc,,BN-M01,"Verified packaged envelope; physical fit/hot-use mockup",https://jetboil.johnsonoutdoors.com/us/shop/stoves-systems/genesis-basecamp-stove
+2,BUY_ONE,Reliance,9410-03R,"7 gallon Aqua-Tainer",1,pc,,BN-M05,"Verify full-tank restraint and service access",https://relianceoutdoors.com/products/aqua-tainer-4g-15l
+2,BUY_ONE,EcoFlow,EF-RV-H02-1,"RIVER 3 Plus",1,pc,,BN-M07,"Verify port access ventilation and restraint",https://us.ecoflow.com/products/river-3-plus-portable-power-station
+2,BUY_ONE,Joolca,,"HOTTAP V2 Essentials US kit",1,pc,,BN-M08,"Verify transport orientation hose storage and outdoor deployment",https://www.joolca.com/products/hottap-v2?country=US
+2,BUY_ONE,Pelican,,"1485 Air Case",1,pc,,BN-M09,"Verify case configuration retention and removal ergonomics",https://www.pelican.com/us/en/product/cases/air/1485
+3,WAIT_FOR_STOCK,Engel,MD-14F,"MD14 12V fridge/freezer",1,pc,,BN-M03,"Manufacturer page currently sold out; find authorized stock before purchase",https://engelcoolers.com/products/md14-ems-ambulance-fridge

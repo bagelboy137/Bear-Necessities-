@@ -1,0 +1,149 @@
+{
+  "_README": "Queue of C-02 vehicle floor bracket jobs for later execution by the local model. Each job has a GATE: it will not run until the required measurements exist. This is deliberate - hole spacing invented by a model produces brackets that do not fit, which is the single most expensive error this project can make.",
+  "_created": "2026-08-20",
+  "_status_values": {
+    "READY": "all dimensions known - safe to generate",
+    "BLOCKED_NEEDS_MEASUREMENT": "cannot generate until someone measures the vehicle or sources an OEM diagram",
+    "DONE": "generated and validated"
+  },
+  "_strategy_note": "The 10 vehicle-specific brackets below are the literal answer to 'top 10 vehicles'. But see C-02-universal-ltrack.md first: designing to the L-TRACK standard (fixed 1.000in hole pitch, an actual published standard) collapses all 10 SKUs into ONE bracket. That is very likely the better business answer and it is buildable today with zero measurements. Treat the per-vehicle list as the fallback for customers who will not install L-track.",
+  "jobs": [
+    {
+      "rank": 0,
+      "vehicle": "UNIVERSAL (L-track)",
+      "years": "any vehicle with L-track installed; factory on cargo Sprinter",
+      "class": "Universal",
+      "why": "Designs to the published L-track 1.000in pitch standard instead of any vehicle's undocumented factory pattern. One SKU covers everything and never goes obsolete. BUILD THIS FIRST.",
+      "status": "READY",
+      "spec": "C-02-universal-ltrack.md",
+      "validator": "cq_validate_c02u.py",
+      "needs": []
+    },
+    {
+      "rank": 1,
+      "vehicle": "Toyota 4Runner",
+      "years": "2010-2024 (5th gen) + 2025+ (6th gen)",
+      "class": "SUV",
+      "why": "The default North American overland SUV. 33,244 units in Q1 2026, up 294% YoY. Two generations both heavily built.",
+      "status": "BLOCKED_NEEDS_MEASUREMENT",
+      "needs": [
+        "cargo floor anchor spacing (X and Y)",
+        "anchor thread size",
+        "floor clearance under anchors",
+        "5th vs 6th gen differ - treat as two SKUs"
+      ]
+    },
+    {
+      "rank": 2,
+      "vehicle": "Ford Bronco",
+      "years": "2021+",
+      "class": "SUV",
+      "why": "31,197 deliveries Q1 2026. Sasquatch/Badlands trims are factory-capable and the owner base modifies heavily.",
+      "status": "BLOCKED_NEEDS_MEASUREMENT",
+      "needs": [
+        "cargo floor anchor spacing",
+        "2-door vs 4-door cargo length differs",
+        "anchor thread size"
+      ]
+    },
+    {
+      "rank": 3,
+      "vehicle": "Jeep Wrangler JL",
+      "years": "2018+",
+      "class": "SUV",
+      "why": "Segment leader by volume and the most capable stock 4x4. Largest aftermarket of any vehicle here.",
+      "status": "BLOCKED_NEEDS_MEASUREMENT",
+      "needs": [
+        "cargo floor anchor spacing",
+        "2-door vs 4-door (JLU)",
+        "rear seat delete affects usable length"
+      ]
+    },
+    {
+      "rank": 4,
+      "vehicle": "Mercedes-Benz Sprinter",
+      "years": "2019+ (VS30)",
+      "class": "Van",
+      "why": "The vanlife standard, huge aftermarket. CRITICALLY: factory cargo Sprinters ship with OEM L-track, so this one may need no custom bracket at all - just the L-track variant.",
+      "status": "BLOCKED_NEEDS_MEASUREMENT",
+      "needs": [
+        "confirm factory L-track presence by trim",
+        "if L-track: use universal variant instead",
+        "OEM L-track fittings use 1/4-20 100deg countersink"
+      ]
+    },
+    {
+      "rank": 5,
+      "vehicle": "Toyota Tacoma",
+      "years": "2024+ (4th gen)",
+      "class": "Truck",
+      "why": "Trailhunter trim ships factory ARB kit. Bed-mounted rather than cargo-floor - different mounting problem.",
+      "status": "BLOCKED_NEEDS_MEASUREMENT",
+      "needs": [
+        "bed cleat/rail system spacing",
+        "bed is a DIFFERENT mounting case than an SUV cargo floor - may need its own bracket family"
+      ]
+    },
+    {
+      "rank": 6,
+      "vehicle": "Ford Transit",
+      "years": "2015+",
+      "class": "Van",
+      "why": "Highest-volume van in the US and a very common conversion platform. Cheaper entry than Sprinter.",
+      "status": "BLOCKED_NEEDS_MEASUREMENT",
+      "needs": [
+        "factory D-ring / floor track spacing",
+        "high-roof vs low-roof irrelevant for floor, but wheelbase changes floor length"
+      ]
+    },
+    {
+      "rank": 7,
+      "vehicle": "Jeep Gladiator",
+      "years": "2020+",
+      "class": "Truck",
+      "why": "Wrangler capability with a bed. Overlap with Wrangler owner base; bed mounting shared with Tacoma-class problem.",
+      "status": "BLOCKED_NEEDS_MEASUREMENT",
+      "needs": [
+        "bed rail/cleat spacing",
+        "shares bed-mounting family with Tacoma"
+      ]
+    },
+    {
+      "rank": 8,
+      "vehicle": "Ram ProMaster",
+      "years": "2014+",
+      "class": "Van",
+      "why": "Cheapest van conversion platform, FWD with a low flat floor that suits module systems well.",
+      "status": "BLOCKED_NEEDS_MEASUREMENT",
+      "needs": [
+        "factory floor anchor spacing",
+        "flat low floor may allow a simpler bracket"
+      ]
+    },
+    {
+      "rank": 9,
+      "vehicle": "Lexus GX / Toyota Land Cruiser",
+      "years": "GX 2010+, LC 2024+",
+      "class": "SUV",
+      "why": "Strong and growing overland following, higher-income buyer, less price-sensitive - good margin fit.",
+      "status": "BLOCKED_NEEDS_MEASUREMENT",
+      "needs": [
+        "cargo anchor spacing per model",
+        "GX460 vs GX550 differ",
+        "third-row delete common - affects floor"
+      ]
+    },
+    {
+      "rank": 10,
+      "vehicle": "Subaru Outback / Forester",
+      "years": "2015+",
+      "class": "Crossover",
+      "why": "Far higher unit volume than anything above and a huge light-overlanding base. Smallest cargo area - MAY NOT FIT a 24x20x18 module. Verify before committing.",
+      "status": "BLOCKED_NEEDS_MEASUREMENT",
+      "needs": [
+        "cargo anchor spacing",
+        "FIRST verify a 24in-wide module physically fits between the wheel wells"
+      ]
+    }
+  ]
+}

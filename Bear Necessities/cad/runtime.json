@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "description": "Machine-agnostic runtime for Bear Necessities CAD builds. Nothing here may hard-code a home directory. Every value can be overridden by the matching BN_* environment variable so the same checkout builds on Conor's laptop and on the Mac mini.",
+
+  "paths": {
+    "_comment": "claude_root is discovered by walking up until both sibling projects are found. The rest are relative to it.",
+    "claude_root": "auto",
+    "fusion_project": "Fusion CAD Agent",
+    "mac_mini_project": "Mac Mini Setup",
+    "cad_agent": "Mac Mini Setup/tools/cad-product-agent",
+    "study": "Mac Mini Setup/tools/cad-product-agent/production/ten-modules",
+    "cadquery_venv": "Fusion CAD Agent/.venv-cq"
+  },
+
+  "services": {
+    "lm_studio_url": "http://127.0.0.1:1234/v1",
+    "_fusion_mcp_url_comment": "auto = discover it. Fusion's MCP port is NOT stable: it moved from 27182 to 27180 after a crash-relaunch and every tool pinned to the old number reported Fusion missing while it was running fine. Set a literal URL here only to force one.",
+    "fusion_mcp_url": "auto"
+  },
+
+  "models": {
+    "_comment": "Roles, not machines. The mini may satisfy these with larger models; preflight checks the roster actually loaded rather than assuming.",
+    "reviewer": "qwen/qwen2.5-coder-14b",
+    "vision": "google/gemma-4-e4b",
+    "visual_text": "qwen2.5-coder-7b-instruct",
+    "visual_vision": "qwen2.5-vl-3b-instruct"
+  },
+
+  "gates": {
+    "expected_module_reviews": 300,
+    "revision_attempts": 4,
+    "visual_cycles": 10,
+    "expected_visual_reviews": 100
+  },
+
+  "env_overrides": {
+    "claude_root": "BN_CLAUDE_ROOT",
+    "lm_studio_url": "BN_LM_STUDIO_URL",
+    "fusion_mcp_url": "BN_FUSION_MCP_URL",
+    "reviewer": "BN_REVIEWER_MODEL",
+    "vision": "BN_VISION_MODEL",
+    "visual_text": "BN_VISUAL_TEXT_MODEL",
+    "visual_vision": "BN_VISUAL_VISION_MODEL",
+    "expected_module_reviews": "BN_EXPECTED_REVIEWS"
+  }
+}

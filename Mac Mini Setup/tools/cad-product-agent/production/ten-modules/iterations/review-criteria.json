@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "cycle_count_per_stage": 10,
+  "stages": {
+    "design": [
+      {"cycle": 1, "criterion": "functional_recognizability", "question": "Is the module's purpose obvious from the customer-facing isometric view without relying on its label?"},
+      {"cycle": 2, "criterion": "access_and_deployment", "question": "Can the primary equipment, drawer, lid, hose, or work surface be reached and deployed without an obvious obstruction?"},
+      {"cycle": 3, "criterion": "task_flow", "question": "Does the visible arrangement support the order in which a user performs the module's core task?"},
+      {"cycle": 4, "criterion": "organization", "question": "Are stored items divided, restrained, and visually organized for rough-road transport?"},
+      {"cycle": 5, "criterion": "controls_and_status", "question": "Are controls, ports, displays, latches, and service points visible and understandable?"},
+      {"cycle": 6, "criterion": "stowed_security", "question": "Does the concept visibly communicate a secure stowed state as well as its deployed state?"},
+      {"cycle": 7, "criterion": "cleaning_and_drainage", "question": "Are spill, dirt, ventilation, and drainage paths addressed where the module's use requires them?"},
+      {"cycle": 8, "criterion": "ergonomics", "question": "Are handles, reaches, work heights, and frequently used interfaces plausible for field use?"},
+      {"cycle": 9, "criterion": "family_visual_language", "question": "Does the module read as part of the silver-extrusion, dark-panel ten-module family while retaining a distinct function?"},
+      {"cycle": 10, "criterion": "comparable_product_convergence", "question": "Does the concept include the strongest visible usability cues found in the cited comparable products without copying proprietary styling?"}
+    ],
+    "manufacturing": [
+      {"cycle": 1, "criterion": "extrusion_standardization", "question": "Is the structure limited to the released 1-inch 10-Series extrusion family and fixed 18/22-inch cut list?"},
+      {"cycle": 2, "criterion": "cut_and_part_count", "question": "Can unique cut lengths and custom part count be reduced without losing function?"},
+      {"cycle": 3, "criterion": "joint_hardware", "question": "Are frame joints represented by one compatible bracket-and-fastener architecture rather than mixed systems?"},
+      {"cycle": 4, "criterion": "flat_panel_fabrication", "question": "Can skins, trays, dividers, and worktops be made from flat routed or cut sheet with accessible fasteners?"},
+      {"cycle": 5, "criterion": "motion_hardware_standardization", "question": "Can drawer slides and latches use the approved shared OTS families and fit within the clear envelope?"},
+      {"cycle": 6, "criterion": "tool_access", "question": "Can a technician reach every recurring fastener, latch, slide, pump, connector, and restraint with ordinary tools?"},
+      {"cycle": 7, "criterion": "assembly_sequence", "question": "Can the module be assembled, skinned, wired or plumbed, inspected, and serviced in a practical sequence?"},
+      {"cycle": 8, "criterion": "tolerance_and_clearance", "question": "Are service, lid, slide, hose, wiring, gasket, and purchased-product clearances explicitly protected?"},
+      {"cycle": 9, "criterion": "supplier_integrity", "question": "Does every purchased item refer only to a sourced catalog ID, with sold-out and engineering-hold items clearly identified?"},
+      {"cycle": 10, "criterion": "inspection_and_testability", "question": "Can incoming parts, assembly completion, motion, leaks, ventilation, and retention be checked with defined evidence?"}
+    ],
+    "combined": [
+      {"cycle": 1, "criterion": "form_follows_function", "question": "Do manufacturing choices preserve or improve the visible function rather than making the module anonymous?"},
+      {"cycle": 2, "criterion": "deployed_and_stowed_system", "question": "Are both deployed usability and transport-secure stowage coherent with the selected hardware?"},
+      {"cycle": 3, "criterion": "ots_product_integration", "question": "Is the sourced primary product represented with realistic access, restraint, ventilation, and service space?"},
+      {"cycle": 4, "criterion": "field_serviceability", "question": "Can high-wear OTS components be removed and replaced without destroying the frame or custom panels?"},
+      {"cycle": 5, "criterion": "mass_and_center_of_gravity", "question": "Are the heaviest stored products kept low and positively restrained, with unresolved dynamic loads still gated?"},
+      {"cycle": 6, "criterion": "environmental_robustness", "question": "Do panel, gasket, drainage, ventilation, and hardware choices match likely dust, water, vibration, and temperature exposure?"},
+      {"cycle": 7, "criterion": "safety_and_segregation", "question": "Are heat, propane, potable water, grey water, and electrical functions visibly segregated and appropriately labeled?"},
+      {"cycle": 8, "criterion": "assembly_usability_tradeoff", "question": "Does any manufacturing simplification create a new reach, pinch, snag, cleaning, or access problem?"},
+      {"cycle": 9, "criterion": "cross_module_commonality", "question": "Are shared frame, panel, slide, latch, handle, gasket, and restraint choices maximized across all ten modules?"},
+      {"cycle": 10, "criterion": "final_release_audit", "question": "Is the concept visually complete, separately exportable, source-traceable, and honestly held short of fabrication release where engineering evidence is missing?"}
+    ]
+  }
+}

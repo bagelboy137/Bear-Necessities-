@@ -1,0 +1,97 @@
+```json
+{
+  "cycle_id": "combined-03",
+  "reviews": [
+    {
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The cook station has realistic access, restraint, ventilation, and service space.",
+      "evidence_ids": ["COMP-OVERLAND-KITCHEN-EX1"],
+      "acceptance_check": "Physical inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The dry pantry has realistic access, restraint, ventilation, and service space.",
+      "evidence_ids": ["COMP-LONE-PEAK-DRAWER"],
+      "acceptance_check": "Physical inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The fridge freezer has realistic access, restraint, ventilation, and service space.",
+      "evidence_ids": ["COMP-MODULR-FRIDGE-SLIDE"],
+      "acceptance_check": "Physical inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The sink wash has realistic access, restraint, ventilation, and service space.",
+      "evidence_ids": ["COMP-OVS-KITCHEN"],
+      "acceptance_check": "Physical inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The fresh water has realistic access, restraint, ventilation, and service space.",
+      "evidence_ids": ["RELIANCE-AQUATAINER-7G"],
+      "acceptance_check": "Physical inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The recovery utility has realistic access, restraint, ventilation, and service space.",
+      "evidence_ids": ["COMP-OVS-MOLLE"],
+      "acceptance_check": "Physical inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The power hub has realistic access, restraint, ventilation, and service space.",
+      "evidence_ids": ["ECOFLOW-RIVER3-PLUS"],
+      "acceptance_check": "Physical inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The hot water shower has realistic access, restraint, ventilation, and service space.",
+      "evidence_ids": ["JOOLCA-HOTTAP-V2"],
+      "acceptance_check": "Physical inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The field office camera has realistic access, restraint, ventilation, and service space.",
+      "evidence_ids": ["COMP-LONE-PEAK-DRAWER"],
+      "acceptance_check": "Physical inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The camp furniture soft goods have realistic access, restraint, ventilation, and service space.",
+      "evidence_ids": ["HELINOX-CHAIR-ONE"],
+      "acceptance_check": "Physical inspection of the module.",
+      "risk": "None"
+    }
+  ]
+}
+```

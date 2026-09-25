@@ -1,0 +1,33 @@
+{
+  "id": "BN-M03",
+  "label": "Fridge/Freezer",
+  "outside_bbox_in": [
+    24.0,
+    20.0,
+    18.0
+  ],
+  "frame_member_count": 12,
+  "component_count": 1,
+  "solid_count": 13,
+  "components": [
+    {
+      "name": "fridge",
+      "size_in": [
+        17.5,
+        11.3,
+        15.8
+      ],
+      "origin_in": [
+        3.25,
+        4.35,
+        1.0
+      ],
+      "high_in": [
+        20.75,
+        15.65,
+        16.8
+      ]
+    }
+  ],
+  "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+}

@@ -1,0 +1,97 @@
+```json
+{
+  "cycle_id": "combined-04",
+  "reviews": [
+    {
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The cook station has exposed burners and controls that can be accessed without destroying the frame or custom panels.",
+      "evidence_ids": ["COMP-OVERLAND-KITCHEN-EX1"],
+      "acceptance_check": "Visual inspection of the cook station's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The dry pantry has drawers that can be opened and closed without destroying the frame or custom panels.",
+      "evidence_ids": ["COMP-LONE-PEAK-DRAWER"],
+      "acceptance_check": "Visual inspection of the dry pantry's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The fridge freezer has a slide tray that can be removed without destroying the frame or custom panels.",
+      "evidence_ids": ["COMP-MODULR-FRIDGE-SLIDE"],
+      "acceptance_check": "Visual inspection of the fridge freezer's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The sink wash has a flat support panel that can be accessed without destroying the frame or custom panels.",
+      "evidence_ids": ["COMP-OVS-KITCHEN"],
+      "acceptance_check": "Visual inspection of the sink wash's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The fresh water has a low restraint strap that can be accessed without destroying the frame or custom panels.",
+      "evidence_ids": ["NRS-HD-STRAP"],
+      "acceptance_check": "Visual inspection of the fresh water's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The recovery utility has a shared slides/latches that can be accessed without destroying the frame or custom panels.",
+      "evidence_ids": ["COMP-OVS-MOLLE"],
+      "acceptance_check": "Visual inspection of the recovery utility's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The power hub has a vented flat shelf that can be accessed without destroying the frame or custom panels.",
+      "evidence_ids": ["ECOFLOW-RIVER3-PLUS"],
+      "acceptance_check": "Visual inspection of the power hub's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The hot water shower has a ventilated/drainable storage that can be accessed without destroying the frame or custom panels.",
+      "evidence_ids": ["JOOLCA-HOTTAP-V2"],
+      "acceptance_check": "Visual inspection of the hot water shower's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The field office camera has a shared slides/latches that can be accessed without destroying the frame or custom panels.",
+      "evidence_ids": ["COMP-LONE-PEAK-DRAWER"],
+      "acceptance_check": "Visual inspection of the field office camera's design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The camp furniture soft goods has simple flat dividers that can be accessed without destroying the frame or custom panels.",
+      "evidence_ids": ["COMP-OVS-MOLLE"],
+      "acceptance_check": "Visual inspection of the camp furniture soft goods' design.",
+      "risk": "None"
+    }
+  ]
+}
+```

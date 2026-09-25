@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "cycle_id": "combined-09",
+  "stage": "combined",
+  "cycle": 9,
+  "criterion": {
+    "cycle": 9,
+    "criterion": "cross_module_commonality",
+    "question": "Are shared frame, panel, slide, latch, handle, gasket, and restraint choices maximized across all ten modules?"
+  },
+  "model": "qwen2.5-coder-7b-instruct",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T02:40:37.646833+00:00",
+  "prompt_sha256": "77b6b59ceea895047dff6966c49e8fa8ca181b2d15dafc4c78800c3d5f9abf20",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/combined/combined-09.attempt-1.raw.txt",
+      "sha256": "d2f6e7d073dacb66732be0bb6f74016b389f5cec8a0ae9dba44aab91c703b7cf",
+      "usage": {
+        "prompt_tokens": 2994,
+        "completion_tokens": 1165,
+        "total_tokens": 4159,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2994,
+    "completion_tokens": 1165,
+    "total_tokens": 4159,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "combined-09",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+        "evidence_ids": [
+          "8020-3393",
+          "8020-4132"
+        ],
+        "acceptance_check": "Visual inspection of shared components.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+        "evidence_ids": [
+          "8020-3393",
+          "8020-4132"
+        ],
+        "acceptance_check": "Visual inspection of shared components.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+        "evidence_ids": [
+          "8020-3393",
+          "8020-4132"
+        ],
+        "acceptance_check": "Visual inspection of shared components.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+        "evidence_ids": [
+          "8020-3393",
+          "8020-4132"
+        ],
+        "acceptance_check": "Visual inspection of shared components.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+        "evidence_ids": [
+          "8020-3393",
+          "8020-4132"
+        ],
+        "acceptance_check": "Visual inspection of shared components.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+        "evidence_ids": [
+          "8020-3393",
+          "8020-4132"
+        ],
+        "acceptance_check": "Visual inspection of shared components.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+        "evidence_ids": [
+          "8020-3393",
+          "8020-4132"
+        ],
+        "acceptance_check": "Visual inspection of shared components.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+        "evidence_ids": [
+          "8020-3393",
+          "8020-4132"
+        ],
+        "acceptance_check": "Visual inspection of shared components.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+        "evidence_ids": [
+          "8020-3393",
+          "8020-4132"
+        ],
+        "acceptance_check": "Visual inspection of shared components.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+        "evidence_ids": [
+          "8020-3393",
+          "8020-4132"
+        ],
+        "acceptance_check": "Visual inspection of shared components.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

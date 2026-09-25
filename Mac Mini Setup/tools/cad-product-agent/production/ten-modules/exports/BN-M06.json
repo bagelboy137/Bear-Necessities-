@@ -1,0 +1,51 @@
+{
+  "id": "BN-M06",
+  "label": "Recovery/Utility",
+  "outside_bbox_in": [
+    24.0,
+    20.0,
+    18.0
+  ],
+  "frame_member_count": 12,
+  "component_count": 2,
+  "solid_count": 14,
+  "components": [
+    {
+      "name": "source-required utility box",
+      "size_in": [
+        21.5,
+        16.0,
+        6.5
+      ],
+      "origin_in": [
+        1.25,
+        2.0,
+        1.0
+      ],
+      "high_in": [
+        22.75,
+        18.0,
+        7.5
+      ]
+    },
+    {
+      "name": "soft recovery gear shelf",
+      "size_in": [
+        21.5,
+        17.5,
+        0.25
+      ],
+      "origin_in": [
+        1.25,
+        1.25,
+        9.0
+      ],
+      "high_in": [
+        22.75,
+        18.75,
+        9.25
+      ]
+    }
+  ],
+  "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+}

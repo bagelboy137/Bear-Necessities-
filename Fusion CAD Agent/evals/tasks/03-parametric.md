@@ -1,0 +1,1 @@
+Write a Fusion Python API script that creates a rectangular plate with four corner through-holes, where length, width, thickness, hole diameter and corner inset are all created as named Fusion user parameters that remain editable in the Fusion UI after the script runs.

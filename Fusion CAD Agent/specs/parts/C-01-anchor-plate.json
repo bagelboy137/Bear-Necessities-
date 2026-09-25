@@ -1,0 +1,57 @@
+{
+  "id": "C-01-anchor-plate",
+  "name": "C-01 module anchor plate",
+  "units": "in",
+  "difficulty": 3,
+  "description": "The Bear Necessities C-01 anchor plate: a flat laser-cut plate that ties a module frame to its mount. Laid flat on the XY plane with thickness in Z, centred on the origin in X and Y. Four rounded vertical corners. Two mounting holes on the centreline plus one smaller locating pin hole outboard of them. Every hole goes fully through.",
+  "constants": {
+    "LENGTH": 4.0,
+    "WIDTH": 1.5,
+    "THICKNESS": 0.25,
+    "CORNER_RADIUS": 0.25,
+    "MOUNT_DIA": 0.281,
+    "PIN_DIA": 0.266
+  },
+  "checks": {
+    "bbox": [
+      4.0,
+      1.5,
+      0.25
+    ],
+    "bbox_tol": 0.01,
+    "volume": 1.44169,
+    "volume_tol": 0.01,
+    "solids": 1,
+    "valid": true,
+    "holes": [
+      {
+        "d": 0.281,
+        "count": 2,
+        "at": [
+          [
+            -1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "through": true
+      },
+      {
+        "d": 0.266,
+        "count": 1,
+        "at": [
+          [
+            1.5,
+            0.0
+          ]
+        ],
+        "through": true
+      }
+    ],
+    "holes_exact": true
+  },
+  "notes": "Mounting holes dia 0.281 at (-1.000, 0) and (+1.000, 0). Locating pin hole dia 0.266 at (+1.500, 0). This part obeys the project's standing rule: every custom part is a flat plate cuttable from sheet."
+}

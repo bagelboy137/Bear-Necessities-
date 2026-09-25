@@ -1,0 +1,58 @@
+{
+  "_README": "Verified off-the-shelf parts catalog. Part numbers here are CURATED BY HAND and web-verified, never model-generated. The LLM builds geometry; the BOM generator reads part numbers from this file. That separation is deliberate: a hallucinated part number is the one error that costs real money.",
+  "_verified": "2026-08-20 via 8020.net and tnutz.com product pages",
+  "_pricing": "DELIBERATELY NULL. Get a live quote before publishing any price. Do not let anyone fill these in from memory.",
+
+  "series": "10 Series (1\" x 1\") - chosen over 15 Series because module walls are short (18\" max unsupported) and 10 Series is lighter and cheaper. 15 Series would be over-built for this load.",
+
+  "profile": {
+    "part": "1010-S",
+    "alt_part": "EX-1010",
+    "alt_vendor": "TNUTZ",
+    "desc": "1\" x 1\" smooth surface T-slotted profile, four open T-slots",
+    "vendor": "80/20 Inc",
+    "unit": "inch",
+    "cut_to_length": true,
+    "verified": true,
+    "note": "TNUTZ EX-1010 is stated 100% compatible with 80/20 1010-S and they cut to length with ~48h turnaround. Primary drop-ship candidate.",
+    "unit_price_usd": null
+  },
+
+  "fasteners": [
+    {
+      "part": "4132",
+      "desc": "10 Series 2 Hole Gusseted Inside Corner Bracket",
+      "vendor": "80/20 Inc",
+      "verified": true,
+      "role": "primary corner joint",
+      "note": "Gusseted (heavy duty) chosen over the 4108 LITE version because these modules carry a loaded fridge and are repeatedly lifted by their corners.",
+      "unit_price_usd": null
+    },
+    {
+      "part": "4108",
+      "desc": "10 Series 2 Hole LITE Inside Corner Bracket, 1 x 1 x .125 x 1in, two .257in thru holes",
+      "vendor": "80/20 Inc",
+      "verified": true,
+      "role": "alternate / non-structural corners",
+      "note": "Lighter and cheaper. Acceptable for the gear/utility module which carries less.",
+      "unit_price_usd": null
+    },
+    {
+      "part": "3395",
+      "desc": "10 Series 10-32 Standard Anchor Fastener (slide-in T-nut + cam + 10-32 SHCS)",
+      "vendor": "80/20 Inc",
+      "verified": true,
+      "role": "hidden 90-degree butt joint, vibration resistant",
+      "note": "Flush/concealed alternative to external brackets. Vibration resistance matters in a vehicle.",
+      "unit_price_usd": null
+    }
+  ],
+
+  "_unverified_still_to_source": [
+    "Panel retainer / snap-in panel trim for capturing the side panels in the T-slot",
+    "Leveling feet or corner glides",
+    "Handles - specify an off-the-shelf recessed pull rather than a custom part",
+    "Drawer slides - off-the-shelf, 20in full-extension, load rating TBD by module",
+    "Quick-release locking pin for the vehicle tie-down (see custom parts - this may be the only genuinely custom item)"
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "cycle_id": "manufacturing-07",
+  "stage": "manufacturing",
+  "cycle": 7,
+  "criterion": {
+    "cycle": 7,
+    "criterion": "assembly_sequence",
+    "question": "Can the module be assembled, skinned, wired or plumbed, inspected, and serviced in a practical sequence?"
+  },
+  "model": "qwen2.5-coder-7b-instruct",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T02:23:13.323750+00:00",
+  "prompt_sha256": "6fde1027d84942c1147816e8856182218b38308da5e2a9ccd0f12d7bc23688a6",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/manufacturing/manufacturing-07.attempt-1.raw.txt",
+      "sha256": "1a2a1627ddeaa340db4c8646cb4ee821ad48043186b457fa3b8be3353d4bb94c",
+      "usage": {
+        "prompt_tokens": 2822,
+        "completion_tokens": 866,
+        "total_tokens": 3688,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2822,
+    "completion_tokens": 866,
+    "total_tokens": 3688,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "manufacturing-07",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The assembly sequence is practical and follows the existing CAD layout.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Visual inspection of the assembly sequence.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The assembly sequence is practical and follows the existing CAD layout.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Visual inspection of the assembly sequence.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The assembly sequence is practical and follows the existing CAD layout.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Visual inspection of the assembly sequence.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The assembly sequence is practical and follows the existing CAD layout.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Visual inspection of the assembly sequence.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The assembly sequence is practical and follows the existing CAD layout.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Visual inspection of the assembly sequence.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The assembly sequence is practical and follows the existing CAD layout.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Visual inspection of the assembly sequence.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The assembly sequence is practical and follows the existing CAD layout.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Visual inspection of the assembly sequence.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The assembly sequence is practical and follows the existing CAD layout.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Visual inspection of the assembly sequence.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The assembly sequence is practical and follows the existing CAD layout.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Visual inspection of the assembly sequence.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The assembly sequence is practical and follows the existing CAD layout.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Visual inspection of the assembly sequence.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

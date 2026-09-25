@@ -1,0 +1,146 @@
+
+====================================================================
+RUN 2026-08-21 12:34:37 model=qwen2.5-coder-7b-instruct
+Fusion MCP: MCP Server Adapter
+====================================================================
+
+--- attempt 1/6 ---
+  generated 2390 chars in 27s
+  FUSION ERROR:
+    Traceback (most recent call last):
+      File "<string>", line 92, in <module>
+      File "<string>", line 63, in run
+    AttributeError: 'ConstructionPlane' object has no attribute 'yZDirection'
+    
+
+--- attempt 2/6 ---
+  generated 2389 chars in 24s
+  FUSION ERROR:
+    Traceback (most recent call last):
+      File "<string>", line 92, in <module>
+      File "<string>", line 63, in run
+    AttributeError: 'ConstructionPlane' object has no attribute 'yDirection'
+    
+
+--- attempt 3/6 ---
+  generated 2389 chars in 22s
+  FUSION ERROR:
+    Traceback (most recent call last):
+      File "<string>", line 92, in <module>
+      File "<string>", line 63, in run
+    AttributeError: 'ConstructionPlane' object has no attribute 'yDirection'
+    
+
+--- attempt 4/6 ---
+  generated 2389 chars in 21s
+  FUSION ERROR:
+    Traceback (most recent call last):
+      File "<string>", line 92, in <module>
+      File "<string>", line 63, in run
+    AttributeError: 'ConstructionPlane' object has no attribute 'yDirection'
+    
+
+--- attempt 5/6 ---
+  generated 2389 chars in 21s
+  FUSION ERROR:
+    Traceback (most recent call last):
+      File "<string>", line 92, in <module>
+      File "<string>", line 63, in run
+    AttributeError: 'ConstructionPlane' object has no attribute 'yDirection'
+    
+
+--- attempt 6/6 ---
+  generated 2389 chars in 21s
+  FUSION ERROR:
+    Traceback (most recent call last):
+      File "<string>", line 92, in <module>
+      File "<string>", line 63, in run
+    AttributeError: 'ConstructionPlane' object has no attribute 'yDirection'
+    
+
+❌ no valid model after 6 attempts
+
+====================================================================
+RUN 2026-08-21 12:37:22 model=qwen2.5-coder-7b-instruct
+Fusion MCP: MCP Server Adapter
+====================================================================
+
+--- attempt 1/6 ---
+  generated 2460 chars in 28s
+  FUSION ERROR:
+    Traceback (most recent call last):
+      File "<string>", line 87, in <module>
+      File "<string>", line 44, in run
+      File "<string>", line 85, in plate
+      File "/Users/cmken/Library/Application Support/Autodesk/webdeploy/production/5b508d94493ed3344e38945ffca1b03b713ee401/Autodesk Fusion.app/Contents/Api/Python/packages/adsk/fusion.py", line 34093, in add
+        return _fusion.ExtrudeFeatures_add(self, input)
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+    RuntimeError: 3 : Could not complete Through All Extrude, body not found to extrude through. Please check extrude inputs/direction.
+    
+
+--- attempt 2/6 ---
+  generated 2460 chars in 25s
+  FUSION ERROR:
+    Traceback (most recent call last):
+      File "<string>", line 87, in <module>
+      File "<string>", line 44, in run
+      File "<string>", line 85, in plate
+      File "/Users/cmken/Library/Application Support/Autodesk/webdeploy/production/5b508d94493ed3344e38945ffca1b03b713ee401/Autodesk Fusion.app/Contents/Api/Python/packages/adsk/fusion.py", line 34093, in add
+        return _fusion.ExtrudeFeatures_add(self, input)
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+    RuntimeError: 3 : Could not complete Through All Extrude, body not found to extrude through. Please check extrude inputs/direction.
+    
+
+--- attempt 3/6 ---
+  generated 2460 chars in 22s
+  FUSION ERROR:
+    Traceback (most recent call last):
+      File "<string>", line 87, in <module>
+      File "<string>", line 44, in run
+      File "<string>", line 85, in plate
+      File "/Users/cmken/Library/Application Support/Autodesk/webdeploy/production/5b508d94493ed3344e38945ffca1b03b713ee401/Autodesk Fusion.app/Contents/Api/Python/packages/adsk/fusion.py", line 34093, in add
+        return _fusion.ExtrudeFeatures_add(self, input)
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+    RuntimeError: 3 : Could not complete Through All Extrude, body not found to extrude through. Please check extrude inputs/direction.
+    
+
+--- attempt 4/6 ---
+  generated 2460 chars in 22s
+  FUSION ERROR:
+    Traceback (most recent call last):
+      File "<string>", line 87, in <module>
+      File "<string>", line 44, in run
+      File "<string>", line 85, in plate
+      File "/Users/cmken/Library/Application Support/Autodesk/webdeploy/production/5b508d94493ed3344e38945ffca1b03b713ee401/Autodesk Fusion.app/Contents/Api/Python/packages/adsk/fusion.py", line 34093, in add
+        return _fusion.ExtrudeFeatures_add(self, input)
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+    RuntimeError: 3 : Could not complete Through All Extrude, body not found to extrude through. Please check extrude inputs/direction.
+    
+
+--- attempt 5/6 ---
+  generated 2460 chars in 22s
+  FUSION ERROR:
+    Traceback (most recent call last):
+      File "<string>", line 87, in <module>
+      File "<string>", line 44, in run
+      File "<string>", line 85, in plate
+      File "/Users/cmken/Library/Application Support/Autodesk/webdeploy/production/5b508d94493ed3344e38945ffca1b03b713ee401/Autodesk Fusion.app/Contents/Api/Python/packages/adsk/fusion.py", line 34093, in add
+        return _fusion.ExtrudeFeatures_add(self, input)
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+    RuntimeError: 3 : Could not complete Through All Extrude, body not found to extrude through. Please check extrude inputs/direction.
+    
+
+--- attempt 6/6 ---
+  generated 2460 chars in 22s
+  FUSION ERROR:
+    Traceback (most recent call last):
+      File "<string>", line 87, in <module>
+      File "<string>", line 44, in run
+      File "<string>", line 85, in plate
+      File "/Users/cmken/Library/Application Support/Autodesk/webdeploy/production/5b508d94493ed3344e38945ffca1b03b713ee401/Autodesk Fusion.app/Contents/Api/Python/packages/adsk/fusion.py", line 34093, in add
+        return _fusion.ExtrudeFeatures_add(self, input)
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+    RuntimeError: 3 : Could not complete Through All Extrude, body not found to extrude through. Please check extrude inputs/direction.
+    
+
+❌ no valid model after 6 attempts

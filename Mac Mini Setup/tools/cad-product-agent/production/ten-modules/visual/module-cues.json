@@ -1,0 +1,13 @@
+{
+  "BN-M01": ["pull-out stove tray", "two burners with control knobs", "three-sided wind guard", "upper prep surface", "lower cookware drawer with handle"],
+  "BN-M02": ["three pull-out drawers of different heights", "front handles and latches", "internal divider", "full side and back panels"],
+  "BN-M03": ["compact top-opening fridge body with lid seam", "front carry handle", "compressor vent array", "restraint straps", "low slide tray"],
+  "BN-M04": ["recessed basin", "raised or foldable faucet", "drain", "grey-water tank", "pump and visible hose route", "splash panel", "lower service door"],
+  "BN-M05": ["blue seven-gallon water tank", "fill cap and spigot", "two restraint straps", "pump service bay", "hose", "vented access panel"],
+  "BN-M06": ["lower sealed tool drawer", "upper shelf", "perforated MOLLE panel", "recovery-rope roll", "shackles or tool silhouettes", "latch"],
+  "BN-M07": ["power-station enclosure with front display", "AC, round DC and USB port cues", "ventilation slots", "cable drawer", "protected pass-through"],
+  "BN-M08": ["heater face with display, knobs and vents", "coiled hose", "shower head", "quick-connect cues", "wet-storage tray"],
+  "BN-M09": ["rugged case with lid ribs and latches", "deployable worktop", "open laptop", "cable pass-through", "small accessory drawer"],
+  "BN-M10": ["vertical folded chair and table forms", "rolled fabric cylinders", "two compression straps", "front cargo-net pattern"],
+  "_source": "production/ten-modules/VISUAL-DESIGN-BRIEF.md, required visible content by module"
+}

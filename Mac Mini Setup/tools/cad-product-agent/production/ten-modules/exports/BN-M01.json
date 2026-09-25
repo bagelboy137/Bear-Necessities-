@@ -1,0 +1,51 @@
+{
+  "id": "BN-M01",
+  "label": "Cook Station",
+  "outside_bbox_in": [
+    24.0,
+    20.0,
+    18.0
+  ],
+  "frame_member_count": 12,
+  "component_count": 2,
+  "solid_count": 14,
+  "components": [
+    {
+      "name": "packed stove",
+      "size_in": [
+        10.75,
+        10.75,
+        6.25
+      ],
+      "origin_in": [
+        1.5,
+        1.5,
+        1.0
+      ],
+      "high_in": [
+        12.25,
+        12.25,
+        7.25
+      ]
+    },
+    {
+      "name": "deployable worktop",
+      "size_in": [
+        21.5,
+        17.5,
+        0.25
+      ],
+      "origin_in": [
+        1.25,
+        1.25,
+        9.0
+      ],
+      "high_in": [
+        22.75,
+        18.75,
+        9.25
+      ]
+    }
+  ],
+  "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+}

@@ -1,0 +1,902 @@
+{
+  "schema_version": 1,
+  "module_id": "BN-M03",
+  "title": "Fridge Freezer",
+  "design_type": "direct-native-multi-component",
+  "units": "inch",
+  "nominal_envelope": {
+    "width": 24.0,
+    "depth": 20.0,
+    "height": 18.0
+  },
+  "measured_bbox": {
+    "width_in": 24.0016,
+    "depth_in": 20.0016,
+    "height_in": 18.0016
+  },
+  "component_count": 126,
+  "body_count": 126,
+  "required_visual_cues": [
+    "12 separate 10-Series extrusion members",
+    "visible T-slot lines",
+    "dark infill panels",
+    "corner hardware",
+    "module ID plate",
+    "two shared OTS carry pulls",
+    "shared anti-skid tread",
+    "shared panel gasket",
+    "low locking slide tray",
+    "top-opening fridge body",
+    "lid and seam",
+    "front carry handle",
+    "compressor vent array",
+    "two restraint straps",
+    "drain and service access"
+  ],
+  "part_names": [
+    "FRAME_POST_01",
+    "FRAME_POST_02",
+    "FRAME_POST_03",
+    "FRAME_POST_04",
+    "FRAME_WIDTH_RAIL_05",
+    "FRAME_WIDTH_RAIL_06",
+    "FRAME_WIDTH_RAIL_07",
+    "FRAME_WIDTH_RAIL_08",
+    "FRAME_DEPTH_RAIL_09",
+    "FRAME_DEPTH_RAIL_10",
+    "FRAME_DEPTH_RAIL_11",
+    "FRAME_DEPTH_RAIL_12",
+    "TSLOT_POST_FRONT",
+    "TSLOT_POST_FRONT_02",
+    "TSLOT_WIDTH_FRONT",
+    "TSLOT_WIDTH_FRONT_02",
+    "TSLOT_DEPTH_RIGHT",
+    "TSLOT_DEPTH_RIGHT_02",
+    "TSLOT_TOP_DEPTH",
+    "TSLOT_TOP_DEPTH_02",
+    "BACK_INFILL_PANEL",
+    "LEFT_INFILL_PANEL",
+    "CORNER_GUSSET",
+    "GUSSET_BOLT",
+    "GUSSET_BOLT_02",
+    "CORNER_GUSSET_02",
+    "GUSSET_BOLT_03",
+    "GUSSET_BOLT_04",
+    "CORNER_GUSSET_03",
+    "GUSSET_BOLT_05",
+    "GUSSET_BOLT_06",
+    "CORNER_GUSSET_04",
+    "GUSSET_BOLT_07",
+    "GUSSET_BOLT_08",
+    "MODULE_ID_PLATE_BN-M03",
+    "ID_PLATE_HANGER",
+    "ID_PLATE_HANGER_02",
+    "ID_TEXT_M",
+    "ID_TEXT_M_02",
+    "ID_TEXT_M_03",
+    "ID_TEXT_M_04",
+    "ID_TEXT_M_05",
+    "ID_TEXT_M_06",
+    "ID_TEXT_M_07",
+    "ID_TEXT_M_08",
+    "ID_TEXT_M_09",
+    "ID_TEXT_M_10",
+    "ID_TEXT_M_11",
+    "ID_TEXT_M_12",
+    "ID_TEXT_0",
+    "ID_TEXT_0_02",
+    "ID_TEXT_0_03",
+    "ID_TEXT_0_04",
+    "ID_TEXT_0_05",
+    "ID_TEXT_0_06",
+    "ID_TEXT_0_07",
+    "ID_TEXT_0_08",
+    "ID_TEXT_0_09",
+    "ID_TEXT_0_10",
+    "ID_TEXT_0_11",
+    "ID_TEXT_0_12",
+    "ID_TEXT_3",
+    "ID_TEXT_3_02",
+    "ID_TEXT_3_03",
+    "ID_TEXT_3_04",
+    "ID_TEXT_3_05",
+    "ID_TEXT_3_06",
+    "ID_TEXT_3_07",
+    "ID_TEXT_3_08",
+    "ID_TEXT_3_09",
+    "ID_TEXT_3_10",
+    "ID_TEXT_3_11",
+    "OTS_HAN015AL_FRONT_LEFT_POST_L",
+    "OTS_HAN015AL_FRONT_LEFT_POST_R",
+    "OTS_HAN015AL_FRONT_LEFT_GRIP",
+    "OTS_HAN015AL_FRONT_RIGHT_POST_L",
+    "OTS_HAN015AL_FRONT_RIGHT_POST_R",
+    "OTS_HAN015AL_FRONT_RIGHT_GRIP",
+    "OTS_BUM010TS_FRONT",
+    "OTS_BUM010TS_REAR",
+    "OTS_GAS010A_GASKET",
+    "OTS_GAS010A_GASKET_02",
+    "OTS_GAS010A_GASKET_03",
+    "OTS_GAS010A_GASKET_04",
+    "REMOVABLE_PANEL_FASTENER",
+    "REMOVABLE_PANEL_FASTENER_02",
+    "REMOVABLE_PANEL_FASTENER_03",
+    "REMOVABLE_PANEL_FASTENER_04",
+    "REMOVABLE_PANEL_FASTENER_05",
+    "REMOVABLE_PANEL_FASTENER_06",
+    "REMOVABLE_PANEL_FASTENER_07",
+    "REMOVABLE_PANEL_FASTENER_08",
+    "REMOVABLE_PANEL_FASTENER_09",
+    "REMOVABLE_PANEL_FASTENER_10",
+    "REMOVABLE_PANEL_FASTENER_11",
+    "REMOVABLE_PANEL_FASTENER_12",
+    "REMOVABLE_PANEL_FASTENER_13",
+    "REMOVABLE_PANEL_FASTENER_14",
+    "REMOVABLE_PANEL_FASTENER_15",
+    "REMOVABLE_PANEL_FASTENER_16",
+    "REMOVABLE_PANEL_FASTENER_17",
+    "REMOVABLE_PANEL_FASTENER_18",
+    "FRIDGE_SLIDE_OUTER",
+    "FRIDGE_SLIDE_INNER",
+    "FRIDGE_SLIDE_OUTER_02",
+    "FRIDGE_SLIDE_INNER_02",
+    "FRIDGE_SLIDE_TRAY",
+    "FRIDGE_BODY",
+    "FRIDGE_LID",
+    "LID_SEAM_FRONT",
+    "FRIDGE_CARRY_HANDLE_POST_L",
+    "FRIDGE_CARRY_HANDLE_POST_R",
+    "FRIDGE_CARRY_HANDLE_GRIP",
+    "COMPRESSOR_SLOT",
+    "COMPRESSOR_SLOT_02",
+    "COMPRESSOR_SLOT_03",
+    "COMPRESSOR_SLOT_04",
+    "COMPRESSOR_SLOT_05",
+    "COMPRESSOR_SLOT_06",
+    "COMPRESSOR_SLOT_07",
+    "COMPRESSOR_SLOT_08",
+    "RESTRAINT_STRAP",
+    "STRAP_BUCKLE",
+    "RESTRAINT_STRAP_02",
+    "STRAP_BUCKLE_02",
+    "FRIDGE_DRAIN_ACCESS"
+  ],
+  "parts": [
+    {
+      "name": "FRAME_POST_01",
+      "color": "aluminum",
+      "cue": "12 separate 10-Series extrusion members"
+    },
+    {
+      "name": "FRAME_POST_02",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_POST_03",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_POST_04",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_WIDTH_RAIL_05",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_WIDTH_RAIL_06",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_WIDTH_RAIL_07",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_WIDTH_RAIL_08",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_DEPTH_RAIL_09",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_DEPTH_RAIL_10",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_DEPTH_RAIL_11",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_DEPTH_RAIL_12",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "TSLOT_POST_FRONT",
+      "color": "black",
+      "cue": "visible T-slot lines"
+    },
+    {
+      "name": "TSLOT_POST_FRONT_02",
+      "color": "black",
+      "cue": "visible T-slot lines"
+    },
+    {
+      "name": "TSLOT_WIDTH_FRONT",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "TSLOT_WIDTH_FRONT_02",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "TSLOT_DEPTH_RIGHT",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "TSLOT_DEPTH_RIGHT_02",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "TSLOT_TOP_DEPTH",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "TSLOT_TOP_DEPTH_02",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "BACK_INFILL_PANEL",
+      "color": "charcoal",
+      "cue": "dark infill panels"
+    },
+    {
+      "name": "LEFT_INFILL_PANEL",
+      "color": "charcoal",
+      "cue": ""
+    },
+    {
+      "name": "CORNER_GUSSET",
+      "color": "black",
+      "cue": "corner hardware"
+    },
+    {
+      "name": "GUSSET_BOLT",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "GUSSET_BOLT_02",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "CORNER_GUSSET_02",
+      "color": "black",
+      "cue": "corner hardware"
+    },
+    {
+      "name": "GUSSET_BOLT_03",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "GUSSET_BOLT_04",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "CORNER_GUSSET_03",
+      "color": "black",
+      "cue": "corner hardware"
+    },
+    {
+      "name": "GUSSET_BOLT_05",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "GUSSET_BOLT_06",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "CORNER_GUSSET_04",
+      "color": "black",
+      "cue": "corner hardware"
+    },
+    {
+      "name": "GUSSET_BOLT_07",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "GUSSET_BOLT_08",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "MODULE_ID_PLATE_BN-M03",
+      "color": "black",
+      "cue": "module ID plate"
+    },
+    {
+      "name": "ID_PLATE_HANGER",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "ID_PLATE_HANGER_02",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_02",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_03",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_04",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_05",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_06",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_07",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_08",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_09",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_10",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_11",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_12",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_02",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_03",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_04",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_05",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_06",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_07",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_08",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_09",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_10",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_11",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_12",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_3",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_3_02",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_3_03",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_3_04",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_3_05",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_3_06",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_3_07",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_3_08",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_3_09",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_3_10",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_3_11",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "OTS_HAN015AL_FRONT_LEFT_POST_L",
+      "color": "black",
+      "cue": "two shared OTS carry pulls"
+    },
+    {
+      "name": "OTS_HAN015AL_FRONT_LEFT_POST_R",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "OTS_HAN015AL_FRONT_LEFT_GRIP",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "OTS_HAN015AL_FRONT_RIGHT_POST_L",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "OTS_HAN015AL_FRONT_RIGHT_POST_R",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "OTS_HAN015AL_FRONT_RIGHT_GRIP",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "OTS_BUM010TS_FRONT",
+      "color": "rubber",
+      "cue": "shared anti-skid tread"
+    },
+    {
+      "name": "OTS_BUM010TS_REAR",
+      "color": "rubber",
+      "cue": ""
+    },
+    {
+      "name": "OTS_GAS010A_GASKET",
+      "color": "rubber",
+      "cue": "shared panel gasket"
+    },
+    {
+      "name": "OTS_GAS010A_GASKET_02",
+      "color": "rubber",
+      "cue": ""
+    },
+    {
+      "name": "OTS_GAS010A_GASKET_03",
+      "color": "rubber",
+      "cue": ""
+    },
+    {
+      "name": "OTS_GAS010A_GASKET_04",
+      "color": "rubber",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_02",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_03",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_04",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_05",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_06",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_07",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_08",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_09",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_10",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_11",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_12",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_13",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_14",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_15",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_16",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_17",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_18",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRIDGE_SLIDE_OUTER",
+      "color": "aluminum_dark",
+      "cue": "low locking slide tray"
+    },
+    {
+      "name": "FRIDGE_SLIDE_INNER",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRIDGE_SLIDE_OUTER_02",
+      "color": "aluminum_dark",
+      "cue": ""
+    },
+    {
+      "name": "FRIDGE_SLIDE_INNER_02",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRIDGE_SLIDE_TRAY",
+      "color": "aluminum_dark",
+      "cue": ""
+    },
+    {
+      "name": "FRIDGE_BODY",
+      "color": "charcoal",
+      "cue": "top-opening fridge body"
+    },
+    {
+      "name": "FRIDGE_LID",
+      "color": "white",
+      "cue": "lid and seam"
+    },
+    {
+      "name": "LID_SEAM_FRONT",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "FRIDGE_CARRY_HANDLE_POST_L",
+      "color": "black",
+      "cue": "front carry handle"
+    },
+    {
+      "name": "FRIDGE_CARRY_HANDLE_POST_R",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "FRIDGE_CARRY_HANDLE_GRIP",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "COMPRESSOR_SLOT",
+      "color": "black",
+      "cue": "compressor vent array"
+    },
+    {
+      "name": "COMPRESSOR_SLOT_02",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "COMPRESSOR_SLOT_03",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "COMPRESSOR_SLOT_04",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "COMPRESSOR_SLOT_05",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "COMPRESSOR_SLOT_06",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "COMPRESSOR_SLOT_07",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "COMPRESSOR_SLOT_08",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "RESTRAINT_STRAP",
+      "color": "orange",
+      "cue": "two restraint straps"
+    },
+    {
+      "name": "STRAP_BUCKLE",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "RESTRAINT_STRAP_02",
+      "color": "orange",
+      "cue": ""
+    },
+    {
+      "name": "STRAP_BUCKLE_02",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "FRIDGE_DRAIN_ACCESS",
+      "color": "blue",
+      "cue": "drain and service access"
+    }
+  ],
+  "exports": {
+    "f3d": {
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M03/BN-M03.f3d",
+      "api_ok": true,
+      "exists": true,
+      "bytes": 564052
+    },
+    "step": {
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M03/BN-M03.step",
+      "api_ok": true,
+      "exists": true,
+      "bytes": 932732
+    },
+    "stl": {
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M03/BN-M03.stl",
+      "api_ok": true,
+      "exists": true,
+      "bytes": 255684
+    },
+    "obj": {
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M03/BN-M03.obj",
+      "api_ok": true,
+      "exists": true,
+      "bytes": 697276
+    }
+  },
+  "screenshots": {
+    "iso": {
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M03/BN-M03-iso.png",
+      "api_ok": true,
+      "exists": true,
+      "bytes": 256557
+    },
+    "front": {
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M03/BN-M03-front.png",
+      "api_ok": true,
+      "exists": true,
+      "bytes": 69748
+    }
+  },
+  "local_model_revision_evidence": {
+    "required_model": "qwen/qwen2.5-coder-14b",
+    "allowed_models": [
+      "qwen/qwen2.5-coder-14b",
+      "qwen2.5-coder-7b-instruct"
+    ],
+    "model_counts": {
+      "qwen/qwen2.5-coder-14b": 120,
+      "qwen2.5-coder-7b-instruct": 180
+    },
+    "module_models": [
+      "qwen/qwen2.5-coder-14b",
+      "qwen2.5-coder-7b-instruct"
+    ],
+    "ledger_path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/iteration-ledger.json",
+    "ledger_result": "PASS",
+    "family_review_count": 300,
+    "module_review_count": 30,
+    "adopted_requirement_count": 1,
+    "record_ids": [
+      "design-01-BN-M03",
+      "design-02-BN-M03",
+      "design-03-BN-M03",
+      "design-04-BN-M03",
+      "design-05-BN-M03",
+      "design-06-BN-M03",
+      "design-07-BN-M03",
+      "design-08-BN-M03",
+      "design-09-BN-M03",
+      "design-10-BN-M03",
+      "manufacturing-01-BN-M03",
+      "manufacturing-02-BN-M03",
+      "manufacturing-03-BN-M03",
+      "manufacturing-04-BN-M03",
+      "manufacturing-05-BN-M03",
+      "manufacturing-06-BN-M03",
+      "manufacturing-07-BN-M03",
+      "manufacturing-08-BN-M03",
+      "manufacturing-09-BN-M03",
+      "manufacturing-10-BN-M03",
+      "combined-01-BN-M03",
+      "combined-02-BN-M03",
+      "combined-03-BN-M03",
+      "combined-04-BN-M03",
+      "combined-05-BN-M03",
+      "combined-06-BN-M03",
+      "combined-07-BN-M03",
+      "combined-08-BN-M03",
+      "combined-09-BN-M03",
+      "combined-10-BN-M03"
+    ]
+  },
+  "represented_ots_catalog_ids": [
+    "TNUTZ-EX1010-18",
+    "TNUTZ-EX1010-22",
+    "8020-4132",
+    "8020-3393",
+    "TNUTZ-HAN015AL",
+    "TNUTZ-GAS010A",
+    "TNUTZ-BUM010TS",
+    "TAP-HYPACT-PANEL",
+    "ENGEL-MHD13-ALT",
+    "ACCURIDE-3832-C16",
+    "NRS-HD-STRAP"
+  ],
+  "release_scope": "visual product-concept CAD; engineering release pending"
+}

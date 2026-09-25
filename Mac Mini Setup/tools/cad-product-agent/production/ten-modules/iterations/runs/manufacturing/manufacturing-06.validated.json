@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "cycle_id": "manufacturing-06",
+  "stage": "manufacturing",
+  "cycle": 6,
+  "criterion": {
+    "cycle": 6,
+    "criterion": "tool_access",
+    "question": "Can a technician reach every recurring fastener, latch, slide, pump, connector, and restraint with ordinary tools?"
+  },
+  "model": "qwen2.5-coder-7b-instruct",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T02:21:58.928041+00:00",
+  "prompt_sha256": "6715bd7faa4eccda09f63f958734cd88a98a9059c39c04a0f2e7ce0556b9074c",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/manufacturing/manufacturing-06.attempt-1.raw.txt",
+      "sha256": "db8724ad7b5fc2ac421db9f1f0c6de18d0c9e1dad3e7c1fc6c9d8d83449e1434",
+      "usage": {
+        "prompt_tokens": 2832,
+        "completion_tokens": 896,
+        "total_tokens": 3728,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2832,
+    "completion_tokens": 896,
+    "total_tokens": 3728,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "manufacturing-06",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "All fasteners and latches are accessible with ordinary tools.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Technician can reach all components with standard tools.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "All fasteners and latches are accessible with ordinary tools.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Technician can reach all components with standard tools.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "All fasteners and latches are accessible with ordinary tools.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Technician can reach all components with standard tools.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "All fasteners and latches are accessible with ordinary tools.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Technician can reach all components with standard tools.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "All fasteners and latches are accessible with ordinary tools.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Technician can reach all components with standard tools.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "All fasteners and latches are accessible with ordinary tools.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Technician can reach all components with standard tools.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "All fasteners and latches are accessible with ordinary tools.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Technician can reach all components with standard tools.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "All fasteners and latches are accessible with ordinary tools.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Technician can reach all components with standard tools.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "All fasteners and latches are accessible with ordinary tools.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Technician can reach all components with standard tools.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "All fasteners and latches are accessible with ordinary tools.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Technician can reach all components with standard tools.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

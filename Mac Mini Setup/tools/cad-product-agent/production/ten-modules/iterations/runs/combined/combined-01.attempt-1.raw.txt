@@ -1,0 +1,97 @@
+```json
+{
+  "cycle_id": "combined-01",
+  "reviews": [
+    {
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The visible function is preserved and improved by the exposed burners, controls, wind guard, and stove tray.",
+      "evidence_ids": ["8020-3393", "COMP-GOOSE-GEAR-CAMPKITCHEN"],
+      "acceptance_check": "Visual inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The visible function is preserved and improved by the graduated drawers, open tray, and compression latches.",
+      "evidence_ids": ["8020-3393", "COMP-LONE-PEAK-DRAWER"],
+      "acceptance_check": "Visual inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The visible function is preserved and improved by the recognizable fridge, lid, carry handle, and controls.",
+      "evidence_ids": ["8020-3393", "COMP-MODULR-FRIDGE-SLIDE"],
+      "acceptance_check": "Visual inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The visible function is preserved and improved by the open basin, faucet, drain, and pump.",
+      "evidence_ids": ["8020-3393", "COMP-GOOSE-GEAR-CAMPKITCHEN"],
+      "acceptance_check": "Visual inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The visible function is preserved and improved by the ribbed container, handle, spigot, and pump.",
+      "evidence_ids": ["8020-3393", "RELIANCE-AQUATAINER-7G"],
+      "acceptance_check": "Visual inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The visible function is preserved and improved by the sealed tool case, adjustable shelf, MOLLE panel, and recovery rope.",
+      "evidence_ids": ["8020-3393", "COMP-OVS-MOLLE"],
+      "acceptance_check": "Visual inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The visible function is preserved and improved by the power station, display, ports, and cable drawer.",
+      "evidence_ids": ["8020-3393", "ECOFLOW-RIVER3-PLUS"],
+      "acceptance_check": "Visual inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The visible function is preserved and improved by the heater body, display, knob, shower head, and hose route.",
+      "evidence_ids": ["8020-3393", "JOOLCA-HOTTAP-V2"],
+      "acceptance_check": "Visual inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The visible function is preserved and improved by the rugged case, latches/ribs, deployed worktop, laptop, and keyboard.",
+      "evidence_ids": ["8020-3393", "COMP-LONE-PEAK-DRAWER"],
+      "acceptance_check": "Visual inspection of the module.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The visible function is preserved and improved by the recognizable chairs/table, soft goods, straps, and cargo net.",
+      "evidence_ids": ["8020-3393", "COMP-OVS-MOLLE"],
+      "acceptance_check": "Visual inspection of the module.",
+      "risk": "None"
+    }
+  ]
+}
+```

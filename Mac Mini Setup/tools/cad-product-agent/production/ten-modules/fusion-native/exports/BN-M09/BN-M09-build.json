@@ -1,0 +1,1193 @@
+{
+  "schema_version": 1,
+  "module_id": "BN-M09",
+  "title": "Field Office Camera",
+  "design_type": "direct-native-multi-component",
+  "units": "inch",
+  "nominal_envelope": {
+    "width": 24.0,
+    "depth": 20.0,
+    "height": 18.0
+  },
+  "measured_bbox": {
+    "width_in": 24.0016,
+    "depth_in": 20.0016,
+    "height_in": 18.0016
+  },
+  "component_count": 174,
+  "body_count": 174,
+  "required_visual_cues": [
+    "12 separate 10-Series extrusion members",
+    "visible T-slot lines",
+    "dark infill panels",
+    "corner hardware",
+    "module ID plate",
+    "two shared OTS carry pulls",
+    "shared anti-skid tread",
+    "shared panel gasket",
+    "rugged camera case",
+    "ribbed case lid",
+    "case latches",
+    "deployable worktop",
+    "locking slides",
+    "open laptop",
+    "small accessory drawer",
+    "pull handle",
+    "compression latch",
+    "cable pass-through"
+  ],
+  "part_names": [
+    "FRAME_POST_01",
+    "FRAME_POST_02",
+    "FRAME_POST_03",
+    "FRAME_POST_04",
+    "FRAME_WIDTH_RAIL_05",
+    "FRAME_WIDTH_RAIL_06",
+    "FRAME_WIDTH_RAIL_07",
+    "FRAME_WIDTH_RAIL_08",
+    "FRAME_DEPTH_RAIL_09",
+    "FRAME_DEPTH_RAIL_10",
+    "FRAME_DEPTH_RAIL_11",
+    "FRAME_DEPTH_RAIL_12",
+    "TSLOT_POST_FRONT",
+    "TSLOT_POST_FRONT_02",
+    "TSLOT_WIDTH_FRONT",
+    "TSLOT_WIDTH_FRONT_02",
+    "TSLOT_DEPTH_RIGHT",
+    "TSLOT_DEPTH_RIGHT_02",
+    "TSLOT_TOP_DEPTH",
+    "TSLOT_TOP_DEPTH_02",
+    "BACK_INFILL_PANEL",
+    "LEFT_INFILL_PANEL",
+    "CORNER_GUSSET",
+    "GUSSET_BOLT",
+    "GUSSET_BOLT_02",
+    "CORNER_GUSSET_02",
+    "GUSSET_BOLT_03",
+    "GUSSET_BOLT_04",
+    "CORNER_GUSSET_03",
+    "GUSSET_BOLT_05",
+    "GUSSET_BOLT_06",
+    "CORNER_GUSSET_04",
+    "GUSSET_BOLT_07",
+    "GUSSET_BOLT_08",
+    "MODULE_ID_PLATE_BN-M09",
+    "ID_PLATE_HANGER",
+    "ID_PLATE_HANGER_02",
+    "ID_TEXT_M",
+    "ID_TEXT_M_02",
+    "ID_TEXT_M_03",
+    "ID_TEXT_M_04",
+    "ID_TEXT_M_05",
+    "ID_TEXT_M_06",
+    "ID_TEXT_M_07",
+    "ID_TEXT_M_08",
+    "ID_TEXT_M_09",
+    "ID_TEXT_M_10",
+    "ID_TEXT_M_11",
+    "ID_TEXT_M_12",
+    "ID_TEXT_0",
+    "ID_TEXT_0_02",
+    "ID_TEXT_0_03",
+    "ID_TEXT_0_04",
+    "ID_TEXT_0_05",
+    "ID_TEXT_0_06",
+    "ID_TEXT_0_07",
+    "ID_TEXT_0_08",
+    "ID_TEXT_0_09",
+    "ID_TEXT_0_10",
+    "ID_TEXT_0_11",
+    "ID_TEXT_0_12",
+    "ID_TEXT_9",
+    "ID_TEXT_9_02",
+    "ID_TEXT_9_03",
+    "ID_TEXT_9_04",
+    "ID_TEXT_9_05",
+    "ID_TEXT_9_06",
+    "ID_TEXT_9_07",
+    "ID_TEXT_9_08",
+    "ID_TEXT_9_09",
+    "ID_TEXT_9_10",
+    "ID_TEXT_9_11",
+    "ID_TEXT_9_12",
+    "OTS_HAN015AL_FRONT_LEFT_POST_L",
+    "OTS_HAN015AL_FRONT_LEFT_POST_R",
+    "OTS_HAN015AL_FRONT_LEFT_GRIP",
+    "OTS_HAN015AL_FRONT_RIGHT_POST_L",
+    "OTS_HAN015AL_FRONT_RIGHT_POST_R",
+    "OTS_HAN015AL_FRONT_RIGHT_GRIP",
+    "OTS_BUM010TS_FRONT",
+    "OTS_BUM010TS_REAR",
+    "OTS_GAS010A_GASKET",
+    "OTS_GAS010A_GASKET_02",
+    "OTS_GAS010A_GASKET_03",
+    "OTS_GAS010A_GASKET_04",
+    "REMOVABLE_PANEL_FASTENER",
+    "REMOVABLE_PANEL_FASTENER_02",
+    "REMOVABLE_PANEL_FASTENER_03",
+    "REMOVABLE_PANEL_FASTENER_04",
+    "REMOVABLE_PANEL_FASTENER_05",
+    "REMOVABLE_PANEL_FASTENER_06",
+    "REMOVABLE_PANEL_FASTENER_07",
+    "REMOVABLE_PANEL_FASTENER_08",
+    "REMOVABLE_PANEL_FASTENER_09",
+    "REMOVABLE_PANEL_FASTENER_10",
+    "REMOVABLE_PANEL_FASTENER_11",
+    "REMOVABLE_PANEL_FASTENER_12",
+    "REMOVABLE_PANEL_FASTENER_13",
+    "REMOVABLE_PANEL_FASTENER_14",
+    "REMOVABLE_PANEL_FASTENER_15",
+    "REMOVABLE_PANEL_FASTENER_16",
+    "REMOVABLE_PANEL_FASTENER_17",
+    "REMOVABLE_PANEL_FASTENER_18",
+    "RUGGED_CASE",
+    "CASE_LID",
+    "CASE_LID_RIB",
+    "CASE_LID_RIB_02",
+    "CASE_LID_RIB_03",
+    "CASE_LID_RIB_04",
+    "CASE_LID_RIB_05",
+    "CASE_LID_RIB_06",
+    "CASE_LATCH",
+    "CASE_LATCH_02",
+    "DEPLOYED_WORKTOP",
+    "WORKTOP_SLIDE_OUTER",
+    "WORKTOP_SLIDE_INNER",
+    "WORKTOP_SLIDE_OUTER_02",
+    "WORKTOP_SLIDE_INNER_02",
+    "LAPTOP_BASE",
+    "LAPTOP_HINGE",
+    "LAPTOP_SCREEN_LID",
+    "LAPTOP_SCREEN",
+    "KEY",
+    "KEY_02",
+    "KEY_03",
+    "KEY_04",
+    "KEY_05",
+    "KEY_06",
+    "KEY_07",
+    "KEY_08",
+    "KEY_09",
+    "KEY_10",
+    "KEY_11",
+    "KEY_12",
+    "KEY_13",
+    "KEY_14",
+    "KEY_15",
+    "KEY_16",
+    "KEY_17",
+    "KEY_18",
+    "KEY_19",
+    "KEY_20",
+    "KEY_21",
+    "KEY_22",
+    "KEY_23",
+    "KEY_24",
+    "KEY_25",
+    "KEY_26",
+    "KEY_27",
+    "KEY_28",
+    "KEY_29",
+    "KEY_30",
+    "KEY_31",
+    "KEY_32",
+    "KEY_33",
+    "KEY_34",
+    "KEY_35",
+    "KEY_36",
+    "KEY_37",
+    "KEY_38",
+    "KEY_39",
+    "KEY_40",
+    "TRACKPAD",
+    "ACCESSORY_DRAWER_CASE",
+    "ACCESSORY_DRAWER_FRONT",
+    "ACCESSORY_DRAWER_HANDLE_POST_L",
+    "ACCESSORY_DRAWER_HANDLE_POST_R",
+    "ACCESSORY_DRAWER_HANDLE_GRIP",
+    "ACCESSORY_DRAWER_LATCH",
+    "ACCESSORY_DRAWER_SLIDE_OUTER",
+    "ACCESSORY_DRAWER_SLIDE_INNER",
+    "ACCESSORY_DRAWER_SLIDE_OUTER_02",
+    "ACCESSORY_DRAWER_SLIDE_INNER_02",
+    "CABLE_PASS_THROUGH"
+  ],
+  "parts": [
+    {
+      "name": "FRAME_POST_01",
+      "color": "aluminum",
+      "cue": "12 separate 10-Series extrusion members"
+    },
+    {
+      "name": "FRAME_POST_02",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_POST_03",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_POST_04",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_WIDTH_RAIL_05",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_WIDTH_RAIL_06",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_WIDTH_RAIL_07",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_WIDTH_RAIL_08",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_DEPTH_RAIL_09",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_DEPTH_RAIL_10",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_DEPTH_RAIL_11",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "FRAME_DEPTH_RAIL_12",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "TSLOT_POST_FRONT",
+      "color": "black",
+      "cue": "visible T-slot lines"
+    },
+    {
+      "name": "TSLOT_POST_FRONT_02",
+      "color": "black",
+      "cue": "visible T-slot lines"
+    },
+    {
+      "name": "TSLOT_WIDTH_FRONT",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "TSLOT_WIDTH_FRONT_02",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "TSLOT_DEPTH_RIGHT",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "TSLOT_DEPTH_RIGHT_02",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "TSLOT_TOP_DEPTH",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "TSLOT_TOP_DEPTH_02",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "BACK_INFILL_PANEL",
+      "color": "charcoal",
+      "cue": "dark infill panels"
+    },
+    {
+      "name": "LEFT_INFILL_PANEL",
+      "color": "charcoal",
+      "cue": ""
+    },
+    {
+      "name": "CORNER_GUSSET",
+      "color": "black",
+      "cue": "corner hardware"
+    },
+    {
+      "name": "GUSSET_BOLT",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "GUSSET_BOLT_02",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "CORNER_GUSSET_02",
+      "color": "black",
+      "cue": "corner hardware"
+    },
+    {
+      "name": "GUSSET_BOLT_03",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "GUSSET_BOLT_04",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "CORNER_GUSSET_03",
+      "color": "black",
+      "cue": "corner hardware"
+    },
+    {
+      "name": "GUSSET_BOLT_05",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "GUSSET_BOLT_06",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "CORNER_GUSSET_04",
+      "color": "black",
+      "cue": "corner hardware"
+    },
+    {
+      "name": "GUSSET_BOLT_07",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "GUSSET_BOLT_08",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "MODULE_ID_PLATE_BN-M09",
+      "color": "black",
+      "cue": "module ID plate"
+    },
+    {
+      "name": "ID_PLATE_HANGER",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "ID_PLATE_HANGER_02",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_02",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_03",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_04",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_05",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_06",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_07",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_08",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_09",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_10",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_11",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_M_12",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_02",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_03",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_04",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_05",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_06",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_07",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_08",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_09",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_10",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_11",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_0_12",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_9",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_9_02",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_9_03",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_9_04",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_9_05",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_9_06",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_9_07",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_9_08",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_9_09",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_9_10",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_9_11",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "ID_TEXT_9_12",
+      "color": "white",
+      "cue": ""
+    },
+    {
+      "name": "OTS_HAN015AL_FRONT_LEFT_POST_L",
+      "color": "black",
+      "cue": "two shared OTS carry pulls"
+    },
+    {
+      "name": "OTS_HAN015AL_FRONT_LEFT_POST_R",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "OTS_HAN015AL_FRONT_LEFT_GRIP",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "OTS_HAN015AL_FRONT_RIGHT_POST_L",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "OTS_HAN015AL_FRONT_RIGHT_POST_R",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "OTS_HAN015AL_FRONT_RIGHT_GRIP",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "OTS_BUM010TS_FRONT",
+      "color": "rubber",
+      "cue": "shared anti-skid tread"
+    },
+    {
+      "name": "OTS_BUM010TS_REAR",
+      "color": "rubber",
+      "cue": ""
+    },
+    {
+      "name": "OTS_GAS010A_GASKET",
+      "color": "rubber",
+      "cue": "shared panel gasket"
+    },
+    {
+      "name": "OTS_GAS010A_GASKET_02",
+      "color": "rubber",
+      "cue": ""
+    },
+    {
+      "name": "OTS_GAS010A_GASKET_03",
+      "color": "rubber",
+      "cue": ""
+    },
+    {
+      "name": "OTS_GAS010A_GASKET_04",
+      "color": "rubber",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_02",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_03",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_04",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_05",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_06",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_07",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_08",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_09",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_10",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_11",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_12",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_13",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_14",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_15",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_16",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_17",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "REMOVABLE_PANEL_FASTENER_18",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "RUGGED_CASE",
+      "color": "charcoal",
+      "cue": "rugged camera case"
+    },
+    {
+      "name": "CASE_LID",
+      "color": "black",
+      "cue": "ribbed case lid"
+    },
+    {
+      "name": "CASE_LID_RIB",
+      "color": "aluminum_dark",
+      "cue": ""
+    },
+    {
+      "name": "CASE_LID_RIB_02",
+      "color": "aluminum_dark",
+      "cue": ""
+    },
+    {
+      "name": "CASE_LID_RIB_03",
+      "color": "aluminum_dark",
+      "cue": ""
+    },
+    {
+      "name": "CASE_LID_RIB_04",
+      "color": "aluminum_dark",
+      "cue": ""
+    },
+    {
+      "name": "CASE_LID_RIB_05",
+      "color": "aluminum_dark",
+      "cue": ""
+    },
+    {
+      "name": "CASE_LID_RIB_06",
+      "color": "aluminum_dark",
+      "cue": ""
+    },
+    {
+      "name": "CASE_LATCH",
+      "color": "black",
+      "cue": "case latches"
+    },
+    {
+      "name": "CASE_LATCH_02",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "DEPLOYED_WORKTOP",
+      "color": "aluminum_dark",
+      "cue": "deployable worktop"
+    },
+    {
+      "name": "WORKTOP_SLIDE_OUTER",
+      "color": "aluminum_dark",
+      "cue": "locking slides"
+    },
+    {
+      "name": "WORKTOP_SLIDE_INNER",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "WORKTOP_SLIDE_OUTER_02",
+      "color": "aluminum_dark",
+      "cue": ""
+    },
+    {
+      "name": "WORKTOP_SLIDE_INNER_02",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "LAPTOP_BASE",
+      "color": "aluminum",
+      "cue": "open laptop"
+    },
+    {
+      "name": "LAPTOP_HINGE",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "LAPTOP_SCREEN_LID",
+      "color": "charcoal",
+      "cue": ""
+    },
+    {
+      "name": "LAPTOP_SCREEN",
+      "color": "screen",
+      "cue": ""
+    },
+    {
+      "name": "KEY",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_02",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_03",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_04",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_05",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_06",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_07",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_08",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_09",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_10",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_11",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_12",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_13",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_14",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_15",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_16",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_17",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_18",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_19",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_20",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_21",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_22",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_23",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_24",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_25",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_26",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_27",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_28",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_29",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_30",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_31",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_32",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_33",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_34",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_35",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_36",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_37",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_38",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_39",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "KEY_40",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "TRACKPAD",
+      "color": "charcoal",
+      "cue": ""
+    },
+    {
+      "name": "ACCESSORY_DRAWER_CASE",
+      "color": "charcoal",
+      "cue": "small accessory drawer"
+    },
+    {
+      "name": "ACCESSORY_DRAWER_FRONT",
+      "color": "aluminum_dark",
+      "cue": ""
+    },
+    {
+      "name": "ACCESSORY_DRAWER_HANDLE_POST_L",
+      "color": "black",
+      "cue": "pull handle"
+    },
+    {
+      "name": "ACCESSORY_DRAWER_HANDLE_POST_R",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "ACCESSORY_DRAWER_HANDLE_GRIP",
+      "color": "black",
+      "cue": ""
+    },
+    {
+      "name": "ACCESSORY_DRAWER_LATCH",
+      "color": "black",
+      "cue": "compression latch"
+    },
+    {
+      "name": "ACCESSORY_DRAWER_SLIDE_OUTER",
+      "color": "aluminum_dark",
+      "cue": "locking slides"
+    },
+    {
+      "name": "ACCESSORY_DRAWER_SLIDE_INNER",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "ACCESSORY_DRAWER_SLIDE_OUTER_02",
+      "color": "aluminum_dark",
+      "cue": ""
+    },
+    {
+      "name": "ACCESSORY_DRAWER_SLIDE_INNER_02",
+      "color": "aluminum",
+      "cue": ""
+    },
+    {
+      "name": "CABLE_PASS_THROUGH",
+      "color": "blue",
+      "cue": "cable pass-through"
+    }
+  ],
+  "exports": {
+    "f3d": {
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M09/BN-M09.f3d",
+      "api_ok": true,
+      "exists": true,
+      "bytes": 758580
+    },
+    "step": {
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M09/BN-M09.step",
+      "api_ok": true,
+      "exists": true,
+      "bytes": 1336722
+    },
+    "stl": {
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M09/BN-M09.stl",
+      "api_ok": true,
+      "exists": true,
+      "bytes": 322684
+    },
+    "obj": {
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M09/BN-M09.obj",
+      "api_ok": true,
+      "exists": true,
+      "bytes": 887419
+    }
+  },
+  "screenshots": {
+    "iso": {
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M09/BN-M09-iso.png",
+      "api_ok": true,
+      "exists": true,
+      "bytes": 294222
+    },
+    "front": {
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M09/BN-M09-front.png",
+      "api_ok": true,
+      "exists": true,
+      "bytes": 69310
+    }
+  },
+  "local_model_revision_evidence": {
+    "required_model": "qwen/qwen2.5-coder-14b",
+    "allowed_models": [
+      "qwen/qwen2.5-coder-14b",
+      "qwen2.5-coder-7b-instruct"
+    ],
+    "model_counts": {
+      "qwen/qwen2.5-coder-14b": 120,
+      "qwen2.5-coder-7b-instruct": 180
+    },
+    "module_models": [
+      "qwen/qwen2.5-coder-14b",
+      "qwen2.5-coder-7b-instruct"
+    ],
+    "ledger_path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/iteration-ledger.json",
+    "ledger_result": "PASS",
+    "family_review_count": 300,
+    "module_review_count": 30,
+    "adopted_requirement_count": 0,
+    "record_ids": [
+      "design-01-BN-M09",
+      "design-02-BN-M09",
+      "design-03-BN-M09",
+      "design-04-BN-M09",
+      "design-05-BN-M09",
+      "design-06-BN-M09",
+      "design-07-BN-M09",
+      "design-08-BN-M09",
+      "design-09-BN-M09",
+      "design-10-BN-M09",
+      "manufacturing-01-BN-M09",
+      "manufacturing-02-BN-M09",
+      "manufacturing-03-BN-M09",
+      "manufacturing-04-BN-M09",
+      "manufacturing-05-BN-M09",
+      "manufacturing-06-BN-M09",
+      "manufacturing-07-BN-M09",
+      "manufacturing-08-BN-M09",
+      "manufacturing-09-BN-M09",
+      "manufacturing-10-BN-M09",
+      "combined-01-BN-M09",
+      "combined-02-BN-M09",
+      "combined-03-BN-M09",
+      "combined-04-BN-M09",
+      "combined-05-BN-M09",
+      "combined-06-BN-M09",
+      "combined-07-BN-M09",
+      "combined-08-BN-M09",
+      "combined-09-BN-M09",
+      "combined-10-BN-M09"
+    ]
+  },
+  "represented_ots_catalog_ids": [
+    "TNUTZ-EX1010-18",
+    "TNUTZ-EX1010-22",
+    "8020-4132",
+    "8020-3393",
+    "TNUTZ-HAN015AL",
+    "TNUTZ-GAS010A",
+    "TNUTZ-BUM010TS",
+    "TAP-HYPACT-PANEL",
+    "PELICAN-1485",
+    "ACCURIDE-3832-C16",
+    "SOUTHCO-E3-57-25"
+  ],
+  "release_scope": "visual product-concept CAD; engineering release pending"
+}

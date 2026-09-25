@@ -1,0 +1,208 @@
+{
+  "schema_version": 1,
+  "result": "PASS",
+  "requirements_checked": 33,
+  "requirements_passed": 33,
+  "failures": [],
+  "results": [
+    {
+      "requirement": "30 validated family cycles / 300 module reviews",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/iteration-ledger.json",
+      "detail": ""
+    },
+    {
+      "requirement": "Every revision decision has approved local-coder model provenance",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/iteration-ledger.json",
+      "detail": "models used: qwen/qwen2.5-coder-14b, qwen2.5-coder-7b-instruct"
+    },
+    {
+      "requirement": "design stage ledger is complete",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/design-ledger.json",
+      "detail": "expected 100 cumulative reviews"
+    },
+    {
+      "requirement": "manufacturing stage ledger is complete",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/manufacturing-ledger.json",
+      "detail": "expected 200 cumulative reviews"
+    },
+    {
+      "requirement": "combined stage ledger is complete",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/combined-ledger.json",
+      "detail": "expected 300 cumulative reviews"
+    },
+    {
+      "requirement": "Curated OTS catalog has order/evidence links",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/ots-components.json",
+      "detail": ""
+    },
+    {
+      "requirement": "All ten module BOMs resolve only to curated linked components",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/boms/all-modules-prototype-bom.csv",
+      "detail": "111 combined BOM rows"
+    },
+    {
+      "requirement": "BN-M01 has a separate BOM and the common extrusion/joint architecture",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/boms/BN-M01-prototype-bom.csv",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M02 has a separate BOM and the common extrusion/joint architecture",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/boms/BN-M02-prototype-bom.csv",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M03 has a separate BOM and the common extrusion/joint architecture",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/boms/BN-M03-prototype-bom.csv",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M04 has a separate BOM and the common extrusion/joint architecture",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/boms/BN-M04-prototype-bom.csv",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M05 has a separate BOM and the common extrusion/joint architecture",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/boms/BN-M05-prototype-bom.csv",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M06 has a separate BOM and the common extrusion/joint architecture",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/boms/BN-M06-prototype-bom.csv",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M07 has a separate BOM and the common extrusion/joint architecture",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/boms/BN-M07-prototype-bom.csv",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M08 has a separate BOM and the common extrusion/joint architecture",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/boms/BN-M08-prototype-bom.csv",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M09 has a separate BOM and the common extrusion/joint architecture",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/boms/BN-M09-prototype-bom.csv",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M10 has a separate BOM and the common extrusion/joint architecture",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/boms/BN-M10-prototype-bom.csv",
+      "detail": ""
+    },
+    {
+      "requirement": "design stage completed Fusion build + deterministic + hash-bound visual + web loop",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/checkpoints/design/exports",
+      "detail": ""
+    },
+    {
+      "requirement": "manufacturing stage completed Fusion build + deterministic + hash-bound visual + web loop",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/checkpoints/manufacturing/exports",
+      "detail": ""
+    },
+    {
+      "requirement": "combined stage completed Fusion build + deterministic + hash-bound visual + web loop",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports",
+      "detail": ""
+    },
+    {
+      "requirement": "Final deliverable contains ten separate native CAD archives",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M01 final CAD/export set is complete",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M01",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M02 final CAD/export set is complete",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M02",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M03 final CAD/export set is complete",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M03",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M04 final CAD/export set is complete",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M04",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M05 final CAD/export set is complete",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M05",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M06 final CAD/export set is complete",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M06",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M07 final CAD/export set is complete",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M07",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M08 final CAD/export set is complete",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M08",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M09 final CAD/export set is complete",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M09",
+      "detail": ""
+    },
+    {
+      "requirement": "BN-M10 final CAD/export set is complete",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion-native/exports/BN-M10",
+      "detail": ""
+    },
+    {
+      "requirement": "Validated learnings are portable and accurately persisted for prompt retrieval",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/LOCAL-MODEL-ITERATION-LEARNINGS.md",
+      "detail": ""
+    },
+    {
+      "requirement": "Mac mini replication script covers all three staged build/review loops",
+      "status": "PASS",
+      "evidence": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/run_mac_mini_replication.sh",
+      "detail": ""
+    }
+  ],
+  "release_boundary": "Objective completion proves the local-model review framework, visual concept CAD, OTS sourcing and prototype BOM. It does not release fabrication, vehicle installation, safety, or production purchase quantities."
+}

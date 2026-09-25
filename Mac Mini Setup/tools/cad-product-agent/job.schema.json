@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Professional CAD Product Job",
+  "type": "object",
+  "required": ["schema_version", "job_id", "status", "project", "revision", "spec_path", "units", "models", "engineering", "expected", "validators", "deliverables"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "job_id": {"type": "string", "pattern": "^[A-Z0-9][A-Z0-9._-]+$"},
+    "status": {"enum": ["DRAFT", "BLOCKED_NEEDS_MEASUREMENT", "READY_PROTOTYPE", "READY_RELEASE_CANDIDATE", "AWAITING_HUMAN_REVIEW", "RELEASED"]},
+    "project": {"type": "string", "minLength": 1},
+    "revision": {"type": "string", "minLength": 1},
+    "spec_path": {"type": "string", "minLength": 1},
+    "units": {"enum": ["inch", "mm"]},
+    "models": {
+      "type": "object",
+      "required": ["builder_role", "reviewer_role"],
+      "properties": {
+        "builder_role": {"enum": ["coding", "agentic-coding"]},
+        "reviewer_role": {"enum": ["fast", "agentic-coding"]},
+        "vision_model": {"type": ["string", "null"]}
+      }
+    },
+    "engineering": {
+      "type": "object",
+      "required": ["material", "manufacturing_process", "interfaces", "load_case", "safety_factor_target"],
+      "properties": {
+        "material": {"type": "string", "minLength": 1},
+        "manufacturing_process": {"type": "string", "minLength": 1},
+        "interfaces": {"type": "array"},
+        "load_case": {"type": ["object", "null"]},
+        "safety_factor_target": {"type": ["number", "null"], "exclusiveMinimum": 1}
+      }
+    },
+    "expected": {
+      "type": "object",
+      "properties": {
+        "model_kind": {"enum": ["part", "geometry_proxy", "assembly"]},
+        "component_count": {"type": "integer", "minimum": 1}
+      }
+    },
+    "validators": {"type": "object"},
+    "deliverables": {"type": "array", "items": {"type": "string"}}
+    ,"supporting_files": {"type": "object", "additionalProperties": {"type": "string"}}
+  }
+}

@@ -1,0 +1,478 @@
+{
+  "modules": [
+    {
+      "id": "BN-M01",
+      "label": "Cook Station",
+      "outside_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "frame_member_count": 12,
+      "component_count": 2,
+      "solid_count": 14,
+      "components": [
+        {
+          "name": "packed stove",
+          "size_in": [
+            10.75,
+            10.75,
+            6.25
+          ],
+          "origin_in": [
+            1.5,
+            1.5,
+            1.0
+          ],
+          "high_in": [
+            12.25,
+            12.25,
+            7.25
+          ]
+        },
+        {
+          "name": "deployable worktop",
+          "size_in": [
+            21.5,
+            17.5,
+            0.25
+          ],
+          "origin_in": [
+            1.25,
+            1.25,
+            9.0
+          ],
+          "high_in": [
+            22.75,
+            18.75,
+            9.25
+          ]
+        }
+      ],
+      "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+    },
+    {
+      "id": "BN-M02",
+      "label": "Dry Pantry",
+      "outside_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "frame_member_count": 12,
+      "component_count": 1,
+      "solid_count": 13,
+      "components": [
+        {
+          "name": "source-required pantry envelope",
+          "size_in": [
+            21.5,
+            16.0,
+            11.0
+          ],
+          "origin_in": [
+            1.25,
+            2.0,
+            1.0
+          ],
+          "high_in": [
+            22.75,
+            18.0,
+            12.0
+          ]
+        }
+      ],
+      "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+    },
+    {
+      "id": "BN-M03",
+      "label": "Fridge/Freezer",
+      "outside_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "frame_member_count": 12,
+      "component_count": 1,
+      "solid_count": 13,
+      "components": [
+        {
+          "name": "fridge",
+          "size_in": [
+            17.5,
+            11.3,
+            15.8
+          ],
+          "origin_in": [
+            3.25,
+            4.35,
+            1.0
+          ],
+          "high_in": [
+            20.75,
+            15.65,
+            16.8
+          ]
+        }
+      ],
+      "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+    },
+    {
+      "id": "BN-M04",
+      "label": "Sink/Wash",
+      "outside_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "frame_member_count": 12,
+      "component_count": 2,
+      "solid_count": 14,
+      "components": [
+        {
+          "name": "sink envelope",
+          "size_in": [
+            16.5,
+            14.6,
+            6.0
+          ],
+          "origin_in": [
+            3.75,
+            2.7,
+            10.5
+          ],
+          "high_in": [
+            20.25,
+            17.3,
+            16.5
+          ]
+        },
+        {
+          "name": "grey-water container envelope",
+          "size_in": [
+            11.5,
+            11.25,
+            8.0
+          ],
+          "origin_in": [
+            6.25,
+            4.4,
+            1.0
+          ],
+          "high_in": [
+            17.75,
+            15.65,
+            9.0
+          ]
+        }
+      ],
+      "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+    },
+    {
+      "id": "BN-M05",
+      "label": "Fresh Water",
+      "outside_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "frame_member_count": 12,
+      "component_count": 2,
+      "solid_count": 14,
+      "components": [
+        {
+          "name": "water container",
+          "size_in": [
+            11.5,
+            11.25,
+            15.75
+          ],
+          "origin_in": [
+            1.25,
+            4.4,
+            1.0
+          ],
+          "high_in": [
+            12.75,
+            15.65,
+            16.75
+          ]
+        },
+        {
+          "name": "pump/service bay",
+          "size_in": [
+            7.5,
+            11.25,
+            6.0
+          ],
+          "origin_in": [
+            14.25,
+            4.4,
+            1.0
+          ],
+          "high_in": [
+            21.75,
+            15.65,
+            7.0
+          ]
+        }
+      ],
+      "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+    },
+    {
+      "id": "BN-M06",
+      "label": "Recovery/Utility",
+      "outside_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "frame_member_count": 12,
+      "component_count": 2,
+      "solid_count": 14,
+      "components": [
+        {
+          "name": "source-required utility box",
+          "size_in": [
+            21.5,
+            16.0,
+            6.5
+          ],
+          "origin_in": [
+            1.25,
+            2.0,
+            1.0
+          ],
+          "high_in": [
+            22.75,
+            18.0,
+            7.5
+          ]
+        },
+        {
+          "name": "soft recovery gear shelf",
+          "size_in": [
+            21.5,
+            17.5,
+            0.25
+          ],
+          "origin_in": [
+            1.25,
+            1.25,
+            9.0
+          ],
+          "high_in": [
+            22.75,
+            18.75,
+            9.25
+          ]
+        }
+      ],
+      "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+    },
+    {
+      "id": "BN-M07",
+      "label": "Power Hub",
+      "outside_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "frame_member_count": 12,
+      "component_count": 3,
+      "solid_count": 15,
+      "components": [
+        {
+          "name": "power station",
+          "size_in": [
+            9.21,
+            9.13,
+            5.75
+          ],
+          "origin_in": [
+            1.5,
+            1.5,
+            1.0
+          ],
+          "high_in": [
+            10.71,
+            10.63,
+            6.75
+          ]
+        },
+        {
+          "name": "cable case",
+          "size_in": [
+            10.0,
+            9.13,
+            5.75
+          ],
+          "origin_in": [
+            12.0,
+            1.5,
+            1.0
+          ],
+          "high_in": [
+            22.0,
+            10.63,
+            6.75
+          ]
+        },
+        {
+          "name": "vented device shelf",
+          "size_in": [
+            21.5,
+            17.5,
+            0.25
+          ],
+          "origin_in": [
+            1.25,
+            1.25,
+            9.0
+          ],
+          "high_in": [
+            22.75,
+            18.75,
+            9.25
+          ]
+        }
+      ],
+      "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+    },
+    {
+      "id": "BN-M08",
+      "label": "Hot Water/Shower",
+      "outside_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "frame_member_count": 12,
+      "component_count": 2,
+      "solid_count": 14,
+      "components": [
+        {
+          "name": "heater transport envelope",
+          "size_in": [
+            17.7,
+            11.4,
+            6.6
+          ],
+          "origin_in": [
+            3.15,
+            4.3,
+            1.0
+          ],
+          "high_in": [
+            20.849999999999998,
+            15.7,
+            7.6
+          ]
+        },
+        {
+          "name": "hose bay",
+          "size_in": [
+            17.7,
+            11.4,
+            5.0
+          ],
+          "origin_in": [
+            3.15,
+            4.3,
+            9.0
+          ],
+          "high_in": [
+            20.849999999999998,
+            15.7,
+            14.0
+          ]
+        }
+      ],
+      "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+    },
+    {
+      "id": "BN-M09",
+      "label": "Field Office/Camera",
+      "outside_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "frame_member_count": 12,
+      "component_count": 2,
+      "solid_count": 14,
+      "components": [
+        {
+          "name": "equipment case",
+          "size_in": [
+            19.18,
+            12.99,
+            6.88
+          ],
+          "origin_in": [
+            2.41,
+            3.505,
+            1.0
+          ],
+          "high_in": [
+            21.59,
+            16.495,
+            7.88
+          ]
+        },
+        {
+          "name": "work surface",
+          "size_in": [
+            21.5,
+            17.5,
+            0.25
+          ],
+          "origin_in": [
+            1.25,
+            1.25,
+            12.0
+          ],
+          "high_in": [
+            22.75,
+            18.75,
+            12.25
+          ]
+        }
+      ],
+      "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+    },
+    {
+      "id": "BN-M10",
+      "label": "Camp Furniture/Soft Goods",
+      "outside_bbox_in": [
+        24.0,
+        20.0,
+        18.0
+      ],
+      "frame_member_count": 12,
+      "component_count": 1,
+      "solid_count": 13,
+      "components": [
+        {
+          "name": "soft gear bay",
+          "size_in": [
+            21.5,
+            17.5,
+            15.5
+          ],
+          "origin_in": [
+            1.25,
+            1.25,
+            1.0
+          ],
+          "high_in": [
+            22.75,
+            18.75,
+            16.5
+          ]
+        }
+      ],
+      "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+    }
+  ]
+}

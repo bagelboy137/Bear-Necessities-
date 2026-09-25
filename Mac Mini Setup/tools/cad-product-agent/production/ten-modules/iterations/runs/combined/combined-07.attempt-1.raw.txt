@@ -1,0 +1,97 @@
+```json
+{
+  "cycle_id": "combined-07",
+  "reviews": [
+    {
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The cook station is visibly segregated and appropriately labeled with exposed burners, controls, and a wind guard.",
+      "evidence_ids": ["COMP-OVERLAND-KITCHEN-EX1"],
+      "acceptance_check": "Check if the burners, controls, and wind guard are clearly visible and labeled.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The dry pantry is visibly segregated and appropriately labeled with three drawers and a divided tray.",
+      "evidence_ids": ["COMP-LONE-PEAK-DRAWER"],
+      "acceptance_check": "Verify that the drawers and tray are clearly visible and labeled.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The fridge freezer is visibly segregated and appropriately labeled with a top-opening compact fridge, lid, and controls.",
+      "evidence_ids": ["COMP-MODULR-FRIDGE-SLIDE"],
+      "acceptance_check": "Check if the fridge, lid, and controls are clearly visible and labeled.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The sink wash is visibly segregated and appropriately labeled with a stainless basin, faucet, drain, and grey-water tank.",
+      "evidence_ids": ["COMP-OVS-KITCHEN"],
+      "acceptance_check": "Verify that the basin, faucet, drain, and tank are clearly visible and labeled.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The fresh water container is visibly segregated and appropriately labeled with a ribbed seven-gallon container, handle, and spigot.",
+      "evidence_ids": ["RELIANCE-AQUATAINER-7G"],
+      "acceptance_check": "Check if the container, handle, and spigot are clearly visible and labeled.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The recovery utility is visibly segregated and appropriately labeled with a sealed tool case, adjustable shelf, MOLLE panel, and recovery rope.",
+      "evidence_ids": ["COMP-OVS-MOLLE"],
+      "acceptance_check": "Verify that the case, shelf, MOLLE tools, and rope are clearly visible and labeled.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The power hub is visibly segregated and appropriately labeled with a power-station enclosure, display, AC/DC/USB ports, and vents.",
+      "evidence_ids": ["ECOFLOW-RIVER3-PLUS"],
+      "acceptance_check": "Check if the station, display, ports, and vents are clearly visible and labeled.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The hot water shower is visibly segregated and appropriately labeled with a portable heater body, display, knob, vents, shower head, and hose route.",
+      "evidence_ids": ["JOOLCA-HOTTAP-V2"],
+      "acceptance_check": "Verify that the heater, display, knob, vents, shower head, and hose are clearly visible and labeled.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The field office camera is visibly segregated and appropriately labeled with a rugged equipment case, latches/ribs, deployed worktop, and visible laptop.",
+      "evidence_ids": ["COMP-LONE-PEAK-DRAWER"],
+      "acceptance_check": "Check if the case, latches, worktop, and laptop are clearly visible and labeled.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The camp furniture soft goods are visibly segregated and appropriately labeled with recognizable folded chairs/table, rolled soft goods, and cargo net.",
+      "evidence_ids": ["HELINOX-CHAIR-ONE"],
+      "acceptance_check": "Verify that the chairs, table, soft goods, and net are clearly visible and labeled.",
+      "risk": "None"
+    }
+  ]
+}
+```

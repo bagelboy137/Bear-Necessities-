@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "cycle_id": "design-03",
+  "stage": "design",
+  "cycle": 3,
+  "criterion": {
+    "cycle": 3,
+    "criterion": "task_flow",
+    "question": "Does the visible arrangement support the order in which a user performs the module's core task?"
+  },
+  "model": "qwen/qwen2.5-coder-14b",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-25T21:58:35.814567+00:00",
+  "prompt_sha256": "344886f1cdd2444241f342c2043fd1ad6c77aa9a28b014a761af7128a7934089",
+  "source_digests": {
+    "context": "9dfc8c3badba2f405040cf370607221b74cbf2419a5d399e6cec0a222c2ec373",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "10ac3aaa176a9d1ed533784556109c81f9d3c6b81d71c92bcf15954352c4d3ef"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/design/design-03.attempt-1.raw.txt",
+      "sha256": "7fdacbf3df54f4514dcfa72d6f9bef1f7832d2bac7401d5c3e770a69c063e773",
+      "usage": {
+        "prompt_tokens": 1626,
+        "completion_tokens": 1078,
+        "total_tokens": 2704,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1626,
+    "completion_tokens": 1078,
+    "total_tokens": 2704,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "design-03",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The visible arrangement supports the order in which a user performs the module's core task of cooking outdoors.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the stove tray slides toward the user and cooking occurs outdoors with propane stored separately.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The visible arrangement supports the order in which a user performs the module's core task of storing dry goods.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the drawers open toward the user and must remain positively latched in transit.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The visible arrangement supports the order in which a user performs the module's core task of refrigeration.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the low tray slides out far enough for full lid swing and compressor ventilation.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The visible arrangement supports the order in which a user performs the module's core task of washing dishes.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the faucet and basin remain accessible while pump, drain, and grey container can be serviced.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The visible arrangement supports the order in which a user performs the module's core task of managing fresh water.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the container can be filled or removed and pump/spigot are accessible without releasing the primary restraint.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The visible arrangement supports the order in which a user performs the module's core task of recovery and utility storage.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that heavy gear stays low; drawer, shelf, and MOLLE tools remain independently accessible.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The visible arrangement supports the order in which a user performs the module's core task of managing power.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that display, charging ports, and ventilation remain open while the station is restrained.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The visible arrangement supports the order in which a user performs the module's core task of providing hot water for showering.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the heater is transported only in the module and operated outside with propane separate.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The visible arrangement supports the order in which a user performs the module's core task of setting up a field office camera.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that case and drawer open independently and worktop has positive support.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The visible arrangement supports the order in which a user performs the module's core task of managing camp furniture and soft goods.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that individual furniture bags can be removed without unloading the entire bay.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

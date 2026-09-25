@@ -1,0 +1,33 @@
+{
+  "id": "BN-M10",
+  "label": "Camp Furniture/Soft Goods",
+  "outside_bbox_in": [
+    24.0,
+    20.0,
+    18.0
+  ],
+  "frame_member_count": 12,
+  "component_count": 1,
+  "solid_count": 13,
+  "components": [
+    {
+      "name": "soft gear bay",
+      "size_in": [
+        21.5,
+        17.5,
+        15.5
+      ],
+      "origin_in": [
+        1.25,
+        1.25,
+        1.0
+      ],
+      "high_in": [
+        22.75,
+        18.75,
+        16.5
+      ]
+    }
+  ],
+  "status": "PROTOTYPE_COMPONENT_ENVELOPE"
+}

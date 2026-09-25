@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "module_id": "BN-M10",
+  "name": "Camp Furniture/Soft Goods",
+  "status": "BLOCKED_SOURCING",
+  "geometry_source": "../module-family.json",
+  "frame": {
+    "outside_in": [
+      24.0,
+      20.0,
+      18.0
+    ],
+    "inner_clear_in": [
+      22.0,
+      18.0,
+      16.0
+    ],
+    "profile": "EX-1010 / 1010-S compatible",
+    "cut_list": [
+      {
+        "length": 18.0,
+        "quantity": 8
+      },
+      {
+        "length": 22.0,
+        "quantity": 4
+      }
+    ]
+  },
+  "components": [
+    {
+      "kind": "component",
+      "label": "soft gear bay",
+      "size": [
+        21.5,
+        17.5,
+        15.5
+      ],
+      "origin": [
+        1.25,
+        1.25,
+        1.0
+      ],
+      "allowed_contacts": [
+        "z_min"
+      ]
+    }
+  ],
+  "primary_component": {
+    "name": "Customer-selected soft gear",
+    "sku": null,
+    "envelope": [
+      21.5,
+      17.5,
+      15.5
+    ],
+    "orientation": "variable",
+    "status": "SOURCE_REQUIRED",
+    "url": null
+  },
+  "bom_dispositions": [
+    "CUSTOM_REQUIRED",
+    "ENGINEERING_HOLD",
+    "ORDERABLE",
+    "SOURCE_REQUIRED"
+  ],
+  "validators": {
+    "geometry": "../validate_family.py",
+    "clearance": "../clearance_check.py",
+    "bom_reconciliation": "../bom_reconcile.py",
+    "human_review": true
+  },
+  "release_gates": [
+    "approved dynamic load case and safety factor",
+    "native Fusion assembly and interference evidence",
+    "all SOURCE_REQUIRED/CUSTOM_REQUIRED rows resolved",
+    "physical fit/load/vibration and module-specific safety tests",
+    "supplier drop-ship terms accepted",
+    "human release signature"
+  ],
+  "required_evidence": {
+    "supplier": "../SUPPLIER-READINESS.md plus written supplier response",
+    "physical_tests": "../PHYSICAL-TEST-PLAN.md completed records",
+    "release_checklist": "../RELEASE-EVIDENCE-CHECKLIST.md completed",
+    "clearance": "../clearance-report.json",
+    "bom_reconciliation": "../bom-reconciliation-report.json"
+  },
+  "blockers": [
+    "Target chair/table product set",
+    "Cargo net SKU",
+    "Compression strap SKU",
+    "Payload and center-of-gravity target"
+  ]
+}

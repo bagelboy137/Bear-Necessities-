@@ -1,0 +1,5 @@
+# Third-party product photography — reference only, not ours to redistribute.
+# Keep the notes and the generator in git; leave the 65MB of competitor images out.
+*/
+!*.md
+index.html

@@ -1,0 +1,39 @@
+{
+  "id": "P05-spacer",
+  "name": "flat round spacer",
+  "units": "in",
+  "difficulty": 1,
+  "description": "A flat round spacer (a washer). A solid disc with a single concentric hole straight through it. It sits flat on the XY plane with its thickness in Z.",
+  "constants": {
+    "OUTER_DIA": 1.5,
+    "BORE_DIA": 0.5,
+    "THICKNESS": 0.125
+  },
+  "checks": {
+    "bbox": [
+      1.5,
+      1.5,
+      0.125
+    ],
+    "bbox_tol": 0.01,
+    "volume": 0.19635,
+    "volume_tol": 0.004,
+    "solids": 1,
+    "valid": true,
+    "holes": [
+      {
+        "d": 0.5,
+        "count": 1,
+        "at": [
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "through": true
+      }
+    ],
+    "holes_exact": true
+  },
+  "notes": "Concentric means the bore is centred on the disc. The bore goes fully through."
+}

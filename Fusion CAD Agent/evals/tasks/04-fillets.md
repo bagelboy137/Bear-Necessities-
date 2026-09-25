@@ -1,0 +1,1 @@
+Write a Fusion Python API script that creates a 100 x 60 x 6 mm plate with four 8 mm corner through-holes (10 mm inset), then applies a 5 mm fillet to the four vertical corner edges of the plate only, leaving the hole edges sharp.

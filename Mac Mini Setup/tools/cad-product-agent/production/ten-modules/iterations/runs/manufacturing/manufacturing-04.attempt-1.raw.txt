@@ -1,0 +1,97 @@
+```json
+{
+  "cycle_id": "manufacturing-04",
+  "reviews": [
+    {
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The flat work surfaces and shared slides/latches meet the criterion requirements.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Visual inspection of the current design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The shared slides/latches and flat routed drawer panels meet the criterion requirements.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Visual inspection of the current design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The slide/lock integration and fused 12V routing meet the criterion requirements.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Visual inspection of the current design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The flat support panel and flexible plumbing meet the criterion requirements.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Visual inspection of the current design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The low center of gravity and food-safe plumbing meet the criterion requirements.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Visual inspection of the current design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The rugged OTS case and shared slides/latches meet the criterion requirements.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Visual inspection of the current design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The OTS power station and vented flat shelf meet the criterion requirements.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Visual inspection of the current design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The complete OTS kit and ventilated/drainable storage meet the criterion requirements.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Visual inspection of the current design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The OTS case/dividers and shared slides/latches meet the criterion requirements.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Visual inspection of the current design.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The fully OTS chair/table set and rated straps with simple flat dividers meet the criterion requirements.",
+      "evidence_ids": ["CURRENT-CAD", "FRAME-CONSTRAINTS"],
+      "acceptance_check": "Visual inspection of the current design.",
+      "risk": "None"
+    }
+  ]
+}
+```

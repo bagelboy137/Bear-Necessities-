@@ -1,0 +1,163 @@
+{
+  "schema_version": 1,
+  "cycle_id": "combined-06",
+  "stage": "combined",
+  "cycle": 6,
+  "criterion": {
+    "cycle": 6,
+    "criterion": "environmental_robustness",
+    "question": "Do panel, gasket, drainage, ventilation, and hardware choices match likely dust, water, vibration, and temperature exposure?"
+  },
+  "model": "qwen2.5-coder-7b-instruct",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T02:36:36.884174+00:00",
+  "prompt_sha256": "36f1d1509f70ecce7c4b1d7bdab81bad6b54d4c3257b90e091605ed3d2431183",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/combined/combined-06.attempt-1.raw.txt",
+      "sha256": "ccff1911e44e71cea2d43067e99c51f236e0113726aa1969e068b7eabe58b39d",
+      "usage": {
+        "prompt_tokens": 2995,
+        "completion_tokens": 1159,
+        "total_tokens": 4154,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2995,
+    "completion_tokens": 1159,
+    "total_tokens": 4154,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "combined-06",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The cook station is designed for outdoor use and has a robust panel, gasket, drainage, ventilation, and hardware that can handle dust, water, vibration, and temperature exposure.",
+        "evidence_ids": [
+          "COMP-OVERLAND-KITCHEN-EX1"
+        ],
+        "acceptance_check": "Visual inspection of the panel, gasket, and hardware.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The dry pantry has a robust panel, gasket, drainage, ventilation, and hardware that can handle dust, water, vibration, and temperature exposure.",
+        "evidence_ids": [
+          "COMP-LONE-PEAK-DRAWER"
+        ],
+        "acceptance_check": "Visual inspection of the panel, gasket, and hardware.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The fridge freezer has a robust panel, gasket, drainage, ventilation, and hardware that can handle dust, water, vibration, and temperature exposure.",
+        "evidence_ids": [
+          "COMP-MODULR-FRIDGE-SLIDE"
+        ],
+        "acceptance_check": "Visual inspection of the panel, gasket, and hardware.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The sink wash has a robust panel, gasket, drainage, ventilation, and hardware that can handle dust, water, vibration, and temperature exposure.",
+        "evidence_ids": [
+          "COMP-OVS-KITCHEN"
+        ],
+        "acceptance_check": "Visual inspection of the panel, gasket, and hardware.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The fresh water has a robust panel, gasket, drainage, ventilation, and hardware that can handle dust, water, vibration, and temperature exposure.",
+        "evidence_ids": [
+          "RELIANCE-AQUATAINER-7G"
+        ],
+        "acceptance_check": "Visual inspection of the panel, gasket, and hardware.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The recovery utility has a robust panel, gasket, drainage, ventilation, and hardware that can handle dust, water, vibration, and temperature exposure.",
+        "evidence_ids": [
+          "COMP-OVS-MOLLE"
+        ],
+        "acceptance_check": "Visual inspection of the panel, gasket, and hardware.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The power hub has a robust panel, gasket, drainage, ventilation, and hardware that can handle dust, water, vibration, and temperature exposure.",
+        "evidence_ids": [
+          "ECOFLOW-RIVER3-PLUS"
+        ],
+        "acceptance_check": "Visual inspection of the panel, gasket, and hardware.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The hot water shower has a robust panel, gasket, drainage, ventilation, and hardware that can handle dust, water, vibration, and temperature exposure.",
+        "evidence_ids": [
+          "JOOLCA-HOTTAP-V2"
+        ],
+        "acceptance_check": "Visual inspection of the panel, gasket, and hardware.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The field office camera has a robust panel, gasket, drainage, ventilation, and hardware that can handle dust, water, vibration, and temperature exposure.",
+        "evidence_ids": [
+          "COMP-LONE-PEAK-DRAWER"
+        ],
+        "acceptance_check": "Visual inspection of the panel, gasket, and hardware.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The camp furniture soft goods has a robust panel, gasket, drainage, ventilation, and hardware that can handle dust, water, vibration, and temperature exposure.",
+        "evidence_ids": [
+          "COMP-OVS-MOLLE"
+        ],
+        "acceptance_check": "Visual inspection of the panel, gasket, and hardware.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

@@ -1,0 +1,26 @@
+{
+  "result": "PASS",
+  "started_at": "2026-08-26T02:45:45.518525+00:00",
+  "completed_at": "2026-08-26T02:46:31.352006+00:00",
+  "fusion_url": "http://127.0.0.1:27182/mcp",
+  "fusion_server": {
+    "name": "MCP Server Adapter",
+    "version": "1.0.0"
+  },
+  "lm_studio_url": "http://127.0.0.1:1234/v1",
+  "vision_model": "google/gemma-4-e4b",
+  "builder": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/fusion_native/build_native_modules.py",
+  "builder_sha256": "714e119c1ecef9e2b900f0114201fa09a737aa915fbe390af1b516a7458837a5",
+  "output_root": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/checkpoints/manufacturing/exports",
+  "revision_ledger": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/manufacturing-ledger.json",
+  "revision_ledger_sha256": "033fa5c146ca3b68f5e119b7b36457cc28c0e15bae45d4b6b4dfc600a5645ea1",
+  "ots_catalog": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/ots-components.json",
+  "ots_catalog_sha256": "ea6cfdd940c732d5d49f15d104e496205151d50bd29f5657dc88960a650e5b2b",
+  "expected_module_reviews": 200,
+  "gates": {
+    "fusion_build": true,
+    "deterministic_validation": true,
+    "local_vision_review": false,
+    "web_comparable_visual_traceability": false
+  }
+}

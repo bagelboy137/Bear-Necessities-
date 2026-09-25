@@ -1,0 +1,173 @@
+{
+  "schema_version": 1,
+  "cycle_id": "combined-01",
+  "stage": "combined",
+  "cycle": 1,
+  "criterion": {
+    "cycle": 1,
+    "criterion": "form_follows_function",
+    "question": "Do manufacturing choices preserve or improve the visible function rather than making the module anonymous?"
+  },
+  "model": "qwen2.5-coder-7b-instruct",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T02:29:34.250371+00:00",
+  "prompt_sha256": "0849ff35dfaacc3c79756e7cb7d301b95238d4a7497398dac1d6e7bb2c69f3ba",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/combined/combined-01.attempt-1.raw.txt",
+      "sha256": "0d64819cb20f8194434073bb40f772e368abc79fc91cb37baf0aace5b28f5b5a",
+      "usage": {
+        "prompt_tokens": 2989,
+        "completion_tokens": 1125,
+        "total_tokens": 4114,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 2989,
+    "completion_tokens": 1125,
+    "total_tokens": 4114,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "combined-01",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The visible function is preserved and improved by the exposed burners, controls, wind guard, and stove tray.",
+        "evidence_ids": [
+          "8020-3393",
+          "COMP-GOOSE-GEAR-CAMPKITCHEN"
+        ],
+        "acceptance_check": "Visual inspection of the module.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The visible function is preserved and improved by the graduated drawers, open tray, and compression latches.",
+        "evidence_ids": [
+          "8020-3393",
+          "COMP-LONE-PEAK-DRAWER"
+        ],
+        "acceptance_check": "Visual inspection of the module.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The visible function is preserved and improved by the recognizable fridge, lid, carry handle, and controls.",
+        "evidence_ids": [
+          "8020-3393",
+          "COMP-MODULR-FRIDGE-SLIDE"
+        ],
+        "acceptance_check": "Visual inspection of the module.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The visible function is preserved and improved by the open basin, faucet, drain, and pump.",
+        "evidence_ids": [
+          "8020-3393",
+          "COMP-GOOSE-GEAR-CAMPKITCHEN"
+        ],
+        "acceptance_check": "Visual inspection of the module.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The visible function is preserved and improved by the ribbed container, handle, spigot, and pump.",
+        "evidence_ids": [
+          "8020-3393",
+          "RELIANCE-AQUATAINER-7G"
+        ],
+        "acceptance_check": "Visual inspection of the module.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The visible function is preserved and improved by the sealed tool case, adjustable shelf, MOLLE panel, and recovery rope.",
+        "evidence_ids": [
+          "8020-3393",
+          "COMP-OVS-MOLLE"
+        ],
+        "acceptance_check": "Visual inspection of the module.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The visible function is preserved and improved by the power station, display, ports, and cable drawer.",
+        "evidence_ids": [
+          "8020-3393",
+          "ECOFLOW-RIVER3-PLUS"
+        ],
+        "acceptance_check": "Visual inspection of the module.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The visible function is preserved and improved by the heater body, display, knob, shower head, and hose route.",
+        "evidence_ids": [
+          "8020-3393",
+          "JOOLCA-HOTTAP-V2"
+        ],
+        "acceptance_check": "Visual inspection of the module.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The visible function is preserved and improved by the rugged case, latches/ribs, deployed worktop, laptop, and keyboard.",
+        "evidence_ids": [
+          "8020-3393",
+          "COMP-LONE-PEAK-DRAWER"
+        ],
+        "acceptance_check": "Visual inspection of the module.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain current design.",
+        "rationale": "The visible function is preserved and improved by the recognizable chairs/table, soft goods, straps, and cargo net.",
+        "evidence_ids": [
+          "8020-3393",
+          "COMP-OVS-MOLLE"
+        ],
+        "acceptance_check": "Visual inspection of the module.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

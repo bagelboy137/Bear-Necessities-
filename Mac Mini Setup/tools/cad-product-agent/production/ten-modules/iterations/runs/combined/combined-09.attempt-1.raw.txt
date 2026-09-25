@@ -1,0 +1,97 @@
+```json
+{
+  "cycle_id": "combined-09",
+  "reviews": [
+    {
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+      "evidence_ids": ["8020-3393", "8020-4132"],
+      "acceptance_check": "Visual inspection of shared components.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+      "evidence_ids": ["8020-3393", "8020-4132"],
+      "acceptance_check": "Visual inspection of shared components.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+      "evidence_ids": ["8020-3393", "8020-4132"],
+      "acceptance_check": "Visual inspection of shared components.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+      "evidence_ids": ["8020-3393", "8020-4132"],
+      "acceptance_check": "Visual inspection of shared components.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+      "evidence_ids": ["8020-3393", "8020-4132"],
+      "acceptance_check": "Visual inspection of shared components.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+      "evidence_ids": ["8020-3393", "8020-4132"],
+      "acceptance_check": "Visual inspection of shared components.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+      "evidence_ids": ["8020-3393", "8020-4132"],
+      "acceptance_check": "Visual inspection of shared components.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+      "evidence_ids": ["8020-3393", "8020-4132"],
+      "acceptance_check": "Visual inspection of shared components.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+      "evidence_ids": ["8020-3393", "8020-4132"],
+      "acceptance_check": "Visual inspection of shared components.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The shared frame, panel, slide, latch, handle, gasket, and restraint choices are already maximized across all modules.",
+      "evidence_ids": ["8020-3393", "8020-4132"],
+      "acceptance_check": "Visual inspection of shared components.",
+      "risk": "None"
+    }
+  ]
+}
+```

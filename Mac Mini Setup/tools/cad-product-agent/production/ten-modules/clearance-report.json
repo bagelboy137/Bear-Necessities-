@@ -1,0 +1,335 @@
+{
+  "pass": true,
+  "outside_in": [
+    24.0,
+    20.0,
+    18.0
+  ],
+  "inner_region_in": [
+    [
+      1.0,
+      1.0,
+      1.0
+    ],
+    [
+      23.0,
+      19.0,
+      17.0
+    ]
+  ],
+  "results": [
+    {
+      "module_id": "BN-M01",
+      "item": "packed stove",
+      "margins_in": {
+        "x_min": 0.5,
+        "x_max": 10.75,
+        "y_min": 0.5,
+        "y_max": 6.75,
+        "z_min": 0.0,
+        "z_max": 9.75
+      },
+      "allowed_contacts": [
+        "z_min"
+      ],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M01",
+      "item": "deployable worktop",
+      "margins_in": {
+        "x_min": 0.25,
+        "x_max": 0.25,
+        "y_min": 0.25,
+        "y_max": 0.25,
+        "z_min": 8.0,
+        "z_max": 7.75
+      },
+      "allowed_contacts": [],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M02",
+      "item": "source-required pantry envelope",
+      "margins_in": {
+        "x_min": 0.25,
+        "x_max": 0.25,
+        "y_min": 1.0,
+        "y_max": 1.0,
+        "z_min": 0.0,
+        "z_max": 5.0
+      },
+      "allowed_contacts": [
+        "z_min"
+      ],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M03",
+      "item": "fridge",
+      "margins_in": {
+        "x_min": 2.25,
+        "x_max": 2.25,
+        "y_min": 3.35,
+        "y_max": 3.35,
+        "z_min": 0.0,
+        "z_max": 0.2
+      },
+      "allowed_contacts": [
+        "z_min"
+      ],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M04",
+      "item": "sink envelope",
+      "margins_in": {
+        "x_min": 2.75,
+        "x_max": 2.75,
+        "y_min": 1.7,
+        "y_max": 1.7,
+        "z_min": 9.5,
+        "z_max": 0.5
+      },
+      "allowed_contacts": [],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M04",
+      "item": "grey-water container envelope",
+      "margins_in": {
+        "x_min": 5.25,
+        "x_max": 5.25,
+        "y_min": 3.4,
+        "y_max": 3.35,
+        "z_min": 0.0,
+        "z_max": 8.0
+      },
+      "allowed_contacts": [
+        "z_min"
+      ],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M05",
+      "item": "water container",
+      "margins_in": {
+        "x_min": 0.25,
+        "x_max": 10.25,
+        "y_min": 3.4,
+        "y_max": 3.35,
+        "z_min": 0.0,
+        "z_max": 0.25
+      },
+      "allowed_contacts": [
+        "z_min"
+      ],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M05",
+      "item": "pump/service bay",
+      "margins_in": {
+        "x_min": 13.25,
+        "x_max": 1.25,
+        "y_min": 3.4,
+        "y_max": 3.35,
+        "z_min": 0.0,
+        "z_max": 10.0
+      },
+      "allowed_contacts": [
+        "z_min"
+      ],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M06",
+      "item": "source-required utility box",
+      "margins_in": {
+        "x_min": 0.25,
+        "x_max": 0.25,
+        "y_min": 1.0,
+        "y_max": 1.0,
+        "z_min": 0.0,
+        "z_max": 9.5
+      },
+      "allowed_contacts": [
+        "z_min"
+      ],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M06",
+      "item": "soft recovery gear shelf",
+      "margins_in": {
+        "x_min": 0.25,
+        "x_max": 0.25,
+        "y_min": 0.25,
+        "y_max": 0.25,
+        "z_min": 8.0,
+        "z_max": 7.75
+      },
+      "allowed_contacts": [],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M07",
+      "item": "power station",
+      "margins_in": {
+        "x_min": 0.5,
+        "x_max": 12.29,
+        "y_min": 0.5,
+        "y_max": 8.37,
+        "z_min": 0.0,
+        "z_max": 10.25
+      },
+      "allowed_contacts": [
+        "z_min"
+      ],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M07",
+      "item": "cable case",
+      "margins_in": {
+        "x_min": 11.0,
+        "x_max": 1.0,
+        "y_min": 0.5,
+        "y_max": 8.37,
+        "z_min": 0.0,
+        "z_max": 10.25
+      },
+      "allowed_contacts": [
+        "z_min"
+      ],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M07",
+      "item": "vented device shelf",
+      "margins_in": {
+        "x_min": 0.25,
+        "x_max": 0.25,
+        "y_min": 0.25,
+        "y_max": 0.25,
+        "z_min": 8.0,
+        "z_max": 7.75
+      },
+      "allowed_contacts": [],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M08",
+      "item": "heater transport envelope",
+      "margins_in": {
+        "x_min": 2.15,
+        "x_max": 2.15,
+        "y_min": 3.3,
+        "y_max": 3.3,
+        "z_min": 0.0,
+        "z_max": 9.4
+      },
+      "allowed_contacts": [
+        "z_min"
+      ],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M08",
+      "item": "hose bay",
+      "margins_in": {
+        "x_min": 2.15,
+        "x_max": 2.15,
+        "y_min": 3.3,
+        "y_max": 3.3,
+        "z_min": 8.0,
+        "z_max": 3.0
+      },
+      "allowed_contacts": [],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M09",
+      "item": "equipment case",
+      "margins_in": {
+        "x_min": 1.41,
+        "x_max": 1.41,
+        "y_min": 2.505,
+        "y_max": 2.505,
+        "z_min": 0.0,
+        "z_max": 9.12
+      },
+      "allowed_contacts": [
+        "z_min"
+      ],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M09",
+      "item": "work surface",
+      "margins_in": {
+        "x_min": 0.25,
+        "x_max": 0.25,
+        "y_min": 0.25,
+        "y_max": 0.25,
+        "z_min": 11.0,
+        "z_max": 4.75
+      },
+      "allowed_contacts": [],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    },
+    {
+      "module_id": "BN-M10",
+      "item": "soft gear bay",
+      "margins_in": {
+        "x_min": 0.25,
+        "x_max": 0.25,
+        "y_min": 0.25,
+        "y_max": 0.25,
+        "z_min": 0.0,
+        "z_max": 0.5
+      },
+      "allowed_contacts": [
+        "z_min"
+      ],
+      "minimum_free_clearance_in": 0.125,
+      "pass": true,
+      "failed_faces": []
+    }
+  ],
+  "failures": []
+}

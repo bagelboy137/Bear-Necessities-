@@ -1,0 +1,97 @@
+```json
+{
+  "cycle_id": "combined-10",
+  "reviews": [
+    {
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The module is visually complete, separately exportable, source-traceable, and held short of fabrication release where engineering evidence is missing.",
+      "evidence_ids": ["8020-3393", "COMP-OVERLAND-KITCHEN-EX1"],
+      "acceptance_check": "Visual inspection and exportability tests.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The module is visually complete, separately exportable, source-traceable, and held short of fabrication release where engineering evidence is missing.",
+      "evidence_ids": ["8020-3393", "COMP-LONE-PEAK-DRAWER"],
+      "acceptance_check": "Visual inspection and exportability tests.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The module is visually complete, separately exportable, source-traceable, and held short of fabrication release where engineering evidence is missing.",
+      "evidence_ids": ["8020-3393", "COMP-MODULR-FRIDGE-SLIDE"],
+      "acceptance_check": "Visual inspection and exportability tests.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The module is visually complete, separately exportable, source-traceable, and held short of fabrication release where engineering evidence is missing.",
+      "evidence_ids": ["8020-3393", "COMP-GOOSE-GEAR-CAMPKITCHEN"],
+      "acceptance_check": "Visual inspection and exportability tests.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The module is visually complete, separately exportable, source-traceable, and held short of fabrication release where engineering evidence is missing.",
+      "evidence_ids": ["8020-3393", "RELIANCE-AQUATAINER-7G"],
+      "acceptance_check": "Visual inspection and exportability tests.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The module is visually complete, separately exportable, source-traceable, and held short of fabrication release where engineering evidence is missing.",
+      "evidence_ids": ["8020-3393", "COMP-LONE-PEAK-DRAWER"],
+      "acceptance_check": "Visual inspection and exportability tests.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The module is visually complete, separately exportable, source-traceable, and held short of fabrication release where engineering evidence is missing.",
+      "evidence_ids": ["8020-3393", "ECOFLOW-RIVER3-PLUS"],
+      "acceptance_check": "Visual inspection and exportability tests.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The module is visually complete, separately exportable, source-traceable, and held short of fabrication release where engineering evidence is missing.",
+      "evidence_ids": ["8020-3393", "JOOLCA-HOTTAP-V2"],
+      "acceptance_check": "Visual inspection and exportability tests.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The module is visually complete, separately exportable, source-traceable, and held short of fabrication release where engineering evidence is missing.",
+      "evidence_ids": ["8020-3393", "COMP-LONE-PEAK-DRAWER"],
+      "acceptance_check": "Visual inspection and exportability tests.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "proposal": "Retain current design.",
+      "rationale": "The module is visually complete, separately exportable, source-traceable, and held short of fabrication release where engineering evidence is missing.",
+      "evidence_ids": ["8020-3393", "COMP-OVS-MOLLE"],
+      "acceptance_check": "Visual inspection and exportability tests.",
+      "risk": "None"
+    }
+  ]
+}
+```

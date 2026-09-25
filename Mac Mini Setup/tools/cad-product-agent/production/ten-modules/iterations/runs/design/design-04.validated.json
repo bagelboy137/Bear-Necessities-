@@ -1,0 +1,170 @@
+{
+  "schema_version": 1,
+  "cycle_id": "design-04",
+  "stage": "design",
+  "cycle": 4,
+  "criterion": {
+    "cycle": 4,
+    "criterion": "organization",
+    "question": "Are stored items divided, restrained, and visually organized for rough-road transport?"
+  },
+  "model": "qwen/qwen2.5-coder-14b",
+  "endpoint": "http://127.0.0.1:1234/v1",
+  "completed_at": "2026-08-26T01:48:51.306754+00:00",
+  "prompt_sha256": "1a5a2e497eb4d1857fe2074981b63a2062d5fe45612c4c48e8aa0aacf42bc6fd",
+  "source_digests": {
+    "context": "30850262b55341176b2c6c562f9fdfed985298e81e7d3968cbc636924562c045",
+    "comparables": "a52748e523d36755a09e0f03418eb24576d9f3d629c146ec5b3dd2e04c248699",
+    "catalog": "4433f2599c9b2a820e5457ed217212f9d780122aec00a7a8cfff23b401466f6b"
+  },
+  "attempts": [
+    {
+      "attempt": 1,
+      "path": "/Users/cmken/Claude/Mac Mini Setup/tools/cad-product-agent/production/ten-modules/iterations/runs/design/design-04.attempt-1.raw.txt",
+      "sha256": "350958ca3cd5d6a63152df8db3b7ffa54c1fc5522b66dc76eb3cebf3023aadf6",
+      "usage": {
+        "prompt_tokens": 1847,
+        "completion_tokens": 1184,
+        "total_tokens": 3031,
+        "completion_tokens_details": {
+          "reasoning_tokens": 0
+        }
+      }
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 1847,
+    "completion_tokens": 1184,
+    "total_tokens": 3031,
+    "completion_tokens_details": {
+      "reasoning_tokens": 0
+    }
+  },
+  "validation": {
+    "result": "PASS",
+    "failures": []
+  },
+  "model_output": {
+    "cycle_id": "design-04",
+    "reviews": [
+      {
+        "module_id": "BN-M01",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The cook station is visually organized with a wind guard, pull-out tray, and prep surface. Propane storage is separate, ensuring proper restraint.",
+        "evidence_ids": [
+          "COMP-GOOSE-GEAR-CAMPKITCHEN",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the cook station is visually organized and propane storage is separate.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M02",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The dry pantry has visible pulls, compression latches, and a divided tray, ensuring items are restrained and visually organized.",
+        "evidence_ids": [
+          "COMP-AT-OVERLAND-DRAWER",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the dry pantry has visible pulls, compression latches, and a divided tray.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M03",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The fridge freezer has a slide tray and restraint strap, ensuring items are restrained and visually organized.",
+        "evidence_ids": [
+          "COMP-MODULR-FRIDGE-SLIDE",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the fridge freezer has a slide tray and restraint strap.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M04",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The sink wash has a raised faucet, drain, and grey-water tank, ensuring items are restrained and visually organized.",
+        "evidence_ids": [
+          "COMP-GOOSE-GEAR-CAMPKITCHEN",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the sink wash has a raised faucet, drain, and grey-water tank.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M05",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The fresh water container has low restraint straps, ensuring items are restrained and visually organized.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the fresh water container has low restraint straps.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M06",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The recovery utility has adjustable shelf, MOLLE panel, and soft shackles, ensuring items are restrained and visually organized.",
+        "evidence_ids": [
+          "COMP-AT-OVERLAND-DRAWER",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the recovery utility has adjustable shelf, MOLLE panel, and soft shackles.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M07",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The power hub has AC/DC/USB ports, vents, and cable drawer, ensuring items are restrained and visually organized.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the power hub has AC/DC/USB ports, vents, and cable drawer.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M08",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The hot water shower has a portable heater body, display, and quick connects, ensuring items are restrained and visually organized.",
+        "evidence_ids": [
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the hot water shower has a portable heater body, display, and quick connects.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M09",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The field office camera has a rugged equipment case, latches/ribs, and deployed worktop, ensuring items are restrained and visually organized.",
+        "evidence_ids": [
+          "COMP-LONE-PEAK-DRAWER",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the field office camera has a rugged equipment case, latches/ribs, and deployed worktop.",
+        "risk": "None"
+      },
+      {
+        "module_id": "BN-M10",
+        "verdict": "RETAIN",
+        "proposal": "Retain the current design.",
+        "rationale": "The camp furniture soft goods has a recognizable folded chair/table, rolled soft goods, and contrasting compression straps, ensuring items are restrained and visually organized.",
+        "evidence_ids": [
+          "COMP-OVS-MOLLE",
+          "CURRENT-CAD"
+        ],
+        "acceptance_check": "Check that the camp furniture soft goods has a recognizable folded chair/table, rolled soft goods, and contrasting compression straps.",
+        "risk": "None"
+      }
+    ]
+  },
+  "authority": "advisory local-model proposal; adopted requirements remain prototype-only and human-gated"
+}

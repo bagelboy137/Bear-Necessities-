@@ -1,0 +1,97 @@
+```json
+{
+  "cycle_id": "design-01",
+  "reviews": [
+    {
+      "module_id": "BN-M01",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a cook station is obvious from the customer-facing isometric view, featuring exposed burners, controls, and a pull-out stove tray.",
+      "evidence_ids": ["CURRENT-CAD"],
+      "acceptance_check": "Visually inspect the module for recognizable features like burners and controls.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M02",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a dry pantry is obvious from the customer-facing isometric view, featuring graduated drawers and visible pulls.",
+      "evidence_ids": ["CURRENT-CAD"],
+      "acceptance_check": "Visually inspect the module for recognizable features like drawers and pulls.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M03",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a fridge freezer is obvious from the customer-facing isometric view, featuring a recognizable top-opening compact fridge with controls and vents.",
+      "evidence_ids": ["CURRENT-CAD"],
+      "acceptance_check": "Visually inspect the module for recognizable features like a fridge and controls.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M04",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a sink wash is obvious from the customer-facing isometric view, featuring an open stainless basin and visible pump.",
+      "evidence_ids": ["CURRENT-CAD"],
+      "acceptance_check": "Visually inspect the module for recognizable features like a basin and pump.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M05",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a fresh water station is obvious from the customer-facing isometric view, featuring a ribbed container with a spigot and pump.",
+      "evidence_ids": ["CURRENT-CAD"],
+      "acceptance_check": "Visually inspect the module for recognizable features like a container and spigot.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M06",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a recovery utility is obvious from the customer-facing isometric view, featuring a sealed tool case with adjustable shelf and MOLLE panel.",
+      "evidence_ids": ["CURRENT-CAD"],
+      "acceptance_check": "Visually inspect the module for recognizable features like a tool case and shelf.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M07",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a power hub is obvious from the customer-facing isometric view, featuring a recognizable power-station enclosure with AC/DC/USB ports.",
+      "evidence_ids": ["CURRENT-CAD"],
+      "acceptance_check": "Visually inspect the module for recognizable features like a power station and ports.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M08",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a hot water shower is obvious from the customer-facing isometric view, featuring a portable heater body with a display and knob.",
+      "evidence_ids": ["CURRENT-CAD"],
+      "acceptance_check": "Visually inspect the module for recognizable features like a heater body and display.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M09",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as a field office camera is obvious from the customer-facing isometric view, featuring a rugged equipment case with visible laptop and keyboard.",
+      "evidence_ids": ["CURRENT-CAD"],
+      "acceptance_check": "Visually inspect the module for recognizable features like a laptop and keyboard.",
+      "risk": "None"
+    },
+    {
+      "module_id": "BN-M10",
+      "verdict": "RETAIN",
+      "proposal": "Retain the current design.",
+      "rationale": "The module's purpose as camp furniture soft goods is obvious from the customer-facing isometric view, featuring recognizable folded chairs/table and rolled soft goods.",
+      "evidence_ids": ["CURRENT-CAD"],
+      "acceptance_check": "Visually inspect the module for recognizable features like chairs and soft goods.",
+      "risk": "None"
+    }
+  ]
+}
+```

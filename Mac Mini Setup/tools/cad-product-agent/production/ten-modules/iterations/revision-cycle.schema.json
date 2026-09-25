@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://bear-necessities.local/revision-cycle.schema.json",
+  "title": "Local-model ten-module revision cycle",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["cycle_id", "reviews"],
+  "properties": {
+    "cycle_id": {"type": "string", "pattern": "^(design|manufacturing|combined)-(0[1-9]|10)$"},
+    "reviews": {
+      "type": "array",
+      "minItems": 10,
+      "maxItems": 10,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["module_id", "verdict", "proposal", "rationale", "evidence_ids", "acceptance_check", "risk"],
+        "properties": {
+          "module_id": {"type": "string", "pattern": "^BN-M(0[1-9]|10)$"},
+          "verdict": {"enum": ["REVISE", "RETAIN"]},
+          "proposal": {"type": "string", "minLength": 8, "maxLength": 320},
+          "rationale": {"type": "string", "minLength": 8, "maxLength": 320},
+          "evidence_ids": {"type": "array", "minItems": 1, "maxItems": 4, "uniqueItems": true, "items": {"type": "string"}},
+          "acceptance_check": {"type": "string", "minLength": 8, "maxLength": 240},
+          "risk": {"type": "string", "minLength": 4, "maxLength": 200}
+        }
+      }
+    }
+  }
+}

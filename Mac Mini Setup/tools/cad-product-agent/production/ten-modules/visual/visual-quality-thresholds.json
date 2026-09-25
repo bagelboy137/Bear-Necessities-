@@ -1,0 +1,36 @@
+{
+  "_source": "VISUAL-MARKETING-BRIEF.md, 2026-08-26",
+  "tonal_p99_min": 215.0,
+  "specular_fraction_min": 0.0008,
+  "metal_modulation_min": 22.0,
+  "panel_modulation_min": 14.0,
+  "subject_coverage_min": 0.25,
+  "subject_coverage_max": 0.75,
+  "subject_centering_max": 0.08,
+  "background_variation_min": 2.0,
+  "contact_shadow_ratio_max": 0.9,
+  "resolution": {
+    "hero": [
+      2400,
+      1800
+    ],
+    "front": [
+      1600,
+      1200
+    ],
+    "detail": [
+      1600,
+      1200
+    ],
+    "alpha": [
+      2400,
+      1800
+    ],
+    "iso": [
+      1600,
+      1200
+    ]
+  },
+  "edge_richness_min": 50.0,
+  "_edge_richness_note": "Scale-invariant: edge pixels over sqrt(subject area). NOT calibrated from the legacy captures (81.8-115.7) - their edge richness is inflated by Fusion's CAD edge-line overlay, which a photographic render legitimately does not have, so they are not a valid reference for this metric. 50.0 is a floor against a real detail collapse, not a target."
+}

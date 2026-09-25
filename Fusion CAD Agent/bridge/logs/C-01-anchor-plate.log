@@ -1,0 +1,137 @@
+
+======================================================================
+RUN 2026-08-20 22:16:02 model=qwen2.5-coder-7b-instruct backend=cadquery
+======================================================================
+
+--- attempt 1/10 ---
+  generated 1117 chars in 16s
+  VALIDATION FAILED:
+  1. Z size is 3.4690", expected 0.2500". The plate is 4.0" long x 1.5" wide x 0.25" thick, laid flat (thickness in Z).
+  2. Volume is 1.5260 in^3, expected 1.4417 in^3. That means holes or corner radii are missing or wrong. Required: 2 mounting holes dia 0.281" spaced 2.000" apart symmetric about the centre, 1 pin hole dia 0.266" at 1.500" from centre along the length, and 0.25" radius on all 4 corners. All holes go fully through.
+  3. Found 6 cylindrical faces; expected 7 (3 through-holes + 4 filleted corners). Some feature is missing.
+  4. Result is 3 solids, expected 1.
+  ** new best: 4 error(s)
+
+--- attempt 2/10 ---
+  generated 1239 chars in 14s
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/C-01-anchor-plate_gen.py", line 26, in <module>
+    result = result.edges("|Z").chamfer(0.1)  # Chamfer to ensure holes go fully through
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmken/Claude/Fusion CAD Agent/.venv-cq/lib/python3.12/site-packages/cadquery/cq.py", line 1279, in chamfer
+    s = solid.chamfer(length, length2, edgeList)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmken/Claude/Fusion CAD Agent/.venv-cq/lib/python3.12/site-packages/cadquery/occ_impl/shapes.py", line 4023, in chamfer
+    return self.__class__(chamfer_builder.Shape())
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+OCP.OCP.Standard.Standard_Failure: There are no suitable edges for chamfer or fillet
+
+--- attempt 3/10 ---
+  identical output (stuck x1) -> temperature 0.40
+  generated 1239 chars in 13s
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/C-01-anchor-plate_gen.py", line 26, in <module>
+    result = result.edges("|Z").chamfer(0.1)  # Chamfer to ensure holes go fully through
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmken/Claude/Fusion CAD Agent/.venv-cq/lib/python3.12/site-packages/cadquery/cq.py", line 1279, in chamfer
+    s = solid.chamfer(length, length2, edgeList)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmken/Claude/Fusion CAD Agent/.venv-cq/lib/python3.12/site-packages/cadquery/occ_impl/shapes.py", line 4023, in chamfer
+    return self.__class__(chamfer_builder.Shape())
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+OCP.OCP.Standard.Standard_Failure: There are no suitable edges for chamfer or fillet
+
+--- attempt 4/10 ---
+  identical output (stuck x2) -> temperature 0.65
+  generated 1239 chars in 12s
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/C-01-anchor-plate_gen.py", line 26, in <module>
+    result = result.edges("|Z").chamfer(0.1)  # Chamfer to ensure holes go fully through
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmken/Claude/Fusion CAD Agent/.venv-cq/lib/python3.12/site-packages/cadquery/cq.py", line 1279, in chamfer
+    s = solid.chamfer(length, length2, edgeList)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmken/Claude/Fusion CAD Agent/.venv-cq/lib/python3.12/site-packages/cadquery/occ_impl/shapes.py", line 4023, in chamfer
+    return self.__class__(chamfer_builder.Shape())
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+OCP.OCP.Standard.Standard_Failure: There are no suitable edges for chamfer or fillet
+
+--- attempt 5/10 ---
+  identical output (stuck x3) -> temperature 0.90
+  generated 1239 chars in 12s
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/C-01-anchor-plate_gen.py", line 26, in <module>
+    result = result.edges("|Z").chamfer(0.1)  # Chamfer to ensure holes go fully through
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmken/Claude/Fusion CAD Agent/.venv-cq/lib/python3.12/site-packages/cadquery/cq.py", line 1279, in chamfer
+    s = solid.chamfer(length, length2, edgeList)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmken/Claude/Fusion CAD Agent/.venv-cq/lib/python3.12/site-packages/cadquery/occ_impl/shapes.py", line 4023, in chamfer
+    return self.__class__(chamfer_builder.Shape())
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+OCP.OCP.Standard.Standard_Failure: There are no suitable edges for chamfer or fillet
+
+--- attempt 6/10 ---
+  generated 1367 chars in 16s
+  FAILED rc=1
+File "/Users/cmken/Claude/Fusion CAD Agent/scripts/C-01-anchor-plate_gen.py", line 21
+    result = result.faces(">Z").workplane(offset=offset_distance -.mounting_hole_radius).circle(mounting_hole_radius).extrude(-THICKNESS)
+                                                                  ^
+SyntaxError: invalid syntax
+
+--- attempt 7/10 ---
+  generated 1367 chars in 14s
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/C-01-anchor-plate_gen.py", line 30, in <module>
+    result = result.edges("|Z").chamfer(0.1)  # Chamfer to ensure holes go fully through
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmken/Claude/Fusion CAD Agent/.venv-cq/lib/python3.12/site-packages/cadquery/cq.py", line 1279, in chamfer
+    s = solid.chamfer(length, length2, edgeList)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/cmken/Claude/Fusion CAD Agent/.venv-cq/lib/python3.12/site-packages/cadquery/occ_impl/shapes.py", line 4023, in chamfer
+    return self.__class__(chamfer_builder.Shape())
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+OCP.OCP.Standard.Standard_Failure: There are no suitable edges for chamfer or fillet
+
+--- attempt 8/10 ---
+  generated 1476 chars in 18s
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/C-01-anchor-plate_gen.py", line 21, in <module>
+    .workplane(centerAt=(-offset_distance, 0))
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Workplane.workplane() got an unexpected keyword argument 'centerAt'
+
+--- attempt 9/10 ---
+  generated 1458 chars in 15s
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/C-01-anchor-plate_gen.py", line 21, in <module>
+    .workplane(centerX=-offset_distance)
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Workplane.workplane() got an unexpected keyword argument 'centerX'
+
+--- attempt 10/10 ---
+  generated 1585 chars in 15s
+  FAILED rc=1
+Traceback (most recent call last):
+  File "/Users/cmken/Claude/Fusion CAD Agent/scripts/C-01-anchor-plate_gen.py", line 22, in <module>
+    .workplane(centerX=-offset_distance, centerY=0)
+     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Workplane.workplane() got an unexpected keyword argument 'centerX'
+
+❌ no clean model after 10 attempts
+Best had 4 error(s), kept at C-01-anchor-plate-best.step
+
+======================================================================
+RUN 2026-08-20 22:19:13 model=qwen2.5-coder-7b-instruct backend=cadquery
+======================================================================
+
+--- attempt 1/10 ---
+  generated 1022 chars in 14s
+  ✅ SUCCESS on attempt 1 — VALID: 4.000 x 1.500 x 0.250 in, volume 1.4417 in^3 (target 1.4417)

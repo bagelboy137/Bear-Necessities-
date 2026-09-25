@@ -1,0 +1,61 @@
+{
+  "id": "C-02-U-floor-bracket",
+  "name": "C-02-U universal L-track floor bracket",
+  "units": "in",
+  "difficulty": 4,
+  "description": "The C-02-U universal floor bracket: one flat laser-cut plate that bolts a module to L-track, replacing the per-vehicle bracket variants. Laid flat on the XY plane with thickness in Z, centred on the origin in X and Y. All four vertical corners rounded on a generous radius. Three mounting holes evenly spaced along the long centreline, plus one smaller locating pin hole offset from the centreline. Every hole goes fully through.",
+  "constants": {
+    "LENGTH": 6.0,
+    "WIDTH": 2.0,
+    "THICKNESS": 0.25,
+    "CORNER_RADIUS": 0.375,
+    "MOUNT_DIA": 0.281,
+    "PIN_DIA": 0.266
+  },
+  "checks": {
+    "bbox": [
+      6.0,
+      2.0,
+      0.25
+    ],
+    "bbox_tol": 0.01,
+    "volume": 2.90942,
+    "volume_tol": 0.015,
+    "solids": 1,
+    "valid": true,
+    "holes": [
+      {
+        "d": 0.281,
+        "count": 3,
+        "at": [
+          [
+            -2.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            2.0,
+            0.0
+          ]
+        ],
+        "through": true
+      },
+      {
+        "d": 0.266,
+        "count": 1,
+        "at": [
+          [
+            1.0,
+            0.625
+          ]
+        ],
+        "through": true
+      }
+    ],
+    "holes_exact": true
+  },
+  "notes": "Mounting holes dia 0.281 at (-2.000, 0), (0.000, 0) and (+2.000, 0). Locating pin hole dia 0.266 at (+1.000, +0.625). Corner radius is 0.375, larger than the plate parts."
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "job_id": "BN-MCS-BASE-001",
+  "status": "READY_PROTOTYPE",
+  "project": "Bear Necessities Modular Overland Camp System",
+  "revision": "P1",
+  "spec_path": "specs/overland-base-frame.md",
+  "units": "inch",
+  "models": {
+    "builder_role": "coding",
+    "reviewer_role": "agentic-coding",
+    "vision_model": "qwen/qwen3.5-9b"
+  },
+  "engineering": {
+    "material": "6063-T6 aluminum extrusion, 1010-S profile",
+    "manufacturing_process": "cut-to-length extrusion plus catalog brackets and fasteners",
+    "interfaces": [
+      {"name": "outside width", "value": 24.0, "unit": "inch", "tolerance": "+/-0.030", "source_type": "product_requirement", "source_ref": "Bear Necessities product sheet"},
+      {"name": "outside depth", "value": 20.0, "unit": "inch", "tolerance": "+/-0.030", "source_type": "product_requirement", "source_ref": "Bear Necessities product sheet"},
+      {"name": "outside height", "value": 18.0, "unit": "inch", "tolerance": "+/-0.030", "source_type": "product_requirement", "source_ref": "Bear Necessities product sheet"},
+      {"name": "extrusion profile", "value": 1.0, "unit": "inch", "tolerance": "catalog", "source_type": "vendor_catalog", "source_ref": "80/20 1010-S"}
+    ],
+    "load_case": null,
+    "safety_factor_target": null
+  },
+  "expected": {
+    "model_kind": "geometry_proxy",
+    "bbox": [24.0, 20.0, 18.0],
+    "bbox_tolerance": 0.03,
+    "volume": 232.0,
+    "volume_tolerance": 0.75,
+    "solid_count": 1,
+    "cut_list": [
+      {"catalog_part": "1010-S", "length_in": 18.0, "quantity": 8},
+      {"catalog_part": "1010-S", "length_in": 22.0, "quantity": 4}
+    ]
+  },
+  "validators": {
+    "cadquery": "bridge/cq_validate.py",
+    "drawing": "bridge/validate_drawing.py",
+    "interference_required": true,
+    "bom_reconciliation_required": true
+  },
+  "deliverables": ["design_plan", "step", "stl", "dxf", "png", "bom_csv", "vision_report", "validation_report", "revision_manifest"],
+  "supporting_files": {
+    "bom_csv": "Bear Necessities/product/bom/bom-single-module.csv"
+  },
+  "notes": "Prototype is allowed. Release remains blocked until a real dynamic load case and safety-factor target are approved."
+}
