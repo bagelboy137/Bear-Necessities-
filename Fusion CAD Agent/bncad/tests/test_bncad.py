@@ -594,11 +594,9 @@ def _t():
         script = work / "spin.py"
         script.write_text("x = 0\nwhile True:\n    x += 1\n")
         # Launch the same way run_sandboxed does, then abandon it.
-        profile = work / "_sandbox.sb"
-        profile.write_text(loop.SANDBOX_PROFILE.format(workdir=work.resolve()))
         child = subprocess.Popen(
-            ["/bin/sh", "-c", 'ulimit -t 2; exec "$@"', "sh",
-             "sandbox-exec", "-f", str(profile), sys.executable, "-I", str(script)],
+            ["/bin/sh", "-c", 'ulimit -t 2; exec "$@"', "sh"]
+            + loop.sandbox_command(script, work, sys.executable),
             stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, cwd=str(work))
         try:
             # Nobody is enforcing a timeout here; only the child's own limit is.

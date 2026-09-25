@@ -37,7 +37,7 @@ local model (LM Studio or Ollama)  →  CadQuery script
       ↓
 AST guard          rejects dangerous code with a message the model can fix
       ↓
-sandbox-exec       writes confined to the run dir, network denied
+sandbox-exec/bwrap writes confined to the run dir, network denied
       ↓
 STEP on disk  →  measure  →  check against the spec
       ↓                            ↓
@@ -212,6 +212,10 @@ both a static guard and a real sandbox:
   enforced by the kernel. The child gets a `TMPDIR` inside its run directory so
   the profile never has to open up the shared system temp root. It did once, and
   the test suite escaped through it within a minute.
+  On Linux (Claude Code on the web) the same guarantee comes from **`bwrap`**
+  (bubblewrap): the filesystem is bound read-only, the run directory read-write,
+  and every namespace — including the network — is unshared. There is no
+  unconfined fallback on either platform; `doctor` blocks if the tool is missing.
 - **Timeout** — a runaway boolean is killed and reported as a timeout, not a hang.
 
 ## Commands

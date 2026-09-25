@@ -18,7 +18,6 @@ import argparse
 import json
 import os
 import pathlib
-import shutil
 import subprocess
 import sys
 import time
@@ -46,7 +45,7 @@ def _has_cadquery():
 # -- commands -------------------------------------------------------------
 
 def cmd_doctor(a):
-    from . import provider, fusion
+    from . import provider, fusion, loop
     rows, blocking = [], []
 
     ok = _has_cadquery()
@@ -61,11 +60,12 @@ def cmd_doctor(a):
             "--python '%s' cadquery"
             % (_venv_python(), ROOT / ".venv-cq", _venv_python()))
 
-    sb = shutil.which("sandbox-exec")
-    rows.append(("sandbox", bool(sb), sb or "sandbox-exec not found"))
+    sb = loop.sandbox_backend()
+    want = "sandbox-exec" if sys.platform == "darwin" else "bwrap (apt install bubblewrap)"
+    rows.append(("sandbox", bool(sb), sb or "%s not found" % want))
     if not sb:
-        blocking.append("sandbox-exec is missing; generated code would run "
-                        "unconfined. Refusing to treat that as fine.")
+        blocking.append("%s is missing; generated code would run "
+                        "unconfined. Refusing to treat that as fine." % want)
 
     provs = provider.discover()
     rows.append(("providers", bool(provs),

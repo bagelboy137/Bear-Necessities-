@@ -6,8 +6,8 @@ back the numeric gap. Numbers are what make this converge: "volume is 480.0,
 expected 232.0, +248.0 over - members are overlapping at the corners" is a
 repairable message. "invalid" is not.
 
-Generated code is executed under `sandbox-exec` with writes confined to the run
-directory and the network denied. This is model-written Python running on a
+Generated code is executed under `sandbox-exec` (macOS) or `bwrap` (Linux, for
+cloud runs) with writes confined to the run directory and the network denied. This is model-written Python running on a
 personal machine; an AST allowlist alone is advisory, the sandbox is enforcement.
 Both are used - the AST scan exists to give the model a fixable error message
 before the sandbox gives it an unfixable one.
@@ -225,13 +225,38 @@ def guard(code):
     return sorted(set(bad))
 
 
+def sandbox_backend():
+    """The confinement tool for this platform, or None if it is missing.
+
+    macOS has `sandbox-exec`; Linux (the cloud container) uses bubblewrap. Both
+    give the same guarantee: writes only inside the run directory, no network.
+    There is deliberately no unconfined fallback.
+    """
+    name = "sandbox-exec" if sys.platform == "darwin" else "bwrap"
+    return shutil.which(name)
+
+
+def sandbox_command(script_path, workdir, python):
+    """argv that runs `python -I script_path` confined to `workdir`."""
+    workdir = pathlib.Path(workdir).resolve()
+    if sys.platform == "darwin":
+        profile = workdir / "_sandbox.sb"
+        # /private/tmp and /tmp are the same place; resolve() already gave the
+        # real path, which is what the sandbox matches on.
+        profile.write_text(SANDBOX_PROFILE.format(workdir=workdir))
+        return ["sandbox-exec", "-f", str(profile), str(python), "-I",
+                str(script_path)]
+    # The whole filesystem read-only, the run directory read-write, fresh /dev
+    # and /proc, and every namespace unshared - which is what denies the network.
+    return ["bwrap", "--ro-bind", "/", "/", "--dev", "/dev", "--proc", "/proc",
+            "--bind", str(workdir), str(workdir), "--unshare-all",
+            "--die-with-parent", "--chdir", str(workdir),
+            str(python), "-I", str(script_path)]
+
+
 def run_sandboxed(script_path, workdir, python, timeout=900):
     """Execute a generated script confined to `workdir`. Returns (rc, output)."""
     workdir = pathlib.Path(workdir).resolve()
-    profile = workdir / "_sandbox.sb"
-    # /private/tmp and /tmp are the same place; resolve() already gave the real
-    # path, which is what the sandbox matches on.
-    profile.write_text(SANDBOX_PROFILE.format(workdir=workdir))
     # Give the child a temp directory it is actually allowed to write to, so the
     # profile does not have to open up the shared system temp root.
     tmp = workdir / "tmp"
@@ -246,8 +271,7 @@ def run_sandboxed(script_path, workdir, python, timeout=900):
     # parent's death; `sh` sets it and then execs, so there is no preexec_fn and
     # no thread-safety question.
     cmd = ["/bin/sh", "-c", 'ulimit -t %d; exec "$@"' % max(int(timeout), 1),
-           "sh", "sandbox-exec", "-f", str(profile), str(python), "-I",
-           str(script_path)]
+           "sh"] + sandbox_command(script_path, workdir, python)
     try:
         p = subprocess.run(cmd, capture_output=True, text=True, timeout=timeout,
                            cwd=str(workdir), env=env)
@@ -274,6 +298,7 @@ _HARNESS_FAULTS = ("can't open file",
                    "cannot find Python",
                    "execvp()",                 # sandbox-exec could not start the interpreter
                    "sandbox-exec: ",           # a malformed or unreadable profile
+                   "bwrap: ",                  # bubblewrap could not set up or exec
                    "ModuleNotFoundError: No module named 'cadquery'")
 
 

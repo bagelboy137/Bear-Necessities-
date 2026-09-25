@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+._*
+
+# Editor / temp
+*.swp
+*.tmp
+*~
+
+# Never commit credentials
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+*secret*
+
+# Python virtual environments and bytecode (rebuilt by .claude/hooks/session-start.sh)
+.venv/
+.venv-*/
+venv/
+__pycache__/
+*.pyc
+
+# Claude Code agent worktrees
+**/.claude/worktrees/
