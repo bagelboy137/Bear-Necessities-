@@ -32,8 +32,17 @@ python3 preflight.py --for cad   # readiness check
 Both run fully in the cloud: no model, no Fusion, no network.
 
 `./build.sh parts` (building parts from specs) needs an LLM server with an
-OpenAI-compatible API. The cloud container has none, so point it at one with
-`BN_LMSTUDIO_URL` or `BN_OLLAMA_URL`, e.g. `BN_OLLAMA_URL=http://host:11434/v1`.
+OpenAI-compatible API. The cloud container has none and can't download one
+under the default network policy, so point it at a server you run, via
+LM Studio's variable (Ollama's `/v1` endpoint works there too), and name a
+model that server has loaded:
+
+```bash
+BN_LM_STUDIO_URL=http://your-host:1234/v1 \
+BN_REVIEWER_MODEL=qwen2.5-coder-7b-instruct \
+./build.sh parts
+```
+
 The environment's network policy must allow that host. Anything using Fusion
 (`native`, `visuals`, `--fusion`) needs the desktop app and only runs on the Mac.
 
