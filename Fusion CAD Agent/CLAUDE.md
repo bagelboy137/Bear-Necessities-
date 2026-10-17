@@ -213,9 +213,11 @@ Setup day is covered in `Mac Mini Setup/Setup-Checklist.md` §7d.
    fast enough to find out cheaply.
 
 ## Next steps
-0. **Acceptance-test the Fusion proxy on the Mac** - it has only met a fake
-   Fusion so far. Fusion open on `BN-M01.f3d`, Claude Code in the repo, approve
-   `fusion-desktop`, then `bn_fusion_status` and `bn_snapshot`: 143 bodies (one
+0. **Finish acceptance-testing the Fusion proxy on the Mac.** The connection
+   is verified (2026-10-17: `--status` reached live Fusion on 27182, server
+   "MCP Server Adapter" 1.0.0, four tools including `fusion_mcp_update`). Still
+   to do, a script round-trip: Fusion open on `BN-M01.f3d`, Claude Code in the
+   repo, approve `fusion-desktop`, then `bn_snapshot`: 143 bodies (one
    per component; `design.components` also counts the root, so 144) and a
    24.0016 × 20.0016 × 18.0016 in envelope, as `BN-M01-build.json` says.
 1. Run `bncad bench` on the mini once it exists; settle the model question.

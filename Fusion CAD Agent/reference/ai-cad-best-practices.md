@@ -147,10 +147,11 @@ hypothesis for `bncad bench --repeat` on the mini, not a change to make blind.
 
 ## Not verified yet
 
-- The proxy has run only against a fake Fusion in the test suite. **The first
-  run on the Mac is its acceptance test:** open Fusion with a design, start
-  Claude Code in this repo, approve the `fusion-desktop` server, call
-  `bn_fusion_status`, then `bn_snapshot` on `BN-M01.f3d`. Its
+- **Connection: verified on the Mac, 2026-10-17.** `fusion_mcp_proxy.py
+  --status` found live Fusion on 127.0.0.1:27182 (server "MCP Server Adapter"
+  1.0.0) offering `fusion_mcp_read`, `fusion_mcp_execute`, `fusion_mcp_update`
+  and `fusion_mcp_electronics_read`. **Still unverified:** a script round-trip,
+  i.e. `bn_snapshot` on `BN-M01.f3d` through Claude Code in this repo. Its
   `BN-M01-build.json` records 24.0016 × 20.0016 × 18.0016 in and 143
   components, one body each; the snapshot's envelope and `bodies.count` should
   agree (its `design.components` also counts the root, so reads 144).
