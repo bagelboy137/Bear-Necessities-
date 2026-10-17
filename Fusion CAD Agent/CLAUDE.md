@@ -50,6 +50,14 @@ Fusion's MCP server is still the right live bridge, and is used both for the
 handoff and for an independent measurement. It just cannot be the thing that
 runs all night.
 
+**Correction, 2026-10-17: "headless: none exists" is now true only of desktop
+Fusion.** Autodesk runs headless Fusion as a public-beta MCP server, Fusion
+Compute (`https://developer.api.autodesk.com/da/v3/mcp/fusion`): parametric
+modelling, assemblies, CAM and export against Fusion Team files, behind an
+Autodesk sign-in. It does not change the split yet - beta, network-dependent,
+cost unknown - but it is the candidate for an unattended Fusion step. Details:
+`reference/ai-cad-best-practices.md`.
+
 ### This answers the old open question
 The 2026-08-20 note asked whether to script Fusion's API directly or generate a
 neutral format, with 7B evidence favouring neutral. **Settled: neutral format,
@@ -109,8 +117,12 @@ two files turns the suite red.
 |---|---|
 | `bncad/` | **The framework.** Spec → model → sandbox → measure → repair → deliver. See its README |
 | `bncad.sh` | Launcher that picks the interpreter with CadQuery. Cron-safe |
-| `bridge/fusion_mcp.py` | Minimal MCP client for the live Fusion session |
+| `bridge/fusion_mcp.py` | Minimal MCP client for the live Fusion session; typed errors say whether a failed call can have run |
 | `bridge/fusion_port.py` | Finds the port Fusion is really on |
+| `bridge/fusion_mcp_proxy.py` | **Claude's way into desktop Fusion** (`.mcp.json` → `fusion-desktop`). Port discovery, safe reconnects, guards against the scripts that hang Fusion, an execute log, plus `bn_snapshot` / `bn_fusion_status`. Tests: `bridge/test_fusion_mcp_proxy.py`, run by `bncad selftest` |
+| `bridge/fusion_snapshot.py` | The read-only design inventory behind `bn_snapshot` |
+| `../.claude/skills/fusion-cad/` | The procedure Claude follows in Fusion (desktop or Compute), and `snapshot.ts` for Compute |
+| `reference/ai-cad-best-practices.md` | 2026-10-17 research: what works for AI-driven CAD, what was applied, bncad experiments to benchmark |
 | `bridge/cq_loop.py`, `cad_loop.py` | The earlier single-part loops that bncad generalises |
 | `specs/parts/*.json` | Six part specs, each validated against a reference solid |
 | `Mac Mini Setup/tools/local-ai/` | LM Studio config, autostart, health checks |
@@ -201,7 +213,14 @@ Setup day is covered in `Mac Mini Setup/Setup-Checklist.md` §7d.
    fast enough to find out cheaply.
 
 ## Next steps
+0. **Acceptance-test the Fusion proxy on the Mac** - it has only met a fake
+   Fusion so far. Fusion open on `BN-M01.f3d`, Claude Code in the repo, approve
+   `fusion-desktop`, then `bn_fusion_status` and `bn_snapshot`: 143 bodies (one
+   per component; `design.components` also counts the root, so 144) and a
+   24.0016 × 20.0016 × 18.0016 in envelope, as `BN-M01-build.json` says.
 1. Run `bncad bench` on the mini once it exists; settle the model question.
+   While there, try the five experiments at the end of
+   `reference/ai-cad-best-practices.md` - each is a hypothesis, not a change.
 2. Add the first Escalade part as a spec and build it.
 3. Consider retiring `bridge/cq_loop.py` and its three hand-written
    `cq_validate_*.py` files now that bncad covers them.

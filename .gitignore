@@ -24,3 +24,6 @@ __pycache__/
 
 # Claude Code agent worktrees
 **/.claude/worktrees/
+
+# Fusion MCP proxy execute log (bridge/fusion_mcp_proxy.py): working data, not provenance
+Fusion CAD Agent/bridge/logs/mcp/
