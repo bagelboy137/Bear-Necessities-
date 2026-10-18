@@ -316,6 +316,28 @@ def _t():
     assert S.measure(REF / "BN-FRAME-base.step", scale=25.4)["holes"] == []
 
 
+# -- off-the-shelf geometry: the frame's two rails -------------------------
+
+@check("the committed 1010-S rails are 1 x 1 in, the two cut lengths, 80/20's section")
+def _t():
+    """ots/1010-S holds the frame's only two members. Each STEP must read as one
+    valid solid, exactly 1 x 1 in in section, at one of the cut list's two
+    lengths, with 80/20's published 0.437 in^2 area - in real millimetres, so
+    Fusion opens it at full size rather than 25.4x small."""
+    folder = ROOT / "ots" / "1010-S"
+    steps = sorted(folder.glob("*.step"))
+    assert [p.name for p in steps] == ["BN-rail-1010S-18in.step", "BN-rail-1010S-22in.step"], \
+        "the cut list has exactly two lengths: %s" % [p.name for p in steps]
+    for step, length in zip(steps, (18.0, 22.0)):
+        m = S.measure(step, scale=25.4)
+        section, long_side = sorted(m["bbox"])[:2], max(m["bbox"])
+        assert all(abs(v - 1.0) < 1e-3 for v in section), (step.name, m["bbox"])
+        assert abs(long_side - length) < 1e-3, (step.name, m["bbox"])
+        assert abs(m["volume"] / length - 0.437) < 0.001, (step.name, m["volume"] / length)
+        assert m["solids"] == 1 and m["valid"], (step.name, m["solids"], m["valid"])
+        assert "SI_UNIT(.MILLI.,.METRE.)" in step.read_text(errors="replace")
+
+
 # -- units: the bug that would have shipped a part 25.4x too small --------
 
 @check("a delivered STEP is physically correct in millimetres")
