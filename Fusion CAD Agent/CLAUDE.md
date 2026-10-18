@@ -123,6 +123,7 @@ two files turns the suite red.
 | `bridge/fusion_snapshot.py` | The read-only design inventory behind `bn_snapshot` |
 | `../.claude/skills/fusion-cad/` | The procedure Claude follows in Fusion (desktop or Compute), and `snapshot.ts` for Compute |
 | `reference/ai-cad-best-practices.md` | 2026-10-17 research: what works for AI-driven CAD, what was applied, bncad experiments to benchmark |
+| `build123d` in `../.mcp.json` | build123d-mcp (pinned): a headless CAD kernel Claude drives directly - build, measure, fit and clearance checks, render, STEP/DXF - for sessions without Fusion. Millimetres; `IN = 25.4` predefined |
 | `bridge/cq_loop.py`, `cad_loop.py` | The earlier single-part loops that bncad generalises |
 | `specs/parts/*.json` | Six part specs, each validated against a reference solid |
 | `Mac Mini Setup/tools/local-ai/` | LM Studio config, autostart, health checks |

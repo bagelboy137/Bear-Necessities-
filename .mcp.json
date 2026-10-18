@@ -5,6 +5,12 @@
       "command": "python3",
       "args": ["${CLAUDE_PROJECT_DIR:-.}/Fusion CAD Agent/bridge/fusion_mcp_proxy.py"],
       "timeout": 600000
+    },
+    "build123d": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["tool", "run", "--python", "3.12", "build123d-mcp==0.3.91"],
+      "timeout": 600000
     }
   }
 }
