@@ -126,6 +126,7 @@ two files turns the suite red.
 | `build123d` in `../.mcp.json` | build123d-mcp (pinned): a headless CAD kernel Claude drives directly - build, measure, fit and clearance checks, render, STEP/DXF - for sessions without Fusion. Millimetres; `IN = 25.4` predefined |
 | `bridge/cq_loop.py`, `cad_loop.py` | The earlier single-part loops that bncad generalises |
 | `specs/parts/*.json` | Six part specs, each validated against a reference solid |
+| `ots/1010-S/` | The frame's two rails: 80/20 1010-S at 18 in and 22 in, STEP in real mm, rebuilt by `build_rail.py` (build123d). Section matches 80/20's area; Ix within 1.1%. Slot interior simplified - not for T-nut fit |
 | `Mac Mini Setup/tools/local-ai/` | LM Studio config, autostart, health checks |
 
 ## Benchmark, 2026-08-27 (16 GB M1 Pro, six parts)
