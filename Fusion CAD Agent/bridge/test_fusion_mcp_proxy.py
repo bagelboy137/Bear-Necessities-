@@ -640,6 +640,22 @@ def _t():
     assert pathlib.Path(script).resolve() == (HERE / "fusion_mcp_proxy.py").resolve(), script
 
 
+@check(".mcp.json pins build123d-mcp exactly, and the cloud hook warms that pin")
+def _t():
+    import re
+    server = json.loads((REPO / ".mcp.json").read_text())["mcpServers"]["build123d"]
+    pin = server["args"][-1]
+    # An exact pin, never @latest: an upstream release must not change what
+    # Claude's CAD tools do between one session and the next.
+    assert re.fullmatch(r"build123d-mcp==\d+\.\d+\.\d+", pin), pin
+    hook = (REPO / ".claude" / "hooks" / "session-start.sh").read_text()
+    line = next(l for l in hook.splitlines() if l.startswith("B123D_PIN="))
+    snippet = re.search(r"python3 -c '([^']+)'", line).group(1)
+    got = subprocess.run([sys.executable, "-c", snippet, str(REPO / ".mcp.json")],
+                         capture_output=True, text=True, timeout=30)
+    assert got.stdout.strip() == pin, (got.stdout, got.stderr)
+
+
 def main():
     print("fusion MCP proxy tests")
     for n in PASSED:

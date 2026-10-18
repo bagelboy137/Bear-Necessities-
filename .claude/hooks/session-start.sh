@@ -29,4 +29,14 @@ if [ ! -x "$VENV/bin/python" ]; then
 fi
 uv pip install -q --python "$VENV/bin/python" cadquery ezdxf
 
+# build123d-mcp (.mcp.json) downloads ~100 packages, VTK among them, the first
+# time it starts: about 20 s, close to Claude Code's MCP startup timeout. Fetch
+# them here so the server itself starts from uv's cache in about a second. The
+# pin is read from .mcp.json so there is one place to change it. Best effort:
+# a failure here only means the first start is slow, not that the build breaks.
+B123D_PIN="$(python3 -c 'import json, sys; print(json.load(open(sys.argv[1]))["mcpServers"]["build123d"]["args"][-1])' "$ROOT/.mcp.json" 2>/dev/null || true)"
+if [ -n "$B123D_PIN" ]; then
+  uv tool run -q --python 3.12 "$B123D_PIN" --version >/dev/null 2>&1 || true
+fi
+
 echo "Bear Necessities CAD environment ready: $("$VENV/bin/python" -c 'import cadquery; print("cadquery", cadquery.__version__)'), $(command -v bwrap)" >&2

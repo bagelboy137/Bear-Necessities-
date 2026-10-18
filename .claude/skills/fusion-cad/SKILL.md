@@ -18,7 +18,7 @@ The evidence for each rule is in `Fusion CAD Agent/reference/ai-cad-best-practic
 | `bn_fusion_status`, `bn_snapshot`, `fusion_mcp_read`, `fusion_mcp_execute` | **Desktop Fusion on the Mac**, via `Fusion CAD Agent/bridge/fusion_mcp_proxy.py` (`.mcp.json`) | Python API, live session, Conor's files |
 | only `bn_fusion_status`, `bn_snapshot` | the proxy is up, Fusion is not | call `bn_fusion_status` - it says what to fix |
 | `start_fusion`, `invoke_fusion`, `fusion_api_index`, ... | **Fusion Compute** - headless Fusion in Autodesk's cloud (public beta) | TypeScript API, Fusion Team files, see §7 |
-| none of these | no Fusion | say so. New parts can still be built headless with `bncad` (§8) |
+| none of these | no Fusion | say so. Parts can still be built and measured headless with `build123d` tools or `bncad` (§8) |
 
 Tool schemas are discovered when the client connects and Autodesk changes them
 between builds. **The schema in front of you is the truth; this file is not.**
@@ -162,7 +162,17 @@ Autodesk sign-in, a Fusion licence and a Fusion Team hub. Public beta.
 
 New parts from a written spec go through `bncad` first (`Fusion CAD Agent/bncad`):
 headless, sandboxed, measured against the spec and repaired with real numbers.
-Then import the validated STEP into Fusion to assemble and finish it. Autodesk's
+Then import the validated STEP into Fusion to assemble and finish it.
+
+For interactive modelling without Fusion - including every cloud session -
+use the `build123d` MCP server (`.mcp.json`, build123d-mcp pinned). Same loop as
+§2: build one feature with `execute`, check it with `measure` (and
+`compare` with `kind: "fit"` where two parts meet - clearance, touching or
+interpenetrating), `render_view` to look, `validate` before `export` to
+STEP/DXF. Its lengths are **millimetres**; it predefines `IN = 25.4`, so write
+`Box(24 * IN, 20 * IN, 1 * IN)`. Unlike bncad's inch-authored files, a STEP
+exported this way carries real millimetres. It runs model-written Python without
+bncad's sandbox - the same trust as Claude's own shell - so keep scripts to CAD. Autodesk's
 own guidance is the same: the MCP is strongest at reading designs, editing
 properties of existing components and assisting scripting, and weakest at
 sketch-heavy creation from scratch.

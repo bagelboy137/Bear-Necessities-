@@ -87,9 +87,18 @@ claude.ai/customize/connectors and sign in; on the Mac,
 `claude mcp add --scope user --transport http fusion-compute https://developer.api.autodesk.com/da/v3/mcp/fusion`.
 
 In a cloud session `fusion-desktop` still starts, and its `bn_fusion_status`
-explains why desktop Fusion is out of reach. How Claude should work in either
-one is in `.claude/skills/fusion-cad/SKILL.md`. The research behind it is in
-`Fusion CAD Agent/reference/ai-cad-best-practices.md`.
+explains why desktop Fusion is out of reach.
+
+**build123d, anywhere.** `.mcp.json` also registers `build123d`: the
+open-source [build123d-mcp](https://github.com/pzfreo/build123d-mcp) server,
+pinned to an exact version and launched with `uv` (install uv on the Mac if
+`uv --version` fails). It gives Claude a headless CAD kernel with measuring,
+fit and clearance checks, rendering and STEP/DXF export, so a session can model and
+check geometry without Fusion, including in the cloud. The cloud session hook
+pre-downloads it so it starts quickly.
+
+How Claude should work with any of these is in `.claude/skills/fusion-cad/SKILL.md`.
+The research behind it is in `Fusion CAD Agent/reference/ai-cad-best-practices.md`.
 
 ## Running it on the Mac
 
