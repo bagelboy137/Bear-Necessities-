@@ -402,12 +402,16 @@ def cmd_selftest(a):
                                 if (r.stdout or r.stderr).strip() else ""))
         if r.returncode != 0:
             fails.append((m, (r.stderr or r.stdout).strip()))
-    suite = HERE / "tests" / "test_bncad.py"
-    if suite.exists():
+    # The bridge's Fusion MCP proxy suite runs against a fake Fusion, so it
+    # belongs here too: no model, no Fusion, no network.
+    for label, suite in (("suite", HERE / "tests" / "test_bncad.py"),
+                         ("proxy suite", ROOT / "bridge" / "test_fusion_mcp_proxy.py")):
+        if not suite.exists():
+            continue
         r = subprocess.run([_venv_python(), str(suite)], capture_output=True, text=True)
         print(r.stdout.strip() or r.stderr.strip())
         if r.returncode != 0:
-            fails.append(("suite", r.stderr))
+            fails.append((label, r.stderr or r.stdout))
     if fails:
         print("\nFAILURES:")
         for name, detail in fails:

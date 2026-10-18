@@ -63,6 +63,34 @@ BN_REVIEWER_MODEL=qwen2.5-coder-7b-instruct \
 The environment's network policy must allow that host. Anything using Fusion
 (`native`, `visuals`, `--fusion`) needs the desktop app and only runs on the Mac.
 
+## Connecting Claude to Fusion
+
+There are two Fusion MCP servers, and which one a session can use depends on
+where it runs.
+
+**Desktop Fusion, on the Mac.** `.mcp.json` registers `fusion-desktop`, which
+runs `Fusion CAD Agent/bridge/fusion_mcp_proxy.py` in front of the MCP server
+built into Fusion. The proxy finds Fusion's port (it moves), reconnects after a
+relaunch, refuses the script patterns that hang Fusion, logs every change, and
+adds `bn_snapshot` (a before/after inventory) and `bn_fusion_status`. To use
+it: open Fusion with a design, tick Preferences > General > API > Fusion MCP
+Server, start Claude Code (the CLI or the desktop app) in this folder, and
+approve `fusion-desktop` when asked. Claude Desktop's own Autodesk Fusion
+connector reaches the same server without the proxy.
+
+**Fusion Compute, from anywhere, including cloud sessions.** Autodesk runs
+headless Fusion as a public-beta MCP server at
+`https://developer.api.autodesk.com/da/v3/mcp/fusion`. It needs an Autodesk
+sign-in, a Fusion licence and a Fusion Team hub, and works on files in Fusion
+Team. For cloud sessions, add it as a custom connector at
+claude.ai/customize/connectors and sign in; on the Mac,
+`claude mcp add --scope user --transport http fusion-compute https://developer.api.autodesk.com/da/v3/mcp/fusion`.
+
+In a cloud session `fusion-desktop` still starts, and its `bn_fusion_status`
+explains why desktop Fusion is out of reach. How Claude should work in either
+one is in `.claude/skills/fusion-cad/SKILL.md`. The research behind it is in
+`Fusion CAD Agent/reference/ai-cad-best-practices.md`.
+
 ## Running it on the Mac
 
 Unchanged from before: see `Bear Necessities/cad/README.md` and

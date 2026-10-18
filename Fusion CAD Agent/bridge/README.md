@@ -2,7 +2,30 @@
 
 The piece that closes the loop: gets a generated script **into** Fusion and gets the result **back out**.
 
-Nothing is built here yet — this is the design.
+## What is here now (2026-10-17)
+
+Fusion's built-in MCP server made the add-in designs below unnecessary. The
+bridge is now:
+
+| File | Does |
+|---|---|
+| `fusion_port.py` | Finds the port Fusion's MCP server is really on (it moves) |
+| `fusion_mcp.py` | Minimal MCP client. Its errors say whether a failed call can have run: `FusionUnreachable` (never arrived), `FusionNoReply` (may have run), `FusionHTTPError` |
+| `fusion_mcp_proxy.py` | A stdio MCP server Claude launches from `.mcp.json` as `fusion-desktop`. It forwards to Fusion. It rediscovers the port and reconnects only when the request provably never ran, refuses modal dialogs and document closes, logs every execute to `logs/mcp/`, and adds `bn_snapshot` and `bn_fusion_status` |
+| `fusion_snapshot.py` | The read-only inventory script behind `bn_snapshot` |
+| `test_fusion_mcp_proxy.py` | Proxy tests against a fake Fusion, run by `bncad selftest` |
+
+```bash
+python3 fusion_mcp_proxy.py --status     # is Fusion reachable, and if not, why
+python3 test_fusion_mcp_proxy.py         # no Fusion needed
+```
+
+The procedure Claude follows once connected is `../../.claude/skills/fusion-cad/SKILL.md`.
+
+---
+
+*The original design notes follow. They predate Fusion's MCP server and are
+kept for the reasoning, not as instructions.*
 
 ## The problem
 `Mac Mini Setup/tools/lm_studio_bridge.py` already handles *prompt → local model → file*. What's missing is *file → Fusion → result → back to the model*. Fusion's Python API only runs inside Fusion's own GUI process, so an outside process cannot simply invoke it.
